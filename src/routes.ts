@@ -1,5 +1,8 @@
 import { Router } from 'express';
 import authRoutes from './modules/auth/auth.routes';
+import departmentsRoutes from './modules/departments/departments.routes';
+import libraryRoutes from './modules/library/library.routes';
+import labRoomsRoutes from './modules/lab-rooms/lab-rooms.routes';
 
 const router = Router();
 
@@ -8,9 +11,8 @@ router.get('/health', (_req, res) => {
 });
 
 router.use('/auth', authRoutes);
-
-// Thêm module mới tại đây:
-// router.use('/patients', patientRoutes);
-// router.use('/appointments', appointmentRoutes);
+router.use('/departments', departmentsRoutes);
+router.use('/library', libraryRoutes);
+router.use('/lab-rooms', labRoomsRoutes);
 
 export default router;
