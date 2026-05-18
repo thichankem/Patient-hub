@@ -9,7 +9,7 @@ export async function listLabRooms(req: Request, res: Response): Promise<void> {
 }
 
 export async function getLabRoom(req: Request, res: Response): Promise<void> {
-  const data = await labRoomsService.getLabRoom(req.params.id);
+  const data = await labRoomsService.getLabRoom(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -20,13 +20,13 @@ export async function createLabRoom(req: Request, res: Response): Promise<void> 
 
 export async function updateLabRoom(req: Request, res: Response): Promise<void> {
   const data = await labRoomsService.updateLabRoom(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateLabRoomInput,
   );
   res.json({ data });
 }
 
 export async function deleteLabRoom(req: Request, res: Response): Promise<void> {
-  await labRoomsService.deleteLabRoom(req.params.id);
+  await labRoomsService.deleteLabRoom(req.params['id'] as string);
   res.json({ message: 'Xóa phòng xét nghiệm thành công' });
 }

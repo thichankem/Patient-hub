@@ -21,7 +21,7 @@ export async function listDiseases(req: Request, res: Response): Promise<void> {
 }
 
 export async function getDisease(req: Request, res: Response): Promise<void> {
-  const data = await libraryService.getDisease(req.params.id);
+  const data = await libraryService.getDisease(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -32,14 +32,14 @@ export async function createDisease(req: Request, res: Response): Promise<void> 
 
 export async function updateDisease(req: Request, res: Response): Promise<void> {
   const data = await libraryService.updateDisease(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateDiseaseInput,
   );
   res.json({ data });
 }
 
 export async function deleteDisease(req: Request, res: Response): Promise<void> {
-  await libraryService.deleteDisease(req.params.id);
+  await libraryService.deleteDisease(req.params['id'] as string);
   res.json({ message: 'Xóa bệnh thành công' });
 }
 
@@ -51,7 +51,7 @@ export async function listMedicines(req: Request, res: Response): Promise<void> 
 }
 
 export async function getMedicine(req: Request, res: Response): Promise<void> {
-  const data = await libraryService.getMedicine(req.params.id);
+  const data = await libraryService.getMedicine(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -62,14 +62,14 @@ export async function createMedicine(req: Request, res: Response): Promise<void>
 
 export async function updateMedicine(req: Request, res: Response): Promise<void> {
   const data = await libraryService.updateMedicine(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateMedicineInput,
   );
   res.json({ data });
 }
 
 export async function deleteMedicine(req: Request, res: Response): Promise<void> {
-  await libraryService.deleteMedicine(req.params.id);
+  await libraryService.deleteMedicine(req.params['id'] as string);
   res.json({ message: 'Xóa thuốc thành công' });
 }
 
@@ -81,7 +81,7 @@ export async function listTestTypes(req: Request, res: Response): Promise<void> 
 }
 
 export async function getTestType(req: Request, res: Response): Promise<void> {
-  const data = await libraryService.getTestType(req.params.id);
+  const data = await libraryService.getTestType(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -92,14 +92,14 @@ export async function createTestType(req: Request, res: Response): Promise<void>
 
 export async function updateTestType(req: Request, res: Response): Promise<void> {
   const data = await libraryService.updateTestType(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateTestTypeInput,
   );
   res.json({ data });
 }
 
 export async function deleteTestType(req: Request, res: Response): Promise<void> {
-  await libraryService.deleteTestType(req.params.id);
+  await libraryService.deleteTestType(req.params['id'] as string);
   res.json({ message: 'Xóa loại xét nghiệm thành công' });
 }
 
@@ -111,7 +111,7 @@ export async function listProcedures(req: Request, res: Response): Promise<void>
 }
 
 export async function getProcedure(req: Request, res: Response): Promise<void> {
-  const data = await libraryService.getProcedure(req.params.id);
+  const data = await libraryService.getProcedure(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -122,13 +122,13 @@ export async function createProcedure(req: Request, res: Response): Promise<void
 
 export async function updateProcedure(req: Request, res: Response): Promise<void> {
   const data = await libraryService.updateProcedure(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateProcedureInput,
   );
   res.json({ data });
 }
 
 export async function deleteProcedure(req: Request, res: Response): Promise<void> {
-  await libraryService.deleteProcedure(req.params.id);
+  await libraryService.deleteProcedure(req.params['id'] as string);
   res.json({ message: 'Xóa quy trình thành công' });
 }

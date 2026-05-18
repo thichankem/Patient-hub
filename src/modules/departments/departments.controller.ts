@@ -9,7 +9,7 @@ export async function listDepartments(req: Request, res: Response): Promise<void
 }
 
 export async function getDepartment(req: Request, res: Response): Promise<void> {
-  const data = await departmentsService.getDepartment(req.params.id);
+  const data = await departmentsService.getDepartment(req.params['id'] as string);
   res.json({ data });
 }
 
@@ -22,13 +22,13 @@ export async function createDepartment(req: Request, res: Response): Promise<voi
 
 export async function updateDepartment(req: Request, res: Response): Promise<void> {
   const data = await departmentsService.updateDepartment(
-    req.params.id,
+    req.params['id'] as string,
     req.body as UpdateDepartmentInput,
   );
   res.json({ data });
 }
 
 export async function deleteDepartment(req: Request, res: Response): Promise<void> {
-  await departmentsService.deleteDepartment(req.params.id);
+  await departmentsService.deleteDepartment(req.params['id'] as string);
   res.json({ message: 'Xóa khoa thành công' });
 }
