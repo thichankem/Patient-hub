@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
+.idea/
+.vscode/
+.claude/settings.local.json
+prisma/migrations/**/migration.sql.bak
