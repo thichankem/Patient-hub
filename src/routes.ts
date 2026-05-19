@@ -5,6 +5,10 @@ import libraryRoutes from './modules/library/library.routes';
 import labRoomsRoutes from './modules/lab-rooms/lab-rooms.routes';
 import staffRoutes from './modules/staff/staff.routes';
 import patientsRoutes from './modules/patients/patients.routes';
+import appointmentsRoutes from './modules/appointments/appointments.routes';
+import examinationRoutes from './modules/examination-sessions/examination.routes';
+import testOrdersRoutes from './modules/test-orders/test-orders.routes';
+import prescriptionsRoutes from './modules/prescriptions/prescriptions.routes';
 
 const router = Router();
 
@@ -18,5 +22,9 @@ router.use('/library', libraryRoutes);
 router.use('/lab-rooms', labRoomsRoutes);
 router.use('/staff', staffRoutes);
 router.use('/patients', patientsRoutes);
+router.use('/appointments', appointmentsRoutes);
+router.use('/examination-sessions', examinationRoutes);
+router.use('/test-orders', testOrdersRoutes);
+router.use('/prescriptions', prescriptionsRoutes);
 
 export default router;
