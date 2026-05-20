@@ -1,0 +1,21 @@
+$kind: http-request
+name: Broadcast Notification (Manager)
+method: POST
+url: '{{baseUrl}}/notifications/broadcast'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "Bảo trì hệ thống",
+      "body": "Hệ thống sẽ bảo trì lúc 22h00 hôm nay.",
+      "target_scope": "all_system"
+    }

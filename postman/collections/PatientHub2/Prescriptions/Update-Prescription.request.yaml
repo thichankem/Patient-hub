@@ -1,0 +1,26 @@
+$kind: http-request
+name: 'Update Prescription (Doctor)'
+method: PATCH
+url: '{{baseUrl}}/prescriptions/{{prescriptionId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "general_note": "Updated note - take with plenty of water",
+      "items": [
+        {
+          "medicine_id": "{{medicineId}}",
+          "quantity": 14,
+          "usage_instruction": "1 tablet three times daily"
+        }
+      ]
+    }

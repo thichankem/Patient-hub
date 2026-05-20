@@ -1,0 +1,10 @@
+$kind: http-request
+name: Resolve Report (Manager)
+method: PATCH
+url: '{{baseUrl}}/reports/{{reportId}}/resolve'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

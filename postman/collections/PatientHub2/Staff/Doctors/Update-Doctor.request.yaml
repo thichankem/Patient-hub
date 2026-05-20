@@ -1,0 +1,21 @@
+$kind: http-request
+name: Update Doctor
+method: PATCH
+url: '{{baseUrl}}/staff/doctors/{{doctorId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "full_name": "Dr. Nguyen Van B",
+      "department_id": "{{departmentId}}",
+      "auto_schedule_paused": false
+    }

@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Session Detail
+method: GET
+url: '{{baseUrl}}/examination-sessions/{{sessionId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

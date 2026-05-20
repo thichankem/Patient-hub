@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Chat History With Peer
+method: GET
+url: '{{baseUrl}}/chat/with/{{peerUserId}}?limit=50'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

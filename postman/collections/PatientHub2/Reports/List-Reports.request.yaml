@@ -1,0 +1,10 @@
+$kind: http-request
+name: List Reports
+method: GET
+url: '{{baseUrl}}/reports?status=pending'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

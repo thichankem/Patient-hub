@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Department
+method: PATCH
+url: '{{baseUrl}}/departments/{{departmentId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Cardiology Updated",
+      "description": "Updated description"
+    }

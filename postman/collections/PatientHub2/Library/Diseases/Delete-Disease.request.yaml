@@ -1,0 +1,10 @@
+$kind: http-request
+name: Delete Disease
+method: DELETE
+url: '{{baseUrl}}/library/diseases/{{diseaseId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,10 @@
+$kind: http-request
+name: Technician Queue
+method: GET
+url: '{{baseUrl}}/test-orders/technician/queue'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

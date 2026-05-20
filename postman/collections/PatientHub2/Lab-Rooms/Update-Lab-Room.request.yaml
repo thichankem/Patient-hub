@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Lab Room
+method: PATCH
+url: '{{baseUrl}}/lab-rooms/{{labRoomId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Lab Room A Updated",
+      "test_type_id": "{{testTypeId}}"
+    }

@@ -1,0 +1,23 @@
+$kind: http-request
+name: Create Disease
+method: POST
+url: '{{baseUrl}}/library/diseases'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Hypertension",
+      "symptoms": "High blood pressure, headache",
+      "description": "Chronic condition",
+      "treatment": "Medication and lifestyle changes",
+      "department_id": null
+    }

@@ -1,7 +1,11 @@
 import type { Request, Response } from 'express';
 import { AppError } from '../../middleware/error';
 import * as authService from './auth.service';
-import type { ChangePasswordInput, LoginInput } from './auth.schema';
+import type {
+  ChangePasswordInput,
+  ForgotPasswordInput,
+  LoginInput,
+} from './auth.schema';
 
 export async function login(req: Request, res: Response): Promise<void> {
   const result = await authService.login(req.body as LoginInput);
@@ -24,4 +28,15 @@ export async function changePassword(
     req.body as ChangePasswordInput,
   );
   res.json({ message: 'Đổi mật khẩu thành công' });
+}
+
+export async function forgotPassword(
+  req: Request,
+  res: Response,
+): Promise<void> {
+  await authService.forgotPassword(req.body as ForgotPasswordInput);
+  // Luôn trả message giống nhau, không phân biệt số có tồn tại hay không.
+  res.json({
+    message: 'Nếu số điện thoại tồn tại trong hệ thống, mật khẩu mới sẽ được gửi qua SMS.',
+  });
 }

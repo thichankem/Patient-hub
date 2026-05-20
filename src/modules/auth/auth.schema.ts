@@ -15,5 +15,10 @@ export const changePasswordSchema = z
     path: ['newPassword'],
   });
 
+export const forgotPasswordSchema = z.object({
+  phone: z.string().min(6, 'Số điện thoại không hợp lệ'),
+});
+
 export type LoginInput = z.infer<typeof loginSchema>;
 export type ChangePasswordInput = z.infer<typeof changePasswordSchema>;
+export type ForgotPasswordInput = z.infer<typeof forgotPasswordSchema>;

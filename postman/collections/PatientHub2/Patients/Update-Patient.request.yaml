@@ -1,0 +1,21 @@
+$kind: http-request
+name: Update Patient
+method: PATCH
+url: '{{baseUrl}}/patients/{{patientId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "currentPassword": "currentpass123",
+      "full_name": "Nguyen Van D",
+      "address": "456 New St, Hanoi"
+    }

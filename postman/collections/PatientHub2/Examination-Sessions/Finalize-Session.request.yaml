@@ -1,0 +1,10 @@
+$kind: http-request
+name: 'Finalize Session (Doctor)'
+method: POST
+url: '{{baseUrl}}/examination-sessions/{{sessionId}}/finalize'
+order: 7000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

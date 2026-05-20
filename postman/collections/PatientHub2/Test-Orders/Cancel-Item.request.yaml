@@ -1,0 +1,10 @@
+$kind: http-request
+name: 'Cancel Test Item (Technician)'
+method: POST
+url: '{{baseUrl}}/test-orders/items/{{itemId}}/cancel'
+order: 7000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

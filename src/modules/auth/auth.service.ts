@@ -1,9 +1,14 @@
 import { queryOne } from '../../db/query';
 import type { UserRow } from '../../types/db';
 import { AppError } from '../../middleware/error';
-import { hashPassword, verifyPassword } from '../../utils/password';
+import { generatePassword, hashPassword, verifyPassword } from '../../utils/password';
 import { signToken } from '../../utils/jwt';
-import type { ChangePasswordInput, LoginInput } from './auth.schema';
+import { sendSms } from '../../utils/sms';
+import type {
+  ChangePasswordInput,
+  ForgotPasswordInput,
+  LoginInput,
+} from './auth.schema';
 
 interface PublicUser {
   id: string;
@@ -64,4 +69,22 @@ export async function changePassword(
     'UPDATE users SET password_hash = $1 WHERE id = $2 RETURNING id',
     [newHash, userId],
   );
+}
+
+// Quên mật khẩu — chỉ áp dụng cho bệnh nhân (username = SĐT theo nghiệp vụ).
+// Để tránh leak username tồn tại hay không, luôn trả 200 dù không tìm thấy.
+export async function forgotPassword(input: ForgotPasswordInput): Promise<void> {
+  const user = await queryOne<UserRow>(
+    `SELECT * FROM users WHERE username = $1 AND role = 'patient'`,
+    [input.phone],
+  );
+  if (!user || !user.is_active) return;
+
+  const newPassword = generatePassword();
+  const newHash = await hashPassword(newPassword);
+  await queryOne(
+    'UPDATE users SET password_hash = $1 WHERE id = $2 RETURNING id',
+    [newHash, user.id],
+  );
+  sendSms(input.phone, `Mật khẩu mới của bạn: ${newPassword}`);
 }

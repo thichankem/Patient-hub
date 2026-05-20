@@ -1,0 +1,10 @@
+$kind: http-request
+name: List Lab Rooms
+method: GET
+url: '{{baseUrl}}/lab-rooms'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Technician
+method: PATCH
+url: '{{baseUrl}}/staff/technicians/{{technicianId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "full_name": "Tran Thi C",
+      "lab_room_id": "{{labRoomId}}"
+    }

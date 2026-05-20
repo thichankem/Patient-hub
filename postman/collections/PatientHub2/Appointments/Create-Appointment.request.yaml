@@ -1,0 +1,22 @@
+$kind: http-request
+name: Create Appointment
+method: POST
+url: '{{baseUrl}}/appointments'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "patient_id": "{{patientId}}",
+      "department_id": "{{departmentId}}",
+      "appointment_date": "2026-06-01",
+      "symptoms": "Headache and fever"
+    }

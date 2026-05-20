@@ -1,0 +1,10 @@
+$kind: http-request
+name: Cancel Appointment
+method: POST
+url: '{{baseUrl}}/appointments/{{appointmentId}}/cancel'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

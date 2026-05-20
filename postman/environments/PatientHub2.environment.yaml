@@ -1,0 +1,50 @@
+name: PatientHub2 Local
+values:
+  - key: baseUrl
+    value: 'http://localhost:3000/api'
+    enabled: true
+    type: default
+  - key: token
+    value: ''
+    enabled: true
+    type: default
+  - key: sessionId
+    value: ''
+    enabled: true
+    type: default
+  - key: invoiceId
+    value: ''
+    enabled: true
+    type: default
+  - key: notificationId
+    value: ''
+    enabled: true
+    type: default
+  - key: reportId
+    value: ''
+    enabled: true
+    type: default
+  - key: peerUserId
+    value: ''
+    enabled: true
+    type: default
+  - key: recipientUserId
+    value: ''
+    enabled: true
+    type: default
+  - key: departmentId
+    value: ''
+    enabled: true
+    type: default
+  - key: appointmentDate
+    value: '2026-06-01'
+    enabled: true
+    type: default
+  - key: medicineId
+    value: ''
+    enabled: true
+    type: default
+  - key: prescriptionId
+    value: ''
+    enabled: true
+    type: default

@@ -1,0 +1,20 @@
+$kind: http-request
+name: Send Chat Message
+method: POST
+url: '{{baseUrl}}/chat/messages'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "receiver_user_id": "{{peerUserId}}",
+      "content": "Chào bạn, mình cần trao đổi về ca khám sáng nay."
+    }

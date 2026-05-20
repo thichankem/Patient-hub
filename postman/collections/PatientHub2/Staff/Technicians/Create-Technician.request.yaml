@@ -1,0 +1,22 @@
+$kind: http-request
+name: Create Technician
+method: POST
+url: '{{baseUrl}}/staff/technicians'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "username": "tech_tran",
+      "password": "password123",
+      "full_name": "Tran Thi B",
+      "lab_room_id": "{{labRoomId}}"
+    }

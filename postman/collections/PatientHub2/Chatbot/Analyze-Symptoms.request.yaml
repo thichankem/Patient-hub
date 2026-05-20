@@ -1,0 +1,10 @@
+$kind: http-request
+name: Analyze Symptoms (Patient)
+method: GET
+url: '{{baseUrl}}/chatbot/symptoms?symptoms=Sốt cao, ho khan 3 ngày'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

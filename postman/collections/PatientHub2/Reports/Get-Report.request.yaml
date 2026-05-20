@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Report
+method: GET
+url: '{{baseUrl}}/reports/{{reportId}}'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,10 @@
+$kind: http-request
+name: 'List My Test Schedule (Patient)'
+method: GET
+url: '{{baseUrl}}/test-orders/me'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,10 @@
+$kind: http-request
+name: 'Review Test Item (Doctor)'
+method: PATCH
+url: '{{baseUrl}}/test-orders/items/{{itemId}}/review'
+order: 8000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

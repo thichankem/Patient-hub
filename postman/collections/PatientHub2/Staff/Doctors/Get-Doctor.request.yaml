@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Doctor
+method: GET
+url: '{{baseUrl}}/staff/doctors/{{doctorId}}'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

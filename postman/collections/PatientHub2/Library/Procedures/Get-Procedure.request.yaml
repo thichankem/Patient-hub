@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Procedure
+method: GET
+url: '{{baseUrl}}/library/procedures/{{procedureId}}'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

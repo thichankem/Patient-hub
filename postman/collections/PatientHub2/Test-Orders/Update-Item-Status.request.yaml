@@ -1,0 +1,23 @@
+$kind: http-request
+name: 'Update Test Item Status (Technician)'
+method: PATCH
+url: '{{baseUrl}}/test-orders/items/{{itemId}}/status'
+order: 6000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "status": "completed",
+      "result_data": {
+        "hemoglobin": "14.5 g/dL",
+        "wbc": "7.2 x10^9/L"
+      }
+    }

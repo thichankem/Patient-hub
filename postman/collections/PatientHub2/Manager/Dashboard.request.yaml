@@ -1,0 +1,10 @@
+$kind: http-request
+name: Manager Dashboard
+method: GET
+url: '{{baseUrl}}/manager/dashboard?year=2026&month=5'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,27 @@
+$kind: http-request
+name: 'Create Prescription (Doctor)'
+method: POST
+url: '{{baseUrl}}/prescriptions'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "session_id": "{{sessionId}}",
+      "general_note": "Take with food",
+      "items": [
+        {
+          "medicine_id": "{{medicineId}}",
+          "quantity": 10,
+          "usage_instruction": "1 tablet twice daily"
+        }
+      ]
+    }

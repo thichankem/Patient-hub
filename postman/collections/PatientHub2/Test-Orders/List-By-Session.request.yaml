@@ -1,0 +1,13 @@
+$kind: http-request
+name: 'List Test Orders by Session (Doctor)'
+method: GET
+url: '{{baseUrl}}/test-orders'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+queryParams:
+  - key: session_id
+    value: '{{sessionId}}'

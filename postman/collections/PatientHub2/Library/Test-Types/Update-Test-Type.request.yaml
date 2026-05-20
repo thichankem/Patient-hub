@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Test Type
+method: PATCH
+url: '{{baseUrl}}/library/test-types/{{testTypeId}}'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "estimated_minutes": 45,
+      "price": "160000.00"
+    }

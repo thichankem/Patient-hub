@@ -1,0 +1,13 @@
+$kind: http-request
+name: List Prescriptions by Session
+method: GET
+url: '{{baseUrl}}/prescriptions'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+queryParams:
+  - key: session_id
+    value: '{{sessionId}}'

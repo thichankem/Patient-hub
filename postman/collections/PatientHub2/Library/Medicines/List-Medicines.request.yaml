@@ -1,0 +1,14 @@
+$kind: http-request
+name: List Medicines
+method: GET
+url: '{{baseUrl}}/library/medicines'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+queryParams:
+  - key: name
+    value: ''
+    disabled: true

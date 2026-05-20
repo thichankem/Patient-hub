@@ -1,0 +1,21 @@
+$kind: http-request
+name: 'Create Test Order (Doctor)'
+method: POST
+url: '{{baseUrl}}/test-orders'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "session_id": "{{sessionId}}",
+      "note": "Urgent blood work needed",
+      "test_type_ids": ["{{testTypeId}}"]
+    }

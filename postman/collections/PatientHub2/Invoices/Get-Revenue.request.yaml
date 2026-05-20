@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Revenue (Manager)
+method: GET
+url: '{{baseUrl}}/invoices/revenue?year=2026&month=5'
+order: 6000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

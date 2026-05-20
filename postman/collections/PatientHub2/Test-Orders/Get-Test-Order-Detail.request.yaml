@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Test Order Detail
+method: GET
+url: '{{baseUrl}}/test-orders/{{testOrderId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

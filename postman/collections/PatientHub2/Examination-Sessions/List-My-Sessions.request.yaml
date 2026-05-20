@@ -1,0 +1,10 @@
+$kind: http-request
+name: 'List My Sessions (Patient)'
+method: GET
+url: '{{baseUrl}}/examination-sessions/me'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,10 @@
+$kind: http-request
+name: Ask Library (Disease)
+method: GET
+url: '{{baseUrl}}/chatbot/library?topic=disease&q=cảm'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

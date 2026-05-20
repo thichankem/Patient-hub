@@ -1,0 +1,10 @@
+$kind: http-request
+name: Delete Department
+method: DELETE
+url: '{{baseUrl}}/departments/{{departmentId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

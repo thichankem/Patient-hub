@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Disease
+method: GET
+url: '{{baseUrl}}/library/diseases/{{diseaseId}}'
+order: 2000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

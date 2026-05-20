@@ -1,0 +1,23 @@
+$kind: http-request
+name: Create Test Type
+method: POST
+url: '{{baseUrl}}/library/test-types'
+order: 3000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Blood Test",
+      "description": "Complete blood count",
+      "estimated_minutes": 30,
+      "price": "150000.00",
+      "insurance_price": "100000.00"
+    }

@@ -1,0 +1,27 @@
+$kind: http-request
+name: Create Patient
+method: POST
+url: '{{baseUrl}}/patients'
+order: 4000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "full_name": "Nguyen Van C",
+      "date_of_birth": "1990-01-15",
+      "gender": "male",
+      "blood_type": "A+",
+      "address": "123 Main St, Hanoi",
+      "phone": "0901234567",
+      "insurance_number": "BH123456789",
+      "insurance_expiry": "2027-12-31",
+      "priority_type": null
+    }

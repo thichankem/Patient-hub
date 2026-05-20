@@ -1,0 +1,19 @@
+$kind: http-request
+name: Generate Invoice (Cashier or Patient)
+method: POST
+url: '{{baseUrl}}/invoices/generate'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "session_id": "{{sessionId}}"
+    }

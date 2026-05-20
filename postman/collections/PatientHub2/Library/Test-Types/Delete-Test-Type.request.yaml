@@ -1,0 +1,10 @@
+$kind: http-request
+name: Delete Test Type
+method: DELETE
+url: '{{baseUrl}}/library/test-types/{{testTypeId}}'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

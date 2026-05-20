@@ -1,0 +1,10 @@
+$kind: http-request
+name: List Invoices
+method: GET
+url: '{{baseUrl}}/invoices?payment_status=pending'
+order: 5000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

@@ -1,0 +1,19 @@
+$kind: http-request
+name: Create Report
+method: POST
+url: '{{baseUrl}}/reports'
+order: 1000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "content": "Không lưu được đợt khám, nút finalize không phản hồi."
+    }
