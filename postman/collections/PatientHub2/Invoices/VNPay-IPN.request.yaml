@@ -1,0 +1,5 @@
+$kind: http-request
+name: VNPay IPN (Server-to-server — public)
+method: GET
+url: '{{baseUrl}}/invoices/vnpay-ipn?vnp_Amount=10000000&vnp_BankCode=NCB&vnp_OrderInfo=Thanh%20toan%20hoa%20don&vnp_ResponseCode=00&vnp_TmnCode=TEST&vnp_TransactionNo=14000000&vnp_TxnRef=20260521120000ABCDEF&vnp_PayDate=20260521120100&vnp_TransactionStatus=00&vnp_SecureHash=replace_with_real_hash_from_vnpay'
+order: 8000

@@ -1,5 +1,5 @@
 $kind: http-request
-name: Pay VNPay (Patient)
+name: Pay VNPay (Patient) — returns vnp_url to redirect browser to
 method: POST
 url: '{{baseUrl}}/invoices/{{invoiceId}}/pay-vnpay'
 order: 2000
@@ -8,3 +8,12 @@ auth:
   credentials:
     - key: token
       value: '{{token}}'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "bank_code": "NCB"
+    }

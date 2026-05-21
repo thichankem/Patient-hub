@@ -1,0 +1,29 @@
+$kind: http-request
+name: PayOS Webhook (Server-to-server — public)
+method: POST
+url: '{{baseUrl}}/invoices/payos-webhook'
+order: 9500
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "code": "00",
+      "desc": "success",
+      "success": true,
+      "data": {
+        "orderCode": 1737000000000000,
+        "amount": 10000,
+        "description": "HD ABC123",
+        "accountNumber": "VQR_TEST_ACCOUNT",
+        "reference": "FT24062300001",
+        "transactionDateTime": "2026-05-21 12:00:00",
+        "currency": "VND",
+        "paymentLinkId": "00000000-0000-0000-0000-000000000000",
+        "code": "00",
+        "desc": "success"
+      },
+      "signature": "REPLACE_WITH_REAL_SIGNATURE_FROM_PAYOS"
+    }

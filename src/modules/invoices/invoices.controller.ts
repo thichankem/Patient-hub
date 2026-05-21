@@ -1,5 +1,8 @@
 import type { Request, Response } from 'express';
+import type { ReturnQueryFromVNPay } from 'vnpay';
 import { AppError } from '../../middleware/error';
+import { clientIp, isIpAllowed, VnpIpn } from '../../integrations/vnpay';
+import type { PayosWebhook } from '../../integrations/payos';
 import * as svc from './invoices.service';
 import type {
   GenerateInvoiceInput,
@@ -22,8 +25,61 @@ export async function generate(req: Request, res: Response): Promise<void> {
 }
 
 export async function payVnpay(req: Request, res: Response): Promise<void> {
-  const data = await svc.payVnpay(req.params['id'] as string, actor(req));
+  const bankCode = typeof req.body?.bank_code === 'string'
+    ? (req.body.bank_code as string)
+    : undefined;
+  const data = await svc.payVnpay(
+    req.params['id'] as string,
+    actor(req),
+    clientIp(req),
+    bankCode,
+  );
   res.json({ data });
+}
+
+// Browser redirect — không yêu cầu auth, không tin để mark paid.
+export async function vnpayReturn(req: Request, res: Response): Promise<void> {
+  const data = await svc.handleVnpayReturn(
+    req.query as unknown as ReturnQueryFromVNPay,
+  );
+  res.json({ data });
+}
+
+// ─── PayOS ─────────────────────────────────────────────────────────────────
+
+export async function payPayos(req: Request, res: Response): Promise<void> {
+  const data = await svc.payPayos(req.params['id'] as string, actor(req));
+  res.json({ data });
+}
+
+// Webhook PayOS — public, server-to-server.
+// PayOS expect HTTP 200 với JSON; chữ ký sai vẫn trả 200 để tránh PayOS retry mãi.
+export async function payosWebhook(req: Request, res: Response): Promise<void> {
+  try {
+    const result = await svc.handlePayosWebhook(req.body as PayosWebhook);
+    res.json(result);
+  } catch (err) {
+    console.error('❌ PayOS webhook handler crash:', err);
+    res.json({ error: 1, message: 'Unknown error' });
+  }
+}
+
+// IPN — server-to-server. Trả về EXACTLY format VNPay expects.
+export async function vnpayIpn(req: Request, res: Response): Promise<void> {
+  // Optional IP whitelist — bật bằng VNP_ALLOWED_IPS.
+  if (!isIpAllowed(clientIp(req))) {
+    res.json({ RspCode: '99', Message: 'IP không được phép' });
+    return;
+  }
+  try {
+    const result = await svc.handleVnpayIpn(
+      req.query as unknown as ReturnQueryFromVNPay,
+    );
+    res.json(result);
+  } catch (err) {
+    console.error('❌ VNPay IPN handler crash:', err);
+    res.json(VnpIpn.UnknownError);
+  }
 }
 
 export async function payCash(req: Request, res: Response): Promise<void> {

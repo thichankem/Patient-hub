@@ -1,0 +1,10 @@
+$kind: http-request
+name: Pay PayOS (Patient) — returns checkoutUrl + qrCode
+method: POST
+url: '{{baseUrl}}/invoices/{{invoiceId}}/pay-payos'
+order: 9000
+auth:
+  type: bearer
+  credentials:
+    - key: token
+      value: '{{token}}'

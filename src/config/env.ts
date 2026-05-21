@@ -10,6 +10,33 @@ const schema = z.object({
   AES_KEY: z
     .string()
     .regex(/^[0-9a-fA-F]{64}$/, 'AES_KEY phải là 64 ký tự hex (32 bytes)'),
+
+  // VNPay — bắt buộc khi bật thanh toán thật. Ở dev có thể để trống,
+  // tích hợp sẽ throw khi gọi nếu thiếu config.
+  VNP_TMN_CODE: z.string().optional(),
+  VNP_HASH_SECRET: z.string().optional(),
+  VNP_HOST: z.string().default('https://sandbox.vnpayment.vn'),
+  VNP_RETURN_URL: z
+    .string()
+    .url()
+    .default('http://localhost:3000/api/invoices/vnpay-return'),
+  // Whitelist IP cho IPN — bỏ trống = tắt kiểm tra (chỉ dùng dev/test).
+  // Production NÊN khai báo: 113.160.92.202,113.52.45.78 (xem docs VNPay).
+  VNP_ALLOWED_IPS: z.string().optional(),
+
+  // PayOS — đăng ký kênh thanh toán tại https://my.payos.vn
+  // Lấy 3 key trong "Kênh thanh toán" → tab "Thông tin tích hợp".
+  PAYOS_CLIENT_ID: z.string().optional(),
+  PAYOS_API_KEY: z.string().optional(),
+  PAYOS_CHECKSUM_KEY: z.string().optional(),
+  PAYOS_RETURN_URL: z
+    .string()
+    .url()
+    .default('http://localhost:3000/api/invoices/payos-return'),
+  PAYOS_CANCEL_URL: z
+    .string()
+    .url()
+    .default('http://localhost:3000/api/invoices/payos-cancel'),
 });
 
 const parsed = schema.safeParse(process.env);

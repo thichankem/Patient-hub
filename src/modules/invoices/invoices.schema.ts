@@ -12,6 +12,14 @@ export const payCashSchema = z.object({
   received_amount: z.number().nonnegative('Số tiền nhận không hợp lệ').optional(),
 });
 
+// VNPay cho phép truyền vnp_BankCode để pre-select cổng (NCB, VNBANK, INTCARD...).
+// Bỏ trống = hiện màn hình chọn ngân hàng của VNPay.
+export const payVnpaySchema = z.object({
+  bank_code: z.string().min(2).max(20).optional(),
+});
+
+export type PayVnpayInput = z.infer<typeof payVnpaySchema>;
+
 export const listQuerySchema = z.object({
   patient_id: z.string().uuid().optional(),
   payment_status: z.enum(['pending', 'paid']).optional(),

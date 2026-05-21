@@ -36,7 +36,7 @@ export type TestItemStatus =
   | 'completed'
   | 'unavailable';
 
-export type PaymentMethod = 'vnpay' | 'cash';
+export type PaymentMethod = 'vnpay' | 'cash' | 'payos';
 export type PaymentStatus = 'pending' | 'paid';
 export type ServiceType = 'consultation' | 'test';
 export type ReportStatus = 'pending' | 'resolved';
@@ -218,6 +218,17 @@ export interface InvoiceRow {
   payment_status: PaymentStatus;
   created_at: Date;
   paid_at: Date | null;
+  vnp_txn_ref: string | null;
+  vnp_transaction_no: string | null;
+  vnp_response_code: string | null;
+  vnp_bank_code: string | null;
+  vnp_pay_date: string | null;
+  payos_order_code: string | null; // BIGINT → string (giữ precision)
+  payos_payment_link_id: string | null;
+  payos_reference: string | null;
+  payos_transaction_time: string | null;
+  payos_account_number: string | null;
+  payos_qr_code: string | null;
 }
 
 export interface InvoiceItemRow {
