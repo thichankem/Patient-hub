@@ -1,0 +1,2001 @@
+disease_name,symptoms,department_name
+Cảm cúm,"sốt cao, đau đầu, mệt mỏi, sổ mũi, đau họng, ho khan, đau cơ, ớn lạnh, hắt hơi, nghẹt mũi",Nội khoa
+Cảm cúm,"ho khan, nghẹt mũi, đau họng, sổ mũi, đau cơ, hắt hơi, mệt mỏi, sốt cao, ớn lạnh, đau đầu",Nội khoa
+Cảm cúm,"mệt mỏi, nghẹt mũi, đau cơ, ho khan, hắt hơi, đau đầu, sốt cao, ớn lạnh, sổ mũi, đau họng",Nội khoa
+Cảm cúm,"hắt hơi, đau họng, ớn lạnh, sốt cao, sổ mũi, ho khan, nghẹt mũi",Nội khoa
+Cảm cúm,"sổ mũi, nghẹt mũi, đau họng, đau đầu, sốt cao, mệt mỏi, ho khan, hắt hơi, ớn lạnh",Nội khoa
+Cảm cúm,"mệt mỏi, đau họng, hắt hơi, ho khan, nghẹt mũi, đau đầu",Nội khoa
+Cảm cúm,"sổ mũi, sốt cao, ho khan, hắt hơi, ớn lạnh, đau đầu, nghẹt mũi, đau cơ, mệt mỏi, đau họng",Nội khoa
+Cảm cúm,"hắt hơi, nghẹt mũi, sổ mũi, đau họng, ho khan, ớn lạnh",Nội khoa
+Cảm cúm,"sổ mũi, ớn lạnh, hắt hơi, sốt cao, mệt mỏi, nghẹt mũi, đau cơ, đau họng, đau đầu",Nội khoa
+Cảm cúm,"đau cơ, mệt mỏi, đau họng, ớn lạnh, sốt cao, hắt hơi, sổ mũi, ho khan, đau đầu, nghẹt mũi",Nội khoa
+Cảm lạnh thường,"sổ mũi, hắt hơi, đau họng, ho khan, nghẹt mũi, đau đầu, mệt mỏi, rát họng",Nội khoa
+Cảm lạnh thường,"mệt mỏi, sổ mũi, nghẹt mũi, hắt hơi, đau đầu, đau họng, rát họng, ho khan",Nội khoa
+Cảm lạnh thường,"đau họng, nghẹt mũi, hắt hơi, ho khan, đau đầu, sổ mũi, mệt mỏi, rát họng",Nội khoa
+Cảm lạnh thường,"nghẹt mũi, rát họng, ho khan, đau đầu, mệt mỏi, đau họng",Nội khoa
+Cảm lạnh thường,"hắt hơi, mệt mỏi, đau đầu, nghẹt mũi, rát họng, sổ mũi",Nội khoa
+Cảm lạnh thường,"rát họng, sổ mũi, hắt hơi, đau họng, nghẹt mũi, ho khan",Nội khoa
+Cảm lạnh thường,"mệt mỏi, sổ mũi, nghẹt mũi, đau họng, ho khan, hắt hơi, rát họng",Nội khoa
+Cảm lạnh thường,"sổ mũi, hắt hơi, ho khan, mệt mỏi, rát họng, đau đầu",Nội khoa
+Cảm lạnh thường,"mệt mỏi, sổ mũi, nghẹt mũi, rát họng",Nội khoa
+Cảm lạnh thường,"rát họng, hắt hơi, ho khan, đau đầu",Nội khoa
+Sốt phát ban,"sốt cao, phát ban, mệt mỏi, đau đầu, hạch to, đau cơ, đau họng, biếng ăn",Nội khoa
+Sốt phát ban,"mệt mỏi, đau họng, đau đầu, sốt cao",Nội khoa
+Sốt phát ban,"mệt mỏi, phát ban, hạch to, đau cơ, biếng ăn, đau họng, sốt cao",Nội khoa
+Sốt phát ban,"đau cơ, đau họng, hạch to, đau đầu, sốt cao, phát ban, mệt mỏi, biếng ăn",Nội khoa
+Sốt phát ban,"biếng ăn, đau cơ, hạch to, đau họng, phát ban, đau đầu, mệt mỏi",Nội khoa
+Sốt phát ban,"hạch to, sốt cao, đau họng, biếng ăn",Nội khoa
+Sốt phát ban,"sốt cao, phát ban, đau đầu, hạch to, mệt mỏi, đau họng, đau cơ, biếng ăn",Nội khoa
+Sốt phát ban,"mệt mỏi, sốt cao, đau cơ, biếng ăn",Nội khoa
+Sốt phát ban,"đau cơ, đau họng, hạch to, mệt mỏi, phát ban, biếng ăn, sốt cao, đau đầu",Nội khoa
+Sốt phát ban,"đau cơ, biếng ăn, đau đầu, mệt mỏi, phát ban, đau họng",Nội khoa
+Quai bị,"sốt cao, sưng hạch cổ, đau lan hàm, khó nuốt, đau đầu, đau cơ, mệt mỏi, chán ăn",Nội khoa
+Quai bị,"đau lan hàm, sưng hạch cổ, sốt cao, mệt mỏi, đau đầu",Nội khoa
+Quai bị,"đau đầu, sưng hạch cổ, sốt cao, đau lan hàm, đau cơ, chán ăn",Nội khoa
+Quai bị,"khó nuốt, đau lan hàm, mệt mỏi, sưng hạch cổ, sốt cao",Nội khoa
+Quai bị,"đau đầu, sưng hạch cổ, đau lan hàm, sốt cao, đau cơ, mệt mỏi, khó nuốt",Nội khoa
+Quai bị,"sưng hạch cổ, đau lan hàm, mệt mỏi, đau cơ, sốt cao, đau đầu, khó nuốt",Nội khoa
+Quai bị,"chán ăn, đau đầu, sốt cao, khó nuốt, mệt mỏi",Nội khoa
+Quai bị,"đau cơ, đau lan hàm, mệt mỏi, đau đầu, khó nuốt, chán ăn, sốt cao",Nội khoa
+Quai bị,"đau đầu, khó nuốt, chán ăn, đau lan hàm",Nội khoa
+Quai bị,"sốt cao, mệt mỏi, chán ăn, đau cơ, sưng hạch cổ, đau đầu, khó nuốt, đau lan hàm",Nội khoa
+Sởi,"sốt cao, phát ban, ho khan, đỏ mắt, chảy nước mắt, sổ mũi, mệt mỏi, đau họng",Nội khoa
+Sởi,"đỏ mắt, phát ban, sốt cao, mệt mỏi, sổ mũi, đau họng, ho khan",Nội khoa
+Sởi,"sốt cao, phát ban, đau họng, đỏ mắt, sổ mũi, mệt mỏi",Nội khoa
+Sởi,"mệt mỏi, chảy nước mắt, phát ban, sổ mũi, đau họng, ho khan, sốt cao, đỏ mắt",Nội khoa
+Sởi,"đỏ mắt, sốt cao, đau họng, mệt mỏi",Nội khoa
+Sởi,"mệt mỏi, phát ban, sổ mũi, ho khan, đau họng, chảy nước mắt, đỏ mắt",Nội khoa
+Sởi,"ho khan, chảy nước mắt, đỏ mắt, phát ban, sốt cao",Nội khoa
+Sởi,"chảy nước mắt, đỏ mắt, phát ban, mệt mỏi, ho khan",Nội khoa
+Sởi,"mệt mỏi, sổ mũi, đỏ mắt, phát ban, chảy nước mắt, sốt cao, đau họng, ho khan",Nội khoa
+Sởi,"đau họng, đỏ mắt, sốt cao, ho khan, sổ mũi, mệt mỏi, phát ban",Nội khoa
+Thủy đậu,"sốt nhẹ, phát ban, mụn nước, ngứa da, mệt mỏi, đau đầu, biếng ăn, đau cơ",Nội khoa
+Thủy đậu,"đau cơ, biếng ăn, phát ban, đau đầu, mệt mỏi, sốt nhẹ, ngứa da, mụn nước",Nội khoa
+Thủy đậu,"ngứa da, sốt nhẹ, mụn nước, phát ban, đau cơ, đau đầu, biếng ăn",Nội khoa
+Thủy đậu,"phát ban, đau cơ, sốt nhẹ, biếng ăn",Nội khoa
+Thủy đậu,"phát ban, mụn nước, ngứa da, đau đầu, sốt nhẹ",Nội khoa
+Thủy đậu,"sốt nhẹ, đau đầu, đau cơ, phát ban, biếng ăn, mệt mỏi, mụn nước, ngứa da",Nội khoa
+Thủy đậu,"biếng ăn, đau cơ, đau đầu, mệt mỏi",Nội khoa
+Thủy đậu,"đau cơ, mụn nước, đau đầu, biếng ăn, mệt mỏi, sốt nhẹ",Nội khoa
+Thủy đậu,"biếng ăn, mụn nước, ngứa da, phát ban, đau cơ, đau đầu, mệt mỏi",Nội khoa
+Thủy đậu,"phát ban, mệt mỏi, ngứa da, biếng ăn",Nội khoa
+Rubella,"sốt nhẹ, phát ban, hạch to, sưng hạch cổ, đau khớp, đau đầu, mệt mỏi",Nội khoa
+Rubella,"mệt mỏi, hạch to, sưng hạch cổ, sốt nhẹ, đau khớp, phát ban",Nội khoa
+Rubella,"phát ban, sốt nhẹ, đau đầu, hạch to, mệt mỏi, đau khớp, sưng hạch cổ",Nội khoa
+Rubella,"phát ban, hạch to, sưng hạch cổ",Nội khoa
+Rubella,"đau đầu, sưng hạch cổ, đau khớp, hạch to, mệt mỏi",Nội khoa
+Rubella,"phát ban, đau khớp, hạch to, đau đầu, sưng hạch cổ",Nội khoa
+Rubella,"sốt nhẹ, đau khớp, mệt mỏi, phát ban, đau đầu",Nội khoa
+Rubella,"hạch to, phát ban, mệt mỏi",Nội khoa
+Rubella,"sốt nhẹ, phát ban, hạch to, đau khớp",Nội khoa
+Rubella,"đau đầu, sốt nhẹ, hạch to, phát ban, mệt mỏi, đau khớp, sưng hạch cổ",Nội khoa
+Sốt rét,"sốt từng cơn, rét run, vã mồ hôi, đau đầu, mệt mỏi, buồn nôn, đau cơ, da xanh tái",Nội khoa
+Sốt rét,"đau cơ, đau đầu, buồn nôn, sốt từng cơn, da xanh tái, mệt mỏi",Nội khoa
+Sốt rét,"đau đầu, da xanh tái, mệt mỏi, sốt từng cơn",Nội khoa
+Sốt rét,"đau đầu, sốt từng cơn, mệt mỏi, vã mồ hôi, da xanh tái, buồn nôn, đau cơ",Nội khoa
+Sốt rét,"đau đầu, da xanh tái, đau cơ, sốt từng cơn, buồn nôn, rét run",Nội khoa
+Sốt rét,"đau đầu, sốt từng cơn, buồn nôn, vã mồ hôi, rét run, da xanh tái",Nội khoa
+Sốt rét,"buồn nôn, đau đầu, sốt từng cơn, vã mồ hôi, da xanh tái, mệt mỏi, rét run",Nội khoa
+Sốt rét,"rét run, buồn nôn, sốt từng cơn, đau đầu, vã mồ hôi, mệt mỏi, đau cơ",Nội khoa
+Sốt rét,"mệt mỏi, da xanh tái, buồn nôn, rét run",Nội khoa
+Sốt rét,"da xanh tái, mệt mỏi, đau cơ, buồn nôn, rét run, đau đầu, sốt từng cơn, vã mồ hôi",Nội khoa
+Sốt xuất huyết Dengue,"sốt cao, đau đầu dữ dội, đau sau hốc mắt, đau cơ, đau khớp, phát ban, xuất huyết da, chảy máu mũi",Nội khoa
+Sốt xuất huyết Dengue,"đau sau hốc mắt, chảy máu mũi, phát ban, đau cơ",Nội khoa
+Sốt xuất huyết Dengue,"đau cơ, chảy máu mũi, xuất huyết da, phát ban, đau sau hốc mắt, đau khớp, đau đầu dữ dội, sốt cao",Nội khoa
+Sốt xuất huyết Dengue,"đau khớp, đau cơ, đau sau hốc mắt, phát ban, đau đầu dữ dội, xuất huyết da, chảy máu mũi, sốt cao",Nội khoa
+Sốt xuất huyết Dengue,"sốt cao, xuất huyết da, đau cơ, chảy máu mũi, đau khớp",Nội khoa
+Sốt xuất huyết Dengue,"đau sau hốc mắt, chảy máu mũi, đau cơ, phát ban",Nội khoa
+Sốt xuất huyết Dengue,"sốt cao, xuất huyết da, chảy máu mũi, đau đầu dữ dội, đau khớp, đau cơ, đau sau hốc mắt",Nội khoa
+Sốt xuất huyết Dengue,"đau sau hốc mắt, phát ban, đau khớp, chảy máu mũi",Nội khoa
+Sốt xuất huyết Dengue,"xuất huyết da, phát ban, chảy máu mũi, đau đầu dữ dội, đau sau hốc mắt, sốt cao, đau cơ, đau khớp",Nội khoa
+Sốt xuất huyết Dengue,"sốt cao, đau đầu dữ dội, đau cơ, xuất huyết da, phát ban, đau sau hốc mắt, chảy máu mũi",Nội khoa
+Thương hàn,"sốt cao, đau đầu, đau bụng, tiêu chảy, táo bón, mệt mỏi, chán ăn, phát ban",Nội khoa
+Thương hàn,"sốt cao, phát ban, tiêu chảy, đau đầu, đau bụng, mệt mỏi, chán ăn, táo bón",Nội khoa
+Thương hàn,"sốt cao, tiêu chảy, phát ban, mệt mỏi, đau bụng, chán ăn",Nội khoa
+Thương hàn,"sốt cao, tiêu chảy, chán ăn, táo bón, mệt mỏi, phát ban, đau đầu",Nội khoa
+Thương hàn,"táo bón, phát ban, chán ăn, tiêu chảy, đau đầu, đau bụng",Nội khoa
+Thương hàn,"táo bón, chán ăn, tiêu chảy, sốt cao, đau đầu, mệt mỏi, đau bụng, phát ban",Nội khoa
+Thương hàn,"táo bón, đau bụng, mệt mỏi, chán ăn, đau đầu, phát ban, sốt cao",Nội khoa
+Thương hàn,"chán ăn, phát ban, đau đầu, tiêu chảy, sốt cao",Nội khoa
+Thương hàn,"mệt mỏi, phát ban, chán ăn, tiêu chảy, sốt cao, đau bụng",Nội khoa
+Thương hàn,"đau đầu, đau bụng, tiêu chảy, sốt cao, táo bón, chán ăn, phát ban, mệt mỏi",Nội khoa
+COVID-19,"sốt cao, ho khan, khó thở, mệt mỏi, đau cơ, mất mùi, mất vị giác, đau họng",Nội khoa
+COVID-19,"mệt mỏi, mất mùi, đau cơ, khó thở",Nội khoa
+COVID-19,"đau cơ, mất vị giác, ho khan, sốt cao, khó thở, mất mùi, đau họng, mệt mỏi",Nội khoa
+COVID-19,"mất mùi, sốt cao, khó thở, đau cơ, đau họng, mệt mỏi, mất vị giác",Nội khoa
+COVID-19,"đau họng, mệt mỏi, đau cơ, sốt cao",Nội khoa
+COVID-19,"mất mùi, khó thở, mệt mỏi, đau họng",Nội khoa
+COVID-19,"mất mùi, đau cơ, sốt cao, mệt mỏi",Nội khoa
+COVID-19,"mệt mỏi, khó thở, mất mùi, sốt cao, đau họng, mất vị giác, đau cơ",Nội khoa
+COVID-19,"ho khan, đau cơ, mệt mỏi, sốt cao, khó thở, mất mùi",Nội khoa
+COVID-19,"mệt mỏi, sốt cao, đau cơ, mất mùi, ho khan, đau họng, mất vị giác, khó thở",Nội khoa
+Cúm A H1N1,"sốt cao, ho khan, đau cơ, đau đầu, mệt mỏi, sổ mũi, đau họng, ớn lạnh",Nội khoa
+Cúm A H1N1,"ho khan, đau cơ, mệt mỏi, đau họng, sốt cao",Nội khoa
+Cúm A H1N1,"sốt cao, mệt mỏi, sổ mũi, đau họng, ho khan",Nội khoa
+Cúm A H1N1,"ho khan, ớn lạnh, đau họng, sổ mũi, sốt cao",Nội khoa
+Cúm A H1N1,"ớn lạnh, đau cơ, sốt cao, ho khan",Nội khoa
+Cúm A H1N1,"đau cơ, mệt mỏi, đau đầu, ớn lạnh",Nội khoa
+Cúm A H1N1,"đau cơ, đau họng, sổ mũi, sốt cao, ho khan, mệt mỏi, ớn lạnh, đau đầu",Nội khoa
+Cúm A H1N1,"mệt mỏi, đau cơ, ớn lạnh, ho khan",Nội khoa
+Cúm A H1N1,"sổ mũi, mệt mỏi, ớn lạnh, sốt cao, đau cơ, ho khan, đau họng, đau đầu",Nội khoa
+Cúm A H1N1,"mệt mỏi, sổ mũi, đau cơ, đau đầu, đau họng",Nội khoa
+Viêm gan A cấp,"vàng da, vàng mắt, mệt mỏi, chán ăn, buồn nôn, đau hạ sườn phải, sốt nhẹ, nước tiểu sẫm",Nội khoa
+Viêm gan A cấp,"nước tiểu sẫm, vàng mắt, vàng da, chán ăn, buồn nôn, đau hạ sườn phải",Nội khoa
+Viêm gan A cấp,"mệt mỏi, sốt nhẹ, buồn nôn, đau hạ sườn phải, vàng da",Nội khoa
+Viêm gan A cấp,"nước tiểu sẫm, đau hạ sườn phải, mệt mỏi, buồn nôn",Nội khoa
+Viêm gan A cấp,"vàng mắt, buồn nôn, mệt mỏi, vàng da, nước tiểu sẫm",Nội khoa
+Viêm gan A cấp,"buồn nôn, mệt mỏi, vàng da, nước tiểu sẫm, vàng mắt, đau hạ sườn phải, chán ăn",Nội khoa
+Viêm gan A cấp,"sốt nhẹ, vàng mắt, nước tiểu sẫm, vàng da, buồn nôn",Nội khoa
+Viêm gan A cấp,"buồn nôn, nước tiểu sẫm, mệt mỏi, vàng da, chán ăn, vàng mắt, đau hạ sườn phải",Nội khoa
+Viêm gan A cấp,"sốt nhẹ, vàng mắt, buồn nôn, nước tiểu sẫm, đau hạ sườn phải, chán ăn",Nội khoa
+Viêm gan A cấp,"buồn nôn, đau hạ sườn phải, sốt nhẹ, nước tiểu sẫm",Nội khoa
+Tăng huyết áp,"đau đầu, đau gáy, chóng mặt, hồi hộp, mờ mắt, ù tai, đỏ mặt từng cơn, đau ngực",Tim mạch
+Tăng huyết áp,"mờ mắt, đau ngực, đau đầu, hồi hộp",Tim mạch
+Tăng huyết áp,"ù tai, đau ngực, đỏ mặt từng cơn, mờ mắt, chóng mặt",Tim mạch
+Tăng huyết áp,"hồi hộp, đau ngực, mờ mắt, đau gáy, chóng mặt",Tim mạch
+Tăng huyết áp,"đỏ mặt từng cơn, hồi hộp, đau đầu, đau ngực, chóng mặt, đau gáy, mờ mắt",Tim mạch
+Tăng huyết áp,"hồi hộp, đau gáy, ù tai, mờ mắt",Tim mạch
+Tăng huyết áp,"đỏ mặt từng cơn, mờ mắt, đau ngực, hồi hộp",Tim mạch
+Tăng huyết áp,"đau đầu, hồi hộp, đỏ mặt từng cơn, đau gáy, chóng mặt, mờ mắt",Tim mạch
+Tăng huyết áp,"đỏ mặt từng cơn, đau gáy, chóng mặt, đau ngực, mờ mắt",Tim mạch
+Tăng huyết áp,"đau ngực, hồi hộp, ù tai, mờ mắt, đỏ mặt từng cơn",Tim mạch
+Hạ huyết áp,"chóng mặt, hoa mắt, mệt mỏi, da xanh tái, ngất xỉu, buồn nôn, tim đập nhanh, đau đầu",Tim mạch
+Hạ huyết áp,"mệt mỏi, buồn nôn, chóng mặt, đau đầu, da xanh tái",Tim mạch
+Hạ huyết áp,"chóng mặt, mệt mỏi, da xanh tái, buồn nôn, hoa mắt, đau đầu",Tim mạch
+Hạ huyết áp,"đau đầu, chóng mặt, hoa mắt, mệt mỏi, buồn nôn, ngất xỉu, da xanh tái",Tim mạch
+Hạ huyết áp,"ngất xỉu, đau đầu, hoa mắt, mệt mỏi, da xanh tái, buồn nôn, tim đập nhanh",Tim mạch
+Hạ huyết áp,"đau đầu, hoa mắt, ngất xỉu, mệt mỏi, da xanh tái, chóng mặt",Tim mạch
+Hạ huyết áp,"da xanh tái, hoa mắt, ngất xỉu, mệt mỏi, đau đầu, tim đập nhanh, buồn nôn, chóng mặt",Tim mạch
+Hạ huyết áp,"mệt mỏi, ngất xỉu, hoa mắt, buồn nôn, tim đập nhanh, da xanh tái, chóng mặt, đau đầu",Tim mạch
+Hạ huyết áp,"chóng mặt, ngất xỉu, đau đầu, da xanh tái, hoa mắt, tim đập nhanh, buồn nôn, mệt mỏi",Tim mạch
+Hạ huyết áp,"tim đập nhanh, mệt mỏi, buồn nôn, hoa mắt",Tim mạch
+Nhồi máu cơ tim,"đau ngực bóp nghẹt, đau lan vai trái, đau lan hàm, đau lan tay trái, khó thở, vã mồ hôi, buồn nôn, tím tái",Tim mạch
+Nhồi máu cơ tim,"đau lan tay trái, đau lan vai trái, khó thở, vã mồ hôi, đau lan hàm, tím tái, đau ngực bóp nghẹt",Tim mạch
+Nhồi máu cơ tim,"tím tái, khó thở, đau lan vai trái, đau lan hàm, đau ngực bóp nghẹt, buồn nôn, vã mồ hôi, đau lan tay trái",Tim mạch
+Nhồi máu cơ tim,"buồn nôn, tím tái, đau lan vai trái, đau lan tay trái, khó thở",Tim mạch
+Nhồi máu cơ tim,"khó thở, đau ngực bóp nghẹt, buồn nôn, đau lan tay trái",Tim mạch
+Nhồi máu cơ tim,"đau lan hàm, đau lan vai trái, đau ngực bóp nghẹt, vã mồ hôi",Tim mạch
+Nhồi máu cơ tim,"đau ngực bóp nghẹt, đau lan hàm, tím tái, đau lan vai trái, đau lan tay trái",Tim mạch
+Nhồi máu cơ tim,"đau lan vai trái, đau lan hàm, đau ngực bóp nghẹt, vã mồ hôi",Tim mạch
+Nhồi máu cơ tim,"đau ngực bóp nghẹt, buồn nôn, khó thở, đau lan vai trái, đau lan tay trái",Tim mạch
+Nhồi máu cơ tim,"đau lan hàm, vã mồ hôi, đau lan vai trái, tím tái, đau ngực bóp nghẹt, buồn nôn, khó thở",Tim mạch
+Suy tim,"khó thở khi nằm, khó thở gắng sức, phù chân, mệt mỏi, ho khan, tim đập nhanh, khó thở đêm, tăng cân",Tim mạch
+Suy tim,"phù chân, ho khan, khó thở gắng sức, khó thở đêm, khó thở khi nằm",Tim mạch
+Suy tim,"khó thở gắng sức, phù chân, khó thở đêm, khó thở khi nằm, ho khan, tim đập nhanh",Tim mạch
+Suy tim,"tăng cân, phù chân, tim đập nhanh, mệt mỏi, khó thở đêm, khó thở gắng sức",Tim mạch
+Suy tim,"khó thở đêm, khó thở khi nằm, khó thở gắng sức, ho khan",Tim mạch
+Suy tim,"mệt mỏi, tăng cân, khó thở gắng sức, phù chân, ho khan, khó thở đêm, tim đập nhanh, khó thở khi nằm",Tim mạch
+Suy tim,"khó thở gắng sức, tim đập nhanh, khó thở đêm, phù chân, mệt mỏi, tăng cân, khó thở khi nằm",Tim mạch
+Suy tim,"tăng cân, khó thở đêm, ho khan, khó thở gắng sức",Tim mạch
+Suy tim,"tim đập nhanh, tăng cân, phù chân, khó thở đêm",Tim mạch
+Suy tim,"mệt mỏi, tăng cân, phù chân, khó thở khi nằm, khó thở đêm",Tim mạch
+Rối loạn nhịp tim,"hồi hộp, tim đập nhanh, nhịp tim loạn, chóng mặt, khó thở, đánh trống ngực, ngất xỉu, mệt mỏi",Tim mạch
+Rối loạn nhịp tim,"khó thở, nhịp tim loạn, tim đập nhanh, ngất xỉu",Tim mạch
+Rối loạn nhịp tim,"mệt mỏi, nhịp tim loạn, hồi hộp, tim đập nhanh",Tim mạch
+Rối loạn nhịp tim,"hồi hộp, khó thở, nhịp tim loạn, đánh trống ngực, ngất xỉu, chóng mặt, mệt mỏi, tim đập nhanh",Tim mạch
+Rối loạn nhịp tim,"mệt mỏi, khó thở, ngất xỉu, hồi hộp, chóng mặt",Tim mạch
+Rối loạn nhịp tim,"chóng mặt, tim đập nhanh, hồi hộp, khó thở, đánh trống ngực",Tim mạch
+Rối loạn nhịp tim,"ngất xỉu, nhịp tim loạn, tim đập nhanh, chóng mặt, đánh trống ngực, hồi hộp, khó thở",Tim mạch
+Rối loạn nhịp tim,"đánh trống ngực, mệt mỏi, hồi hộp, khó thở, tim đập nhanh, chóng mặt",Tim mạch
+Rối loạn nhịp tim,"khó thở, đánh trống ngực, mệt mỏi, chóng mặt, tim đập nhanh, nhịp tim loạn, ngất xỉu, hồi hộp",Tim mạch
+Rối loạn nhịp tim,"tim đập nhanh, hồi hộp, chóng mặt, ngất xỉu, nhịp tim loạn",Tim mạch
+Hẹp van hai lá,"khó thở gắng sức, ho ra máu, hồi hộp, phù chân, mệt mỏi, đau ngực, ho khan, tim đập nhanh",Tim mạch
+Hẹp van hai lá,"hồi hộp, tim đập nhanh, mệt mỏi, ho ra máu, đau ngực",Tim mạch
+Hẹp van hai lá,"ho khan, khó thở gắng sức, mệt mỏi, tim đập nhanh, ho ra máu",Tim mạch
+Hẹp van hai lá,"phù chân, ho khan, tim đập nhanh, đau ngực, khó thở gắng sức, hồi hộp, mệt mỏi, ho ra máu",Tim mạch
+Hẹp van hai lá,"hồi hộp, đau ngực, phù chân, ho ra máu, ho khan, tim đập nhanh",Tim mạch
+Hẹp van hai lá,"đau ngực, tim đập nhanh, ho khan, ho ra máu, mệt mỏi, hồi hộp, phù chân",Tim mạch
+Hẹp van hai lá,"hồi hộp, khó thở gắng sức, đau ngực, ho khan, phù chân, tim đập nhanh",Tim mạch
+Hẹp van hai lá,"khó thở gắng sức, ho ra máu, mệt mỏi, ho khan, phù chân, tim đập nhanh, hồi hộp, đau ngực",Tim mạch
+Hẹp van hai lá,"ho ra máu, tim đập nhanh, phù chân, ho khan, mệt mỏi, khó thở gắng sức, hồi hộp, đau ngực",Tim mạch
+Hẹp van hai lá,"hồi hộp, ho khan, ho ra máu, đau ngực",Tim mạch
+Hở van hai lá,"khó thở, mệt mỏi, hồi hộp, phù chân, tim đập nhanh, đau ngực, ho khan, khó thở khi nằm",Tim mạch
+Hở van hai lá,"đau ngực, tim đập nhanh, ho khan, phù chân, hồi hộp, mệt mỏi, khó thở",Tim mạch
+Hở van hai lá,"khó thở khi nằm, khó thở, ho khan, mệt mỏi, đau ngực, tim đập nhanh, hồi hộp, phù chân",Tim mạch
+Hở van hai lá,"đau ngực, phù chân, tim đập nhanh, khó thở khi nằm, ho khan",Tim mạch
+Hở van hai lá,"ho khan, tim đập nhanh, đau ngực, hồi hộp, khó thở khi nằm",Tim mạch
+Hở van hai lá,"ho khan, phù chân, hồi hộp, khó thở khi nằm, khó thở, đau ngực, mệt mỏi",Tim mạch
+Hở van hai lá,"mệt mỏi, tim đập nhanh, khó thở khi nằm, đau ngực",Tim mạch
+Hở van hai lá,"phù chân, mệt mỏi, khó thở khi nằm, khó thở",Tim mạch
+Hở van hai lá,"phù chân, đau ngực, tim đập nhanh, khó thở, ho khan, khó thở khi nằm, hồi hộp",Tim mạch
+Hở van hai lá,"hồi hộp, khó thở khi nằm, ho khan, phù chân, mệt mỏi, đau ngực, tim đập nhanh",Tim mạch
+Bệnh mạch vành,"đau ngực khi gắng sức, đau lan vai trái, khó thở, mệt mỏi, hồi hộp, tức ngực, vã mồ hôi, buồn nôn",Tim mạch
+Bệnh mạch vành,"hồi hộp, vã mồ hôi, đau lan vai trái, khó thở, tức ngực, buồn nôn",Tim mạch
+Bệnh mạch vành,"tức ngực, buồn nôn, khó thở, đau lan vai trái, vã mồ hôi, đau ngực khi gắng sức, hồi hộp, mệt mỏi",Tim mạch
+Bệnh mạch vành,"khó thở, hồi hộp, mệt mỏi, đau lan vai trái, buồn nôn, đau ngực khi gắng sức, tức ngực",Tim mạch
+Bệnh mạch vành,"hồi hộp, đau lan vai trái, đau ngực khi gắng sức, khó thở, mệt mỏi, buồn nôn, vã mồ hôi, tức ngực",Tim mạch
+Bệnh mạch vành,"tức ngực, buồn nôn, khó thở, vã mồ hôi, hồi hộp, mệt mỏi, đau ngực khi gắng sức",Tim mạch
+Bệnh mạch vành,"vã mồ hôi, mệt mỏi, đau lan vai trái, buồn nôn, đau ngực khi gắng sức",Tim mạch
+Bệnh mạch vành,"tức ngực, hồi hộp, khó thở, đau ngực khi gắng sức",Tim mạch
+Bệnh mạch vành,"đau ngực khi gắng sức, buồn nôn, khó thở, tức ngực, mệt mỏi, đau lan vai trái, hồi hộp",Tim mạch
+Bệnh mạch vành,"khó thở, hồi hộp, tức ngực, vã mồ hôi",Tim mạch
+Đau thắt ngực ổn định,"đau ngực khi gắng sức, đau lan vai trái, khó thở, tức ngực, đau lan hàm, vã mồ hôi, hồi hộp",Tim mạch
+Đau thắt ngực ổn định,"đau ngực khi gắng sức, đau lan hàm, vã mồ hôi, tức ngực, hồi hộp, khó thở",Tim mạch
+Đau thắt ngực ổn định,"khó thở, đau lan vai trái, tức ngực",Tim mạch
+Đau thắt ngực ổn định,"đau ngực khi gắng sức, đau lan vai trái, khó thở, đau lan hàm, vã mồ hôi",Tim mạch
+Đau thắt ngực ổn định,"đau lan vai trái, khó thở, hồi hộp, đau lan hàm, tức ngực, đau ngực khi gắng sức",Tim mạch
+Đau thắt ngực ổn định,"đau lan vai trái, vã mồ hôi, tức ngực, hồi hộp",Tim mạch
+Đau thắt ngực ổn định,"vã mồ hôi, đau lan hàm, tức ngực, hồi hộp, đau lan vai trái, đau ngực khi gắng sức, khó thở",Tim mạch
+Đau thắt ngực ổn định,"đau lan hàm, vã mồ hôi, hồi hộp",Tim mạch
+Đau thắt ngực ổn định,"khó thở, đau ngực khi gắng sức, tức ngực, đau lan hàm",Tim mạch
+Đau thắt ngực ổn định,"đau ngực khi gắng sức, đau lan hàm, tức ngực",Tim mạch
+Viêm cơ tim,"đau ngực, khó thở, mệt mỏi, sốt nhẹ, hồi hộp, nhịp tim loạn, phù chân, ngất xỉu",Tim mạch
+Viêm cơ tim,"nhịp tim loạn, ngất xỉu, đau ngực, mệt mỏi, sốt nhẹ, phù chân, hồi hộp, khó thở",Tim mạch
+Viêm cơ tim,"phù chân, sốt nhẹ, khó thở, hồi hộp, nhịp tim loạn, đau ngực",Tim mạch
+Viêm cơ tim,"phù chân, nhịp tim loạn, ngất xỉu, sốt nhẹ, đau ngực, mệt mỏi",Tim mạch
+Viêm cơ tim,"phù chân, mệt mỏi, sốt nhẹ, hồi hộp",Tim mạch
+Viêm cơ tim,"đau ngực, mệt mỏi, sốt nhẹ, hồi hộp",Tim mạch
+Viêm cơ tim,"mệt mỏi, nhịp tim loạn, khó thở, sốt nhẹ, ngất xỉu",Tim mạch
+Viêm cơ tim,"phù chân, hồi hộp, sốt nhẹ, ngất xỉu, nhịp tim loạn, mệt mỏi, khó thở, đau ngực",Tim mạch
+Viêm cơ tim,"sốt nhẹ, hồi hộp, ngất xỉu, nhịp tim loạn, mệt mỏi, phù chân, đau ngực, khó thở",Tim mạch
+Viêm cơ tim,"sốt nhẹ, hồi hộp, mệt mỏi, phù chân, đau ngực, khó thở",Tim mạch
+Viêm màng ngoài tim,"đau ngực, khó thở, sốt nhẹ, ho khan, đau ngực khi gắng sức, đánh trống ngực, mệt mỏi",Tim mạch
+Viêm màng ngoài tim,"ho khan, khó thở, sốt nhẹ, mệt mỏi, đau ngực khi gắng sức, đau ngực, đánh trống ngực",Tim mạch
+Viêm màng ngoài tim,"ho khan, mệt mỏi, đau ngực, đánh trống ngực",Tim mạch
+Viêm màng ngoài tim,"sốt nhẹ, đau ngực, ho khan, khó thở, mệt mỏi, đánh trống ngực",Tim mạch
+Viêm màng ngoài tim,"ho khan, sốt nhẹ, đau ngực khi gắng sức",Tim mạch
+Viêm màng ngoài tim,"đánh trống ngực, đau ngực khi gắng sức, khó thở",Tim mạch
+Viêm màng ngoài tim,"đau ngực, đánh trống ngực, mệt mỏi, sốt nhẹ",Tim mạch
+Viêm màng ngoài tim,"khó thở, mệt mỏi, đánh trống ngực, đau ngực, đau ngực khi gắng sức, ho khan",Tim mạch
+Viêm màng ngoài tim,"khó thở, sốt nhẹ, đau ngực, mệt mỏi, đau ngực khi gắng sức, ho khan, đánh trống ngực",Tim mạch
+Viêm màng ngoài tim,"khó thở, đau ngực khi gắng sức, sốt nhẹ, ho khan, đau ngực",Tim mạch
+Phình động mạch chủ bụng,"đau bụng, đau lưng dưới, khối u sờ thấy, đau lan vai trái, chóng mặt, vã mồ hôi, ngất xỉu",Tim mạch
+Phình động mạch chủ bụng,"đau lưng dưới, khối u sờ thấy, vã mồ hôi, ngất xỉu, đau lan vai trái",Tim mạch
+Phình động mạch chủ bụng,"đau bụng, chóng mặt, ngất xỉu, đau lan vai trái, vã mồ hôi",Tim mạch
+Phình động mạch chủ bụng,"vã mồ hôi, ngất xỉu, đau bụng, chóng mặt",Tim mạch
+Phình động mạch chủ bụng,"đau lưng dưới, vã mồ hôi, đau lan vai trái",Tim mạch
+Phình động mạch chủ bụng,"đau lan vai trái, đau lưng dưới, chóng mặt",Tim mạch
+Phình động mạch chủ bụng,"ngất xỉu, chóng mặt, đau bụng, đau lan vai trái, đau lưng dưới, khối u sờ thấy, vã mồ hôi",Tim mạch
+Phình động mạch chủ bụng,"ngất xỉu, chóng mặt, đau lưng dưới, khối u sờ thấy, đau bụng, đau lan vai trái, vã mồ hôi",Tim mạch
+Phình động mạch chủ bụng,"đau bụng, chóng mặt, vã mồ hôi, khối u sờ thấy, đau lưng dưới, đau lan vai trái, ngất xỉu",Tim mạch
+Phình động mạch chủ bụng,"vã mồ hôi, đau bụng, ngất xỉu, đau lưng dưới, chóng mặt",Tim mạch
+Suy tĩnh mạch chi dưới,"đau chân, phù chân, chuột rút, tê chân, tiếng khớp kêu, ngứa da",Tim mạch
+Suy tĩnh mạch chi dưới,"phù chân, đau chân, ngứa da",Tim mạch
+Suy tĩnh mạch chi dưới,"đau chân, ngứa da, phù chân, tiếng khớp kêu, tê chân, chuột rút",Tim mạch
+Suy tĩnh mạch chi dưới,"đau chân, chuột rút, ngứa da",Tim mạch
+Suy tĩnh mạch chi dưới,"phù chân, tiếng khớp kêu, ngứa da",Tim mạch
+Suy tĩnh mạch chi dưới,"chuột rút, phù chân, tiếng khớp kêu",Tim mạch
+Suy tĩnh mạch chi dưới,"đau chân, chuột rút, phù chân, tiếng khớp kêu, tê chân",Tim mạch
+Suy tĩnh mạch chi dưới,"tê chân, chuột rút, tiếng khớp kêu",Tim mạch
+Suy tĩnh mạch chi dưới,"tê chân, chuột rút, phù chân, ngứa da, tiếng khớp kêu",Tim mạch
+Suy tĩnh mạch chi dưới,"chuột rút, tiếng khớp kêu, phù chân",Tim mạch
+Huyết khối tĩnh mạch sâu,"đau chân, phù chân, đỏ da, nóng khớp, đau bẹn, tê chân, khó thở",Tim mạch
+Huyết khối tĩnh mạch sâu,"phù chân, đỏ da, nóng khớp",Tim mạch
+Huyết khối tĩnh mạch sâu,"khó thở, phù chân, đỏ da, nóng khớp, đau chân, đau bẹn",Tim mạch
+Huyết khối tĩnh mạch sâu,"phù chân, nóng khớp, tê chân",Tim mạch
+Huyết khối tĩnh mạch sâu,"khó thở, đau chân, đỏ da",Tim mạch
+Huyết khối tĩnh mạch sâu,"đau chân, tê chân, nóng khớp, đỏ da, phù chân, đau bẹn, khó thở",Tim mạch
+Huyết khối tĩnh mạch sâu,"tê chân, đỏ da, đau bẹn, nóng khớp, phù chân, khó thở",Tim mạch
+Huyết khối tĩnh mạch sâu,"đau chân, đỏ da, phù chân, nóng khớp, khó thở, đau bẹn",Tim mạch
+Huyết khối tĩnh mạch sâu,"đỏ da, nóng khớp, đau chân, khó thở",Tim mạch
+Huyết khối tĩnh mạch sâu,"nóng khớp, khó thở, phù chân, tê chân, đau bẹn",Tim mạch
+Bệnh Buerger,"đau chân, đau khi đi, tê chân, đi tập tễnh, vết loét da, đau tay, tê tay, đau khớp",Tim mạch
+Bệnh Buerger,"tê tay, đau khi đi, tê chân, đi tập tễnh, đau khớp",Tim mạch
+Bệnh Buerger,"vết loét da, tê chân, đau khớp, tê tay, đau khi đi, đau tay",Tim mạch
+Bệnh Buerger,"đi tập tễnh, vết loét da, đau chân, đau khi đi, đau tay, tê chân, tê tay",Tim mạch
+Bệnh Buerger,"đi tập tễnh, tê chân, đau chân, tê tay, vết loét da, đau khi đi, đau tay",Tim mạch
+Bệnh Buerger,"tê chân, đi tập tễnh, tê tay, đau tay",Tim mạch
+Bệnh Buerger,"tê tay, tê chân, đau khi đi, đau khớp, đau tay, vết loét da, đau chân, đi tập tễnh",Tim mạch
+Bệnh Buerger,"tê tay, đau khi đi, đi tập tễnh, đau chân, đau tay, đau khớp, vết loét da",Tim mạch
+Bệnh Buerger,"đau tay, tê tay, tê chân, đi tập tễnh, đau khi đi",Tim mạch
+Bệnh Buerger,"đi tập tễnh, đau tay, đau khớp, tê tay",Tim mạch
+Viêm dạ dày,"đau thượng vị, buồn nôn, ợ chua, ợ hơi, đầy bụng, nóng rát thượng vị, chán ăn, đau bụng sau ăn",Tiêu hóa
+Viêm dạ dày,"chán ăn, buồn nôn, ợ chua, đau thượng vị",Tiêu hóa
+Viêm dạ dày,"đau thượng vị, chán ăn, ợ chua, ợ hơi, đau bụng sau ăn, nóng rát thượng vị, đầy bụng, buồn nôn",Tiêu hóa
+Viêm dạ dày,"đau bụng sau ăn, đau thượng vị, buồn nôn, ợ hơi, nóng rát thượng vị, chán ăn, đầy bụng",Tiêu hóa
+Viêm dạ dày,"đau bụng sau ăn, đau thượng vị, ợ chua, ợ hơi, nóng rát thượng vị",Tiêu hóa
+Viêm dạ dày,"đau bụng sau ăn, ợ hơi, nóng rát thượng vị, đầy bụng, ợ chua, buồn nôn, đau thượng vị, chán ăn",Tiêu hóa
+Viêm dạ dày,"ợ hơi, ợ chua, buồn nôn, đầy bụng, đau bụng sau ăn, nóng rát thượng vị",Tiêu hóa
+Viêm dạ dày,"nóng rát thượng vị, đau bụng sau ăn, đau thượng vị, đầy bụng, ợ hơi, buồn nôn, ợ chua, chán ăn",Tiêu hóa
+Viêm dạ dày,"chán ăn, ợ chua, đau thượng vị, nóng rát thượng vị, ợ hơi, đau bụng sau ăn, đầy bụng",Tiêu hóa
+Viêm dạ dày,"buồn nôn, đau bụng sau ăn, ợ hơi, đầy bụng, nóng rát thượng vị",Tiêu hóa
+Loét dạ dày tá tràng,"đau thượng vị, đau tăng khi đói, đau giảm khi ăn, ợ chua, buồn nôn, nôn ra máu, phân đen, đầy bụng",Tiêu hóa
+Loét dạ dày tá tràng,"ợ chua, đau tăng khi đói, phân đen, đau thượng vị, buồn nôn, nôn ra máu",Tiêu hóa
+Loét dạ dày tá tràng,"nôn ra máu, buồn nôn, ợ chua, đau thượng vị, đầy bụng, phân đen",Tiêu hóa
+Loét dạ dày tá tràng,"đau giảm khi ăn, phân đen, nôn ra máu, đau tăng khi đói, đau thượng vị",Tiêu hóa
+Loét dạ dày tá tràng,"đầy bụng, buồn nôn, ợ chua, đau thượng vị, đau giảm khi ăn, phân đen, đau tăng khi đói, nôn ra máu",Tiêu hóa
+Loét dạ dày tá tràng,"nôn ra máu, đau tăng khi đói, ợ chua, phân đen, đau giảm khi ăn",Tiêu hóa
+Loét dạ dày tá tràng,"đau tăng khi đói, phân đen, ợ chua, đầy bụng, nôn ra máu, đau thượng vị, đau giảm khi ăn",Tiêu hóa
+Loét dạ dày tá tràng,"đau giảm khi ăn, nôn ra máu, phân đen, đầy bụng",Tiêu hóa
+Loét dạ dày tá tràng,"ợ chua, phân đen, đầy bụng, đau giảm khi ăn, đau tăng khi đói",Tiêu hóa
+Loét dạ dày tá tràng,"đau giảm khi ăn, ợ chua, đầy bụng, buồn nôn, đau thượng vị, nôn ra máu, đau tăng khi đói, phân đen",Tiêu hóa
+Trào ngược dạ dày thực quản,"ợ chua, ợ hơi, nóng rát thượng vị, đau thượng vị, ho khan, khàn giọng, khó nuốt, buồn nôn",Tiêu hóa
+Trào ngược dạ dày thực quản,"ợ hơi, khó nuốt, khàn giọng, buồn nôn, nóng rát thượng vị",Tiêu hóa
+Trào ngược dạ dày thực quản,"ợ chua, đau thượng vị, buồn nôn, ợ hơi, nóng rát thượng vị, khàn giọng",Tiêu hóa
+Trào ngược dạ dày thực quản,"buồn nôn, đau thượng vị, nóng rát thượng vị, khó nuốt, ợ hơi, ho khan, ợ chua",Tiêu hóa
+Trào ngược dạ dày thực quản,"ho khan, khàn giọng, ợ hơi, ợ chua, buồn nôn, khó nuốt, đau thượng vị",Tiêu hóa
+Trào ngược dạ dày thực quản,"khàn giọng, ợ chua, ho khan, ợ hơi",Tiêu hóa
+Trào ngược dạ dày thực quản,"ho khan, khàn giọng, đau thượng vị, ợ hơi, khó nuốt",Tiêu hóa
+Trào ngược dạ dày thực quản,"nóng rát thượng vị, khó nuốt, ho khan, đau thượng vị, ợ chua, khàn giọng, ợ hơi, buồn nôn",Tiêu hóa
+Trào ngược dạ dày thực quản,"ợ hơi, ho khan, nóng rát thượng vị, đau thượng vị, khó nuốt, khàn giọng",Tiêu hóa
+Trào ngược dạ dày thực quản,"ợ hơi, ợ chua, nóng rát thượng vị, ho khan, buồn nôn, khàn giọng, đau thượng vị",Tiêu hóa
+Viêm ruột thừa cấp,"đau hố chậu phải, đau bụng, sốt nhẹ, buồn nôn, nôn, chán ăn, đau khi đi, đau quặn bụng",Tiêu hóa
+Viêm ruột thừa cấp,"đau khi đi, đau hố chậu phải, nôn, buồn nôn, đau quặn bụng, sốt nhẹ",Tiêu hóa
+Viêm ruột thừa cấp,"đau khi đi, sốt nhẹ, nôn, đau quặn bụng",Tiêu hóa
+Viêm ruột thừa cấp,"đau quặn bụng, đau khi đi, đau hố chậu phải, sốt nhẹ",Tiêu hóa
+Viêm ruột thừa cấp,"sốt nhẹ, nôn, chán ăn, buồn nôn, đau hố chậu phải",Tiêu hóa
+Viêm ruột thừa cấp,"buồn nôn, nôn, đau hố chậu phải, đau khi đi",Tiêu hóa
+Viêm ruột thừa cấp,"đau hố chậu phải, đau bụng, đau quặn bụng, chán ăn",Tiêu hóa
+Viêm ruột thừa cấp,"chán ăn, đau quặn bụng, đau bụng, nôn, sốt nhẹ, đau khi đi, đau hố chậu phải, buồn nôn",Tiêu hóa
+Viêm ruột thừa cấp,"chán ăn, đau hố chậu phải, buồn nôn, đau quặn bụng, đau khi đi, nôn, sốt nhẹ",Tiêu hóa
+Viêm ruột thừa cấp,"chán ăn, đau hố chậu phải, đau quặn bụng, đau khi đi, đau bụng",Tiêu hóa
+Tiêu chảy cấp,"tiêu chảy nhiều lần, đau quặn bụng, buồn nôn, nôn, sốt nhẹ, khát nước nhiều, mệt mỏi, chán ăn",Tiêu hóa
+Tiêu chảy cấp,"tiêu chảy nhiều lần, đau quặn bụng, nôn, sốt nhẹ, khát nước nhiều",Tiêu hóa
+Tiêu chảy cấp,"buồn nôn, tiêu chảy nhiều lần, nôn, đau quặn bụng, mệt mỏi, sốt nhẹ",Tiêu hóa
+Tiêu chảy cấp,"đau quặn bụng, tiêu chảy nhiều lần, khát nước nhiều, chán ăn, mệt mỏi, buồn nôn, sốt nhẹ",Tiêu hóa
+Tiêu chảy cấp,"mệt mỏi, tiêu chảy nhiều lần, khát nước nhiều, buồn nôn, chán ăn, đau quặn bụng, sốt nhẹ, nôn",Tiêu hóa
+Tiêu chảy cấp,"tiêu chảy nhiều lần, khát nước nhiều, nôn, chán ăn, buồn nôn, mệt mỏi",Tiêu hóa
+Tiêu chảy cấp,"chán ăn, khát nước nhiều, tiêu chảy nhiều lần, buồn nôn",Tiêu hóa
+Tiêu chảy cấp,"buồn nôn, mệt mỏi, tiêu chảy nhiều lần, chán ăn, sốt nhẹ, khát nước nhiều",Tiêu hóa
+Tiêu chảy cấp,"mệt mỏi, sốt nhẹ, buồn nôn, đau quặn bụng, nôn, khát nước nhiều, chán ăn",Tiêu hóa
+Tiêu chảy cấp,"nôn, đau quặn bụng, chán ăn, tiêu chảy nhiều lần, mệt mỏi",Tiêu hóa
+Lỵ amip,"tiêu chảy nhiều lần, phân nhầy, phân có máu, đau quặn bụng, mót rặn, sốt nhẹ, mệt mỏi",Tiêu hóa
+Lỵ amip,"sốt nhẹ, mót rặn, mệt mỏi, tiêu chảy nhiều lần, đau quặn bụng, phân nhầy, phân có máu",Tiêu hóa
+Lỵ amip,"sốt nhẹ, tiêu chảy nhiều lần, phân nhầy, phân có máu",Tiêu hóa
+Lỵ amip,"tiêu chảy nhiều lần, đau quặn bụng, phân có máu, phân nhầy, sốt nhẹ",Tiêu hóa
+Lỵ amip,"phân nhầy, tiêu chảy nhiều lần, mệt mỏi",Tiêu hóa
+Lỵ amip,"phân có máu, mệt mỏi, đau quặn bụng, phân nhầy",Tiêu hóa
+Lỵ amip,"tiêu chảy nhiều lần, mệt mỏi, phân nhầy",Tiêu hóa
+Lỵ amip,"phân có máu, mệt mỏi, tiêu chảy nhiều lần, mót rặn",Tiêu hóa
+Lỵ amip,"đau quặn bụng, phân nhầy, mót rặn, tiêu chảy nhiều lần, phân có máu, mệt mỏi, sốt nhẹ",Tiêu hóa
+Lỵ amip,"tiêu chảy nhiều lần, mót rặn, phân nhầy, phân có máu, đau quặn bụng, mệt mỏi",Tiêu hóa
+Lỵ trực khuẩn,"tiêu chảy nhiều lần, phân có máu, phân nhầy, đau quặn bụng, sốt cao, mót rặn, buồn nôn, mệt mỏi",Tiêu hóa
+Lỵ trực khuẩn,"phân nhầy, phân có máu, đau quặn bụng, mệt mỏi, buồn nôn, sốt cao",Tiêu hóa
+Lỵ trực khuẩn,"buồn nôn, mót rặn, phân có máu, đau quặn bụng, sốt cao, mệt mỏi, phân nhầy",Tiêu hóa
+Lỵ trực khuẩn,"buồn nôn, phân nhầy, mệt mỏi, sốt cao",Tiêu hóa
+Lỵ trực khuẩn,"sốt cao, đau quặn bụng, phân nhầy, tiêu chảy nhiều lần, phân có máu",Tiêu hóa
+Lỵ trực khuẩn,"mót rặn, đau quặn bụng, tiêu chảy nhiều lần, sốt cao, phân nhầy",Tiêu hóa
+Lỵ trực khuẩn,"đau quặn bụng, mót rặn, phân nhầy, tiêu chảy nhiều lần, sốt cao, phân có máu, mệt mỏi",Tiêu hóa
+Lỵ trực khuẩn,"phân nhầy, tiêu chảy nhiều lần, sốt cao, đau quặn bụng, buồn nôn, mệt mỏi, mót rặn, phân có máu",Tiêu hóa
+Lỵ trực khuẩn,"đau quặn bụng, buồn nôn, mệt mỏi, mót rặn",Tiêu hóa
+Lỵ trực khuẩn,"sốt cao, đau quặn bụng, phân nhầy, mệt mỏi, phân có máu, mót rặn",Tiêu hóa
+Viêm đại tràng mạn,"đau bụng, tiêu chảy, táo bón, phân nhầy, đầy bụng, chướng bụng, mót rặn, đau quặn bụng",Tiêu hóa
+Viêm đại tràng mạn,"mót rặn, chướng bụng, đau quặn bụng, đầy bụng, táo bón, tiêu chảy, đau bụng",Tiêu hóa
+Viêm đại tràng mạn,"táo bón, đau quặn bụng, mót rặn, phân nhầy, chướng bụng, tiêu chảy, đầy bụng, đau bụng",Tiêu hóa
+Viêm đại tràng mạn,"chướng bụng, tiêu chảy, táo bón, đau quặn bụng, đầy bụng, đau bụng, mót rặn",Tiêu hóa
+Viêm đại tràng mạn,"mót rặn, đầy bụng, tiêu chảy, phân nhầy, đau quặn bụng, chướng bụng, táo bón",Tiêu hóa
+Viêm đại tràng mạn,"táo bón, mót rặn, đau bụng, đau quặn bụng",Tiêu hóa
+Viêm đại tràng mạn,"phân nhầy, táo bón, tiêu chảy, đau bụng, chướng bụng, đầy bụng",Tiêu hóa
+Viêm đại tràng mạn,"táo bón, chướng bụng, đau bụng, phân nhầy, tiêu chảy, mót rặn, đầy bụng",Tiêu hóa
+Viêm đại tràng mạn,"đầy bụng, đau quặn bụng, đau bụng, chướng bụng, mót rặn, phân nhầy",Tiêu hóa
+Viêm đại tràng mạn,"mót rặn, chướng bụng, tiêu chảy, đau quặn bụng, đau bụng, đầy bụng",Tiêu hóa
+Hội chứng ruột kích thích,"đau bụng, đau quặn bụng, tiêu chảy, táo bón, đầy bụng, chướng bụng, phân nhầy, mệt mỏi",Tiêu hóa
+Hội chứng ruột kích thích,"phân nhầy, mệt mỏi, đầy bụng, táo bón, tiêu chảy, đau bụng",Tiêu hóa
+Hội chứng ruột kích thích,"phân nhầy, tiêu chảy, mệt mỏi, đau quặn bụng, táo bón, đau bụng",Tiêu hóa
+Hội chứng ruột kích thích,"tiêu chảy, đau quặn bụng, chướng bụng, đau bụng, táo bón",Tiêu hóa
+Hội chứng ruột kích thích,"chướng bụng, mệt mỏi, đau quặn bụng, đầy bụng, tiêu chảy, táo bón, phân nhầy",Tiêu hóa
+Hội chứng ruột kích thích,"đau bụng, đau quặn bụng, phân nhầy, tiêu chảy, chướng bụng",Tiêu hóa
+Hội chứng ruột kích thích,"mệt mỏi, đầy bụng, phân nhầy, chướng bụng, tiêu chảy",Tiêu hóa
+Hội chứng ruột kích thích,"đau bụng, tiêu chảy, đầy bụng, chướng bụng, táo bón, mệt mỏi, phân nhầy, đau quặn bụng",Tiêu hóa
+Hội chứng ruột kích thích,"tiêu chảy, táo bón, mệt mỏi, chướng bụng, phân nhầy, đầy bụng",Tiêu hóa
+Hội chứng ruột kích thích,"đau bụng, phân nhầy, mệt mỏi, táo bón, tiêu chảy, đầy bụng, đau quặn bụng",Tiêu hóa
+Táo bón mạn tính,"táo bón, đại tiện khó, đau bụng, đầy bụng, chướng bụng, đau hậu môn, mệt mỏi, ngứa hậu môn",Tiêu hóa
+Táo bón mạn tính,"ngứa hậu môn, đau hậu môn, mệt mỏi, đau bụng",Tiêu hóa
+Táo bón mạn tính,"ngứa hậu môn, đau bụng, mệt mỏi, đầy bụng, đau hậu môn",Tiêu hóa
+Táo bón mạn tính,"đầy bụng, đau hậu môn, đau bụng, đại tiện khó, ngứa hậu môn",Tiêu hóa
+Táo bón mạn tính,"chướng bụng, táo bón, đau bụng, đầy bụng, đau hậu môn, ngứa hậu môn, đại tiện khó, mệt mỏi",Tiêu hóa
+Táo bón mạn tính,"ngứa hậu môn, đầy bụng, chướng bụng, mệt mỏi, đau bụng, đau hậu môn",Tiêu hóa
+Táo bón mạn tính,"đau hậu môn, táo bón, đau bụng, mệt mỏi, chướng bụng, ngứa hậu môn, đầy bụng, đại tiện khó",Tiêu hóa
+Táo bón mạn tính,"đau hậu môn, đau bụng, đại tiện khó, đầy bụng, ngứa hậu môn",Tiêu hóa
+Táo bón mạn tính,"đau bụng, mệt mỏi, đau hậu môn, chướng bụng, đầy bụng, đại tiện khó, táo bón",Tiêu hóa
+Táo bón mạn tính,"đau bụng, táo bón, đại tiện khó, ngứa hậu môn, đầy bụng, đau hậu môn, chướng bụng",Tiêu hóa
+Bệnh trĩ,"phân có máu, đau hậu môn, ngứa hậu môn, đại tiện khó, đau khi đi, mót rặn",Tiêu hóa
+Bệnh trĩ,"đại tiện khó, đau hậu môn, phân có máu, ngứa hậu môn, mót rặn, đau khi đi",Tiêu hóa
+Bệnh trĩ,"đại tiện khó, đau khi đi, ngứa hậu môn",Tiêu hóa
+Bệnh trĩ,"mót rặn, ngứa hậu môn, đại tiện khó",Tiêu hóa
+Bệnh trĩ,"phân có máu, mót rặn, đại tiện khó, đau khi đi, đau hậu môn, ngứa hậu môn",Tiêu hóa
+Bệnh trĩ,"phân có máu, ngứa hậu môn, đau hậu môn, đại tiện khó, đau khi đi",Tiêu hóa
+Bệnh trĩ,"đau hậu môn, ngứa hậu môn, mót rặn",Tiêu hóa
+Bệnh trĩ,"mót rặn, đau hậu môn, đau khi đi, phân có máu, đại tiện khó, ngứa hậu môn",Tiêu hóa
+Bệnh trĩ,"đại tiện khó, phân có máu, mót rặn, đau khi đi, đau hậu môn, ngứa hậu môn",Tiêu hóa
+Bệnh trĩ,"phân có máu, mót rặn, đau hậu môn, đại tiện khó, đau khi đi",Tiêu hóa
+Polyp đại tràng,"phân có máu, tiêu chảy, táo bón, đau bụng, mệt mỏi, chán ăn, sụt cân, đầy bụng",Tiêu hóa
+Polyp đại tràng,"sụt cân, đau bụng, chán ăn, đầy bụng, phân có máu",Tiêu hóa
+Polyp đại tràng,"đầy bụng, sụt cân, mệt mỏi, chán ăn, tiêu chảy, táo bón, đau bụng",Tiêu hóa
+Polyp đại tràng,"sụt cân, tiêu chảy, mệt mỏi, đầy bụng, táo bón, phân có máu",Tiêu hóa
+Polyp đại tràng,"đầy bụng, mệt mỏi, phân có máu, đau bụng, sụt cân, táo bón",Tiêu hóa
+Polyp đại tràng,"mệt mỏi, phân có máu, táo bón, đau bụng, chán ăn, tiêu chảy, sụt cân, đầy bụng",Tiêu hóa
+Polyp đại tràng,"tiêu chảy, đầy bụng, mệt mỏi, phân có máu, sụt cân",Tiêu hóa
+Polyp đại tràng,"táo bón, đau bụng, mệt mỏi, đầy bụng, sụt cân, phân có máu, chán ăn, tiêu chảy",Tiêu hóa
+Polyp đại tràng,"đau bụng, phân có máu, đầy bụng, táo bón, sụt cân",Tiêu hóa
+Polyp đại tràng,"táo bón, đau bụng, tiêu chảy, sụt cân, đầy bụng, mệt mỏi, phân có máu, chán ăn",Tiêu hóa
+Xơ gan,"vàng da, vàng mắt, cổ trướng, mệt mỏi, chán ăn, sụt cân, phù chân, dễ chảy máu, nôn ra máu",Tiêu hóa
+Xơ gan,"vàng mắt, sụt cân, vàng da, chán ăn, nôn ra máu, cổ trướng, dễ chảy máu, mệt mỏi",Tiêu hóa
+Xơ gan,"cổ trướng, vàng da, nôn ra máu, mệt mỏi, dễ chảy máu, vàng mắt, phù chân, sụt cân, chán ăn",Tiêu hóa
+Xơ gan,"vàng mắt, vàng da, cổ trướng, sụt cân, phù chân, nôn ra máu, dễ chảy máu",Tiêu hóa
+Xơ gan,"mệt mỏi, phù chân, vàng mắt, sụt cân, dễ chảy máu, cổ trướng, vàng da, chán ăn, nôn ra máu",Tiêu hóa
+Xơ gan,"nôn ra máu, vàng mắt, phù chân, mệt mỏi, cổ trướng, vàng da, chán ăn, sụt cân, dễ chảy máu",Tiêu hóa
+Xơ gan,"dễ chảy máu, cổ trướng, nôn ra máu, vàng da, sụt cân, phù chân, chán ăn",Tiêu hóa
+Xơ gan,"vàng mắt, cổ trướng, sụt cân, nôn ra máu, phù chân, dễ chảy máu, chán ăn, mệt mỏi",Tiêu hóa
+Xơ gan,"chán ăn, vàng mắt, sụt cân, nôn ra máu, vàng da, dễ chảy máu, phù chân, mệt mỏi",Tiêu hóa
+Xơ gan,"chán ăn, vàng mắt, mệt mỏi, nôn ra máu, sụt cân, phù chân, vàng da",Tiêu hóa
+Viêm gan B mạn,"mệt mỏi, vàng da, đau hạ sườn phải, chán ăn, buồn nôn, đầy bụng, ngứa da, sụt cân",Tiêu hóa
+Viêm gan B mạn,"ngứa da, chán ăn, mệt mỏi, vàng da",Tiêu hóa
+Viêm gan B mạn,"chán ăn, đầy bụng, mệt mỏi, sụt cân, vàng da, đau hạ sườn phải, ngứa da, buồn nôn",Tiêu hóa
+Viêm gan B mạn,"mệt mỏi, vàng da, sụt cân, ngứa da, đầy bụng, buồn nôn, đau hạ sườn phải",Tiêu hóa
+Viêm gan B mạn,"vàng da, ngứa da, chán ăn, đau hạ sườn phải",Tiêu hóa
+Viêm gan B mạn,"sụt cân, đầy bụng, vàng da, chán ăn, ngứa da",Tiêu hóa
+Viêm gan B mạn,"chán ăn, vàng da, đầy bụng, ngứa da",Tiêu hóa
+Viêm gan B mạn,"sụt cân, buồn nôn, đau hạ sườn phải, vàng da, đầy bụng, ngứa da, mệt mỏi, chán ăn",Tiêu hóa
+Viêm gan B mạn,"chán ăn, mệt mỏi, vàng da, sụt cân, buồn nôn, ngứa da, đau hạ sườn phải",Tiêu hóa
+Viêm gan B mạn,"buồn nôn, sụt cân, vàng da, chán ăn, mệt mỏi, đầy bụng, đau hạ sườn phải, ngứa da",Tiêu hóa
+Viêm gan C mạn,"mệt mỏi, đau hạ sườn phải, vàng da, chán ăn, buồn nôn, đau khớp, ngứa da",Tiêu hóa
+Viêm gan C mạn,"đau hạ sườn phải, mệt mỏi, chán ăn, ngứa da, đau khớp, vàng da, buồn nôn",Tiêu hóa
+Viêm gan C mạn,"ngứa da, buồn nôn, vàng da, đau hạ sườn phải",Tiêu hóa
+Viêm gan C mạn,"buồn nôn, mệt mỏi, ngứa da, vàng da",Tiêu hóa
+Viêm gan C mạn,"ngứa da, đau hạ sườn phải, mệt mỏi, chán ăn, buồn nôn, đau khớp, vàng da",Tiêu hóa
+Viêm gan C mạn,"vàng da, buồn nôn, đau hạ sườn phải, chán ăn",Tiêu hóa
+Viêm gan C mạn,"mệt mỏi, đau khớp, đau hạ sườn phải, chán ăn, buồn nôn",Tiêu hóa
+Viêm gan C mạn,"buồn nôn, chán ăn, mệt mỏi, đau hạ sườn phải, ngứa da, vàng da",Tiêu hóa
+Viêm gan C mạn,"buồn nôn, vàng da, đau hạ sườn phải",Tiêu hóa
+Viêm gan C mạn,"vàng da, ngứa da, đau khớp, đau hạ sườn phải, buồn nôn, mệt mỏi",Tiêu hóa
+Viêm tụy cấp,"đau thượng vị, đau lan vai trái, buồn nôn, nôn, sốt nhẹ, đầy bụng, tim đập nhanh, vã mồ hôi",Tiêu hóa
+Viêm tụy cấp,"vã mồ hôi, buồn nôn, nôn, tim đập nhanh, đau lan vai trái, sốt nhẹ, đau thượng vị, đầy bụng",Tiêu hóa
+Viêm tụy cấp,"đầy bụng, nôn, vã mồ hôi, sốt nhẹ, đau lan vai trái, tim đập nhanh, buồn nôn, đau thượng vị",Tiêu hóa
+Viêm tụy cấp,"buồn nôn, nôn, đau lan vai trái, đau thượng vị, sốt nhẹ, vã mồ hôi, đầy bụng",Tiêu hóa
+Viêm tụy cấp,"sốt nhẹ, vã mồ hôi, đau thượng vị, đầy bụng, đau lan vai trái",Tiêu hóa
+Viêm tụy cấp,"đau thượng vị, nôn, đầy bụng, vã mồ hôi, tim đập nhanh",Tiêu hóa
+Viêm tụy cấp,"nôn, đầy bụng, buồn nôn, vã mồ hôi, đau thượng vị",Tiêu hóa
+Viêm tụy cấp,"vã mồ hôi, đau lan vai trái, sốt nhẹ, nôn, đầy bụng, buồn nôn",Tiêu hóa
+Viêm tụy cấp,"tim đập nhanh, đầy bụng, sốt nhẹ, nôn, đau thượng vị, đau lan vai trái, buồn nôn",Tiêu hóa
+Viêm tụy cấp,"đau lan vai trái, đau thượng vị, vã mồ hôi, đầy bụng, tim đập nhanh, buồn nôn, sốt nhẹ, nôn",Tiêu hóa
+Viêm túi mật cấp,"đau hạ sườn phải, sốt cao, buồn nôn, nôn, vàng da, ớn lạnh, đầy bụng",Tiêu hóa
+Viêm túi mật cấp,"đau hạ sườn phải, đầy bụng, buồn nôn, ớn lạnh",Tiêu hóa
+Viêm túi mật cấp,"đầy bụng, vàng da, nôn",Tiêu hóa
+Viêm túi mật cấp,"đầy bụng, buồn nôn, sốt cao, ớn lạnh, nôn",Tiêu hóa
+Viêm túi mật cấp,"đau hạ sườn phải, vàng da, sốt cao, buồn nôn",Tiêu hóa
+Viêm túi mật cấp,"buồn nôn, vàng da, đầy bụng, đau hạ sườn phải, sốt cao, ớn lạnh, nôn",Tiêu hóa
+Viêm túi mật cấp,"đầy bụng, ớn lạnh, đau hạ sườn phải, sốt cao",Tiêu hóa
+Viêm túi mật cấp,"nôn, buồn nôn, đầy bụng, ớn lạnh",Tiêu hóa
+Viêm túi mật cấp,"đau hạ sườn phải, vàng da, đầy bụng, ớn lạnh, nôn, sốt cao, buồn nôn",Tiêu hóa
+Viêm túi mật cấp,"đầy bụng, ớn lạnh, sốt cao, nôn, buồn nôn",Tiêu hóa
+Sỏi mật,"đau hạ sườn phải, buồn nôn, nôn, đầy bụng, đau bụng sau ăn, vàng da, ợ hơi",Tiêu hóa
+Sỏi mật,"buồn nôn, đau bụng sau ăn, vàng da, đầy bụng, ợ hơi",Tiêu hóa
+Sỏi mật,"đau hạ sườn phải, nôn, đau bụng sau ăn, buồn nôn, ợ hơi, đầy bụng, vàng da",Tiêu hóa
+Sỏi mật,"vàng da, đầy bụng, đau bụng sau ăn, đau hạ sườn phải",Tiêu hóa
+Sỏi mật,"đau bụng sau ăn, buồn nôn, ợ hơi, vàng da",Tiêu hóa
+Sỏi mật,"đau hạ sườn phải, buồn nôn, ợ hơi, đau bụng sau ăn, vàng da, đầy bụng, nôn",Tiêu hóa
+Sỏi mật,"đau hạ sườn phải, buồn nôn, vàng da, nôn",Tiêu hóa
+Sỏi mật,"nôn, vàng da, đau hạ sườn phải",Tiêu hóa
+Sỏi mật,"ợ hơi, đau bụng sau ăn, đầy bụng, vàng da, buồn nôn",Tiêu hóa
+Sỏi mật,"đầy bụng, ợ hơi, buồn nôn, nôn, đau bụng sau ăn, vàng da, đau hạ sườn phải",Tiêu hóa
+Tắc ruột,"đau quặn bụng, nôn, chướng bụng, táo bón, đầy bụng, tim đập nhanh, mệt mỏi",Tiêu hóa
+Tắc ruột,"đầy bụng, nôn, chướng bụng, đau quặn bụng, táo bón, mệt mỏi",Tiêu hóa
+Tắc ruột,"đau quặn bụng, táo bón, chướng bụng, mệt mỏi",Tiêu hóa
+Tắc ruột,"đau quặn bụng, nôn, táo bón, chướng bụng, tim đập nhanh, mệt mỏi, đầy bụng",Tiêu hóa
+Tắc ruột,"tim đập nhanh, đau quặn bụng, chướng bụng, nôn, mệt mỏi, táo bón, đầy bụng",Tiêu hóa
+Tắc ruột,"đầy bụng, mệt mỏi, táo bón, nôn, chướng bụng, đau quặn bụng, tim đập nhanh",Tiêu hóa
+Tắc ruột,"đau quặn bụng, chướng bụng, nôn, táo bón, đầy bụng, mệt mỏi",Tiêu hóa
+Tắc ruột,"đau quặn bụng, táo bón, nôn, đầy bụng",Tiêu hóa
+Tắc ruột,"tim đập nhanh, táo bón, nôn",Tiêu hóa
+Tắc ruột,"chướng bụng, đầy bụng, nôn, mệt mỏi, đau quặn bụng, táo bón",Tiêu hóa
+Thoát vị bẹn,"khối u sờ thấy, đau bẹn, đau khi đi, đau bụng, buồn nôn, đau quặn bụng",Tiêu hóa
+Thoát vị bẹn,"đau bụng, đau bẹn, đau khi đi, khối u sờ thấy, đau quặn bụng, buồn nôn",Tiêu hóa
+Thoát vị bẹn,"khối u sờ thấy, đau quặn bụng, buồn nôn",Tiêu hóa
+Thoát vị bẹn,"đau quặn bụng, đau bụng, khối u sờ thấy, đau khi đi, buồn nôn, đau bẹn",Tiêu hóa
+Thoát vị bẹn,"đau bụng, đau khi đi, buồn nôn, khối u sờ thấy, đau bẹn",Tiêu hóa
+Thoát vị bẹn,"buồn nôn, đau bẹn, đau bụng, đau quặn bụng, đau khi đi, khối u sờ thấy",Tiêu hóa
+Thoát vị bẹn,"đau bụng, đau bẹn, buồn nôn",Tiêu hóa
+Thoát vị bẹn,"đau bụng, khối u sờ thấy, buồn nôn, đau quặn bụng",Tiêu hóa
+Thoát vị bẹn,"đau bẹn, khối u sờ thấy, đau khi đi",Tiêu hóa
+Thoát vị bẹn,"đau quặn bụng, đau bụng, buồn nôn",Tiêu hóa
+Viêm phổi cộng đồng,"sốt cao, ho có đờm, khó thở, đau ngực, mệt mỏi, ớn lạnh, vã mồ hôi, tím tái",Hô hấp
+Viêm phổi cộng đồng,"ớn lạnh, khó thở, ho có đờm, vã mồ hôi, tím tái, mệt mỏi, sốt cao, đau ngực",Hô hấp
+Viêm phổi cộng đồng,"tím tái, sốt cao, ớn lạnh, ho có đờm",Hô hấp
+Viêm phổi cộng đồng,"vã mồ hôi, tím tái, đau ngực, ho có đờm, ớn lạnh, sốt cao, khó thở",Hô hấp
+Viêm phổi cộng đồng,"tím tái, đau ngực, vã mồ hôi, ớn lạnh, sốt cao, ho có đờm, khó thở, mệt mỏi",Hô hấp
+Viêm phổi cộng đồng,"mệt mỏi, đau ngực, ớn lạnh, sốt cao, khó thở, tím tái, vã mồ hôi, ho có đờm",Hô hấp
+Viêm phổi cộng đồng,"vã mồ hôi, đau ngực, mệt mỏi, sốt cao, ớn lạnh, tím tái, khó thở, ho có đờm",Hô hấp
+Viêm phổi cộng đồng,"mệt mỏi, đau ngực, khó thở, sốt cao, vã mồ hôi",Hô hấp
+Viêm phổi cộng đồng,"ho có đờm, đau ngực, khó thở, vã mồ hôi, mệt mỏi, tím tái",Hô hấp
+Viêm phổi cộng đồng,"ớn lạnh, ho có đờm, vã mồ hôi, khó thở, sốt cao, đau ngực",Hô hấp
+Viêm phổi do vi khuẩn,"sốt cao, ho có đờm, đau ngực, khó thở, ớn lạnh, vã mồ hôi, thở nhanh, mệt mỏi",Hô hấp
+Viêm phổi do vi khuẩn,"đau ngực, sốt cao, ho có đờm, ớn lạnh, vã mồ hôi, thở nhanh, mệt mỏi, khó thở",Hô hấp
+Viêm phổi do vi khuẩn,"ớn lạnh, vã mồ hôi, đau ngực, khó thở, sốt cao, mệt mỏi, ho có đờm, thở nhanh",Hô hấp
+Viêm phổi do vi khuẩn,"đau ngực, mệt mỏi, ho có đờm, khó thở, vã mồ hôi, sốt cao",Hô hấp
+Viêm phổi do vi khuẩn,"ớn lạnh, vã mồ hôi, khó thở, ho có đờm, đau ngực",Hô hấp
+Viêm phổi do vi khuẩn,"vã mồ hôi, khó thở, thở nhanh, mệt mỏi, đau ngực",Hô hấp
+Viêm phổi do vi khuẩn,"ho có đờm, sốt cao, khó thở, vã mồ hôi, mệt mỏi, ớn lạnh, thở nhanh, đau ngực",Hô hấp
+Viêm phổi do vi khuẩn,"khó thở, ớn lạnh, ho có đờm, mệt mỏi, thở nhanh, đau ngực, vã mồ hôi",Hô hấp
+Viêm phổi do vi khuẩn,"sốt cao, mệt mỏi, ho có đờm, đau ngực, khó thở",Hô hấp
+Viêm phổi do vi khuẩn,"khó thở, ớn lạnh, sốt cao, đau ngực, vã mồ hôi, ho có đờm",Hô hấp
+Viêm phổi do virus,"sốt cao, ho khan, khó thở, đau cơ, mệt mỏi, đau đầu, thở nhanh, mất mùi",Hô hấp
+Viêm phổi do virus,"đau cơ, khó thở, mất mùi, thở nhanh, đau đầu, mệt mỏi",Hô hấp
+Viêm phổi do virus,"ho khan, đau cơ, mất mùi, thở nhanh, mệt mỏi, khó thở, đau đầu",Hô hấp
+Viêm phổi do virus,"đau cơ, đau đầu, mất mùi, ho khan, khó thở, thở nhanh",Hô hấp
+Viêm phổi do virus,"đau đầu, thở nhanh, khó thở, ho khan, sốt cao",Hô hấp
+Viêm phổi do virus,"đau cơ, sốt cao, mệt mỏi, ho khan",Hô hấp
+Viêm phổi do virus,"đau cơ, ho khan, mất mùi, đau đầu, khó thở, thở nhanh, sốt cao, mệt mỏi",Hô hấp
+Viêm phổi do virus,"khó thở, sốt cao, thở nhanh, mệt mỏi, mất mùi",Hô hấp
+Viêm phổi do virus,"đau cơ, khó thở, mất mùi, ho khan, sốt cao, mệt mỏi, đau đầu, thở nhanh",Hô hấp
+Viêm phổi do virus,"sốt cao, khó thở, ho khan, đau cơ, mất mùi, đau đầu",Hô hấp
+Hen phế quản,"khó thở, thở khò khè, ho khan, tức ngực, khó thở đêm, khó thở gắng sức, thở rít, ngứa mũi",Hô hấp
+Hen phế quản,"ngứa mũi, thở rít, khó thở, khó thở gắng sức, ho khan, tức ngực, thở khò khè",Hô hấp
+Hen phế quản,"tức ngực, thở rít, thở khò khè, khó thở gắng sức, khó thở đêm",Hô hấp
+Hen phế quản,"ngứa mũi, thở khò khè, tức ngực, khó thở gắng sức, ho khan, khó thở đêm",Hô hấp
+Hen phế quản,"ho khan, thở khò khè, ngứa mũi, khó thở",Hô hấp
+Hen phế quản,"ho khan, khó thở, khó thở đêm, thở khò khè, ngứa mũi, thở rít",Hô hấp
+Hen phế quản,"tức ngực, khó thở đêm, thở khò khè, khó thở, ho khan, khó thở gắng sức",Hô hấp
+Hen phế quản,"ho khan, khó thở, khó thở gắng sức, ngứa mũi, thở rít, khó thở đêm, tức ngực",Hô hấp
+Hen phế quản,"thở khò khè, thở rít, ngứa mũi, ho khan",Hô hấp
+Hen phế quản,"khó thở, thở rít, tức ngực, thở khò khè, ngứa mũi",Hô hấp
+COPD,"khó thở gắng sức, ho có đờm, thở khò khè, tức ngực, mệt mỏi, tím tái, sụt cân, thở nhanh",Hô hấp
+COPD,"ho có đờm, tức ngực, tím tái, thở nhanh, sụt cân, khó thở gắng sức, thở khò khè, mệt mỏi",Hô hấp
+COPD,"tím tái, thở khò khè, tức ngực, thở nhanh, ho có đờm",Hô hấp
+COPD,"tím tái, thở khò khè, mệt mỏi, thở nhanh, khó thở gắng sức, tức ngực, sụt cân",Hô hấp
+COPD,"tức ngực, tím tái, ho có đờm, mệt mỏi, thở khò khè, sụt cân, khó thở gắng sức, thở nhanh",Hô hấp
+COPD,"ho có đờm, thở khò khè, sụt cân, tím tái",Hô hấp
+COPD,"khó thở gắng sức, mệt mỏi, thở nhanh, tức ngực, thở khò khè, tím tái, ho có đờm",Hô hấp
+COPD,"tím tái, thở khò khè, tức ngực, thở nhanh",Hô hấp
+COPD,"sụt cân, mệt mỏi, ho có đờm, thở nhanh, khó thở gắng sức, thở khò khè, tức ngực, tím tái",Hô hấp
+COPD,"khó thở gắng sức, thở nhanh, tím tái, ho có đờm, thở khò khè, sụt cân, tức ngực, mệt mỏi",Hô hấp
+Viêm phế quản cấp,"ho có đờm, ho khan, đau họng, sốt nhẹ, mệt mỏi, đau ngực, thở khò khè, nghẹt mũi",Hô hấp
+Viêm phế quản cấp,"nghẹt mũi, ho có đờm, ho khan, sốt nhẹ",Hô hấp
+Viêm phế quản cấp,"ho có đờm, thở khò khè, đau họng, đau ngực, mệt mỏi, ho khan, sốt nhẹ",Hô hấp
+Viêm phế quản cấp,"nghẹt mũi, ho có đờm, đau ngực, đau họng, sốt nhẹ, thở khò khè",Hô hấp
+Viêm phế quản cấp,"ho có đờm, ho khan, mệt mỏi, nghẹt mũi, đau họng, thở khò khè, sốt nhẹ, đau ngực",Hô hấp
+Viêm phế quản cấp,"đau ngực, sốt nhẹ, đau họng, thở khò khè, ho có đờm, nghẹt mũi, ho khan, mệt mỏi",Hô hấp
+Viêm phế quản cấp,"đau ngực, ho khan, thở khò khè, nghẹt mũi, đau họng, mệt mỏi, ho có đờm, sốt nhẹ",Hô hấp
+Viêm phế quản cấp,"thở khò khè, đau họng, mệt mỏi, đau ngực, sốt nhẹ, ho có đờm, nghẹt mũi",Hô hấp
+Viêm phế quản cấp,"đau ngực, thở khò khè, mệt mỏi, nghẹt mũi",Hô hấp
+Viêm phế quản cấp,"đau họng, ho có đờm, mệt mỏi, đau ngực, sốt nhẹ, thở khò khè, ho khan",Hô hấp
+Viêm phế quản mạn,"ho có đờm, khó thở gắng sức, thở khò khè, đau ngực, mệt mỏi, khó thở đêm, tím tái",Hô hấp
+Viêm phế quản mạn,"thở khò khè, khó thở đêm, ho có đờm, khó thở gắng sức, tím tái, mệt mỏi, đau ngực",Hô hấp
+Viêm phế quản mạn,"mệt mỏi, đau ngực, khó thở đêm",Hô hấp
+Viêm phế quản mạn,"ho có đờm, đau ngực, khó thở đêm, thở khò khè, mệt mỏi",Hô hấp
+Viêm phế quản mạn,"ho có đờm, thở khò khè, mệt mỏi",Hô hấp
+Viêm phế quản mạn,"khó thở đêm, mệt mỏi, khó thở gắng sức, ho có đờm, tím tái",Hô hấp
+Viêm phế quản mạn,"tím tái, đau ngực, khó thở gắng sức, thở khò khè",Hô hấp
+Viêm phế quản mạn,"khó thở đêm, mệt mỏi, ho có đờm, tím tái, khó thở gắng sức, đau ngực",Hô hấp
+Viêm phế quản mạn,"mệt mỏi, đau ngực, khó thở gắng sức, tím tái",Hô hấp
+Viêm phế quản mạn,"ho có đờm, khó thở đêm, thở khò khè, mệt mỏi, tím tái, khó thở gắng sức, đau ngực",Hô hấp
+Lao phổi,"ho có đờm, ho ra máu, sốt chiều, mồ hôi đêm, sụt cân, mệt mỏi, đau ngực, chán ăn",Hô hấp
+Lao phổi,"mệt mỏi, sụt cân, đau ngực, mồ hôi đêm, sốt chiều, ho ra máu, ho có đờm",Hô hấp
+Lao phổi,"ho ra máu, sụt cân, ho có đờm, mệt mỏi, đau ngực, chán ăn, sốt chiều, mồ hôi đêm",Hô hấp
+Lao phổi,"sốt chiều, ho ra máu, đau ngực, mệt mỏi, ho có đờm, chán ăn",Hô hấp
+Lao phổi,"chán ăn, ho ra máu, mồ hôi đêm, đau ngực, sụt cân",Hô hấp
+Lao phổi,"đau ngực, chán ăn, ho có đờm, mệt mỏi, sốt chiều, ho ra máu",Hô hấp
+Lao phổi,"mồ hôi đêm, sụt cân, ho có đờm, sốt chiều, ho ra máu, chán ăn",Hô hấp
+Lao phổi,"ho có đờm, đau ngực, chán ăn, sụt cân, mồ hôi đêm",Hô hấp
+Lao phổi,"chán ăn, mồ hôi đêm, ho ra máu, ho có đờm, mệt mỏi, sụt cân",Hô hấp
+Lao phổi,"đau ngực, sốt chiều, mồ hôi đêm, ho có đờm, sụt cân",Hô hấp
+Tràn dịch màng phổi,"khó thở, đau ngực, ho khan, sốt nhẹ, mệt mỏi, khó thở khi nằm, thở nhanh, tím tái",Hô hấp
+Tràn dịch màng phổi,"đau ngực, thở nhanh, khó thở, khó thở khi nằm, sốt nhẹ, ho khan",Hô hấp
+Tràn dịch màng phổi,"thở nhanh, ho khan, mệt mỏi, đau ngực, sốt nhẹ, khó thở, khó thở khi nằm, tím tái",Hô hấp
+Tràn dịch màng phổi,"đau ngực, khó thở, tím tái, ho khan, sốt nhẹ, mệt mỏi, khó thở khi nằm",Hô hấp
+Tràn dịch màng phổi,"khó thở, đau ngực, ho khan, khó thở khi nằm, mệt mỏi, tím tái, sốt nhẹ",Hô hấp
+Tràn dịch màng phổi,"sốt nhẹ, ho khan, khó thở, đau ngực, khó thở khi nằm, thở nhanh, mệt mỏi, tím tái",Hô hấp
+Tràn dịch màng phổi,"mệt mỏi, sốt nhẹ, ho khan, khó thở, đau ngực, khó thở khi nằm, thở nhanh",Hô hấp
+Tràn dịch màng phổi,"tím tái, mệt mỏi, ho khan, thở nhanh, sốt nhẹ",Hô hấp
+Tràn dịch màng phổi,"khó thở khi nằm, sốt nhẹ, ho khan, thở nhanh",Hô hấp
+Tràn dịch màng phổi,"khó thở, thở nhanh, ho khan, tím tái, khó thở khi nằm, đau ngực, sốt nhẹ",Hô hấp
+Tràn khí màng phổi,"khó thở, đau ngực, thở nhanh, tím tái, tim đập nhanh, hồi hộp, vã mồ hôi, ho khan",Hô hấp
+Tràn khí màng phổi,"tim đập nhanh, ho khan, tím tái, thở nhanh, hồi hộp, vã mồ hôi, đau ngực",Hô hấp
+Tràn khí màng phổi,"đau ngực, tim đập nhanh, hồi hộp, ho khan",Hô hấp
+Tràn khí màng phổi,"khó thở, tim đập nhanh, tím tái, hồi hộp, đau ngực, ho khan",Hô hấp
+Tràn khí màng phổi,"tím tái, khó thở, đau ngực, hồi hộp",Hô hấp
+Tràn khí màng phổi,"vã mồ hôi, ho khan, khó thở, thở nhanh, hồi hộp, tím tái, đau ngực, tim đập nhanh",Hô hấp
+Tràn khí màng phổi,"đau ngực, tím tái, khó thở, hồi hộp, ho khan, thở nhanh",Hô hấp
+Tràn khí màng phổi,"ho khan, khó thở, tim đập nhanh, thở nhanh, vã mồ hôi, hồi hộp, tím tái",Hô hấp
+Tràn khí màng phổi,"thở nhanh, tim đập nhanh, khó thở, đau ngực",Hô hấp
+Tràn khí màng phổi,"ho khan, đau ngực, hồi hộp, thở nhanh, khó thở",Hô hấp
+Áp xe phổi,"sốt cao, ho có đờm, ho ra máu, đau ngực, mệt mỏi, sụt cân, mồ hôi đêm, khó thở",Hô hấp
+Áp xe phổi,"đau ngực, ho có đờm, sụt cân, khó thở",Hô hấp
+Áp xe phổi,"mệt mỏi, mồ hôi đêm, sốt cao, ho có đờm, ho ra máu, sụt cân, đau ngực",Hô hấp
+Áp xe phổi,"mồ hôi đêm, ho có đờm, ho ra máu, sụt cân, đau ngực",Hô hấp
+Áp xe phổi,"sụt cân, khó thở, sốt cao, ho ra máu, đau ngực, mồ hôi đêm, mệt mỏi, ho có đờm",Hô hấp
+Áp xe phổi,"đau ngực, sụt cân, ho có đờm, ho ra máu, mệt mỏi, mồ hôi đêm, sốt cao, khó thở",Hô hấp
+Áp xe phổi,"ho có đờm, mệt mỏi, đau ngực, mồ hôi đêm, sụt cân, sốt cao, khó thở, ho ra máu",Hô hấp
+Áp xe phổi,"ho ra máu, sụt cân, đau ngực, khó thở, ho có đờm, mệt mỏi, mồ hôi đêm, sốt cao",Hô hấp
+Áp xe phổi,"ho có đờm, khó thở, sụt cân, ho ra máu, đau ngực",Hô hấp
+Áp xe phổi,"ho ra máu, sốt cao, ho có đờm, đau ngực, mệt mỏi, sụt cân, mồ hôi đêm, khó thở",Hô hấp
+Giãn phế quản,"ho có đờm, ho ra máu, khó thở gắng sức, mệt mỏi, đau ngực, sốt nhẹ, sụt cân",Hô hấp
+Giãn phế quản,"sốt nhẹ, mệt mỏi, sụt cân, khó thở gắng sức, đau ngực, ho có đờm, ho ra máu",Hô hấp
+Giãn phế quản,"mệt mỏi, sốt nhẹ, ho có đờm, khó thở gắng sức, sụt cân, ho ra máu",Hô hấp
+Giãn phế quản,"mệt mỏi, ho ra máu, ho có đờm, khó thở gắng sức, đau ngực, sụt cân, sốt nhẹ",Hô hấp
+Giãn phế quản,"ho có đờm, khó thở gắng sức, ho ra máu, đau ngực, mệt mỏi, sụt cân, sốt nhẹ",Hô hấp
+Giãn phế quản,"khó thở gắng sức, đau ngực, ho có đờm",Hô hấp
+Giãn phế quản,"khó thở gắng sức, ho ra máu, sụt cân, sốt nhẹ",Hô hấp
+Giãn phế quản,"khó thở gắng sức, ho có đờm, ho ra máu, sụt cân, mệt mỏi, sốt nhẹ",Hô hấp
+Giãn phế quản,"đau ngực, sụt cân, sốt nhẹ, ho có đờm, mệt mỏi, ho ra máu, khó thở gắng sức",Hô hấp
+Giãn phế quản,"ho có đờm, ho ra máu, mệt mỏi",Hô hấp
+Viêm tiểu phế quản,"khó thở, thở khò khè, ho khan, sốt nhẹ, thở nhanh, biếng ăn, mệt mỏi, tím tái",Hô hấp
+Viêm tiểu phế quản,"tím tái, khó thở, mệt mỏi, sốt nhẹ",Hô hấp
+Viêm tiểu phế quản,"khó thở, sốt nhẹ, ho khan, thở nhanh, mệt mỏi, thở khò khè, biếng ăn, tím tái",Hô hấp
+Viêm tiểu phế quản,"ho khan, biếng ăn, thở nhanh, mệt mỏi, tím tái",Hô hấp
+Viêm tiểu phế quản,"thở nhanh, sốt nhẹ, tím tái, mệt mỏi, biếng ăn, khó thở",Hô hấp
+Viêm tiểu phế quản,"thở khò khè, thở nhanh, sốt nhẹ, khó thở, ho khan, biếng ăn",Hô hấp
+Viêm tiểu phế quản,"ho khan, sốt nhẹ, biếng ăn, tím tái, thở khò khè, thở nhanh, mệt mỏi",Hô hấp
+Viêm tiểu phế quản,"thở nhanh, sốt nhẹ, tím tái, biếng ăn, ho khan, khó thở, mệt mỏi, thở khò khè",Hô hấp
+Viêm tiểu phế quản,"tím tái, thở nhanh, mệt mỏi, thở khò khè, ho khan, biếng ăn, khó thở, sốt nhẹ",Hô hấp
+Viêm tiểu phế quản,"thở nhanh, biếng ăn, sốt nhẹ, mệt mỏi, ho khan, tím tái, khó thở",Hô hấp
+Bệnh bụi phổi silic,"khó thở gắng sức, ho khan, ho có đờm, đau ngực, mệt mỏi, sụt cân, tím tái",Hô hấp
+Bệnh bụi phổi silic,"mệt mỏi, khó thở gắng sức, tím tái",Hô hấp
+Bệnh bụi phổi silic,"khó thở gắng sức, ho có đờm, sụt cân, tím tái",Hô hấp
+Bệnh bụi phổi silic,"khó thở gắng sức, ho có đờm, tím tái",Hô hấp
+Bệnh bụi phổi silic,"khó thở gắng sức, ho có đờm, đau ngực, tím tái, mệt mỏi, sụt cân, ho khan",Hô hấp
+Bệnh bụi phổi silic,"mệt mỏi, ho khan, tím tái, ho có đờm, khó thở gắng sức, sụt cân, đau ngực",Hô hấp
+Bệnh bụi phổi silic,"ho khan, ho có đờm, tím tái, đau ngực, khó thở gắng sức, mệt mỏi",Hô hấp
+Bệnh bụi phổi silic,"đau ngực, mệt mỏi, sụt cân, ho có đờm, ho khan, tím tái, khó thở gắng sức",Hô hấp
+Bệnh bụi phổi silic,"đau ngực, khó thở gắng sức, ho khan, tím tái, ho có đờm, mệt mỏi, sụt cân",Hô hấp
+Bệnh bụi phổi silic,"tím tái, sụt cân, mệt mỏi, ho có đờm",Hô hấp
+Ngưng thở khi ngủ,"ngưng thở khi ngủ, buồn ngủ, đau đầu buổi sáng, mất tập trung, tim đập nhanh, mệt mỏi",Hô hấp
+Ngưng thở khi ngủ,"buồn ngủ, mất tập trung, ngưng thở khi ngủ",Hô hấp
+Ngưng thở khi ngủ,"đau đầu buổi sáng, ngưng thở khi ngủ, tim đập nhanh",Hô hấp
+Ngưng thở khi ngủ,"mệt mỏi, ngưng thở khi ngủ, buồn ngủ, mất tập trung, tim đập nhanh, đau đầu buổi sáng",Hô hấp
+Ngưng thở khi ngủ,"mất tập trung, mệt mỏi, buồn ngủ",Hô hấp
+Ngưng thở khi ngủ,"buồn ngủ, đau đầu buổi sáng, ngưng thở khi ngủ, tim đập nhanh, mệt mỏi",Hô hấp
+Ngưng thở khi ngủ,"buồn ngủ, tim đập nhanh, mệt mỏi, mất tập trung, đau đầu buổi sáng",Hô hấp
+Ngưng thở khi ngủ,"mất tập trung, mệt mỏi, ngưng thở khi ngủ, đau đầu buổi sáng",Hô hấp
+Ngưng thở khi ngủ,"buồn ngủ, ngưng thở khi ngủ, đau đầu buổi sáng, mệt mỏi, tim đập nhanh, mất tập trung",Hô hấp
+Ngưng thở khi ngủ,"ngưng thở khi ngủ, mất tập trung, mệt mỏi, buồn ngủ",Hô hấp
+Đột quỵ não,"méo miệng, nói ngọng, tê liệt nửa người, yếu tay, yếu chân, đau đầu dữ dội, mất thị lực, lú lẫn",Thần kinh
+Đột quỵ não,"méo miệng, yếu tay, nói ngọng, đau đầu dữ dội",Thần kinh
+Đột quỵ não,"lú lẫn, tê liệt nửa người, yếu chân, méo miệng, nói ngọng, mất thị lực, đau đầu dữ dội, yếu tay",Thần kinh
+Đột quỵ não,"đau đầu dữ dội, yếu chân, mất thị lực, yếu tay",Thần kinh
+Đột quỵ não,"nói ngọng, yếu chân, đau đầu dữ dội, yếu tay, tê liệt nửa người, lú lẫn",Thần kinh
+Đột quỵ não,"yếu chân, méo miệng, mất thị lực, lú lẫn, đau đầu dữ dội",Thần kinh
+Đột quỵ não,"nói ngọng, tê liệt nửa người, lú lẫn, méo miệng, yếu tay, yếu chân, đau đầu dữ dội",Thần kinh
+Đột quỵ não,"lú lẫn, đau đầu dữ dội, yếu tay, nói ngọng, mất thị lực, yếu chân, tê liệt nửa người, méo miệng",Thần kinh
+Đột quỵ não,"tê liệt nửa người, yếu chân, đau đầu dữ dội, méo miệng, lú lẫn, mất thị lực",Thần kinh
+Đột quỵ não,"mất thị lực, yếu tay, méo miệng, lú lẫn, tê liệt nửa người, nói ngọng",Thần kinh
+Cơn thiếu máu não thoáng qua,"méo miệng, nói khó, yếu tay, tê tay, mờ mắt, chóng mặt, đau đầu, mất trí nhớ",Thần kinh
+Cơn thiếu máu não thoáng qua,"nói khó, tê tay, mờ mắt, yếu tay",Thần kinh
+Cơn thiếu máu não thoáng qua,"mờ mắt, méo miệng, mất trí nhớ, đau đầu",Thần kinh
+Cơn thiếu máu não thoáng qua,"mất trí nhớ, yếu tay, mờ mắt, méo miệng, nói khó, chóng mặt, đau đầu",Thần kinh
+Cơn thiếu máu não thoáng qua,"méo miệng, nói khó, tê tay, đau đầu, mất trí nhớ, chóng mặt, yếu tay, mờ mắt",Thần kinh
+Cơn thiếu máu não thoáng qua,"tê tay, yếu tay, nói khó, chóng mặt, đau đầu, mất trí nhớ, méo miệng",Thần kinh
+Cơn thiếu máu não thoáng qua,"méo miệng, chóng mặt, đau đầu, yếu tay, nói khó, tê tay, mất trí nhớ",Thần kinh
+Cơn thiếu máu não thoáng qua,"tê tay, chóng mặt, mờ mắt, méo miệng, nói khó",Thần kinh
+Cơn thiếu máu não thoáng qua,"chóng mặt, nói khó, đau đầu, tê tay, méo miệng, mất trí nhớ, yếu tay",Thần kinh
+Cơn thiếu máu não thoáng qua,"mất trí nhớ, đau đầu, nói khó, mờ mắt, chóng mặt, yếu tay, méo miệng, tê tay",Thần kinh
+Động kinh,"co giật, mất ý thức, co cứng cơ, chảy nước miếng, khó nín tiểu, lú lẫn, đau đầu, mệt mỏi",Thần kinh
+Động kinh,"co giật, khó nín tiểu, đau đầu, chảy nước miếng, mệt mỏi, mất ý thức",Thần kinh
+Động kinh,"khó nín tiểu, co cứng cơ, chảy nước miếng, co giật, lú lẫn, đau đầu, mệt mỏi",Thần kinh
+Động kinh,"mất ý thức, khó nín tiểu, đau đầu, chảy nước miếng",Thần kinh
+Động kinh,"co cứng cơ, co giật, lú lẫn, mất ý thức, chảy nước miếng, khó nín tiểu, đau đầu",Thần kinh
+Động kinh,"co cứng cơ, khó nín tiểu, co giật, lú lẫn",Thần kinh
+Động kinh,"mệt mỏi, lú lẫn, chảy nước miếng, mất ý thức, co cứng cơ",Thần kinh
+Động kinh,"khó nín tiểu, chảy nước miếng, đau đầu, mệt mỏi, lú lẫn, co giật, co cứng cơ, mất ý thức",Thần kinh
+Động kinh,"khó nín tiểu, chảy nước miếng, mất ý thức, mệt mỏi, co giật, co cứng cơ, đau đầu, lú lẫn",Thần kinh
+Động kinh,"co giật, lú lẫn, khó nín tiểu, co cứng cơ, mệt mỏi",Thần kinh
+Viêm màng não,"đau đầu dữ dội, sốt cao, cứng gáy, sợ ánh sáng, buồn nôn, nôn, lú lẫn, co giật",Thần kinh
+Viêm màng não,"sốt cao, cứng gáy, buồn nôn, lú lẫn, nôn, sợ ánh sáng, co giật, đau đầu dữ dội",Thần kinh
+Viêm màng não,"đau đầu dữ dội, sợ ánh sáng, sốt cao, nôn, cứng gáy, lú lẫn",Thần kinh
+Viêm màng não,"buồn nôn, sợ ánh sáng, co giật, đau đầu dữ dội",Thần kinh
+Viêm màng não,"buồn nôn, cứng gáy, nôn, co giật, đau đầu dữ dội, sợ ánh sáng, sốt cao, lú lẫn",Thần kinh
+Viêm màng não,"buồn nôn, cứng gáy, nôn, lú lẫn, đau đầu dữ dội, sợ ánh sáng",Thần kinh
+Viêm màng não,"nôn, buồn nôn, đau đầu dữ dội, cứng gáy, lú lẫn, sốt cao, co giật, sợ ánh sáng",Thần kinh
+Viêm màng não,"buồn nôn, sợ ánh sáng, co giật, cứng gáy, sốt cao",Thần kinh
+Viêm màng não,"sợ ánh sáng, lú lẫn, co giật, cứng gáy, đau đầu dữ dội, sốt cao, buồn nôn",Thần kinh
+Viêm màng não,"lú lẫn, sợ ánh sáng, đau đầu dữ dội, nôn",Thần kinh
+Viêm não Nhật Bản,"sốt cao, đau đầu dữ dội, co giật, lú lẫn, hôn mê, cứng gáy, nôn, tê liệt nửa người",Thần kinh
+Viêm não Nhật Bản,"tê liệt nửa người, lú lẫn, co giật, nôn, cứng gáy, sốt cao",Thần kinh
+Viêm não Nhật Bản,"lú lẫn, đau đầu dữ dội, nôn, cứng gáy, tê liệt nửa người, co giật, hôn mê",Thần kinh
+Viêm não Nhật Bản,"tê liệt nửa người, co giật, nôn, cứng gáy, lú lẫn, hôn mê, đau đầu dữ dội, sốt cao",Thần kinh
+Viêm não Nhật Bản,"hôn mê, co giật, sốt cao, tê liệt nửa người, nôn, cứng gáy",Thần kinh
+Viêm não Nhật Bản,"sốt cao, cứng gáy, hôn mê, đau đầu dữ dội, lú lẫn",Thần kinh
+Viêm não Nhật Bản,"sốt cao, lú lẫn, co giật, nôn, hôn mê, cứng gáy",Thần kinh
+Viêm não Nhật Bản,"cứng gáy, lú lẫn, co giật, nôn, tê liệt nửa người, đau đầu dữ dội, sốt cao, hôn mê",Thần kinh
+Viêm não Nhật Bản,"co giật, đau đầu dữ dội, sốt cao, tê liệt nửa người",Thần kinh
+Viêm não Nhật Bản,"sốt cao, đau đầu dữ dội, co giật, lú lẫn, hôn mê",Thần kinh
+Migraine,"đau nửa đầu, đau đầu dữ dội, buồn nôn, nôn, sợ ánh sáng, nhìn chớp sáng, mất thị lực, chóng mặt",Thần kinh
+Migraine,"sợ ánh sáng, nhìn chớp sáng, đau nửa đầu, đau đầu dữ dội",Thần kinh
+Migraine,"sợ ánh sáng, nhìn chớp sáng, đau đầu dữ dội, chóng mặt, nôn, mất thị lực, buồn nôn",Thần kinh
+Migraine,"chóng mặt, đau nửa đầu, nôn, nhìn chớp sáng, mất thị lực, buồn nôn",Thần kinh
+Migraine,"buồn nôn, sợ ánh sáng, nôn, mất thị lực, nhìn chớp sáng, đau đầu dữ dội, chóng mặt, đau nửa đầu",Thần kinh
+Migraine,"nhìn chớp sáng, đau nửa đầu, đau đầu dữ dội, mất thị lực, buồn nôn",Thần kinh
+Migraine,"đau đầu dữ dội, đau nửa đầu, nôn, buồn nôn, chóng mặt, nhìn chớp sáng, sợ ánh sáng, mất thị lực",Thần kinh
+Migraine,"đau nửa đầu, nôn, chóng mặt, mất thị lực, sợ ánh sáng, đau đầu dữ dội, nhìn chớp sáng",Thần kinh
+Migraine,"nôn, đau đầu dữ dội, mất thị lực, nhìn chớp sáng, sợ ánh sáng, đau nửa đầu",Thần kinh
+Migraine,"chóng mặt, nhìn chớp sáng, đau nửa đầu, nôn, buồn nôn, đau đầu dữ dội, mất thị lực, sợ ánh sáng",Thần kinh
+Bệnh Parkinson,"bàn tay run lúc nghỉ, co cứng cơ, chậm vận động, dáng đi nhỏ bước, mặt ít biểu cảm, mất thăng bằng, trầm cảm, nói lắp",Thần kinh
+Bệnh Parkinson,"nói lắp, chậm vận động, mất thăng bằng, trầm cảm, co cứng cơ, bàn tay run lúc nghỉ, dáng đi nhỏ bước",Thần kinh
+Bệnh Parkinson,"nói lắp, chậm vận động, dáng đi nhỏ bước, trầm cảm, mất thăng bằng",Thần kinh
+Bệnh Parkinson,"chậm vận động, nói lắp, co cứng cơ, trầm cảm, dáng đi nhỏ bước",Thần kinh
+Bệnh Parkinson,"mất thăng bằng, dáng đi nhỏ bước, bàn tay run lúc nghỉ, chậm vận động",Thần kinh
+Bệnh Parkinson,"chậm vận động, co cứng cơ, mặt ít biểu cảm, dáng đi nhỏ bước, trầm cảm, bàn tay run lúc nghỉ, mất thăng bằng, nói lắp",Thần kinh
+Bệnh Parkinson,"chậm vận động, trầm cảm, bàn tay run lúc nghỉ, co cứng cơ, nói lắp",Thần kinh
+Bệnh Parkinson,"trầm cảm, dáng đi nhỏ bước, mặt ít biểu cảm, mất thăng bằng, bàn tay run lúc nghỉ, chậm vận động, co cứng cơ",Thần kinh
+Bệnh Parkinson,"dáng đi nhỏ bước, co cứng cơ, mặt ít biểu cảm, mất thăng bằng, nói lắp, trầm cảm, bàn tay run lúc nghỉ, chậm vận động",Thần kinh
+Bệnh Parkinson,"mất thăng bằng, dáng đi nhỏ bước, bàn tay run lúc nghỉ, mặt ít biểu cảm, chậm vận động, nói lắp",Thần kinh
+Bệnh Alzheimer,"mất trí nhớ, lú lẫn, thay đổi tâm trạng, mất tập trung, nói lắp, dễ kích động, trầm cảm, dễ té ngã",Thần kinh
+Bệnh Alzheimer,"mất tập trung, trầm cảm, lú lẫn, mất trí nhớ, dễ kích động, nói lắp, dễ té ngã, thay đổi tâm trạng",Thần kinh
+Bệnh Alzheimer,"dễ kích động, mất trí nhớ, lú lẫn, trầm cảm",Thần kinh
+Bệnh Alzheimer,"lú lẫn, thay đổi tâm trạng, dễ té ngã, trầm cảm, mất trí nhớ, mất tập trung",Thần kinh
+Bệnh Alzheimer,"dễ té ngã, dễ kích động, lú lẫn, mất trí nhớ, thay đổi tâm trạng, nói lắp, trầm cảm",Thần kinh
+Bệnh Alzheimer,"trầm cảm, nói lắp, dễ kích động, lú lẫn, mất trí nhớ",Thần kinh
+Bệnh Alzheimer,"mất trí nhớ, trầm cảm, lú lẫn, mất tập trung, dễ té ngã, thay đổi tâm trạng",Thần kinh
+Bệnh Alzheimer,"trầm cảm, nói lắp, mất trí nhớ, mất tập trung",Thần kinh
+Bệnh Alzheimer,"thay đổi tâm trạng, trầm cảm, mất trí nhớ, mất tập trung, dễ té ngã, nói lắp",Thần kinh
+Bệnh Alzheimer,"thay đổi tâm trạng, lú lẫn, dễ té ngã, dễ kích động",Thần kinh
+Sa sút trí tuệ mạch máu,"mất trí nhớ, lú lẫn, chậm vận động, yếu tay, yếu chân, tê liệt nửa người, dễ té ngã, mất tập trung",Thần kinh
+Sa sút trí tuệ mạch máu,"chậm vận động, lú lẫn, mất tập trung, yếu tay, tê liệt nửa người, yếu chân, dễ té ngã, mất trí nhớ",Thần kinh
+Sa sút trí tuệ mạch máu,"tê liệt nửa người, chậm vận động, lú lẫn, mất tập trung, yếu chân",Thần kinh
+Sa sút trí tuệ mạch máu,"yếu tay, yếu chân, mất trí nhớ, lú lẫn, tê liệt nửa người, mất tập trung, dễ té ngã",Thần kinh
+Sa sút trí tuệ mạch máu,"mất trí nhớ, mất tập trung, dễ té ngã, lú lẫn, yếu tay, chậm vận động",Thần kinh
+Sa sút trí tuệ mạch máu,"chậm vận động, mất trí nhớ, dễ té ngã, yếu tay, lú lẫn",Thần kinh
+Sa sút trí tuệ mạch máu,"yếu tay, tê liệt nửa người, dễ té ngã, lú lẫn, mất trí nhớ, chậm vận động, yếu chân",Thần kinh
+Sa sút trí tuệ mạch máu,"lú lẫn, chậm vận động, tê liệt nửa người, dễ té ngã",Thần kinh
+Sa sút trí tuệ mạch máu,"mất tập trung, lú lẫn, chậm vận động, yếu tay, dễ té ngã, yếu chân, tê liệt nửa người",Thần kinh
+Sa sút trí tuệ mạch máu,"yếu tay, mất tập trung, dễ té ngã, mất trí nhớ, chậm vận động",Thần kinh
+Đau dây thần kinh tọa,"đau thắt lưng, đau chân, tê chân, yếu chân, ngứa ran tay chân, đi tập tễnh, đau dọc cột sống",Thần kinh
+Đau dây thần kinh tọa,"đau dọc cột sống, đi tập tễnh, đau thắt lưng",Thần kinh
+Đau dây thần kinh tọa,"đau chân, yếu chân, ngứa ran tay chân",Thần kinh
+Đau dây thần kinh tọa,"đau thắt lưng, ngứa ran tay chân, đi tập tễnh, tê chân",Thần kinh
+Đau dây thần kinh tọa,"đau dọc cột sống, tê chân, ngứa ran tay chân, đau chân, yếu chân, đi tập tễnh",Thần kinh
+Đau dây thần kinh tọa,"yếu chân, tê chân, đau dọc cột sống",Thần kinh
+Đau dây thần kinh tọa,"đau thắt lưng, đau chân, yếu chân, đau dọc cột sống, đi tập tễnh, tê chân",Thần kinh
+Đau dây thần kinh tọa,"đau chân, đau dọc cột sống, ngứa ran tay chân, đau thắt lưng, tê chân, yếu chân",Thần kinh
+Đau dây thần kinh tọa,"yếu chân, đau dọc cột sống, đi tập tễnh, tê chân, đau chân, ngứa ran tay chân",Thần kinh
+Đau dây thần kinh tọa,"đau thắt lưng, đau dọc cột sống, tê chân, đi tập tễnh",Thần kinh
+Liệt mặt Bell,"méo miệng, khô mắt, chảy nước miếng, đau tai, mất vị giác, tê mặt",Thần kinh
+Liệt mặt Bell,"méo miệng, chảy nước miếng, khô mắt, đau tai, mất vị giác, tê mặt",Thần kinh
+Liệt mặt Bell,"méo miệng, tê mặt, chảy nước miếng",Thần kinh
+Liệt mặt Bell,"chảy nước miếng, đau tai, khô mắt, méo miệng, mất vị giác",Thần kinh
+Liệt mặt Bell,"mất vị giác, chảy nước miếng, đau tai",Thần kinh
+Liệt mặt Bell,"mất vị giác, méo miệng, khô mắt, tê mặt, chảy nước miếng, đau tai",Thần kinh
+Liệt mặt Bell,"méo miệng, mất vị giác, tê mặt, đau tai, chảy nước miếng, khô mắt",Thần kinh
+Liệt mặt Bell,"tê mặt, chảy nước miếng, mất vị giác",Thần kinh
+Liệt mặt Bell,"đau tai, chảy nước miếng, khô mắt, méo miệng, tê mặt, mất vị giác",Thần kinh
+Liệt mặt Bell,"chảy nước miếng, tê mặt, đau tai, mất vị giác, méo miệng, khô mắt",Thần kinh
+Đau dây thần kinh sinh ba,"đau dây thần kinh, đau nửa đầu, tê mặt, đau lan hàm, đau răng, khó nuốt, mất tập trung",Thần kinh
+Đau dây thần kinh sinh ba,"mất tập trung, khó nuốt, đau lan hàm, tê mặt",Thần kinh
+Đau dây thần kinh sinh ba,"tê mặt, đau dây thần kinh, đau nửa đầu, đau lan hàm, khó nuốt, mất tập trung, đau răng",Thần kinh
+Đau dây thần kinh sinh ba,"đau lan hàm, đau nửa đầu, đau dây thần kinh, tê mặt, mất tập trung, khó nuốt",Thần kinh
+Đau dây thần kinh sinh ba,"đau nửa đầu, đau lan hàm, tê mặt",Thần kinh
+Đau dây thần kinh sinh ba,"đau dây thần kinh, mất tập trung, đau răng, đau lan hàm, đau nửa đầu, khó nuốt",Thần kinh
+Đau dây thần kinh sinh ba,"đau lan hàm, đau dây thần kinh, khó nuốt",Thần kinh
+Đau dây thần kinh sinh ba,"tê mặt, đau nửa đầu, đau dây thần kinh, đau lan hàm, đau răng",Thần kinh
+Đau dây thần kinh sinh ba,"mất tập trung, đau dây thần kinh, đau răng, khó nuốt",Thần kinh
+Đau dây thần kinh sinh ba,"đau dây thần kinh, đau răng, tê mặt, mất tập trung",Thần kinh
+Hội chứng Guillain-Barré,"yếu chân, tê chân, yếu tay, liệt tay, liệt chân, khó thở, khó nuốt, tê liệt nửa người",Thần kinh
+Hội chứng Guillain-Barré,"yếu tay, tê liệt nửa người, tê chân, liệt tay, liệt chân, yếu chân, khó nuốt",Thần kinh
+Hội chứng Guillain-Barré,"liệt tay, khó thở, tê liệt nửa người, liệt chân",Thần kinh
+Hội chứng Guillain-Barré,"khó thở, khó nuốt, yếu tay, liệt chân, tê liệt nửa người, yếu chân",Thần kinh
+Hội chứng Guillain-Barré,"khó thở, liệt chân, khó nuốt, yếu chân, tê liệt nửa người, yếu tay",Thần kinh
+Hội chứng Guillain-Barré,"khó thở, yếu chân, liệt chân, khó nuốt, tê chân, yếu tay",Thần kinh
+Hội chứng Guillain-Barré,"tê liệt nửa người, liệt tay, khó nuốt, khó thở",Thần kinh
+Hội chứng Guillain-Barré,"liệt chân, tê liệt nửa người, khó thở, yếu tay",Thần kinh
+Hội chứng Guillain-Barré,"yếu tay, khó nuốt, liệt chân, tê chân, liệt tay, yếu chân, khó thở, tê liệt nửa người",Thần kinh
+Hội chứng Guillain-Barré,"yếu tay, liệt chân, tê chân, khó nuốt",Thần kinh
+U não,"đau đầu, đau đầu buổi sáng, buồn nôn, nôn, co giật, yếu tay, mờ mắt, lú lẫn",Thần kinh
+U não,"đau đầu, mờ mắt, yếu tay, lú lẫn, đau đầu buổi sáng, co giật, buồn nôn",Thần kinh
+U não,"buồn nôn, lú lẫn, mờ mắt, co giật, nôn, đau đầu, yếu tay, đau đầu buổi sáng",Thần kinh
+U não,"đau đầu buổi sáng, đau đầu, mờ mắt, co giật, lú lẫn, buồn nôn, nôn, yếu tay",Thần kinh
+U não,"lú lẫn, yếu tay, co giật, nôn, buồn nôn",Thần kinh
+U não,"nôn, mờ mắt, yếu tay, lú lẫn, đau đầu, đau đầu buổi sáng",Thần kinh
+U não,"lú lẫn, co giật, đau đầu, nôn, yếu tay",Thần kinh
+U não,"mờ mắt, yếu tay, co giật, lú lẫn, đau đầu, nôn, buồn nôn",Thần kinh
+U não,"đau đầu buổi sáng, đau đầu, nôn, lú lẫn, buồn nôn, co giật",Thần kinh
+U não,"mờ mắt, đau đầu, buồn nôn, co giật, nôn, yếu tay, đau đầu buổi sáng, lú lẫn",Thần kinh
+Rối loạn tiền đình,"chóng mặt xoay, buồn nôn, nôn, ù tai, mất thăng bằng, đau đầu, hoa mắt, vã mồ hôi",Thần kinh
+Rối loạn tiền đình,"đau đầu, chóng mặt xoay, ù tai, buồn nôn",Thần kinh
+Rối loạn tiền đình,"mất thăng bằng, đau đầu, chóng mặt xoay, nôn, hoa mắt, buồn nôn, vã mồ hôi",Thần kinh
+Rối loạn tiền đình,"chóng mặt xoay, hoa mắt, ù tai, buồn nôn",Thần kinh
+Rối loạn tiền đình,"buồn nôn, đau đầu, chóng mặt xoay, ù tai, hoa mắt, nôn",Thần kinh
+Rối loạn tiền đình,"vã mồ hôi, buồn nôn, mất thăng bằng, hoa mắt, ù tai, đau đầu, chóng mặt xoay",Thần kinh
+Rối loạn tiền đình,"buồn nôn, hoa mắt, mất thăng bằng, đau đầu, chóng mặt xoay, ù tai, vã mồ hôi, nôn",Thần kinh
+Rối loạn tiền đình,"đau đầu, mất thăng bằng, chóng mặt xoay, buồn nôn, hoa mắt, vã mồ hôi, nôn",Thần kinh
+Rối loạn tiền đình,"nôn, mất thăng bằng, hoa mắt, ù tai, vã mồ hôi, buồn nôn, đau đầu, chóng mặt xoay",Thần kinh
+Rối loạn tiền đình,"mất thăng bằng, ù tai, buồn nôn, nôn, vã mồ hôi, chóng mặt xoay, đau đầu, hoa mắt",Thần kinh
+Viêm khớp dạng thấp,"đau khớp, sưng khớp, cứng khớp buổi sáng, biến dạng khớp, mệt mỏi, sốt nhẹ, sụt cân, chán ăn",Cơ xương khớp
+Viêm khớp dạng thấp,"biến dạng khớp, sưng khớp, sốt nhẹ, cứng khớp buổi sáng, sụt cân",Cơ xương khớp
+Viêm khớp dạng thấp,"sụt cân, chán ăn, biến dạng khớp, sốt nhẹ, sưng khớp, mệt mỏi",Cơ xương khớp
+Viêm khớp dạng thấp,"biến dạng khớp, cứng khớp buổi sáng, mệt mỏi, sụt cân, sốt nhẹ, đau khớp",Cơ xương khớp
+Viêm khớp dạng thấp,"đau khớp, chán ăn, mệt mỏi, sụt cân, sốt nhẹ",Cơ xương khớp
+Viêm khớp dạng thấp,"sưng khớp, biến dạng khớp, cứng khớp buổi sáng, chán ăn, mệt mỏi, sốt nhẹ, sụt cân",Cơ xương khớp
+Viêm khớp dạng thấp,"đau khớp, cứng khớp buổi sáng, mệt mỏi, biến dạng khớp, chán ăn, sưng khớp, sốt nhẹ, sụt cân",Cơ xương khớp
+Viêm khớp dạng thấp,"sưng khớp, biến dạng khớp, cứng khớp buổi sáng, sốt nhẹ",Cơ xương khớp
+Viêm khớp dạng thấp,"cứng khớp buổi sáng, chán ăn, sưng khớp, sốt nhẹ, mệt mỏi, đau khớp, biến dạng khớp",Cơ xương khớp
+Viêm khớp dạng thấp,"sụt cân, chán ăn, đau khớp, sưng khớp",Cơ xương khớp
+Thoái hóa khớp gối,"đau khớp, cứng khớp, tiếng khớp kêu, sưng khớp, hạn chế vận động, đi tập tễnh, đau khi đi",Cơ xương khớp
+Thoái hóa khớp gối,"đau khi đi, tiếng khớp kêu, hạn chế vận động, đau khớp, cứng khớp, sưng khớp, đi tập tễnh",Cơ xương khớp
+Thoái hóa khớp gối,"đau khớp, cứng khớp, đi tập tễnh",Cơ xương khớp
+Thoái hóa khớp gối,"đau khi đi, sưng khớp, cứng khớp, đi tập tễnh",Cơ xương khớp
+Thoái hóa khớp gối,"đau khớp, hạn chế vận động, sưng khớp, đau khi đi",Cơ xương khớp
+Thoái hóa khớp gối,"đau khi đi, hạn chế vận động, đau khớp, sưng khớp, cứng khớp, đi tập tễnh",Cơ xương khớp
+Thoái hóa khớp gối,"đi tập tễnh, sưng khớp, đau khi đi",Cơ xương khớp
+Thoái hóa khớp gối,"đi tập tễnh, đau khi đi, hạn chế vận động, sưng khớp, cứng khớp, đau khớp, tiếng khớp kêu",Cơ xương khớp
+Thoái hóa khớp gối,"đi tập tễnh, hạn chế vận động, sưng khớp, đau khớp, cứng khớp, tiếng khớp kêu, đau khi đi",Cơ xương khớp
+Thoái hóa khớp gối,"sưng khớp, đau khi đi, đi tập tễnh, hạn chế vận động, đau khớp, cứng khớp",Cơ xương khớp
+Thoái hóa cột sống cổ,"đau cổ, cứng cổ, đau gáy, đau lan vai trái, tê tay, yếu tay, đau đầu, chóng mặt",Cơ xương khớp
+Thoái hóa cột sống cổ,"chóng mặt, yếu tay, đau cổ, cứng cổ, tê tay, đau lan vai trái, đau gáy, đau đầu",Cơ xương khớp
+Thoái hóa cột sống cổ,"tê tay, đau gáy, đau cổ, đau lan vai trái, cứng cổ, đau đầu, yếu tay",Cơ xương khớp
+Thoái hóa cột sống cổ,"cứng cổ, yếu tay, đau đầu, đau gáy",Cơ xương khớp
+Thoái hóa cột sống cổ,"tê tay, đau cổ, yếu tay, đau lan vai trái",Cơ xương khớp
+Thoái hóa cột sống cổ,"đau gáy, đau đầu, đau lan vai trái, yếu tay, đau cổ, tê tay, chóng mặt",Cơ xương khớp
+Thoái hóa cột sống cổ,"cứng cổ, đau gáy, yếu tay, đau cổ, tê tay, chóng mặt, đau đầu, đau lan vai trái",Cơ xương khớp
+Thoái hóa cột sống cổ,"đau đầu, chóng mặt, đau gáy, yếu tay",Cơ xương khớp
+Thoái hóa cột sống cổ,"đau gáy, cứng cổ, tê tay, đau cổ, đau đầu, chóng mặt, đau lan vai trái",Cơ xương khớp
+Thoái hóa cột sống cổ,"đau lan vai trái, tê tay, cứng cổ, đau đầu, đau cổ, chóng mặt",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau thắt lưng, đau lưng dưới, cứng lưng, đau chân, tê chân, đau dọc cột sống, hạn chế vận động",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau lưng dưới, đau chân, đau thắt lưng",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau chân, hạn chế vận động, cứng lưng",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau thắt lưng, đau chân, đau lưng dưới",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau thắt lưng, hạn chế vận động, đau lưng dưới, đau chân, tê chân, đau dọc cột sống, cứng lưng",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"tê chân, đau dọc cột sống, cứng lưng, đau lưng dưới, đau chân, hạn chế vận động",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"cứng lưng, tê chân, đau chân",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau lưng dưới, đau dọc cột sống, đau thắt lưng, tê chân, cứng lưng, hạn chế vận động, đau chân",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"đau thắt lưng, đau chân, cứng lưng, hạn chế vận động",Cơ xương khớp
+Thoái hóa cột sống thắt lưng,"cứng lưng, hạn chế vận động, đau chân, đau lưng dưới, đau thắt lưng, đau dọc cột sống, tê chân",Cơ xương khớp
+Gout,"đau khớp, sưng khớp, đỏ khớp, nóng khớp, mất ngủ, sốt nhẹ, biến dạng khớp",Cơ xương khớp
+Gout,"mất ngủ, đỏ khớp, sốt nhẹ, biến dạng khớp, sưng khớp",Cơ xương khớp
+Gout,"đỏ khớp, sưng khớp, biến dạng khớp, đau khớp, mất ngủ, nóng khớp, sốt nhẹ",Cơ xương khớp
+Gout,"nóng khớp, sưng khớp, đau khớp, biến dạng khớp",Cơ xương khớp
+Gout,"biến dạng khớp, nóng khớp, mất ngủ, sốt nhẹ, đau khớp, sưng khớp, đỏ khớp",Cơ xương khớp
+Gout,"đỏ khớp, đau khớp, sốt nhẹ, nóng khớp, sưng khớp, mất ngủ, biến dạng khớp",Cơ xương khớp
+Gout,"đau khớp, nóng khớp, mất ngủ",Cơ xương khớp
+Gout,"đau khớp, sốt nhẹ, đỏ khớp, sưng khớp, nóng khớp, biến dạng khớp, mất ngủ",Cơ xương khớp
+Gout,"đau khớp, biến dạng khớp, mất ngủ, nóng khớp",Cơ xương khớp
+Gout,"đau khớp, sốt nhẹ, nóng khớp, biến dạng khớp",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau cổ, đau gáy, đau lan vai trái, tê tay, yếu tay, khó cầm nắm, đau đầu, cứng cổ",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau cổ, tê tay, yếu tay, đau đầu",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau đầu, tê tay, khó cầm nắm, đau cổ, yếu tay, đau gáy",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"khó cầm nắm, yếu tay, tê tay, đau cổ, cứng cổ",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau lan vai trái, yếu tay, tê tay, đau gáy, đau cổ, cứng cổ, đau đầu, khó cầm nắm",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"cứng cổ, đau gáy, tê tay, yếu tay, khó cầm nắm, đau đầu, đau lan vai trái, đau cổ",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"khó cầm nắm, đau gáy, tê tay, đau lan vai trái, cứng cổ, đau đầu, đau cổ",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"cứng cổ, đau lan vai trái, đau gáy, yếu tay",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau gáy, cứng cổ, tê tay, đau lan vai trái",Cơ xương khớp
+Thoát vị đĩa đệm cột sống cổ,"đau lan vai trái, khó cầm nắm, tê tay, cứng cổ, đau cổ",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau thắt lưng, đau chân, tê chân, yếu chân, ngứa ran tay chân, đau dọc cột sống, đi tập tễnh",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"tê chân, đau thắt lưng, ngứa ran tay chân, đau dọc cột sống, yếu chân",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"tê chân, đi tập tễnh, đau thắt lưng",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau thắt lưng, yếu chân, đi tập tễnh",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"ngứa ran tay chân, tê chân, đau dọc cột sống",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau chân, đi tập tễnh, ngứa ran tay chân, tê chân",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đi tập tễnh, yếu chân, đau thắt lưng, tê chân, đau dọc cột sống, ngứa ran tay chân, đau chân",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau thắt lưng, yếu chân, tê chân",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau chân, đi tập tễnh, đau dọc cột sống, tê chân, đau thắt lưng, yếu chân",Cơ xương khớp
+Thoát vị đĩa đệm cột sống thắt lưng,"đau dọc cột sống, đau thắt lưng, tê chân, đau chân, đi tập tễnh, ngứa ran tay chân",Cơ xương khớp
+Loãng xương,"đau lưng, đau xương, đau khi đi, mệt mỏi",Cơ xương khớp
+Loãng xương,"đau khi đi, đau xương, mệt mỏi, đau lưng",Cơ xương khớp
+Loãng xương,"đau khi đi, mệt mỏi, đau lưng, đau xương",Cơ xương khớp
+Loãng xương,"đau xương, mệt mỏi, đau khi đi",Cơ xương khớp
+Loãng xương,"đau khi đi, đau lưng, đau xương",Cơ xương khớp
+Loãng xương,"đau lưng, mệt mỏi, đau xương, đau khi đi",Cơ xương khớp
+Loãng xương,"đau lưng, mệt mỏi, đau xương",Cơ xương khớp
+Loãng xương,"đau xương, đau khi đi, đau lưng",Cơ xương khớp
+Loãng xương,"đau khi đi, mệt mỏi, đau lưng, đau xương",Cơ xương khớp
+Loãng xương,"đau xương, mệt mỏi, đau lưng",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"đau khớp, sưng khớp, đỏ khớp, nóng khớp, sốt cao, ớn lạnh, hạn chế vận động",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"sưng khớp, ớn lạnh, hạn chế vận động, đau khớp, sốt cao, nóng khớp, đỏ khớp",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"hạn chế vận động, sốt cao, đỏ khớp, sưng khớp, nóng khớp, đau khớp, ớn lạnh",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"ớn lạnh, nóng khớp, sưng khớp, đau khớp, sốt cao",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"đỏ khớp, sốt cao, nóng khớp",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"sưng khớp, đỏ khớp, nóng khớp",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"đau khớp, sưng khớp, ớn lạnh, nóng khớp",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"sưng khớp, ớn lạnh, hạn chế vận động, đau khớp, sốt cao",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"đau khớp, sốt cao, hạn chế vận động, nóng khớp, sưng khớp",Cơ xương khớp
+Viêm khớp nhiễm khuẩn,"ớn lạnh, hạn chế vận động, sốt cao",Cơ xương khớp
+Bong gân cổ chân,"đau khớp, sưng khớp, bầm tím, hạn chế vận động, đi tập tễnh, đau khi đi",Cơ xương khớp
+Bong gân cổ chân,"sưng khớp, hạn chế vận động, bầm tím, đau khớp, đi tập tễnh, đau khi đi",Cơ xương khớp
+Bong gân cổ chân,"đi tập tễnh, hạn chế vận động, bầm tím",Cơ xương khớp
+Bong gân cổ chân,"đi tập tễnh, bầm tím, đau khớp",Cơ xương khớp
+Bong gân cổ chân,"hạn chế vận động, đi tập tễnh, sưng khớp",Cơ xương khớp
+Bong gân cổ chân,"đau khớp, đau khi đi, đi tập tễnh, bầm tím, hạn chế vận động, sưng khớp",Cơ xương khớp
+Bong gân cổ chân,"đau khi đi, bầm tím, đi tập tễnh, đau khớp",Cơ xương khớp
+Bong gân cổ chân,"đau khi đi, bầm tím, đi tập tễnh, sưng khớp",Cơ xương khớp
+Bong gân cổ chân,"sưng khớp, đau khớp, hạn chế vận động, đau khi đi",Cơ xương khớp
+Bong gân cổ chân,"bầm tím, đau khớp, đi tập tễnh, hạn chế vận động, sưng khớp",Cơ xương khớp
+Gãy xương đùi,"đau xương, biến dạng khớp, đau khớp, đi tập tễnh, sưng phù, bầm tím, đau khi đi",Cơ xương khớp
+Gãy xương đùi,"đau khi đi, biến dạng khớp, sưng phù",Cơ xương khớp
+Gãy xương đùi,"đi tập tễnh, đau khớp, biến dạng khớp, đau xương, đau khi đi, sưng phù, bầm tím",Cơ xương khớp
+Gãy xương đùi,"đi tập tễnh, biến dạng khớp, sưng phù, bầm tím, đau khớp, đau khi đi",Cơ xương khớp
+Gãy xương đùi,"biến dạng khớp, đi tập tễnh, đau xương",Cơ xương khớp
+Gãy xương đùi,"đi tập tễnh, sưng phù, biến dạng khớp, bầm tím",Cơ xương khớp
+Gãy xương đùi,"đi tập tễnh, đau xương, sưng phù, bầm tím, đau khi đi, biến dạng khớp",Cơ xương khớp
+Gãy xương đùi,"đi tập tễnh, biến dạng khớp, đau khi đi, đau khớp",Cơ xương khớp
+Gãy xương đùi,"bầm tím, đau khớp, đau khi đi, biến dạng khớp",Cơ xương khớp
+Gãy xương đùi,"đau xương, đau khi đi, đau khớp, biến dạng khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"đau khớp, sưng khớp, nóng khớp, đỏ khớp, hạn chế vận động, tiếng khớp kêu",Cơ xương khớp
+Viêm bao hoạt dịch,"đỏ khớp, tiếng khớp kêu, hạn chế vận động, sưng khớp, nóng khớp, đau khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"tiếng khớp kêu, sưng khớp, hạn chế vận động, đỏ khớp, nóng khớp, đau khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"đau khớp, đỏ khớp, hạn chế vận động, sưng khớp, nóng khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"nóng khớp, sưng khớp, đau khớp, hạn chế vận động",Cơ xương khớp
+Viêm bao hoạt dịch,"đau khớp, hạn chế vận động, tiếng khớp kêu, nóng khớp, sưng khớp, đỏ khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"đỏ khớp, hạn chế vận động, tiếng khớp kêu, sưng khớp, nóng khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"đỏ khớp, tiếng khớp kêu, sưng khớp, đau khớp",Cơ xương khớp
+Viêm bao hoạt dịch,"nóng khớp, tiếng khớp kêu, đau khớp, sưng khớp, đỏ khớp, hạn chế vận động",Cơ xương khớp
+Viêm bao hoạt dịch,"hạn chế vận động, nóng khớp, đau khớp, đỏ khớp",Cơ xương khớp
+Hội chứng ống cổ tay,"tê tay, đau tay, yếu tay, khó cầm nắm, ngứa ran tay chân, mất ngủ",Cơ xương khớp
+Hội chứng ống cổ tay,"yếu tay, ngứa ran tay chân, tê tay, mất ngủ, khó cầm nắm, đau tay",Cơ xương khớp
+Hội chứng ống cổ tay,"yếu tay, ngứa ran tay chân, tê tay, mất ngủ, đau tay",Cơ xương khớp
+Hội chứng ống cổ tay,"mất ngủ, yếu tay, tê tay",Cơ xương khớp
+Hội chứng ống cổ tay,"đau tay, mất ngủ, ngứa ran tay chân, khó cầm nắm, yếu tay",Cơ xương khớp
+Hội chứng ống cổ tay,"yếu tay, ngứa ran tay chân, mất ngủ",Cơ xương khớp
+Hội chứng ống cổ tay,"đau tay, khó cầm nắm, ngứa ran tay chân",Cơ xương khớp
+Hội chứng ống cổ tay,"mất ngủ, đau tay, khó cầm nắm, tê tay",Cơ xương khớp
+Hội chứng ống cổ tay,"đau tay, tê tay, ngứa ran tay chân, khó cầm nắm, yếu tay",Cơ xương khớp
+Hội chứng ống cổ tay,"tê tay, đau tay, ngứa ran tay chân, mất ngủ, khó cầm nắm",Cơ xương khớp
+Viêm cột sống dính khớp,"đau lưng, cứng lưng, đau lưng dưới, cứng khớp buổi sáng, đau dọc cột sống, đau khớp, mệt mỏi",Cơ xương khớp
+Viêm cột sống dính khớp,"mệt mỏi, đau lưng dưới, đau lưng, đau khớp, cứng khớp buổi sáng, cứng lưng",Cơ xương khớp
+Viêm cột sống dính khớp,"mệt mỏi, đau lưng dưới, đau lưng, đau dọc cột sống, cứng khớp buổi sáng, cứng lưng, đau khớp",Cơ xương khớp
+Viêm cột sống dính khớp,"đau lưng dưới, đau lưng, đau khớp, cứng khớp buổi sáng, đau dọc cột sống",Cơ xương khớp
+Viêm cột sống dính khớp,"cứng lưng, đau lưng, mệt mỏi",Cơ xương khớp
+Viêm cột sống dính khớp,"đau dọc cột sống, đau lưng dưới, cứng lưng, đau lưng",Cơ xương khớp
+Viêm cột sống dính khớp,"đau dọc cột sống, đau lưng, đau lưng dưới, mệt mỏi, cứng khớp buổi sáng, đau khớp, cứng lưng",Cơ xương khớp
+Viêm cột sống dính khớp,"mệt mỏi, cứng khớp buổi sáng, đau khớp, cứng lưng, đau dọc cột sống, đau lưng dưới",Cơ xương khớp
+Viêm cột sống dính khớp,"đau khớp, đau lưng, cứng khớp buổi sáng, đau dọc cột sống, mệt mỏi, cứng lưng, đau lưng dưới",Cơ xương khớp
+Viêm cột sống dính khớp,"cứng lưng, cứng khớp buổi sáng, mệt mỏi, đau lưng dưới, đau khớp, đau lưng, đau dọc cột sống",Cơ xương khớp
+Lupus ban đỏ hệ thống,"đau khớp, sưng khớp, phát ban, mệt mỏi, sốt nhẹ, rụng tóc, sợ ánh sáng, đau cơ",Cơ xương khớp
+Lupus ban đỏ hệ thống,"sưng khớp, đau khớp, sốt nhẹ, đau cơ, mệt mỏi, rụng tóc, sợ ánh sáng",Cơ xương khớp
+Lupus ban đỏ hệ thống,"sợ ánh sáng, rụng tóc, sốt nhẹ, đau cơ, phát ban",Cơ xương khớp
+Lupus ban đỏ hệ thống,"mệt mỏi, đau khớp, đau cơ, rụng tóc, sưng khớp, sốt nhẹ, phát ban, sợ ánh sáng",Cơ xương khớp
+Lupus ban đỏ hệ thống,"sưng khớp, sốt nhẹ, mệt mỏi, phát ban, đau khớp, rụng tóc, sợ ánh sáng",Cơ xương khớp
+Lupus ban đỏ hệ thống,"phát ban, sưng khớp, đau cơ, mệt mỏi, sợ ánh sáng, sốt nhẹ, đau khớp",Cơ xương khớp
+Lupus ban đỏ hệ thống,"sốt nhẹ, sợ ánh sáng, sưng khớp, rụng tóc, phát ban, đau khớp, đau cơ, mệt mỏi",Cơ xương khớp
+Lupus ban đỏ hệ thống,"đau cơ, rụng tóc, phát ban, đau khớp, sưng khớp, sợ ánh sáng, sốt nhẹ, mệt mỏi",Cơ xương khớp
+Lupus ban đỏ hệ thống,"rụng tóc, sốt nhẹ, đau cơ, sưng khớp, đau khớp, mệt mỏi",Cơ xương khớp
+Lupus ban đỏ hệ thống,"sợ ánh sáng, sốt nhẹ, rụng tóc, đau cơ, sưng khớp",Cơ xương khớp
+Viêm da dị ứng,"ngứa da, phát ban, đỏ da, khô da, bong tróc da, mụn nước, nóng rát da",Da liễu
+Viêm da dị ứng,"bong tróc da, phát ban, đỏ da, nóng rát da, mụn nước",Da liễu
+Viêm da dị ứng,"phát ban, mụn nước, đỏ da, ngứa da",Da liễu
+Viêm da dị ứng,"phát ban, nóng rát da, khô da",Da liễu
+Viêm da dị ứng,"mụn nước, đỏ da, khô da, ngứa da, bong tróc da",Da liễu
+Viêm da dị ứng,"nóng rát da, bong tróc da, mụn nước",Da liễu
+Viêm da dị ứng,"đỏ da, bong tróc da, khô da",Da liễu
+Viêm da dị ứng,"khô da, mụn nước, ngứa da, phát ban, đỏ da",Da liễu
+Viêm da dị ứng,"ngứa da, mụn nước, đỏ da, phát ban, bong tróc da, khô da",Da liễu
+Viêm da dị ứng,"bong tróc da, phát ban, ngứa da, mụn nước",Da liễu
+Mề đay,"nổi mề đay, ngứa da, mẩn đỏ, phù mí mắt, phù mặt, phát ban",Da liễu
+Mề đay,"phát ban, phù mí mắt, mẩn đỏ, ngứa da",Da liễu
+Mề đay,"ngứa da, mẩn đỏ, phù mặt, phù mí mắt, nổi mề đay",Da liễu
+Mề đay,"mẩn đỏ, phù mặt, ngứa da",Da liễu
+Mề đay,"phát ban, ngứa da, phù mặt",Da liễu
+Mề đay,"phù mặt, nổi mề đay, phát ban, phù mí mắt, ngứa da",Da liễu
+Mề đay,"mẩn đỏ, phát ban, ngứa da, nổi mề đay",Da liễu
+Mề đay,"phát ban, mẩn đỏ, ngứa da, phù mặt, phù mí mắt, nổi mề đay",Da liễu
+Mề đay,"phát ban, mẩn đỏ, nổi mề đay, ngứa da, phù mí mắt, phù mặt",Da liễu
+Mề đay,"phù mí mắt, ngứa da, phát ban, phù mặt, mẩn đỏ, nổi mề đay",Da liễu
+Vảy nến,"vảy bạc trên da, đỏ da, ngứa da, bong tróc da, dày sừng, đau khớp, nhiễm nấm móng",Da liễu
+Vảy nến,"vảy bạc trên da, đỏ da, đau khớp, dày sừng, nhiễm nấm móng, bong tróc da, ngứa da",Da liễu
+Vảy nến,"dày sừng, đỏ da, đau khớp, bong tróc da",Da liễu
+Vảy nến,"vảy bạc trên da, đau khớp, nhiễm nấm móng, đỏ da, bong tróc da, ngứa da, dày sừng",Da liễu
+Vảy nến,"vảy bạc trên da, nhiễm nấm móng, đau khớp, đỏ da, dày sừng, bong tróc da",Da liễu
+Vảy nến,"bong tróc da, đau khớp, nhiễm nấm móng",Da liễu
+Vảy nến,"bong tróc da, ngứa da, đau khớp, vảy bạc trên da",Da liễu
+Vảy nến,"đỏ da, dày sừng, đau khớp, ngứa da",Da liễu
+Vảy nến,"bong tróc da, dày sừng, ngứa da, nhiễm nấm móng, đau khớp, vảy bạc trên da",Da liễu
+Vảy nến,"ngứa da, đau khớp, vảy bạc trên da, bong tróc da, nhiễm nấm móng, đỏ da, dày sừng",Da liễu
+Eczema,"ngứa da, đỏ da, mụn nước, bong tróc da, khô da, nóng rát da, phát ban",Da liễu
+Eczema,"mụn nước, nóng rát da, ngứa da, bong tróc da",Da liễu
+Eczema,"ngứa da, nóng rát da, bong tróc da",Da liễu
+Eczema,"đỏ da, khô da, nóng rát da, phát ban, bong tróc da",Da liễu
+Eczema,"đỏ da, bong tróc da, khô da, ngứa da",Da liễu
+Eczema,"đỏ da, phát ban, mụn nước, bong tróc da",Da liễu
+Eczema,"phát ban, bong tróc da, mụn nước, ngứa da",Da liễu
+Eczema,"đỏ da, khô da, bong tróc da, nóng rát da, ngứa da",Da liễu
+Eczema,"khô da, ngứa da, nóng rát da",Da liễu
+Eczema,"phát ban, ngứa da, khô da, nóng rát da, bong tróc da, mụn nước, đỏ da",Da liễu
+Zona thần kinh,"mụn nước theo dải, đau dây thần kinh, nóng rát da, ngứa da, phát ban, sốt nhẹ, mệt mỏi",Da liễu
+Zona thần kinh,"ngứa da, nóng rát da, đau dây thần kinh, mệt mỏi, sốt nhẹ",Da liễu
+Zona thần kinh,"ngứa da, mụn nước theo dải, sốt nhẹ",Da liễu
+Zona thần kinh,"mệt mỏi, phát ban, mụn nước theo dải",Da liễu
+Zona thần kinh,"sốt nhẹ, nóng rát da, mệt mỏi, ngứa da, phát ban",Da liễu
+Zona thần kinh,"sốt nhẹ, nóng rát da, mụn nước theo dải",Da liễu
+Zona thần kinh,"phát ban, đau dây thần kinh, mụn nước theo dải, nóng rát da, sốt nhẹ, ngứa da",Da liễu
+Zona thần kinh,"mệt mỏi, đau dây thần kinh, mụn nước theo dải, nóng rát da, sốt nhẹ, phát ban",Da liễu
+Zona thần kinh,"đau dây thần kinh, mệt mỏi, ngứa da, mụn nước theo dải",Da liễu
+Zona thần kinh,"mệt mỏi, ngứa da, mụn nước theo dải",Da liễu
+Nấm da,"ngứa da, phát ban, đỏ da, bong tróc da, vảy bạc trên da, vết loét da",Da liễu
+Nấm da,"vết loét da, vảy bạc trên da, đỏ da, bong tróc da, phát ban, ngứa da",Da liễu
+Nấm da,"vảy bạc trên da, đỏ da, vết loét da, ngứa da",Da liễu
+Nấm da,"vết loét da, vảy bạc trên da, ngứa da, đỏ da, bong tróc da, phát ban",Da liễu
+Nấm da,"vảy bạc trên da, phát ban, đỏ da",Da liễu
+Nấm da,"đỏ da, phát ban, ngứa da",Da liễu
+Nấm da,"vảy bạc trên da, bong tróc da, phát ban, ngứa da, đỏ da",Da liễu
+Nấm da,"ngứa da, vết loét da, vảy bạc trên da, phát ban, bong tróc da",Da liễu
+Nấm da,"vảy bạc trên da, đỏ da, phát ban, bong tróc da, ngứa da",Da liễu
+Nấm da,"phát ban, đỏ da, vảy bạc trên da",Da liễu
+Hắc lào,"ngứa da, phát ban, vảy bạc trên da, đỏ da, bong tróc da, nóng rát da",Da liễu
+Hắc lào,"bong tróc da, phát ban, đỏ da",Da liễu
+Hắc lào,"bong tróc da, vảy bạc trên da, đỏ da",Da liễu
+Hắc lào,"đỏ da, vảy bạc trên da, phát ban, nóng rát da, ngứa da",Da liễu
+Hắc lào,"phát ban, vảy bạc trên da, ngứa da",Da liễu
+Hắc lào,"đỏ da, nóng rát da, bong tróc da, vảy bạc trên da, ngứa da, phát ban",Da liễu
+Hắc lào,"bong tróc da, vảy bạc trên da, ngứa da",Da liễu
+Hắc lào,"nóng rát da, vảy bạc trên da, ngứa da, bong tróc da, đỏ da, phát ban",Da liễu
+Hắc lào,"đỏ da, phát ban, vảy bạc trên da, nóng rát da, bong tróc da, ngứa da",Da liễu
+Hắc lào,"ngứa da, phát ban, nóng rát da, đỏ da, vảy bạc trên da, bong tróc da",Da liễu
+Ghẻ,"ngứa da, phát ban, mụn nước, mẩn đỏ, vết loét da",Da liễu
+Ghẻ,"vết loét da, ngứa da, phát ban",Da liễu
+Ghẻ,"mẩn đỏ, vết loét da, phát ban",Da liễu
+Ghẻ,"vết loét da, mụn nước, phát ban, mẩn đỏ, ngứa da",Da liễu
+Ghẻ,"phát ban, vết loét da, mẩn đỏ",Da liễu
+Ghẻ,"mụn nước, vết loét da, ngứa da, mẩn đỏ",Da liễu
+Ghẻ,"vết loét da, phát ban, ngứa da",Da liễu
+Ghẻ,"mẩn đỏ, mụn nước, ngứa da, vết loét da",Da liễu
+Ghẻ,"ngứa da, mụn nước, vết loét da",Da liễu
+Ghẻ,"ngứa da, mẩn đỏ, vết loét da, phát ban, mụn nước",Da liễu
+Nấm móng,"nhiễm nấm móng, móng giòn, đau khớp",Da liễu
+Nấm móng,"đau khớp, móng giòn, nhiễm nấm móng",Da liễu
+Nấm móng,"móng giòn, đau khớp, nhiễm nấm móng",Da liễu
+Nấm móng,"nhiễm nấm móng, móng giòn, đau khớp",Da liễu
+Nấm móng,"đau khớp, móng giòn, nhiễm nấm móng",Da liễu
+Nấm móng,"móng giòn, đau khớp, nhiễm nấm móng",Da liễu
+Nấm móng,"đau khớp, móng giòn, nhiễm nấm móng",Da liễu
+Nấm móng,"móng giòn, nhiễm nấm móng, đau khớp",Da liễu
+Nấm móng,"móng giòn, nhiễm nấm móng, đau khớp",Da liễu
+Nấm móng,"đau khớp, nhiễm nấm móng, móng giòn",Da liễu
+Mụn trứng cá,"nổi mụn, mụn mủ, đỏ da, mẩn đỏ, sạm da, vết loét da",Da liễu
+Mụn trứng cá,"vết loét da, mụn mủ, mẩn đỏ, đỏ da",Da liễu
+Mụn trứng cá,"mụn mủ, sạm da, đỏ da, vết loét da, nổi mụn, mẩn đỏ",Da liễu
+Mụn trứng cá,"vết loét da, sạm da, đỏ da",Da liễu
+Mụn trứng cá,"mẩn đỏ, vết loét da, sạm da, mụn mủ, nổi mụn",Da liễu
+Mụn trứng cá,"đỏ da, sạm da, mẩn đỏ, vết loét da, nổi mụn, mụn mủ",Da liễu
+Mụn trứng cá,"vết loét da, sạm da, mẩn đỏ, đỏ da, nổi mụn, mụn mủ",Da liễu
+Mụn trứng cá,"sạm da, mẩn đỏ, nổi mụn, đỏ da",Da liễu
+Mụn trứng cá,"sạm da, vết loét da, mẩn đỏ, nổi mụn, mụn mủ, đỏ da",Da liễu
+Mụn trứng cá,"nổi mụn, đỏ da, mụn mủ, mẩn đỏ, vết loét da",Da liễu
+Viêm nang lông,"nổi mụn, mụn mủ, ngứa da, đỏ da, đau khớp, mẩn đỏ",Da liễu
+Viêm nang lông,"nổi mụn, đau khớp, mụn mủ",Da liễu
+Viêm nang lông,"mẩn đỏ, ngứa da, mụn mủ, đỏ da, nổi mụn, đau khớp",Da liễu
+Viêm nang lông,"nổi mụn, ngứa da, mẩn đỏ, mụn mủ, đỏ da, đau khớp",Da liễu
+Viêm nang lông,"ngứa da, đau khớp, mụn mủ, mẩn đỏ, nổi mụn",Da liễu
+Viêm nang lông,"ngứa da, nổi mụn, mụn mủ",Da liễu
+Viêm nang lông,"nổi mụn, đau khớp, mẩn đỏ, ngứa da, đỏ da, mụn mủ",Da liễu
+Viêm nang lông,"ngứa da, đỏ da, nổi mụn",Da liễu
+Viêm nang lông,"mẩn đỏ, đau khớp, nổi mụn, ngứa da, đỏ da",Da liễu
+Viêm nang lông,"nổi mụn, mụn mủ, mẩn đỏ, đau khớp, ngứa da, đỏ da",Da liễu
+Nám da,"nám da, sạm da, phát ban",Da liễu
+Nám da,"nám da, phát ban, sạm da",Da liễu
+Nám da,"sạm da, phát ban, nám da",Da liễu
+Nám da,"sạm da, phát ban, nám da",Da liễu
+Nám da,"nám da, sạm da, phát ban",Da liễu
+Nám da,"phát ban, sạm da, nám da",Da liễu
+Nám da,"phát ban, nám da, sạm da",Da liễu
+Nám da,"phát ban, nám da, sạm da",Da liễu
+Nám da,"nám da, sạm da, phát ban",Da liễu
+Nám da,"phát ban, sạm da, nám da",Da liễu
+Bạch biến,"mảng trắng trên da, phát ban, bong tróc da",Da liễu
+Bạch biến,"bong tróc da, phát ban, mảng trắng trên da",Da liễu
+Bạch biến,"phát ban, mảng trắng trên da, bong tróc da",Da liễu
+Bạch biến,"phát ban, mảng trắng trên da, bong tróc da",Da liễu
+Bạch biến,"phát ban, mảng trắng trên da, bong tróc da",Da liễu
+Bạch biến,"phát ban, mảng trắng trên da, bong tróc da",Da liễu
+Bạch biến,"phát ban, bong tróc da, mảng trắng trên da",Da liễu
+Bạch biến,"bong tróc da, mảng trắng trên da, phát ban",Da liễu
+Bạch biến,"mảng trắng trên da, phát ban, bong tróc da",Da liễu
+Bạch biến,"phát ban, mảng trắng trên da, bong tróc da",Da liễu
+Rụng tóc từng vùng,"rụng tóc từng vùng, rụng tóc, ngứa da, nhiễm nấm móng",Da liễu
+Rụng tóc từng vùng,"ngứa da, nhiễm nấm móng, rụng tóc, rụng tóc từng vùng",Da liễu
+Rụng tóc từng vùng,"nhiễm nấm móng, rụng tóc, rụng tóc từng vùng, ngứa da",Da liễu
+Rụng tóc từng vùng,"nhiễm nấm móng, ngứa da, rụng tóc từng vùng, rụng tóc",Da liễu
+Rụng tóc từng vùng,"rụng tóc, rụng tóc từng vùng, ngứa da, nhiễm nấm móng",Da liễu
+Rụng tóc từng vùng,"rụng tóc, nhiễm nấm móng, rụng tóc từng vùng",Da liễu
+Rụng tóc từng vùng,"ngứa da, rụng tóc từng vùng, rụng tóc, nhiễm nấm móng",Da liễu
+Rụng tóc từng vùng,"rụng tóc, nhiễm nấm móng, rụng tóc từng vùng, ngứa da",Da liễu
+Rụng tóc từng vùng,"ngứa da, rụng tóc từng vùng, rụng tóc, nhiễm nấm móng",Da liễu
+Rụng tóc từng vùng,"rụng tóc từng vùng, ngứa da, nhiễm nấm móng",Da liễu
+U hắc tố ác tính,"nốt ruồi đổi màu, vết loét da, ngứa da, xuất huyết da, hạch to, sụt cân, mệt mỏi",Da liễu
+U hắc tố ác tính,"vết loét da, sụt cân, hạch to",Da liễu
+U hắc tố ác tính,"nốt ruồi đổi màu, sụt cân, hạch to",Da liễu
+U hắc tố ác tính,"mệt mỏi, ngứa da, nốt ruồi đổi màu, hạch to, sụt cân, vết loét da",Da liễu
+U hắc tố ác tính,"sụt cân, xuất huyết da, nốt ruồi đổi màu, hạch to, mệt mỏi",Da liễu
+U hắc tố ác tính,"ngứa da, sụt cân, vết loét da, hạch to",Da liễu
+U hắc tố ác tính,"sụt cân, mệt mỏi, nốt ruồi đổi màu, xuất huyết da",Da liễu
+U hắc tố ác tính,"ngứa da, hạch to, sụt cân, mệt mỏi, vết loét da, nốt ruồi đổi màu, xuất huyết da",Da liễu
+U hắc tố ác tính,"mệt mỏi, xuất huyết da, ngứa da, sụt cân, vết loét da, hạch to, nốt ruồi đổi màu",Da liễu
+U hắc tố ác tính,"vết loét da, ngứa da, hạch to",Da liễu
+Đục thủy tinh thể,"mờ mắt, nhìn đôi, sợ ánh sáng, nhìn quầng sáng, đỏ mắt",Mắt
+Đục thủy tinh thể,"nhìn quầng sáng, nhìn đôi, mờ mắt, sợ ánh sáng",Mắt
+Đục thủy tinh thể,"nhìn đôi, đỏ mắt, sợ ánh sáng",Mắt
+Đục thủy tinh thể,"sợ ánh sáng, đỏ mắt, nhìn quầng sáng, mờ mắt, nhìn đôi",Mắt
+Đục thủy tinh thể,"nhìn đôi, sợ ánh sáng, đỏ mắt, nhìn quầng sáng, mờ mắt",Mắt
+Đục thủy tinh thể,"đỏ mắt, sợ ánh sáng, nhìn đôi, mờ mắt",Mắt
+Đục thủy tinh thể,"mờ mắt, nhìn quầng sáng, sợ ánh sáng",Mắt
+Đục thủy tinh thể,"nhìn đôi, sợ ánh sáng, mờ mắt, nhìn quầng sáng",Mắt
+Đục thủy tinh thể,"nhìn quầng sáng, nhìn đôi, mờ mắt, đỏ mắt, sợ ánh sáng",Mắt
+Đục thủy tinh thể,"đỏ mắt, mờ mắt, nhìn đôi",Mắt
+Glaucoma góc đóng,"đau mắt, đau đầu dữ dội, nhìn quầng sáng, mờ mắt, đỏ mắt, buồn nôn, nôn, mất thị lực",Mắt
+Glaucoma góc đóng,"buồn nôn, đỏ mắt, nhìn quầng sáng, đau mắt, đau đầu dữ dội, mờ mắt, mất thị lực",Mắt
+Glaucoma góc đóng,"nôn, đau mắt, nhìn quầng sáng, mờ mắt, đau đầu dữ dội",Mắt
+Glaucoma góc đóng,"đau đầu dữ dội, đỏ mắt, buồn nôn, nôn, đau mắt, mờ mắt, nhìn quầng sáng, mất thị lực",Mắt
+Glaucoma góc đóng,"nhìn quầng sáng, mất thị lực, mờ mắt, đỏ mắt, đau đầu dữ dội, đau mắt, nôn, buồn nôn",Mắt
+Glaucoma góc đóng,"đỏ mắt, nôn, đau đầu dữ dội, nhìn quầng sáng, mờ mắt",Mắt
+Glaucoma góc đóng,"đau mắt, nôn, đỏ mắt, buồn nôn, nhìn quầng sáng, đau đầu dữ dội, mất thị lực",Mắt
+Glaucoma góc đóng,"đỏ mắt, nhìn quầng sáng, đau đầu dữ dội, mất thị lực, nôn, đau mắt, buồn nôn, mờ mắt",Mắt
+Glaucoma góc đóng,"nôn, đau mắt, mất thị lực, nhìn quầng sáng, mờ mắt, buồn nôn",Mắt
+Glaucoma góc đóng,"mờ mắt, buồn nôn, nhìn quầng sáng, đau đầu dữ dội, đau mắt, mất thị lực, nôn",Mắt
+Viêm kết mạc,"đỏ mắt, ngứa mắt, chảy nước mắt, ghèn mắt, cộm mắt, sưng mi mắt",Mắt
+Viêm kết mạc,"ghèn mắt, ngứa mắt, chảy nước mắt, cộm mắt, sưng mi mắt",Mắt
+Viêm kết mạc,"cộm mắt, ngứa mắt, sưng mi mắt, đỏ mắt, ghèn mắt, chảy nước mắt",Mắt
+Viêm kết mạc,"chảy nước mắt, đỏ mắt, ngứa mắt",Mắt
+Viêm kết mạc,"đỏ mắt, ghèn mắt, cộm mắt, chảy nước mắt, ngứa mắt",Mắt
+Viêm kết mạc,"chảy nước mắt, đỏ mắt, ghèn mắt, sưng mi mắt, cộm mắt, ngứa mắt",Mắt
+Viêm kết mạc,"ghèn mắt, ngứa mắt, đỏ mắt, sưng mi mắt, cộm mắt, chảy nước mắt",Mắt
+Viêm kết mạc,"chảy nước mắt, sưng mi mắt, ngứa mắt",Mắt
+Viêm kết mạc,"cộm mắt, ghèn mắt, đỏ mắt",Mắt
+Viêm kết mạc,"ngứa mắt, đỏ mắt, ghèn mắt, chảy nước mắt, sưng mi mắt, cộm mắt",Mắt
+Viêm giác mạc,"đau mắt, đỏ mắt, chảy nước mắt, sợ ánh sáng, mờ mắt, cộm mắt, mất thị lực",Mắt
+Viêm giác mạc,"đau mắt, mờ mắt, cộm mắt",Mắt
+Viêm giác mạc,"sợ ánh sáng, mất thị lực, cộm mắt",Mắt
+Viêm giác mạc,"đỏ mắt, mờ mắt, mất thị lực, cộm mắt, chảy nước mắt, sợ ánh sáng, đau mắt",Mắt
+Viêm giác mạc,"sợ ánh sáng, mờ mắt, đỏ mắt, đau mắt",Mắt
+Viêm giác mạc,"chảy nước mắt, mờ mắt, đau mắt, mất thị lực, đỏ mắt, sợ ánh sáng",Mắt
+Viêm giác mạc,"sợ ánh sáng, đau mắt, đỏ mắt, mờ mắt, chảy nước mắt",Mắt
+Viêm giác mạc,"mờ mắt, chảy nước mắt, sợ ánh sáng, mất thị lực, cộm mắt, đau mắt, đỏ mắt",Mắt
+Viêm giác mạc,"mất thị lực, đau mắt, chảy nước mắt",Mắt
+Viêm giác mạc,"chảy nước mắt, mờ mắt, mất thị lực, sợ ánh sáng, đỏ mắt",Mắt
+Cận thị,"mờ mắt, đau đầu, khô mắt",Mắt
+Cận thị,"khô mắt, đau đầu, mờ mắt",Mắt
+Cận thị,"đau đầu, mờ mắt, khô mắt",Mắt
+Cận thị,"đau đầu, mờ mắt, khô mắt",Mắt
+Cận thị,"khô mắt, đau đầu, mờ mắt",Mắt
+Cận thị,"đau đầu, khô mắt, mờ mắt",Mắt
+Cận thị,"đau đầu, khô mắt, mờ mắt",Mắt
+Cận thị,"đau đầu, khô mắt, mờ mắt",Mắt
+Cận thị,"đau đầu, khô mắt, mờ mắt",Mắt
+Cận thị,"khô mắt, mờ mắt, đau đầu",Mắt
+Viễn thị,"mờ mắt, đau đầu, khô mắt",Mắt
+Viễn thị,"mờ mắt, khô mắt, đau đầu",Mắt
+Viễn thị,"khô mắt, mờ mắt, đau đầu",Mắt
+Viễn thị,"mờ mắt, khô mắt, đau đầu",Mắt
+Viễn thị,"đau đầu, mờ mắt, khô mắt",Mắt
+Viễn thị,"mờ mắt, khô mắt, đau đầu",Mắt
+Viễn thị,"khô mắt, đau đầu, mờ mắt",Mắt
+Viễn thị,"đau đầu, mờ mắt, khô mắt",Mắt
+Viễn thị,"mờ mắt, đau đầu, khô mắt",Mắt
+Viễn thị,"đau đầu, mờ mắt, khô mắt",Mắt
+Loạn thị,"mờ mắt, nhìn đôi, đau đầu, khô mắt",Mắt
+Loạn thị,"nhìn đôi, khô mắt, mờ mắt, đau đầu",Mắt
+Loạn thị,"đau đầu, nhìn đôi, khô mắt",Mắt
+Loạn thị,"mờ mắt, đau đầu, khô mắt",Mắt
+Loạn thị,"khô mắt, mờ mắt, nhìn đôi",Mắt
+Loạn thị,"mờ mắt, nhìn đôi, đau đầu, khô mắt",Mắt
+Loạn thị,"đau đầu, khô mắt, mờ mắt",Mắt
+Loạn thị,"khô mắt, đau đầu, mờ mắt, nhìn đôi",Mắt
+Loạn thị,"nhìn đôi, khô mắt, đau đầu",Mắt
+Loạn thị,"khô mắt, nhìn đôi, mờ mắt",Mắt
+Lác mắt,"nhìn đôi, khô mắt, đau đầu, mờ mắt",Mắt
+Lác mắt,"đau đầu, nhìn đôi, mờ mắt, khô mắt",Mắt
+Lác mắt,"đau đầu, mờ mắt, khô mắt, nhìn đôi",Mắt
+Lác mắt,"đau đầu, mờ mắt, khô mắt, nhìn đôi",Mắt
+Lác mắt,"mờ mắt, đau đầu, khô mắt",Mắt
+Lác mắt,"đau đầu, khô mắt, mờ mắt, nhìn đôi",Mắt
+Lác mắt,"đau đầu, mờ mắt, nhìn đôi, khô mắt",Mắt
+Lác mắt,"đau đầu, nhìn đôi, khô mắt, mờ mắt",Mắt
+Lác mắt,"đau đầu, nhìn đôi, khô mắt",Mắt
+Lác mắt,"mờ mắt, khô mắt, đau đầu",Mắt
+Viêm bờ mi,"sưng mi mắt, đỏ mắt, ngứa mắt, cộm mắt, khô mắt, ghèn mắt",Mắt
+Viêm bờ mi,"đỏ mắt, cộm mắt, ghèn mắt, khô mắt, ngứa mắt",Mắt
+Viêm bờ mi,"đỏ mắt, khô mắt, cộm mắt, ghèn mắt, ngứa mắt",Mắt
+Viêm bờ mi,"cộm mắt, khô mắt, sưng mi mắt, ngứa mắt, ghèn mắt",Mắt
+Viêm bờ mi,"cộm mắt, khô mắt, sưng mi mắt",Mắt
+Viêm bờ mi,"ngứa mắt, cộm mắt, ghèn mắt",Mắt
+Viêm bờ mi,"khô mắt, cộm mắt, ngứa mắt, đỏ mắt, ghèn mắt, sưng mi mắt",Mắt
+Viêm bờ mi,"ngứa mắt, ghèn mắt, đỏ mắt",Mắt
+Viêm bờ mi,"sưng mi mắt, đỏ mắt, khô mắt, ghèn mắt, cộm mắt",Mắt
+Viêm bờ mi,"cộm mắt, khô mắt, ngứa mắt, sưng mi mắt, đỏ mắt",Mắt
+Bong võng mạc,"nhìn chớp sáng, nhìn vệt đen, mờ mắt, mất thị lực, nhìn quầng sáng",Mắt
+Bong võng mạc,"nhìn quầng sáng, mất thị lực, nhìn vệt đen",Mắt
+Bong võng mạc,"mất thị lực, nhìn chớp sáng, mờ mắt, nhìn vệt đen",Mắt
+Bong võng mạc,"mất thị lực, nhìn chớp sáng, nhìn vệt đen, nhìn quầng sáng, mờ mắt",Mắt
+Bong võng mạc,"mất thị lực, nhìn chớp sáng, mờ mắt, nhìn vệt đen, nhìn quầng sáng",Mắt
+Bong võng mạc,"nhìn quầng sáng, mất thị lực, nhìn vệt đen",Mắt
+Bong võng mạc,"nhìn chớp sáng, nhìn vệt đen, nhìn quầng sáng, mờ mắt, mất thị lực",Mắt
+Bong võng mạc,"mờ mắt, mất thị lực, nhìn vệt đen, nhìn chớp sáng, nhìn quầng sáng",Mắt
+Bong võng mạc,"nhìn vệt đen, nhìn chớp sáng, nhìn quầng sáng",Mắt
+Bong võng mạc,"nhìn quầng sáng, nhìn vệt đen, mất thị lực, nhìn chớp sáng",Mắt
+Viêm họng cấp,"đau họng, rát họng, khó nuốt, sốt nhẹ, ho khan, khàn giọng, mệt mỏi, sưng hạch cổ",Tai Mũi Họng
+Viêm họng cấp,"rát họng, sưng hạch cổ, mệt mỏi, khó nuốt, sốt nhẹ",Tai Mũi Họng
+Viêm họng cấp,"ho khan, khàn giọng, khó nuốt, mệt mỏi, rát họng, sưng hạch cổ, đau họng, sốt nhẹ",Tai Mũi Họng
+Viêm họng cấp,"sốt nhẹ, khàn giọng, mệt mỏi, sưng hạch cổ, rát họng, ho khan, khó nuốt, đau họng",Tai Mũi Họng
+Viêm họng cấp,"rát họng, khàn giọng, khó nuốt, mệt mỏi, ho khan",Tai Mũi Họng
+Viêm họng cấp,"rát họng, khó nuốt, sốt nhẹ, mệt mỏi, ho khan",Tai Mũi Họng
+Viêm họng cấp,"mệt mỏi, đau họng, sưng hạch cổ, sốt nhẹ, rát họng, ho khan, khó nuốt",Tai Mũi Họng
+Viêm họng cấp,"mệt mỏi, rát họng, sốt nhẹ, khó nuốt, sưng hạch cổ, đau họng",Tai Mũi Họng
+Viêm họng cấp,"sưng hạch cổ, khó nuốt, sốt nhẹ, mệt mỏi",Tai Mũi Họng
+Viêm họng cấp,"khó nuốt, sốt nhẹ, mệt mỏi, khàn giọng",Tai Mũi Họng
+Viêm amidan cấp,"đau họng, khó nuốt, sốt cao, sưng hạch cổ, khàn giọng, hôi miệng, đau tai",Tai Mũi Họng
+Viêm amidan cấp,"sốt cao, hôi miệng, đau họng",Tai Mũi Họng
+Viêm amidan cấp,"khó nuốt, sốt cao, khàn giọng, sưng hạch cổ",Tai Mũi Họng
+Viêm amidan cấp,"khó nuốt, đau tai, khàn giọng, sưng hạch cổ, đau họng, hôi miệng, sốt cao",Tai Mũi Họng
+Viêm amidan cấp,"khàn giọng, sưng hạch cổ, đau họng, khó nuốt",Tai Mũi Họng
+Viêm amidan cấp,"đau họng, sưng hạch cổ, khó nuốt",Tai Mũi Họng
+Viêm amidan cấp,"hôi miệng, đau tai, sưng hạch cổ, sốt cao, khó nuốt, khàn giọng, đau họng",Tai Mũi Họng
+Viêm amidan cấp,"hôi miệng, khàn giọng, đau họng, đau tai, sưng hạch cổ",Tai Mũi Họng
+Viêm amidan cấp,"sốt cao, khàn giọng, đau họng, sưng hạch cổ, khó nuốt",Tai Mũi Họng
+Viêm amidan cấp,"đau tai, đau họng, sốt cao, khàn giọng, hôi miệng, sưng hạch cổ",Tai Mũi Họng
+Viêm thanh quản,"khàn giọng, mất tiếng, đau họng, ho khan, sốt nhẹ, khó nuốt",Tai Mũi Họng
+Viêm thanh quản,"ho khan, mất tiếng, đau họng",Tai Mũi Họng
+Viêm thanh quản,"khàn giọng, sốt nhẹ, đau họng, khó nuốt",Tai Mũi Họng
+Viêm thanh quản,"khàn giọng, khó nuốt, đau họng",Tai Mũi Họng
+Viêm thanh quản,"đau họng, khó nuốt, ho khan, khàn giọng, sốt nhẹ, mất tiếng",Tai Mũi Họng
+Viêm thanh quản,"khàn giọng, ho khan, khó nuốt, đau họng, sốt nhẹ, mất tiếng",Tai Mũi Họng
+Viêm thanh quản,"khó nuốt, sốt nhẹ, ho khan, đau họng, khàn giọng",Tai Mũi Họng
+Viêm thanh quản,"mất tiếng, khó nuốt, khàn giọng",Tai Mũi Họng
+Viêm thanh quản,"ho khan, sốt nhẹ, khàn giọng, đau họng",Tai Mũi Họng
+Viêm thanh quản,"sốt nhẹ, khó nuốt, khàn giọng, mất tiếng",Tai Mũi Họng
+Viêm xoang cấp,"đau đầu, chảy mũi đặc, nghẹt mũi, đau lan hàm, sốt nhẹ, mất mùi, ho khan, đau tai",Tai Mũi Họng
+Viêm xoang cấp,"đau tai, sốt nhẹ, chảy mũi đặc, ho khan, đau lan hàm, mất mùi, nghẹt mũi, đau đầu",Tai Mũi Họng
+Viêm xoang cấp,"chảy mũi đặc, đau đầu, đau lan hàm, đau tai",Tai Mũi Họng
+Viêm xoang cấp,"chảy mũi đặc, nghẹt mũi, đau tai, đau lan hàm, mất mùi, sốt nhẹ, đau đầu, ho khan",Tai Mũi Họng
+Viêm xoang cấp,"đau tai, sốt nhẹ, mất mùi, đau lan hàm, đau đầu, ho khan",Tai Mũi Họng
+Viêm xoang cấp,"sốt nhẹ, chảy mũi đặc, ho khan, đau lan hàm, nghẹt mũi, mất mùi, đau tai, đau đầu",Tai Mũi Họng
+Viêm xoang cấp,"nghẹt mũi, đau lan hàm, chảy mũi đặc, đau đầu, đau tai, ho khan, mất mùi, sốt nhẹ",Tai Mũi Họng
+Viêm xoang cấp,"nghẹt mũi, đau tai, sốt nhẹ, ho khan, mất mùi",Tai Mũi Họng
+Viêm xoang cấp,"sốt nhẹ, ho khan, đau lan hàm, chảy mũi đặc, đau đầu, nghẹt mũi",Tai Mũi Họng
+Viêm xoang cấp,"đau lan hàm, sốt nhẹ, đau đầu, mất mùi, nghẹt mũi, chảy mũi đặc, ho khan",Tai Mũi Họng
+Viêm xoang mạn,"đau đầu, chảy mũi đặc, nghẹt mũi, mất mùi, ho khan, đau lan hàm, mệt mỏi, mất tập trung",Tai Mũi Họng
+Viêm xoang mạn,"ho khan, mệt mỏi, đau lan hàm, nghẹt mũi, chảy mũi đặc, đau đầu, mất mùi",Tai Mũi Họng
+Viêm xoang mạn,"mệt mỏi, mất mùi, đau lan hàm, mất tập trung, ho khan, chảy mũi đặc, nghẹt mũi",Tai Mũi Họng
+Viêm xoang mạn,"mất tập trung, nghẹt mũi, mất mùi, mệt mỏi, đau đầu, ho khan",Tai Mũi Họng
+Viêm xoang mạn,"ho khan, mất tập trung, mất mùi, đau lan hàm",Tai Mũi Họng
+Viêm xoang mạn,"mệt mỏi, đau đầu, nghẹt mũi, đau lan hàm, mất mùi",Tai Mũi Họng
+Viêm xoang mạn,"ho khan, đau đầu, nghẹt mũi, mất mùi, mất tập trung, mệt mỏi",Tai Mũi Họng
+Viêm xoang mạn,"mất tập trung, đau đầu, nghẹt mũi, chảy mũi đặc, đau lan hàm, ho khan, mất mùi",Tai Mũi Họng
+Viêm xoang mạn,"chảy mũi đặc, đau lan hàm, mệt mỏi, ho khan, đau đầu, mất mùi, mất tập trung, nghẹt mũi",Tai Mũi Họng
+Viêm xoang mạn,"chảy mũi đặc, đau đầu, mất tập trung, ho khan, nghẹt mũi, mất mùi",Tai Mũi Họng
+Viêm tai giữa cấp,"đau tai, ù tai, sốt cao, nghe kém, chảy mủ tai, đau đầu, mệt mỏi, quấy khóc",Tai Mũi Họng
+Viêm tai giữa cấp,"ù tai, chảy mủ tai, đau đầu, mệt mỏi",Tai Mũi Họng
+Viêm tai giữa cấp,"quấy khóc, nghe kém, đau tai, ù tai, sốt cao, chảy mủ tai",Tai Mũi Họng
+Viêm tai giữa cấp,"ù tai, chảy mủ tai, đau đầu, quấy khóc, nghe kém, sốt cao",Tai Mũi Họng
+Viêm tai giữa cấp,"nghe kém, đau đầu, quấy khóc, ù tai, chảy mủ tai, sốt cao",Tai Mũi Họng
+Viêm tai giữa cấp,"mệt mỏi, đau đầu, đau tai, chảy mủ tai, ù tai, sốt cao, nghe kém",Tai Mũi Họng
+Viêm tai giữa cấp,"đau tai, ù tai, mệt mỏi, quấy khóc, chảy mủ tai, nghe kém, đau đầu",Tai Mũi Họng
+Viêm tai giữa cấp,"đau đầu, đau tai, nghe kém, ù tai, chảy mủ tai",Tai Mũi Họng
+Viêm tai giữa cấp,"đau tai, ù tai, mệt mỏi, sốt cao",Tai Mũi Họng
+Viêm tai giữa cấp,"đau đầu, đau tai, sốt cao, quấy khóc, mệt mỏi, chảy mủ tai",Tai Mũi Họng
+Viêm tai ngoài,"đau tai, chảy mủ tai, nghe kém, ù tai",Tai Mũi Họng
+Viêm tai ngoài,"đau tai, ù tai, nghe kém",Tai Mũi Họng
+Viêm tai ngoài,"chảy mủ tai, đau tai, nghe kém, ù tai",Tai Mũi Họng
+Viêm tai ngoài,"nghe kém, chảy mủ tai, đau tai",Tai Mũi Họng
+Viêm tai ngoài,"ù tai, đau tai, chảy mủ tai",Tai Mũi Họng
+Viêm tai ngoài,"ù tai, chảy mủ tai, đau tai, nghe kém",Tai Mũi Họng
+Viêm tai ngoài,"chảy mủ tai, ù tai, đau tai, nghe kém",Tai Mũi Họng
+Viêm tai ngoài,"nghe kém, đau tai, chảy mủ tai",Tai Mũi Họng
+Viêm tai ngoài,"ù tai, nghe kém, chảy mủ tai, đau tai",Tai Mũi Họng
+Viêm tai ngoài,"đau tai, ù tai, nghe kém, chảy mủ tai",Tai Mũi Họng
+Polyp mũi,"nghẹt mũi, chảy mũi đặc, mất mùi, khó thở, đau đầu, ngưng thở khi ngủ",Tai Mũi Họng
+Polyp mũi,"mất mùi, khó thở, nghẹt mũi",Tai Mũi Họng
+Polyp mũi,"đau đầu, mất mùi, nghẹt mũi",Tai Mũi Họng
+Polyp mũi,"mất mùi, chảy mũi đặc, khó thở",Tai Mũi Họng
+Polyp mũi,"chảy mũi đặc, nghẹt mũi, ngưng thở khi ngủ, khó thở, mất mùi",Tai Mũi Họng
+Polyp mũi,"khó thở, ngưng thở khi ngủ, chảy mũi đặc, mất mùi",Tai Mũi Họng
+Polyp mũi,"mất mùi, ngưng thở khi ngủ, khó thở, chảy mũi đặc, nghẹt mũi",Tai Mũi Họng
+Polyp mũi,"mất mùi, đau đầu, khó thở, ngưng thở khi ngủ, chảy mũi đặc",Tai Mũi Họng
+Polyp mũi,"khó thở, nghẹt mũi, ngưng thở khi ngủ, mất mùi",Tai Mũi Họng
+Polyp mũi,"khó thở, chảy mũi đặc, đau đầu, nghẹt mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"nghẹt mũi, chảy máu mũi, đau đầu, ngưng thở khi ngủ, mất mùi",Tai Mũi Họng
+Lệch vách ngăn mũi,"chảy máu mũi, nghẹt mũi, mất mùi",Tai Mũi Họng
+Lệch vách ngăn mũi,"đau đầu, mất mùi, nghẹt mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"mất mùi, nghẹt mũi, chảy máu mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"chảy máu mũi, đau đầu, nghẹt mũi, mất mùi",Tai Mũi Họng
+Lệch vách ngăn mũi,"nghẹt mũi, mất mùi, đau đầu",Tai Mũi Họng
+Lệch vách ngăn mũi,"nghẹt mũi, mất mùi, chảy máu mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"mất mùi, ngưng thở khi ngủ, chảy máu mũi, đau đầu, nghẹt mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"đau đầu, mất mùi, ngưng thở khi ngủ, chảy máu mũi, nghẹt mũi",Tai Mũi Họng
+Lệch vách ngăn mũi,"mất mùi, nghẹt mũi, ngưng thở khi ngủ",Tai Mũi Họng
+Ung thư vòm họng,"sưng hạch cổ, chảy máu mũi, nghẹt mũi, ù tai, khàn giọng, đau đầu, sụt cân, đau tai",Tai Mũi Họng
+Ung thư vòm họng,"ù tai, sưng hạch cổ, chảy máu mũi, đau tai",Tai Mũi Họng
+Ung thư vòm họng,"sưng hạch cổ, nghẹt mũi, sụt cân, ù tai, khàn giọng, đau đầu",Tai Mũi Họng
+Ung thư vòm họng,"ù tai, khàn giọng, sụt cân, chảy máu mũi, đau tai, đau đầu, sưng hạch cổ",Tai Mũi Họng
+Ung thư vòm họng,"khàn giọng, chảy máu mũi, đau tai, nghẹt mũi",Tai Mũi Họng
+Ung thư vòm họng,"ù tai, nghẹt mũi, đau tai, sưng hạch cổ",Tai Mũi Họng
+Ung thư vòm họng,"khàn giọng, đau tai, sưng hạch cổ, đau đầu, sụt cân",Tai Mũi Họng
+Ung thư vòm họng,"ù tai, nghẹt mũi, chảy máu mũi, đau tai, sưng hạch cổ, sụt cân, khàn giọng",Tai Mũi Họng
+Ung thư vòm họng,"sụt cân, đau tai, ù tai, chảy máu mũi",Tai Mũi Họng
+Ung thư vòm họng,"đau tai, sụt cân, ù tai, đau đầu, chảy máu mũi, sưng hạch cổ, nghẹt mũi, khàn giọng",Tai Mũi Họng
+Chóng mặt Meniere,"chóng mặt xoay, ù tai, nghe kém, buồn nôn, nôn, mất thăng bằng, đau tai",Tai Mũi Họng
+Chóng mặt Meniere,"mất thăng bằng, chóng mặt xoay, nôn, buồn nôn",Tai Mũi Họng
+Chóng mặt Meniere,"ù tai, chóng mặt xoay, đau tai",Tai Mũi Họng
+Chóng mặt Meniere,"mất thăng bằng, chóng mặt xoay, buồn nôn, ù tai, nghe kém",Tai Mũi Họng
+Chóng mặt Meniere,"nôn, nghe kém, chóng mặt xoay",Tai Mũi Họng
+Chóng mặt Meniere,"ù tai, đau tai, nghe kém, buồn nôn, mất thăng bằng",Tai Mũi Họng
+Chóng mặt Meniere,"đau tai, mất thăng bằng, nghe kém, nôn, chóng mặt xoay, buồn nôn, ù tai",Tai Mũi Họng
+Chóng mặt Meniere,"ù tai, nghe kém, đau tai, nôn",Tai Mũi Họng
+Chóng mặt Meniere,"buồn nôn, ù tai, nôn, chóng mặt xoay",Tai Mũi Họng
+Chóng mặt Meniere,"nghe kém, nôn, đau tai",Tai Mũi Họng
+Điếc đột ngột,"điếc đột ngột, ù tai, chóng mặt, nghe kém, đau tai",Tai Mũi Họng
+Điếc đột ngột,"điếc đột ngột, nghe kém, chóng mặt",Tai Mũi Họng
+Điếc đột ngột,"đau tai, ù tai, nghe kém",Tai Mũi Họng
+Điếc đột ngột,"chóng mặt, nghe kém, ù tai",Tai Mũi Họng
+Điếc đột ngột,"ù tai, chóng mặt, điếc đột ngột, đau tai, nghe kém",Tai Mũi Họng
+Điếc đột ngột,"nghe kém, chóng mặt, ù tai",Tai Mũi Họng
+Điếc đột ngột,"đau tai, nghe kém, chóng mặt",Tai Mũi Họng
+Điếc đột ngột,"đau tai, nghe kém, chóng mặt, điếc đột ngột, ù tai",Tai Mũi Họng
+Điếc đột ngột,"nghe kém, điếc đột ngột, chóng mặt",Tai Mũi Họng
+Điếc đột ngột,"đau tai, chóng mặt, ù tai",Tai Mũi Họng
+Đái tháo đường type 1,"khát nước nhiều, tiểu nhiều, sụt cân, mệt mỏi, mờ mắt, vết thương lâu lành, buồn nôn",Nội tiết
+Đái tháo đường type 1,"mờ mắt, vết thương lâu lành, sụt cân",Nội tiết
+Đái tháo đường type 1,"sụt cân, tiểu nhiều, buồn nôn, vết thương lâu lành, mệt mỏi, khát nước nhiều, mờ mắt",Nội tiết
+Đái tháo đường type 1,"tiểu nhiều, mờ mắt, vết thương lâu lành, buồn nôn, mệt mỏi",Nội tiết
+Đái tháo đường type 1,"mệt mỏi, sụt cân, tiểu nhiều",Nội tiết
+Đái tháo đường type 1,"vết thương lâu lành, khát nước nhiều, mờ mắt, sụt cân, tiểu nhiều, buồn nôn",Nội tiết
+Đái tháo đường type 1,"khát nước nhiều, tiểu nhiều, vết thương lâu lành, buồn nôn, mờ mắt, mệt mỏi, sụt cân",Nội tiết
+Đái tháo đường type 1,"buồn nôn, mờ mắt, mệt mỏi, khát nước nhiều, vết thương lâu lành",Nội tiết
+Đái tháo đường type 1,"sụt cân, vết thương lâu lành, mờ mắt, mệt mỏi, khát nước nhiều",Nội tiết
+Đái tháo đường type 1,"buồn nôn, mờ mắt, sụt cân, mệt mỏi, vết thương lâu lành",Nội tiết
+Đái tháo đường type 2,"khát nước nhiều, tiểu nhiều, mệt mỏi, mờ mắt, vết thương lâu lành, tê tay, tê chân, ngứa da",Nội tiết
+Đái tháo đường type 2,"tê chân, mệt mỏi, tiểu nhiều, khát nước nhiều, tê tay",Nội tiết
+Đái tháo đường type 2,"ngứa da, vết thương lâu lành, tiểu nhiều, tê chân, khát nước nhiều",Nội tiết
+Đái tháo đường type 2,"khát nước nhiều, mờ mắt, tê chân, tiểu nhiều, ngứa da, vết thương lâu lành, tê tay, mệt mỏi",Nội tiết
+Đái tháo đường type 2,"tê tay, khát nước nhiều, mờ mắt, mệt mỏi, tiểu nhiều",Nội tiết
+Đái tháo đường type 2,"tiểu nhiều, vết thương lâu lành, khát nước nhiều, mệt mỏi, tê tay, ngứa da",Nội tiết
+Đái tháo đường type 2,"mệt mỏi, mờ mắt, vết thương lâu lành, tiểu nhiều, tê tay",Nội tiết
+Đái tháo đường type 2,"mờ mắt, tiểu nhiều, mệt mỏi, ngứa da, khát nước nhiều, tê tay",Nội tiết
+Đái tháo đường type 2,"mệt mỏi, vết thương lâu lành, tê chân, mờ mắt, tiểu nhiều",Nội tiết
+Đái tháo đường type 2,"mệt mỏi, tiểu nhiều, khát nước nhiều, vết thương lâu lành",Nội tiết
+Đái tháo đường thai kỳ,"khát nước nhiều, tiểu nhiều, mệt mỏi, mờ mắt, tăng cân, buồn nôn",Nội tiết
+Đái tháo đường thai kỳ,"mệt mỏi, tăng cân, mờ mắt, tiểu nhiều",Nội tiết
+Đái tháo đường thai kỳ,"mờ mắt, mệt mỏi, buồn nôn, khát nước nhiều, tăng cân",Nội tiết
+Đái tháo đường thai kỳ,"mờ mắt, mệt mỏi, tiểu nhiều, buồn nôn, khát nước nhiều, tăng cân",Nội tiết
+Đái tháo đường thai kỳ,"mệt mỏi, tiểu nhiều, buồn nôn, tăng cân, mờ mắt",Nội tiết
+Đái tháo đường thai kỳ,"mờ mắt, tăng cân, mệt mỏi, tiểu nhiều, khát nước nhiều",Nội tiết
+Đái tháo đường thai kỳ,"tiểu nhiều, khát nước nhiều, mờ mắt, buồn nôn",Nội tiết
+Đái tháo đường thai kỳ,"tiểu nhiều, buồn nôn, mệt mỏi",Nội tiết
+Đái tháo đường thai kỳ,"tăng cân, buồn nôn, khát nước nhiều, mờ mắt, tiểu nhiều",Nội tiết
+Đái tháo đường thai kỳ,"tiểu nhiều, buồn nôn, tăng cân, khát nước nhiều",Nội tiết
+Cường giáp,"sụt cân, tim đập nhanh, hồi hộp, run tay, vã mồ hôi, mất ngủ, tiêu chảy nhiều lần, lo âu",Nội tiết
+Cường giáp,"lo âu, sụt cân, hồi hộp, tiêu chảy nhiều lần",Nội tiết
+Cường giáp,"tiêu chảy nhiều lần, sụt cân, hồi hộp, run tay, vã mồ hôi, mất ngủ, lo âu",Nội tiết
+Cường giáp,"tim đập nhanh, lo âu, vã mồ hôi, sụt cân, mất ngủ, hồi hộp",Nội tiết
+Cường giáp,"mất ngủ, tiêu chảy nhiều lần, vã mồ hôi, lo âu, tim đập nhanh, sụt cân, run tay, hồi hộp",Nội tiết
+Cường giáp,"sụt cân, hồi hộp, tiêu chảy nhiều lần, lo âu, run tay, mất ngủ, vã mồ hôi, tim đập nhanh",Nội tiết
+Cường giáp,"sụt cân, tim đập nhanh, mất ngủ, vã mồ hôi, lo âu, hồi hộp, tiêu chảy nhiều lần, run tay",Nội tiết
+Cường giáp,"lo âu, vã mồ hôi, sụt cân, hồi hộp, tim đập nhanh, mất ngủ",Nội tiết
+Cường giáp,"sụt cân, lo âu, mất ngủ, tim đập nhanh, vã mồ hôi, run tay, hồi hộp, tiêu chảy nhiều lần",Nội tiết
+Cường giáp,"lo âu, mất ngủ, sụt cân, run tay, vã mồ hôi, hồi hộp, tiêu chảy nhiều lần",Nội tiết
+Suy giáp,"mệt mỏi, tăng cân, ớn lạnh, táo bón, rụng tóc, phù mặt, trầm cảm, chậm vận động",Nội tiết
+Suy giáp,"chậm vận động, ớn lạnh, rụng tóc, tăng cân",Nội tiết
+Suy giáp,"chậm vận động, rụng tóc, táo bón, tăng cân, phù mặt, trầm cảm",Nội tiết
+Suy giáp,"phù mặt, mệt mỏi, táo bón, trầm cảm, tăng cân, ớn lạnh",Nội tiết
+Suy giáp,"trầm cảm, phù mặt, chậm vận động, mệt mỏi, rụng tóc, ớn lạnh, táo bón, tăng cân",Nội tiết
+Suy giáp,"táo bón, tăng cân, rụng tóc, ớn lạnh",Nội tiết
+Suy giáp,"chậm vận động, rụng tóc, tăng cân, trầm cảm, ớn lạnh",Nội tiết
+Suy giáp,"rụng tóc, trầm cảm, chậm vận động, mệt mỏi",Nội tiết
+Suy giáp,"chậm vận động, tăng cân, táo bón, phù mặt, rụng tóc, ớn lạnh, mệt mỏi",Nội tiết
+Suy giáp,"trầm cảm, mệt mỏi, rụng tóc, phù mặt, chậm vận động",Nội tiết
+Bướu cổ đơn thuần,"bướu cổ, sưng hạch cổ, khó nuốt, khó thở, khàn giọng",Nội tiết
+Bướu cổ đơn thuần,"khàn giọng, khó thở, sưng hạch cổ, bướu cổ, khó nuốt",Nội tiết
+Bướu cổ đơn thuần,"khàn giọng, khó nuốt, khó thở, sưng hạch cổ, bướu cổ",Nội tiết
+Bướu cổ đơn thuần,"khó nuốt, khó thở, bướu cổ, khàn giọng",Nội tiết
+Bướu cổ đơn thuần,"khó nuốt, sưng hạch cổ, khó thở, bướu cổ",Nội tiết
+Bướu cổ đơn thuần,"sưng hạch cổ, khó thở, bướu cổ, khàn giọng",Nội tiết
+Bướu cổ đơn thuần,"bướu cổ, khó nuốt, khó thở, khàn giọng",Nội tiết
+Bướu cổ đơn thuần,"sưng hạch cổ, khó nuốt, bướu cổ, khàn giọng, khó thở",Nội tiết
+Bướu cổ đơn thuần,"bướu cổ, khó nuốt, khó thở, khàn giọng",Nội tiết
+Bướu cổ đơn thuần,"khó nuốt, khàn giọng, khó thở, bướu cổ",Nội tiết
+Viêm tuyến giáp Hashimoto,"mệt mỏi, tăng cân, bướu cổ, ớn lạnh, rụng tóc, trầm cảm, phù mặt",Nội tiết
+Viêm tuyến giáp Hashimoto,"bướu cổ, trầm cảm, tăng cân",Nội tiết
+Viêm tuyến giáp Hashimoto,"bướu cổ, tăng cân, rụng tóc, phù mặt, mệt mỏi, trầm cảm, ớn lạnh",Nội tiết
+Viêm tuyến giáp Hashimoto,"mệt mỏi, rụng tóc, tăng cân, trầm cảm",Nội tiết
+Viêm tuyến giáp Hashimoto,"ớn lạnh, phù mặt, tăng cân",Nội tiết
+Viêm tuyến giáp Hashimoto,"ớn lạnh, phù mặt, rụng tóc, trầm cảm",Nội tiết
+Viêm tuyến giáp Hashimoto,"phù mặt, bướu cổ, rụng tóc, tăng cân, trầm cảm, ớn lạnh",Nội tiết
+Viêm tuyến giáp Hashimoto,"trầm cảm, phù mặt, mệt mỏi, tăng cân, bướu cổ, ớn lạnh, rụng tóc",Nội tiết
+Viêm tuyến giáp Hashimoto,"tăng cân, ớn lạnh, bướu cổ",Nội tiết
+Viêm tuyến giáp Hashimoto,"bướu cổ, tăng cân, mệt mỏi",Nội tiết
+Hội chứng Cushing,"mặt tròn như mặt trăng, tăng cân, rạn da, lông tóc rậm, da mặt đỏ ửng, đau xương, mất ngủ, trầm cảm",Nội tiết
+Hội chứng Cushing,"da mặt đỏ ửng, trầm cảm, đau xương, mặt tròn như mặt trăng, rạn da, lông tóc rậm, tăng cân, mất ngủ",Nội tiết
+Hội chứng Cushing,"mất ngủ, da mặt đỏ ửng, rạn da, trầm cảm, lông tóc rậm",Nội tiết
+Hội chứng Cushing,"tăng cân, mặt tròn như mặt trăng, rạn da, đau xương",Nội tiết
+Hội chứng Cushing,"mặt tròn như mặt trăng, da mặt đỏ ửng, mất ngủ, lông tóc rậm, rạn da, tăng cân, trầm cảm, đau xương",Nội tiết
+Hội chứng Cushing,"đau xương, trầm cảm, mặt tròn như mặt trăng, lông tóc rậm, rạn da",Nội tiết
+Hội chứng Cushing,"trầm cảm, mặt tròn như mặt trăng, rạn da, mất ngủ, lông tóc rậm, tăng cân, da mặt đỏ ửng",Nội tiết
+Hội chứng Cushing,"mặt tròn như mặt trăng, da mặt đỏ ửng, rạn da, tăng cân, trầm cảm, lông tóc rậm, đau xương, mất ngủ",Nội tiết
+Hội chứng Cushing,"rạn da, trầm cảm, da mặt đỏ ửng, đau xương, mặt tròn như mặt trăng, lông tóc rậm",Nội tiết
+Hội chứng Cushing,"rạn da, mất ngủ, tăng cân, lông tóc rậm, mặt tròn như mặt trăng",Nội tiết
+Bệnh Addison,"mệt mỏi, sạm da, sụt cân, buồn nôn, đau bụng, chóng mặt, khát nước nhiều",Nội tiết
+Bệnh Addison,"chóng mặt, sụt cân, đau bụng, khát nước nhiều, mệt mỏi",Nội tiết
+Bệnh Addison,"mệt mỏi, sụt cân, chóng mặt, khát nước nhiều, đau bụng",Nội tiết
+Bệnh Addison,"mệt mỏi, sạm da, đau bụng, khát nước nhiều, buồn nôn, chóng mặt",Nội tiết
+Bệnh Addison,"buồn nôn, mệt mỏi, khát nước nhiều, đau bụng",Nội tiết
+Bệnh Addison,"sạm da, sụt cân, đau bụng, mệt mỏi, chóng mặt",Nội tiết
+Bệnh Addison,"sụt cân, đau bụng, chóng mặt, mệt mỏi",Nội tiết
+Bệnh Addison,"sạm da, đau bụng, khát nước nhiều",Nội tiết
+Bệnh Addison,"mệt mỏi, sạm da, buồn nôn",Nội tiết
+Bệnh Addison,"khát nước nhiều, sạm da, đau bụng, buồn nôn, chóng mặt, sụt cân, mệt mỏi",Nội tiết
+Béo phì,"tăng cân, khó thở gắng sức, đau khớp, ngưng thở khi ngủ, mệt mỏi, đau lưng",Nội tiết
+Béo phì,"đau lưng, tăng cân, khó thở gắng sức",Nội tiết
+Béo phì,"tăng cân, mệt mỏi, ngưng thở khi ngủ, đau khớp",Nội tiết
+Béo phì,"đau lưng, khó thở gắng sức, mệt mỏi, ngưng thở khi ngủ, tăng cân, đau khớp",Nội tiết
+Béo phì,"đau lưng, mệt mỏi, đau khớp, khó thở gắng sức",Nội tiết
+Béo phì,"mệt mỏi, khó thở gắng sức, đau khớp, ngưng thở khi ngủ",Nội tiết
+Béo phì,"mệt mỏi, đau lưng, tăng cân, khó thở gắng sức, ngưng thở khi ngủ, đau khớp",Nội tiết
+Béo phì,"ngưng thở khi ngủ, tăng cân, đau khớp, khó thở gắng sức, đau lưng, mệt mỏi",Nội tiết
+Béo phì,"tăng cân, mệt mỏi, đau lưng, khó thở gắng sức, ngưng thở khi ngủ",Nội tiết
+Béo phì,"tăng cân, đau lưng, đau khớp",Nội tiết
+Hạ đường huyết,"vã mồ hôi, run tay, hồi hộp, khát nước nhiều, chóng mặt, lú lẫn, co giật, mất ý thức",Nội tiết
+Hạ đường huyết,"co giật, khát nước nhiều, mất ý thức, lú lẫn, run tay, vã mồ hôi, hồi hộp",Nội tiết
+Hạ đường huyết,"hồi hộp, mất ý thức, chóng mặt, vã mồ hôi, khát nước nhiều, co giật, lú lẫn, run tay",Nội tiết
+Hạ đường huyết,"khát nước nhiều, co giật, hồi hộp, run tay, lú lẫn",Nội tiết
+Hạ đường huyết,"vã mồ hôi, hồi hộp, lú lẫn, chóng mặt, run tay, khát nước nhiều",Nội tiết
+Hạ đường huyết,"co giật, run tay, lú lẫn, chóng mặt, khát nước nhiều, hồi hộp, vã mồ hôi",Nội tiết
+Hạ đường huyết,"chóng mặt, run tay, khát nước nhiều, lú lẫn",Nội tiết
+Hạ đường huyết,"lú lẫn, mất ý thức, khát nước nhiều, chóng mặt, vã mồ hôi",Nội tiết
+Hạ đường huyết,"khát nước nhiều, co giật, run tay, lú lẫn, chóng mặt, vã mồ hôi, mất ý thức",Nội tiết
+Hạ đường huyết,"chóng mặt, hồi hộp, mất ý thức, run tay, vã mồ hôi, co giật, khát nước nhiều, lú lẫn",Nội tiết
+Đái tháo nhạt,"tiểu nhiều, khát nước nhiều, mệt mỏi, mất ngủ, sụt cân",Nội tiết
+Đái tháo nhạt,"sụt cân, mất ngủ, khát nước nhiều",Nội tiết
+Đái tháo nhạt,"mệt mỏi, tiểu nhiều, mất ngủ",Nội tiết
+Đái tháo nhạt,"tiểu nhiều, mất ngủ, khát nước nhiều, mệt mỏi, sụt cân",Nội tiết
+Đái tháo nhạt,"mất ngủ, sụt cân, khát nước nhiều, tiểu nhiều",Nội tiết
+Đái tháo nhạt,"tiểu nhiều, khát nước nhiều, sụt cân, mệt mỏi, mất ngủ",Nội tiết
+Đái tháo nhạt,"khát nước nhiều, sụt cân, mất ngủ",Nội tiết
+Đái tháo nhạt,"mệt mỏi, khát nước nhiều, tiểu nhiều, sụt cân",Nội tiết
+Đái tháo nhạt,"mất ngủ, khát nước nhiều, sụt cân, tiểu nhiều, mệt mỏi",Nội tiết
+Đái tháo nhạt,"tiểu nhiều, mất ngủ, mệt mỏi, khát nước nhiều, sụt cân",Nội tiết
+Thiếu máu thiếu sắt,"mệt mỏi, da xanh tái, chóng mặt, khó thở gắng sức, tim đập nhanh, đau đầu, rụng tóc, móng giòn",Huyết học
+Thiếu máu thiếu sắt,"móng giòn, mệt mỏi, khó thở gắng sức, chóng mặt",Huyết học
+Thiếu máu thiếu sắt,"chóng mặt, rụng tóc, tim đập nhanh, móng giòn, đau đầu, mệt mỏi",Huyết học
+Thiếu máu thiếu sắt,"đau đầu, mệt mỏi, rụng tóc, móng giòn, tim đập nhanh, da xanh tái",Huyết học
+Thiếu máu thiếu sắt,"da xanh tái, đau đầu, móng giòn, rụng tóc",Huyết học
+Thiếu máu thiếu sắt,"đau đầu, da xanh tái, mệt mỏi, khó thở gắng sức, tim đập nhanh, móng giòn",Huyết học
+Thiếu máu thiếu sắt,"chóng mặt, mệt mỏi, rụng tóc, đau đầu, tim đập nhanh, khó thở gắng sức, da xanh tái, móng giòn",Huyết học
+Thiếu máu thiếu sắt,"da xanh tái, chóng mặt, đau đầu, móng giòn, tim đập nhanh",Huyết học
+Thiếu máu thiếu sắt,"da xanh tái, chóng mặt, đau đầu, rụng tóc, móng giòn",Huyết học
+Thiếu máu thiếu sắt,"chóng mặt, da xanh tái, mệt mỏi, khó thở gắng sức, tim đập nhanh",Huyết học
+Thiếu máu tan máu,"mệt mỏi, da xanh tái, vàng da, nước tiểu sẫm, khó thở, tim đập nhanh, đau bụng, sốt nhẹ",Huyết học
+Thiếu máu tan máu,"đau bụng, vàng da, mệt mỏi, sốt nhẹ, khó thở, nước tiểu sẫm",Huyết học
+Thiếu máu tan máu,"vàng da, mệt mỏi, tim đập nhanh, đau bụng, khó thở, nước tiểu sẫm, sốt nhẹ, da xanh tái",Huyết học
+Thiếu máu tan máu,"sốt nhẹ, nước tiểu sẫm, đau bụng, tim đập nhanh, da xanh tái, vàng da",Huyết học
+Thiếu máu tan máu,"tim đập nhanh, khó thở, da xanh tái, nước tiểu sẫm",Huyết học
+Thiếu máu tan máu,"tim đập nhanh, khó thở, sốt nhẹ, mệt mỏi, vàng da, da xanh tái, nước tiểu sẫm, đau bụng",Huyết học
+Thiếu máu tan máu,"vàng da, sốt nhẹ, da xanh tái, mệt mỏi, khó thở, đau bụng, nước tiểu sẫm",Huyết học
+Thiếu máu tan máu,"nước tiểu sẫm, da xanh tái, khó thở, vàng da, mệt mỏi",Huyết học
+Thiếu máu tan máu,"tim đập nhanh, sốt nhẹ, vàng da, khó thở, nước tiểu sẫm, da xanh tái",Huyết học
+Thiếu máu tan máu,"đau bụng, sốt nhẹ, vàng da, tim đập nhanh, nước tiểu sẫm",Huyết học
+Thiếu máu hồng cầu to,"mệt mỏi, da xanh tái, lưỡi bợt, tê tay, tê chân, mất trí nhớ, buồn nôn",Huyết học
+Thiếu máu hồng cầu to,"lưỡi bợt, tê chân, tê tay",Huyết học
+Thiếu máu hồng cầu to,"tê tay, buồn nôn, tê chân",Huyết học
+Thiếu máu hồng cầu to,"da xanh tái, mất trí nhớ, tê chân, mệt mỏi",Huyết học
+Thiếu máu hồng cầu to,"tê tay, lưỡi bợt, mất trí nhớ, tê chân, mệt mỏi, buồn nôn, da xanh tái",Huyết học
+Thiếu máu hồng cầu to,"mệt mỏi, buồn nôn, tê tay, da xanh tái, lưỡi bợt, mất trí nhớ, tê chân",Huyết học
+Thiếu máu hồng cầu to,"mệt mỏi, da xanh tái, lưỡi bợt, tê chân, tê tay",Huyết học
+Thiếu máu hồng cầu to,"lưỡi bợt, tê tay, mất trí nhớ, buồn nôn, mệt mỏi, da xanh tái, tê chân",Huyết học
+Thiếu máu hồng cầu to,"mất trí nhớ, mệt mỏi, tê tay",Huyết học
+Thiếu máu hồng cầu to,"tê chân, lưỡi bợt, tê tay, mệt mỏi, mất trí nhớ, buồn nôn",Huyết học
+Xuất huyết giảm tiểu cầu,"xuất huyết da, bầm tím, chảy máu mũi, chảy máu chân răng, rong kinh, phân có máu, mệt mỏi",Huyết học
+Xuất huyết giảm tiểu cầu,"chảy máu mũi, chảy máu chân răng, rong kinh",Huyết học
+Xuất huyết giảm tiểu cầu,"mệt mỏi, bầm tím, chảy máu chân răng, phân có máu, xuất huyết da, rong kinh",Huyết học
+Xuất huyết giảm tiểu cầu,"mệt mỏi, chảy máu mũi, chảy máu chân răng, bầm tím",Huyết học
+Xuất huyết giảm tiểu cầu,"phân có máu, rong kinh, chảy máu chân răng, bầm tím, chảy máu mũi, mệt mỏi",Huyết học
+Xuất huyết giảm tiểu cầu,"chảy máu mũi, mệt mỏi, bầm tím, chảy máu chân răng, phân có máu, xuất huyết da, rong kinh",Huyết học
+Xuất huyết giảm tiểu cầu,"bầm tím, mệt mỏi, phân có máu, rong kinh, chảy máu mũi",Huyết học
+Xuất huyết giảm tiểu cầu,"phân có máu, chảy máu chân răng, rong kinh, chảy máu mũi",Huyết học
+Xuất huyết giảm tiểu cầu,"mệt mỏi, chảy máu mũi, chảy máu chân răng, rong kinh, bầm tím, phân có máu, xuất huyết da",Huyết học
+Xuất huyết giảm tiểu cầu,"mệt mỏi, chảy máu mũi, chảy máu chân răng, rong kinh, phân có máu, bầm tím, xuất huyết da",Huyết học
+Bạch cầu cấp dòng tủy,"sốt cao, mệt mỏi, da xanh tái, xuất huyết da, bầm tím, hạch to, sụt cân, đau xương",Huyết học
+Bạch cầu cấp dòng tủy,"sụt cân, đau xương, mệt mỏi, da xanh tái",Huyết học
+Bạch cầu cấp dòng tủy,"da xanh tái, sụt cân, đau xương, hạch to, mệt mỏi, xuất huyết da",Huyết học
+Bạch cầu cấp dòng tủy,"da xanh tái, xuất huyết da, đau xương, sụt cân, hạch to, sốt cao",Huyết học
+Bạch cầu cấp dòng tủy,"mệt mỏi, sụt cân, hạch to, sốt cao, đau xương, da xanh tái, bầm tím, xuất huyết da",Huyết học
+Bạch cầu cấp dòng tủy,"sốt cao, đau xương, da xanh tái, bầm tím",Huyết học
+Bạch cầu cấp dòng tủy,"xuất huyết da, sốt cao, hạch to, mệt mỏi, sụt cân, bầm tím, đau xương, da xanh tái",Huyết học
+Bạch cầu cấp dòng tủy,"đau xương, sốt cao, xuất huyết da, da xanh tái, bầm tím, sụt cân, mệt mỏi, hạch to",Huyết học
+Bạch cầu cấp dòng tủy,"xuất huyết da, bầm tím, mệt mỏi, đau xương, sụt cân, hạch to, da xanh tái",Huyết học
+Bạch cầu cấp dòng tủy,"đau xương, da xanh tái, xuất huyết da, hạch to, bầm tím, sụt cân",Huyết học
+Bạch cầu mạn dòng tủy,"mệt mỏi, sụt cân, hạch to, đau hạ sườn trái, mồ hôi đêm, sốt nhẹ, ngứa da",Huyết học
+Bạch cầu mạn dòng tủy,"mệt mỏi, đau hạ sườn trái, sốt nhẹ, sụt cân, mồ hôi đêm",Huyết học
+Bạch cầu mạn dòng tủy,"đau hạ sườn trái, ngứa da, hạch to",Huyết học
+Bạch cầu mạn dòng tủy,"ngứa da, mệt mỏi, mồ hôi đêm, sụt cân",Huyết học
+Bạch cầu mạn dòng tủy,"mệt mỏi, ngứa da, hạch to, mồ hôi đêm, đau hạ sườn trái",Huyết học
+Bạch cầu mạn dòng tủy,"sụt cân, đau hạ sườn trái, sốt nhẹ, ngứa da, mệt mỏi",Huyết học
+Bạch cầu mạn dòng tủy,"ngứa da, mồ hôi đêm, sụt cân, sốt nhẹ, mệt mỏi, đau hạ sườn trái, hạch to",Huyết học
+Bạch cầu mạn dòng tủy,"ngứa da, hạch to, sụt cân, mồ hôi đêm, đau hạ sườn trái",Huyết học
+Bạch cầu mạn dòng tủy,"sốt nhẹ, hạch to, đau hạ sườn trái, mệt mỏi, sụt cân",Huyết học
+Bạch cầu mạn dòng tủy,"hạch to, ngứa da, sụt cân, mệt mỏi, sốt nhẹ",Huyết học
+U lympho Hodgkin,"hạch to, sốt chiều, mồ hôi đêm, sụt cân, ngứa da, mệt mỏi, đau ngực, ho khan",Huyết học
+U lympho Hodgkin,"ho khan, mồ hôi đêm, hạch to, ngứa da, đau ngực",Huyết học
+U lympho Hodgkin,"đau ngực, hạch to, sụt cân, ngứa da, mệt mỏi, sốt chiều, mồ hôi đêm, ho khan",Huyết học
+U lympho Hodgkin,"đau ngực, ngứa da, sốt chiều, sụt cân, ho khan, hạch to, mồ hôi đêm",Huyết học
+U lympho Hodgkin,"mồ hôi đêm, đau ngực, sụt cân, ngứa da, hạch to, sốt chiều, mệt mỏi, ho khan",Huyết học
+U lympho Hodgkin,"mệt mỏi, đau ngực, mồ hôi đêm, sụt cân, sốt chiều",Huyết học
+U lympho Hodgkin,"đau ngực, sốt chiều, ho khan, ngứa da, hạch to, sụt cân",Huyết học
+U lympho Hodgkin,"đau ngực, ngứa da, hạch to, mồ hôi đêm",Huyết học
+U lympho Hodgkin,"ngứa da, đau ngực, hạch to, sốt chiều",Huyết học
+U lympho Hodgkin,"ho khan, mệt mỏi, sốt chiều, sụt cân, ngứa da, hạch to, đau ngực, mồ hôi đêm",Huyết học
+U lympho không Hodgkin,"hạch to, sốt chiều, mồ hôi đêm, sụt cân, mệt mỏi, đau bụng, ho khan, khó thở",Huyết học
+U lympho không Hodgkin,"ho khan, sốt chiều, hạch to, mệt mỏi, sụt cân, khó thở, đau bụng, mồ hôi đêm",Huyết học
+U lympho không Hodgkin,"khó thở, sụt cân, mồ hôi đêm, đau bụng, mệt mỏi, ho khan",Huyết học
+U lympho không Hodgkin,"khó thở, sốt chiều, ho khan, hạch to, mồ hôi đêm",Huyết học
+U lympho không Hodgkin,"mồ hôi đêm, sốt chiều, đau bụng, ho khan",Huyết học
+U lympho không Hodgkin,"sốt chiều, khó thở, đau bụng, mồ hôi đêm, ho khan",Huyết học
+U lympho không Hodgkin,"đau bụng, hạch to, khó thở, ho khan, sụt cân, mệt mỏi, sốt chiều",Huyết học
+U lympho không Hodgkin,"mệt mỏi, ho khan, đau bụng, mồ hôi đêm",Huyết học
+U lympho không Hodgkin,"mồ hôi đêm, khó thở, đau bụng, mệt mỏi",Huyết học
+U lympho không Hodgkin,"sụt cân, mồ hôi đêm, ho khan, sốt chiều, mệt mỏi",Huyết học
+Hemophilia A,"dễ chảy máu, máu khó đông, bầm tím, đau khớp, sưng khớp, chảy máu mũi, tiểu máu",Huyết học
+Hemophilia A,"chảy máu mũi, tiểu máu, đau khớp",Huyết học
+Hemophilia A,"đau khớp, chảy máu mũi, dễ chảy máu, tiểu máu, bầm tím",Huyết học
+Hemophilia A,"dễ chảy máu, chảy máu mũi, bầm tím, đau khớp, tiểu máu",Huyết học
+Hemophilia A,"máu khó đông, chảy máu mũi, đau khớp, sưng khớp",Huyết học
+Hemophilia A,"máu khó đông, bầm tím, đau khớp, chảy máu mũi, sưng khớp",Huyết học
+Hemophilia A,"máu khó đông, dễ chảy máu, bầm tím, chảy máu mũi",Huyết học
+Hemophilia A,"bầm tím, đau khớp, dễ chảy máu, sưng khớp, chảy máu mũi, tiểu máu",Huyết học
+Hemophilia A,"tiểu máu, máu khó đông, bầm tím, sưng khớp, đau khớp, dễ chảy máu",Huyết học
+Hemophilia A,"dễ chảy máu, chảy máu mũi, đau khớp",Huyết học
+Bệnh Thalassemia,"da xanh tái, vàng da, mệt mỏi, chậm phát triển, hạch to, khó thở gắng sức, biến dạng khớp",Huyết học
+Bệnh Thalassemia,"biến dạng khớp, da xanh tái, hạch to, mệt mỏi",Huyết học
+Bệnh Thalassemia,"biến dạng khớp, hạch to, khó thở gắng sức, mệt mỏi",Huyết học
+Bệnh Thalassemia,"biến dạng khớp, chậm phát triển, da xanh tái, khó thở gắng sức, hạch to, vàng da, mệt mỏi",Huyết học
+Bệnh Thalassemia,"vàng da, mệt mỏi, khó thở gắng sức, biến dạng khớp",Huyết học
+Bệnh Thalassemia,"mệt mỏi, da xanh tái, chậm phát triển, hạch to, biến dạng khớp, vàng da, khó thở gắng sức",Huyết học
+Bệnh Thalassemia,"vàng da, khó thở gắng sức, biến dạng khớp",Huyết học
+Bệnh Thalassemia,"biến dạng khớp, khó thở gắng sức, vàng da",Huyết học
+Bệnh Thalassemia,"khó thở gắng sức, hạch to, chậm phát triển",Huyết học
+Bệnh Thalassemia,"khó thở gắng sức, da xanh tái, biến dạng khớp, mệt mỏi, vàng da, hạch to, chậm phát triển",Huyết học
+Viêm cầu thận cấp,"phù mặt, phù mí mắt, phù chân, tiểu máu, tiểu ít, đau đầu, mệt mỏi, đau lưng",Thận tiết niệu
+Viêm cầu thận cấp,"tiểu ít, mệt mỏi, phù chân, đau lưng, tiểu máu, đau đầu",Thận tiết niệu
+Viêm cầu thận cấp,"mệt mỏi, tiểu máu, đau lưng, tiểu ít, phù mí mắt, đau đầu, phù mặt",Thận tiết niệu
+Viêm cầu thận cấp,"phù mặt, phù mí mắt, đau lưng, mệt mỏi, đau đầu, tiểu máu, tiểu ít",Thận tiết niệu
+Viêm cầu thận cấp,"đau đầu, phù mặt, phù mí mắt, đau lưng, phù chân, tiểu ít, tiểu máu, mệt mỏi",Thận tiết niệu
+Viêm cầu thận cấp,"mệt mỏi, phù mặt, đau lưng, phù mí mắt, phù chân",Thận tiết niệu
+Viêm cầu thận cấp,"mệt mỏi, đau lưng, đau đầu, phù chân, phù mí mắt, phù mặt, tiểu máu",Thận tiết niệu
+Viêm cầu thận cấp,"đau lưng, tiểu máu, mệt mỏi, phù mí mắt",Thận tiết niệu
+Viêm cầu thận cấp,"đau đầu, tiểu máu, phù mí mắt, mệt mỏi, tiểu ít",Thận tiết niệu
+Viêm cầu thận cấp,"đau đầu, phù mí mắt, mệt mỏi, tiểu ít, phù mặt",Thận tiết niệu
+Viêm cầu thận mạn,"phù chân, phù mặt, tiểu ít, tiểu máu, mệt mỏi, đau đầu, chán ăn, buồn nôn",Thận tiết niệu
+Viêm cầu thận mạn,"buồn nôn, đau đầu, tiểu máu, mệt mỏi, tiểu ít, phù chân",Thận tiết niệu
+Viêm cầu thận mạn,"chán ăn, mệt mỏi, phù chân, tiểu máu, đau đầu, phù mặt",Thận tiết niệu
+Viêm cầu thận mạn,"đau đầu, buồn nôn, phù mặt, tiểu máu, chán ăn, tiểu ít",Thận tiết niệu
+Viêm cầu thận mạn,"buồn nôn, đau đầu, phù mặt, tiểu máu",Thận tiết niệu
+Viêm cầu thận mạn,"mệt mỏi, chán ăn, tiểu ít, đau đầu",Thận tiết niệu
+Viêm cầu thận mạn,"mệt mỏi, chán ăn, phù chân, phù mặt, đau đầu, buồn nôn, tiểu ít",Thận tiết niệu
+Viêm cầu thận mạn,"chán ăn, tiểu ít, đau đầu, phù mặt, tiểu máu, mệt mỏi",Thận tiết niệu
+Viêm cầu thận mạn,"mệt mỏi, chán ăn, tiểu ít, buồn nôn, đau đầu, tiểu máu, phù chân, phù mặt",Thận tiết niệu
+Viêm cầu thận mạn,"mệt mỏi, đau đầu, buồn nôn, tiểu máu, phù mặt, phù chân, chán ăn",Thận tiết niệu
+Suy thận cấp,"tiểu ít, bí tiểu, phù chân, buồn nôn, nôn, mệt mỏi, lú lẫn, khó thở",Thận tiết niệu
+Suy thận cấp,"nôn, tiểu ít, lú lẫn, mệt mỏi, phù chân, khó thở",Thận tiết niệu
+Suy thận cấp,"khó thở, phù chân, buồn nôn, bí tiểu, nôn, mệt mỏi",Thận tiết niệu
+Suy thận cấp,"phù chân, lú lẫn, nôn, bí tiểu, khó thở, mệt mỏi",Thận tiết niệu
+Suy thận cấp,"mệt mỏi, lú lẫn, bí tiểu, buồn nôn, phù chân",Thận tiết niệu
+Suy thận cấp,"tiểu ít, mệt mỏi, bí tiểu, lú lẫn, phù chân",Thận tiết niệu
+Suy thận cấp,"mệt mỏi, bí tiểu, khó thở, nôn, buồn nôn, tiểu ít, lú lẫn",Thận tiết niệu
+Suy thận cấp,"khó thở, buồn nôn, mệt mỏi, tiểu ít, lú lẫn, bí tiểu, phù chân",Thận tiết niệu
+Suy thận cấp,"mệt mỏi, lú lẫn, khó thở, bí tiểu",Thận tiết niệu
+Suy thận cấp,"phù chân, khó thở, tiểu ít, bí tiểu, lú lẫn",Thận tiết niệu
+Suy thận mạn,"mệt mỏi, phù chân, tiểu đêm, ngứa da, buồn nôn, chán ăn, khó thở, đau đầu",Thận tiết niệu
+Suy thận mạn,"khó thở, ngứa da, đau đầu, mệt mỏi, buồn nôn, phù chân, chán ăn, tiểu đêm",Thận tiết niệu
+Suy thận mạn,"đau đầu, phù chân, chán ăn, ngứa da, tiểu đêm, mệt mỏi",Thận tiết niệu
+Suy thận mạn,"ngứa da, buồn nôn, mệt mỏi, khó thở, phù chân, chán ăn, đau đầu, tiểu đêm",Thận tiết niệu
+Suy thận mạn,"ngứa da, buồn nôn, mệt mỏi, tiểu đêm",Thận tiết niệu
+Suy thận mạn,"chán ăn, phù chân, mệt mỏi, tiểu đêm, khó thở",Thận tiết niệu
+Suy thận mạn,"buồn nôn, mệt mỏi, đau đầu, phù chân, tiểu đêm, ngứa da, chán ăn, khó thở",Thận tiết niệu
+Suy thận mạn,"chán ăn, tiểu đêm, buồn nôn, mệt mỏi",Thận tiết niệu
+Suy thận mạn,"chán ăn, mệt mỏi, buồn nôn, phù chân, ngứa da, đau đầu, tiểu đêm, khó thở",Thận tiết niệu
+Suy thận mạn,"chán ăn, phù chân, mệt mỏi, buồn nôn, ngứa da, khó thở, đau đầu",Thận tiết niệu
+Sỏi thận,"đau lưng, đau hông, tiểu máu, buồn nôn, nôn, đau bẹn, tiểu buốt, tiểu rắt",Thận tiết niệu
+Sỏi thận,"tiểu máu, buồn nôn, tiểu buốt, tiểu rắt, đau hông, đau lưng",Thận tiết niệu
+Sỏi thận,"tiểu buốt, đau lưng, tiểu rắt, nôn",Thận tiết niệu
+Sỏi thận,"tiểu buốt, nôn, đau lưng, tiểu máu",Thận tiết niệu
+Sỏi thận,"tiểu máu, nôn, đau lưng, đau bẹn, tiểu rắt, tiểu buốt",Thận tiết niệu
+Sỏi thận,"tiểu máu, đau hông, đau bẹn, buồn nôn, tiểu rắt, tiểu buốt",Thận tiết niệu
+Sỏi thận,"đau hông, tiểu buốt, tiểu máu, đau bẹn, nôn, tiểu rắt, đau lưng",Thận tiết niệu
+Sỏi thận,"nôn, tiểu buốt, tiểu rắt, tiểu máu, buồn nôn",Thận tiết niệu
+Sỏi thận,"đau lưng, tiểu máu, tiểu rắt, đau hông, buồn nôn, đau bẹn",Thận tiết niệu
+Sỏi thận,"đau hông, tiểu rắt, đau bẹn, buồn nôn, đau lưng, tiểu buốt, nôn, tiểu máu",Thận tiết niệu
+Sỏi niệu quản,"đau lưng, đau hông, đau bẹn, tiểu máu, buồn nôn, nôn, tiểu rắt, đau quặn bụng",Thận tiết niệu
+Sỏi niệu quản,"tiểu rắt, buồn nôn, tiểu máu, đau hông, đau quặn bụng, nôn, đau lưng",Thận tiết niệu
+Sỏi niệu quản,"đau lưng, đau hông, đau quặn bụng, buồn nôn, tiểu rắt, nôn",Thận tiết niệu
+Sỏi niệu quản,"đau bẹn, đau lưng, tiểu máu, đau quặn bụng",Thận tiết niệu
+Sỏi niệu quản,"tiểu rắt, đau lưng, đau hông, đau bẹn, đau quặn bụng, tiểu máu, buồn nôn",Thận tiết niệu
+Sỏi niệu quản,"đau hông, tiểu rắt, đau lưng, nôn, tiểu máu, đau quặn bụng, buồn nôn",Thận tiết niệu
+Sỏi niệu quản,"đau bẹn, đau quặn bụng, đau hông, tiểu rắt, đau lưng, tiểu máu",Thận tiết niệu
+Sỏi niệu quản,"tiểu máu, đau hông, buồn nôn, nôn, đau quặn bụng, đau lưng, đau bẹn",Thận tiết niệu
+Sỏi niệu quản,"đau bẹn, tiểu rắt, đau lưng, đau quặn bụng, nôn, tiểu máu",Thận tiết niệu
+Sỏi niệu quản,"đau bẹn, đau lưng, tiểu máu, tiểu rắt",Thận tiết niệu
+Sỏi bàng quang,"tiểu rắt, tiểu buốt, tiểu máu, đau hạ vị, bí tiểu, tiểu khó",Thận tiết niệu
+Sỏi bàng quang,"tiểu khó, tiểu buốt, tiểu máu, đau hạ vị",Thận tiết niệu
+Sỏi bàng quang,"tiểu buốt, đau hạ vị, tiểu rắt",Thận tiết niệu
+Sỏi bàng quang,"bí tiểu, tiểu rắt, tiểu buốt, tiểu khó",Thận tiết niệu
+Sỏi bàng quang,"tiểu buốt, đau hạ vị, tiểu khó, tiểu rắt",Thận tiết niệu
+Sỏi bàng quang,"tiểu khó, tiểu máu, đau hạ vị, tiểu buốt, tiểu rắt",Thận tiết niệu
+Sỏi bàng quang,"bí tiểu, tiểu buốt, tiểu rắt",Thận tiết niệu
+Sỏi bàng quang,"tiểu khó, tiểu buốt, đau hạ vị, tiểu máu",Thận tiết niệu
+Sỏi bàng quang,"đau hạ vị, tiểu máu, tiểu rắt, bí tiểu",Thận tiết niệu
+Sỏi bàng quang,"bí tiểu, tiểu khó, tiểu buốt, tiểu rắt, đau hạ vị",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu buốt, tiểu rắt, tiểu nhiều, đau hạ vị, tiểu mủ, tiểu đục, sốt nhẹ, đau lưng",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu buốt, đau lưng, sốt nhẹ, tiểu đục, đau hạ vị",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu rắt, tiểu mủ, tiểu buốt, đau lưng, tiểu đục, sốt nhẹ",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu buốt, sốt nhẹ, tiểu mủ, tiểu đục, đau lưng",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu rắt, tiểu nhiều, đau hạ vị, đau lưng, sốt nhẹ, tiểu đục, tiểu mủ",Thận tiết niệu
+Nhiễm trùng đường tiểu,"đau hạ vị, tiểu đục, sốt nhẹ, đau lưng, tiểu rắt, tiểu nhiều",Thận tiết niệu
+Nhiễm trùng đường tiểu,"sốt nhẹ, tiểu mủ, đau lưng, đau hạ vị, tiểu buốt, tiểu rắt, tiểu đục",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu đục, tiểu nhiều, sốt nhẹ, tiểu rắt, tiểu mủ, đau lưng, đau hạ vị",Thận tiết niệu
+Nhiễm trùng đường tiểu,"đau hạ vị, tiểu đục, sốt nhẹ, tiểu nhiều, tiểu mủ",Thận tiết niệu
+Nhiễm trùng đường tiểu,"tiểu rắt, tiểu đục, sốt nhẹ, tiểu buốt, đau hạ vị",Thận tiết niệu
+Viêm bể thận cấp,"sốt cao, ớn lạnh, đau lưng, đau hông, buồn nôn, nôn, tiểu buốt, tiểu rắt",Thận tiết niệu
+Viêm bể thận cấp,"tiểu buốt, ớn lạnh, nôn, đau hông, buồn nôn",Thận tiết niệu
+Viêm bể thận cấp,"đau lưng, nôn, đau hông, buồn nôn, tiểu buốt, tiểu rắt, ớn lạnh",Thận tiết niệu
+Viêm bể thận cấp,"tiểu buốt, đau hông, tiểu rắt, sốt cao, đau lưng",Thận tiết niệu
+Viêm bể thận cấp,"đau lưng, tiểu buốt, sốt cao, tiểu rắt",Thận tiết niệu
+Viêm bể thận cấp,"buồn nôn, sốt cao, tiểu buốt, đau lưng, tiểu rắt",Thận tiết niệu
+Viêm bể thận cấp,"sốt cao, buồn nôn, tiểu rắt, ớn lạnh, đau lưng",Thận tiết niệu
+Viêm bể thận cấp,"tiểu rắt, buồn nôn, đau hông, tiểu buốt, nôn, sốt cao, đau lưng, ớn lạnh",Thận tiết niệu
+Viêm bể thận cấp,"tiểu buốt, tiểu rắt, buồn nôn, đau hông, đau lưng, sốt cao, ớn lạnh",Thận tiết niệu
+Viêm bể thận cấp,"buồn nôn, đau hông, nôn, đau lưng, tiểu buốt, sốt cao, tiểu rắt",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu khó, tiểu đêm, tiểu rắt, bí tiểu, khó nín tiểu",Thận tiết niệu
+Phì đại tuyến tiền liệt,"bí tiểu, khó nín tiểu, tiểu rắt, tiểu khó, tiểu đêm",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu rắt, khó nín tiểu, tiểu khó",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu khó, khó nín tiểu, tiểu rắt, tiểu đêm, bí tiểu",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu đêm, khó nín tiểu, tiểu khó, tiểu rắt",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu khó, khó nín tiểu, tiểu rắt",Thận tiết niệu
+Phì đại tuyến tiền liệt,"khó nín tiểu, tiểu đêm, bí tiểu, tiểu rắt",Thận tiết niệu
+Phì đại tuyến tiền liệt,"bí tiểu, tiểu khó, khó nín tiểu, tiểu rắt, tiểu đêm",Thận tiết niệu
+Phì đại tuyến tiền liệt,"tiểu khó, bí tiểu, khó nín tiểu, tiểu đêm, tiểu rắt",Thận tiết niệu
+Phì đại tuyến tiền liệt,"bí tiểu, tiểu đêm, tiểu rắt, khó nín tiểu, tiểu khó",Thận tiết niệu
+Ung thư thận,"tiểu máu, đau lưng, khối u sờ thấy, sụt cân, sốt nhẹ, mệt mỏi, da xanh tái, đau đầu",Thận tiết niệu
+Ung thư thận,"da xanh tái, sốt nhẹ, mệt mỏi, tiểu máu, sụt cân",Thận tiết niệu
+Ung thư thận,"tiểu máu, khối u sờ thấy, sốt nhẹ, mệt mỏi, đau đầu",Thận tiết niệu
+Ung thư thận,"da xanh tái, tiểu máu, đau lưng, sụt cân, mệt mỏi",Thận tiết niệu
+Ung thư thận,"sốt nhẹ, mệt mỏi, da xanh tái, đau lưng, đau đầu, tiểu máu, sụt cân",Thận tiết niệu
+Ung thư thận,"mệt mỏi, khối u sờ thấy, tiểu máu, sụt cân, da xanh tái, đau lưng, sốt nhẹ",Thận tiết niệu
+Ung thư thận,"sụt cân, khối u sờ thấy, da xanh tái, đau lưng",Thận tiết niệu
+Ung thư thận,"sốt nhẹ, tiểu máu, sụt cân, đau đầu, mệt mỏi, da xanh tái, đau lưng, khối u sờ thấy",Thận tiết niệu
+Ung thư thận,"khối u sờ thấy, sụt cân, đau lưng, tiểu máu",Thận tiết niệu
+Ung thư thận,"da xanh tái, khối u sờ thấy, sốt nhẹ, đau lưng",Thận tiết niệu
+Hội chứng thận hư,"phù mặt, phù chân, phù toàn thân, tiểu ít, mệt mỏi, chán ăn, tăng cân, tiểu đục",Thận tiết niệu
+Hội chứng thận hư,"phù toàn thân, tiểu đục, tăng cân, phù chân, tiểu ít, chán ăn",Thận tiết niệu
+Hội chứng thận hư,"phù toàn thân, chán ăn, phù mặt, tiểu ít, tiểu đục",Thận tiết niệu
+Hội chứng thận hư,"mệt mỏi, tiểu đục, tăng cân, chán ăn, phù chân, tiểu ít, phù mặt",Thận tiết niệu
+Hội chứng thận hư,"tiểu ít, mệt mỏi, tăng cân, phù chân, phù toàn thân, chán ăn, phù mặt",Thận tiết niệu
+Hội chứng thận hư,"phù chân, tiểu ít, chán ăn, tiểu đục, mệt mỏi, phù mặt",Thận tiết niệu
+Hội chứng thận hư,"chán ăn, tiểu ít, phù chân, phù mặt, phù toàn thân, tiểu đục, tăng cân",Thận tiết niệu
+Hội chứng thận hư,"phù toàn thân, tiểu ít, tiểu đục, chán ăn, phù chân, phù mặt, tăng cân, mệt mỏi",Thận tiết niệu
+Hội chứng thận hư,"tăng cân, phù chân, tiểu đục, phù mặt, mệt mỏi, chán ăn, tiểu ít, phù toàn thân",Thận tiết niệu
+Hội chứng thận hư,"phù toàn thân, tăng cân, phù mặt, tiểu ít",Thận tiết niệu
+Sốt xuất huyết trẻ em,"sốt cao, phát ban, đau đầu, đau bụng, nôn, chảy máu mũi, bầm tím, mệt mỏi",Nhi khoa
+Sốt xuất huyết trẻ em,"mệt mỏi, chảy máu mũi, đau đầu, đau bụng, nôn",Nhi khoa
+Sốt xuất huyết trẻ em,"mệt mỏi, nôn, chảy máu mũi, bầm tím, phát ban",Nhi khoa
+Sốt xuất huyết trẻ em,"đau bụng, chảy máu mũi, mệt mỏi, đau đầu, phát ban, nôn, bầm tím, sốt cao",Nhi khoa
+Sốt xuất huyết trẻ em,"chảy máu mũi, phát ban, sốt cao, đau đầu, đau bụng, nôn, bầm tím",Nhi khoa
+Sốt xuất huyết trẻ em,"đau bụng, chảy máu mũi, sốt cao, nôn, đau đầu, phát ban, mệt mỏi, bầm tím",Nhi khoa
+Sốt xuất huyết trẻ em,"đau đầu, sốt cao, bầm tím, đau bụng, chảy máu mũi",Nhi khoa
+Sốt xuất huyết trẻ em,"đau bụng, bầm tím, chảy máu mũi, sốt cao",Nhi khoa
+Sốt xuất huyết trẻ em,"đau bụng, mệt mỏi, chảy máu mũi, nôn, phát ban",Nhi khoa
+Sốt xuất huyết trẻ em,"phát ban, mệt mỏi, nôn, chảy máu mũi, đau bụng, đau đầu",Nhi khoa
+Tay chân miệng,"loét miệng, phát ban, mụn nước, sốt cao, biếng ăn, quấy khóc, chảy nước miếng, đau họng",Nhi khoa
+Tay chân miệng,"mụn nước, loét miệng, chảy nước miếng, biếng ăn",Nhi khoa
+Tay chân miệng,"sốt cao, phát ban, mụn nước, chảy nước miếng, loét miệng, biếng ăn",Nhi khoa
+Tay chân miệng,"phát ban, đau họng, quấy khóc, sốt cao, biếng ăn, loét miệng",Nhi khoa
+Tay chân miệng,"mụn nước, biếng ăn, chảy nước miếng, quấy khóc, phát ban",Nhi khoa
+Tay chân miệng,"loét miệng, phát ban, đau họng, chảy nước miếng, sốt cao, biếng ăn, mụn nước",Nhi khoa
+Tay chân miệng,"chảy nước miếng, mụn nước, đau họng, biếng ăn, phát ban",Nhi khoa
+Tay chân miệng,"biếng ăn, đau họng, sốt cao, loét miệng, chảy nước miếng, quấy khóc, phát ban",Nhi khoa
+Tay chân miệng,"biếng ăn, sốt cao, chảy nước miếng, mụn nước, quấy khóc, loét miệng, đau họng",Nhi khoa
+Tay chân miệng,"đau họng, quấy khóc, biếng ăn, loét miệng",Nhi khoa
+Tiêu chảy cấp trẻ em,"tiêu chảy nhiều lần, nôn, sốt nhẹ, biếng ăn, quấy khóc, khô miệng, tiểu ít, ngủ li bì",Nhi khoa
+Tiêu chảy cấp trẻ em,"biếng ăn, tiểu ít, quấy khóc, ngủ li bì, nôn, tiêu chảy nhiều lần, sốt nhẹ",Nhi khoa
+Tiêu chảy cấp trẻ em,"tiêu chảy nhiều lần, khô miệng, sốt nhẹ, biếng ăn, ngủ li bì, tiểu ít",Nhi khoa
+Tiêu chảy cấp trẻ em,"sốt nhẹ, biếng ăn, tiểu ít, khô miệng, tiêu chảy nhiều lần",Nhi khoa
+Tiêu chảy cấp trẻ em,"sốt nhẹ, tiêu chảy nhiều lần, quấy khóc, biếng ăn, nôn",Nhi khoa
+Tiêu chảy cấp trẻ em,"tiêu chảy nhiều lần, khô miệng, nôn, tiểu ít, sốt nhẹ, biếng ăn",Nhi khoa
+Tiêu chảy cấp trẻ em,"tiểu ít, nôn, quấy khóc, khô miệng, ngủ li bì, tiêu chảy nhiều lần, sốt nhẹ, biếng ăn",Nhi khoa
+Tiêu chảy cấp trẻ em,"ngủ li bì, tiểu ít, quấy khóc, biếng ăn",Nhi khoa
+Tiêu chảy cấp trẻ em,"tiêu chảy nhiều lần, sốt nhẹ, khô miệng, biếng ăn, ngủ li bì, nôn",Nhi khoa
+Tiêu chảy cấp trẻ em,"biếng ăn, sốt nhẹ, quấy khóc, nôn",Nhi khoa
+Viêm phổi trẻ em,"sốt cao, ho có đờm, khó thở, thở nhanh, tím tái, quấy khóc, bỏ bú",Nhi khoa
+Viêm phổi trẻ em,"thở nhanh, ho có đờm, sốt cao, quấy khóc, khó thở, tím tái",Nhi khoa
+Viêm phổi trẻ em,"bỏ bú, ho có đờm, sốt cao, quấy khóc, tím tái, khó thở, thở nhanh",Nhi khoa
+Viêm phổi trẻ em,"sốt cao, tím tái, quấy khóc, bỏ bú",Nhi khoa
+Viêm phổi trẻ em,"khó thở, tím tái, sốt cao, ho có đờm, quấy khóc, thở nhanh",Nhi khoa
+Viêm phổi trẻ em,"khó thở, quấy khóc, thở nhanh, ho có đờm, sốt cao, bỏ bú, tím tái",Nhi khoa
+Viêm phổi trẻ em,"ho có đờm, tím tái, sốt cao, quấy khóc, bỏ bú, thở nhanh, khó thở",Nhi khoa
+Viêm phổi trẻ em,"bỏ bú, quấy khóc, thở nhanh, ho có đờm, tím tái",Nhi khoa
+Viêm phổi trẻ em,"thở nhanh, tím tái, khó thở, bỏ bú",Nhi khoa
+Viêm phổi trẻ em,"ho có đờm, thở nhanh, sốt cao, bỏ bú, khó thở, quấy khóc, tím tái",Nhi khoa
+Hen ở trẻ em,"thở khò khè, khó thở, ho khan, tức ngực, khó thở đêm, ngứa mũi, phát ban",Nhi khoa
+Hen ở trẻ em,"khó thở đêm, ngứa mũi, phát ban, khó thở, thở khò khè, tức ngực, ho khan",Nhi khoa
+Hen ở trẻ em,"thở khò khè, khó thở, tức ngực, ngứa mũi, khó thở đêm, ho khan",Nhi khoa
+Hen ở trẻ em,"ngứa mũi, tức ngực, khó thở",Nhi khoa
+Hen ở trẻ em,"thở khò khè, phát ban, khó thở đêm",Nhi khoa
+Hen ở trẻ em,"ngứa mũi, khó thở, ho khan",Nhi khoa
+Hen ở trẻ em,"ngứa mũi, thở khò khè, khó thở, khó thở đêm",Nhi khoa
+Hen ở trẻ em,"tức ngực, khó thở, thở khò khè, phát ban, ngứa mũi",Nhi khoa
+Hen ở trẻ em,"khó thở, tức ngực, ngứa mũi, thở khò khè, ho khan",Nhi khoa
+Hen ở trẻ em,"ho khan, khó thở, phát ban, tức ngực, thở khò khè, khó thở đêm",Nhi khoa
+Sốt phát ban trẻ em,"sốt cao, phát ban, biếng ăn, quấy khóc, mệt mỏi, hạch to",Nhi khoa
+Sốt phát ban trẻ em,"hạch to, quấy khóc, sốt cao, mệt mỏi, biếng ăn",Nhi khoa
+Sốt phát ban trẻ em,"hạch to, sốt cao, quấy khóc",Nhi khoa
+Sốt phát ban trẻ em,"mệt mỏi, sốt cao, hạch to, biếng ăn, quấy khóc",Nhi khoa
+Sốt phát ban trẻ em,"mệt mỏi, quấy khóc, phát ban, sốt cao",Nhi khoa
+Sốt phát ban trẻ em,"hạch to, mệt mỏi, sốt cao, quấy khóc",Nhi khoa
+Sốt phát ban trẻ em,"mệt mỏi, hạch to, quấy khóc, phát ban, sốt cao, biếng ăn",Nhi khoa
+Sốt phát ban trẻ em,"quấy khóc, hạch to, phát ban, sốt cao, biếng ăn, mệt mỏi",Nhi khoa
+Sốt phát ban trẻ em,"quấy khóc, mệt mỏi, phát ban",Nhi khoa
+Sốt phát ban trẻ em,"mệt mỏi, biếng ăn, hạch to, sốt cao, quấy khóc, phát ban",Nhi khoa
+Viêm tai giữa trẻ em,"đau tai, sốt cao, quấy khóc, bỏ bú, chảy mủ tai, mất ngủ",Nhi khoa
+Viêm tai giữa trẻ em,"sốt cao, chảy mủ tai, đau tai",Nhi khoa
+Viêm tai giữa trẻ em,"sốt cao, mất ngủ, quấy khóc, bỏ bú, chảy mủ tai, đau tai",Nhi khoa
+Viêm tai giữa trẻ em,"bỏ bú, chảy mủ tai, đau tai, mất ngủ, quấy khóc, sốt cao",Nhi khoa
+Viêm tai giữa trẻ em,"đau tai, sốt cao, mất ngủ",Nhi khoa
+Viêm tai giữa trẻ em,"sốt cao, quấy khóc, đau tai, bỏ bú, chảy mủ tai, mất ngủ",Nhi khoa
+Viêm tai giữa trẻ em,"quấy khóc, mất ngủ, sốt cao, đau tai",Nhi khoa
+Viêm tai giữa trẻ em,"chảy mủ tai, đau tai, mất ngủ",Nhi khoa
+Viêm tai giữa trẻ em,"mất ngủ, sốt cao, quấy khóc",Nhi khoa
+Viêm tai giữa trẻ em,"mất ngủ, chảy mủ tai, sốt cao, bỏ bú",Nhi khoa
+Còi xương,"còi xương, chậm phát triển, biến dạng khớp, vã mồ hôi, mất ngủ, rụng tóc",Nhi khoa
+Còi xương,"rụng tóc, biến dạng khớp, còi xương, chậm phát triển, vã mồ hôi, mất ngủ",Nhi khoa
+Còi xương,"còi xương, rụng tóc, vã mồ hôi, biến dạng khớp",Nhi khoa
+Còi xương,"mất ngủ, còi xương, vã mồ hôi, biến dạng khớp, chậm phát triển, rụng tóc",Nhi khoa
+Còi xương,"biến dạng khớp, mất ngủ, rụng tóc, vã mồ hôi, chậm phát triển, còi xương",Nhi khoa
+Còi xương,"biến dạng khớp, rụng tóc, còi xương, vã mồ hôi, mất ngủ, chậm phát triển",Nhi khoa
+Còi xương,"vã mồ hôi, biến dạng khớp, chậm phát triển, rụng tóc, mất ngủ",Nhi khoa
+Còi xương,"mất ngủ, rụng tóc, biến dạng khớp, chậm phát triển, vã mồ hôi, còi xương",Nhi khoa
+Còi xương,"biến dạng khớp, chậm phát triển, rụng tóc, còi xương, mất ngủ",Nhi khoa
+Còi xương,"biến dạng khớp, chậm phát triển, vã mồ hôi, mất ngủ, rụng tóc",Nhi khoa
+Suy dinh dưỡng trẻ em,"chậm phát triển, sụt cân, biếng ăn, mệt mỏi, rụng tóc, phù toàn thân, da xanh tái",Nhi khoa
+Suy dinh dưỡng trẻ em,"da xanh tái, biếng ăn, sụt cân, rụng tóc",Nhi khoa
+Suy dinh dưỡng trẻ em,"phù toàn thân, mệt mỏi, rụng tóc, biếng ăn, sụt cân, da xanh tái, chậm phát triển",Nhi khoa
+Suy dinh dưỡng trẻ em,"phù toàn thân, biếng ăn, mệt mỏi, sụt cân",Nhi khoa
+Suy dinh dưỡng trẻ em,"rụng tóc, biếng ăn, phù toàn thân, chậm phát triển, da xanh tái, sụt cân, mệt mỏi",Nhi khoa
+Suy dinh dưỡng trẻ em,"da xanh tái, biếng ăn, rụng tóc, mệt mỏi",Nhi khoa
+Suy dinh dưỡng trẻ em,"rụng tóc, mệt mỏi, chậm phát triển, biếng ăn",Nhi khoa
+Suy dinh dưỡng trẻ em,"sụt cân, rụng tóc, chậm phát triển, phù toàn thân, mệt mỏi, biếng ăn",Nhi khoa
+Suy dinh dưỡng trẻ em,"biếng ăn, sụt cân, chậm phát triển, mệt mỏi, phù toàn thân, da xanh tái, rụng tóc",Nhi khoa
+Suy dinh dưỡng trẻ em,"biếng ăn, da xanh tái, rụng tóc, sụt cân, phù toàn thân",Nhi khoa
+Vàng da sơ sinh,"vàng da sơ sinh, vàng da, ngủ li bì, bỏ bú, vàng mắt",Nhi khoa
+Vàng da sơ sinh,"vàng da sơ sinh, ngủ li bì, vàng mắt, bỏ bú, vàng da",Nhi khoa
+Vàng da sơ sinh,"vàng da sơ sinh, bỏ bú, vàng da, vàng mắt, ngủ li bì",Nhi khoa
+Vàng da sơ sinh,"bỏ bú, vàng da sơ sinh, vàng da, vàng mắt",Nhi khoa
+Vàng da sơ sinh,"vàng da sơ sinh, ngủ li bì, vàng da",Nhi khoa
+Vàng da sơ sinh,"vàng da sơ sinh, vàng da, bỏ bú, ngủ li bì, vàng mắt",Nhi khoa
+Vàng da sơ sinh,"vàng mắt, bỏ bú, ngủ li bì, vàng da",Nhi khoa
+Vàng da sơ sinh,"bỏ bú, ngủ li bì, vàng mắt",Nhi khoa
+Vàng da sơ sinh,"vàng mắt, bỏ bú, vàng da",Nhi khoa
+Vàng da sơ sinh,"ngủ li bì, vàng da, vàng mắt, vàng da sơ sinh",Nhi khoa
+Nhiễm trùng sơ sinh,"sốt cao, sốt nhẹ, ngủ li bì, bỏ bú, thóp phồng, vàng da, co giật, tím tái",Nhi khoa
+Nhiễm trùng sơ sinh,"vàng da, sốt nhẹ, co giật, ngủ li bì, bỏ bú",Nhi khoa
+Nhiễm trùng sơ sinh,"vàng da, bỏ bú, co giật, sốt cao",Nhi khoa
+Nhiễm trùng sơ sinh,"tím tái, sốt nhẹ, ngủ li bì, bỏ bú, co giật, vàng da, sốt cao",Nhi khoa
+Nhiễm trùng sơ sinh,"bỏ bú, sốt nhẹ, vàng da, ngủ li bì, sốt cao, thóp phồng",Nhi khoa
+Nhiễm trùng sơ sinh,"sốt nhẹ, tím tái, co giật, sốt cao, thóp phồng, vàng da",Nhi khoa
+Nhiễm trùng sơ sinh,"vàng da, co giật, tím tái, thóp phồng, bỏ bú, sốt nhẹ, sốt cao, ngủ li bì",Nhi khoa
+Nhiễm trùng sơ sinh,"ngủ li bì, tím tái, sốt nhẹ, bỏ bú, co giật, sốt cao, thóp phồng, vàng da",Nhi khoa
+Nhiễm trùng sơ sinh,"bỏ bú, sốt cao, ngủ li bì, tím tái, co giật, thóp phồng",Nhi khoa
+Nhiễm trùng sơ sinh,"co giật, tím tái, vàng da, thóp phồng, ngủ li bì, sốt cao",Nhi khoa
+Co giật do sốt cao,"sốt cao, co giật, mất ý thức, mệt mỏi, ngủ li bì, lú lẫn",Nhi khoa
+Co giật do sốt cao,"ngủ li bì, co giật, mệt mỏi",Nhi khoa
+Co giật do sốt cao,"sốt cao, mệt mỏi, lú lẫn, mất ý thức, co giật",Nhi khoa
+Co giật do sốt cao,"mệt mỏi, sốt cao, co giật",Nhi khoa
+Co giật do sốt cao,"lú lẫn, ngủ li bì, mệt mỏi, mất ý thức, sốt cao, co giật",Nhi khoa
+Co giật do sốt cao,"co giật, sốt cao, ngủ li bì, mệt mỏi",Nhi khoa
+Co giật do sốt cao,"co giật, ngủ li bì, sốt cao, mất ý thức, mệt mỏi",Nhi khoa
+Co giật do sốt cao,"mệt mỏi, co giật, mất ý thức, lú lẫn, sốt cao, ngủ li bì",Nhi khoa
+Co giật do sốt cao,"sốt cao, mệt mỏi, co giật, ngủ li bì",Nhi khoa
+Co giật do sốt cao,"sốt cao, mệt mỏi, ngủ li bì, mất ý thức, lú lẫn, co giật",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"ho khan, khó thở, thở rít, khàn giọng, sốt nhẹ, quấy khóc, tím tái",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"thở rít, khàn giọng, quấy khóc",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"sốt nhẹ, thở rít, quấy khóc",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"tím tái, ho khan, khàn giọng",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"khó thở, sốt nhẹ, ho khan, thở rít",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"ho khan, sốt nhẹ, khó thở",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"khàn giọng, tím tái, thở rít",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"tím tái, quấy khóc, thở rít, sốt nhẹ, ho khan",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"sốt nhẹ, khàn giọng, tím tái, khó thở, quấy khóc, ho khan",Nhi khoa
+Viêm thanh quản cấp ở trẻ,"sốt nhẹ, khàn giọng, ho khan, thở rít",Nhi khoa
+Tiêu chảy do Rota virus,"tiêu chảy nhiều lần, nôn, sốt nhẹ, khô miệng, ngủ li bì, biếng ăn, quấy khóc",Nhi khoa
+Tiêu chảy do Rota virus,"nôn, tiêu chảy nhiều lần, sốt nhẹ",Nhi khoa
+Tiêu chảy do Rota virus,"biếng ăn, quấy khóc, sốt nhẹ, ngủ li bì, khô miệng, tiêu chảy nhiều lần, nôn",Nhi khoa
+Tiêu chảy do Rota virus,"nôn, khô miệng, quấy khóc",Nhi khoa
+Tiêu chảy do Rota virus,"tiêu chảy nhiều lần, khô miệng, biếng ăn",Nhi khoa
+Tiêu chảy do Rota virus,"nôn, sốt nhẹ, quấy khóc, biếng ăn, ngủ li bì, khô miệng",Nhi khoa
+Tiêu chảy do Rota virus,"quấy khóc, ngủ li bì, tiêu chảy nhiều lần, khô miệng",Nhi khoa
+Tiêu chảy do Rota virus,"sốt nhẹ, tiêu chảy nhiều lần, biếng ăn, ngủ li bì, nôn, khô miệng",Nhi khoa
+Tiêu chảy do Rota virus,"khô miệng, nôn, tiêu chảy nhiều lần, ngủ li bì, quấy khóc, sốt nhẹ",Nhi khoa
+Tiêu chảy do Rota virus,"tiêu chảy nhiều lần, ngủ li bì, nôn, khô miệng",Nhi khoa
+Viêm họng do Adenovirus,"sốt cao, đau họng, đỏ mắt, ho khan, hạch to, mệt mỏi, biếng ăn",Nhi khoa
+Viêm họng do Adenovirus,"hạch to, mệt mỏi, ho khan, biếng ăn, sốt cao, đau họng",Nhi khoa
+Viêm họng do Adenovirus,"đau họng, ho khan, mệt mỏi, đỏ mắt, hạch to, biếng ăn",Nhi khoa
+Viêm họng do Adenovirus,"hạch to, đỏ mắt, ho khan, sốt cao, đau họng",Nhi khoa
+Viêm họng do Adenovirus,"sốt cao, mệt mỏi, hạch to, ho khan",Nhi khoa
+Viêm họng do Adenovirus,"sốt cao, biếng ăn, đỏ mắt, đau họng, hạch to, ho khan",Nhi khoa
+Viêm họng do Adenovirus,"sốt cao, mệt mỏi, hạch to, đỏ mắt, ho khan",Nhi khoa
+Viêm họng do Adenovirus,"đỏ mắt, ho khan, sốt cao, biếng ăn, đau họng, mệt mỏi",Nhi khoa
+Viêm họng do Adenovirus,"đỏ mắt, sốt cao, hạch to, ho khan",Nhi khoa
+Viêm họng do Adenovirus,"hạch to, đỏ mắt, mệt mỏi, sốt cao, đau họng, biếng ăn",Nhi khoa
+Viêm âm đạo nấm,"ngứa vùng kín, khí hư bất thường, nóng rát vùng kín, đau khi quan hệ, tiểu buốt",Sản phụ khoa
+Viêm âm đạo nấm,"nóng rát vùng kín, ngứa vùng kín, khí hư bất thường, đau khi quan hệ, tiểu buốt",Sản phụ khoa
+Viêm âm đạo nấm,"đau khi quan hệ, khí hư bất thường, ngứa vùng kín",Sản phụ khoa
+Viêm âm đạo nấm,"tiểu buốt, nóng rát vùng kín, ngứa vùng kín",Sản phụ khoa
+Viêm âm đạo nấm,"khí hư bất thường, đau khi quan hệ, ngứa vùng kín",Sản phụ khoa
+Viêm âm đạo nấm,"nóng rát vùng kín, đau khi quan hệ, tiểu buốt, ngứa vùng kín",Sản phụ khoa
+Viêm âm đạo nấm,"đau khi quan hệ, nóng rát vùng kín, tiểu buốt",Sản phụ khoa
+Viêm âm đạo nấm,"nóng rát vùng kín, đau khi quan hệ, khí hư bất thường, ngứa vùng kín, tiểu buốt",Sản phụ khoa
+Viêm âm đạo nấm,"đau khi quan hệ, khí hư bất thường, tiểu buốt, nóng rát vùng kín",Sản phụ khoa
+Viêm âm đạo nấm,"nóng rát vùng kín, khí hư bất thường, tiểu buốt, đau khi quan hệ",Sản phụ khoa
+Viêm cổ tử cung,"khí hư bất thường, xuất huyết âm đạo, đau vùng chậu, đau khi quan hệ, tiểu buốt, ngứa vùng kín",Sản phụ khoa
+Viêm cổ tử cung,"đau khi quan hệ, đau vùng chậu, xuất huyết âm đạo",Sản phụ khoa
+Viêm cổ tử cung,"tiểu buốt, xuất huyết âm đạo, đau khi quan hệ, khí hư bất thường, ngứa vùng kín",Sản phụ khoa
+Viêm cổ tử cung,"tiểu buốt, đau khi quan hệ, ngứa vùng kín, xuất huyết âm đạo, khí hư bất thường, đau vùng chậu",Sản phụ khoa
+Viêm cổ tử cung,"đau vùng chậu, xuất huyết âm đạo, tiểu buốt, đau khi quan hệ",Sản phụ khoa
+Viêm cổ tử cung,"đau vùng chậu, khí hư bất thường, tiểu buốt, xuất huyết âm đạo, đau khi quan hệ, ngứa vùng kín",Sản phụ khoa
+Viêm cổ tử cung,"ngứa vùng kín, đau khi quan hệ, tiểu buốt",Sản phụ khoa
+Viêm cổ tử cung,"đau vùng chậu, ngứa vùng kín, đau khi quan hệ, xuất huyết âm đạo, tiểu buốt",Sản phụ khoa
+Viêm cổ tử cung,"xuất huyết âm đạo, ngứa vùng kín, đau khi quan hệ, đau vùng chậu, tiểu buốt, khí hư bất thường",Sản phụ khoa
+Viêm cổ tử cung,"đau khi quan hệ, tiểu buốt, đau vùng chậu",Sản phụ khoa
+Lạc nội mạc tử cung,"đau bụng kinh, rong kinh, đau khi quan hệ, vô sinh, đau vùng chậu, đau lưng dưới",Sản phụ khoa
+Lạc nội mạc tử cung,"vô sinh, đau vùng chậu, rong kinh",Sản phụ khoa
+Lạc nội mạc tử cung,"vô sinh, đau khi quan hệ, rong kinh",Sản phụ khoa
+Lạc nội mạc tử cung,"đau bụng kinh, đau lưng dưới, vô sinh",Sản phụ khoa
+Lạc nội mạc tử cung,"đau khi quan hệ, đau bụng kinh, đau lưng dưới, vô sinh, rong kinh, đau vùng chậu",Sản phụ khoa
+Lạc nội mạc tử cung,"đau lưng dưới, đau khi quan hệ, đau bụng kinh, rong kinh, vô sinh, đau vùng chậu",Sản phụ khoa
+Lạc nội mạc tử cung,"đau lưng dưới, đau bụng kinh, rong kinh",Sản phụ khoa
+Lạc nội mạc tử cung,"vô sinh, đau khi quan hệ, đau bụng kinh",Sản phụ khoa
+Lạc nội mạc tử cung,"đau khi quan hệ, đau vùng chậu, vô sinh",Sản phụ khoa
+Lạc nội mạc tử cung,"vô sinh, rong kinh, đau khi quan hệ",Sản phụ khoa
+U xơ tử cung,"rong kinh, đau bụng kinh, đau vùng chậu, khối u sờ thấy, tiểu rắt, táo bón, vô sinh",Sản phụ khoa
+U xơ tử cung,"rong kinh, táo bón, tiểu rắt",Sản phụ khoa
+U xơ tử cung,"vô sinh, khối u sờ thấy, tiểu rắt, đau bụng kinh, táo bón",Sản phụ khoa
+U xơ tử cung,"tiểu rắt, đau vùng chậu, khối u sờ thấy, rong kinh, đau bụng kinh, vô sinh",Sản phụ khoa
+U xơ tử cung,"táo bón, đau vùng chậu, đau bụng kinh, vô sinh, tiểu rắt, khối u sờ thấy",Sản phụ khoa
+U xơ tử cung,"tiểu rắt, đau vùng chậu, rong kinh",Sản phụ khoa
+U xơ tử cung,"đau vùng chậu, rong kinh, đau bụng kinh, táo bón, khối u sờ thấy",Sản phụ khoa
+U xơ tử cung,"tiểu rắt, đau bụng kinh, vô sinh, đau vùng chậu, rong kinh, táo bón, khối u sờ thấy",Sản phụ khoa
+U xơ tử cung,"rong kinh, đau vùng chậu, đau bụng kinh",Sản phụ khoa
+U xơ tử cung,"vô sinh, đau vùng chậu, rong kinh, táo bón, khối u sờ thấy, đau bụng kinh",Sản phụ khoa
+U nang buồng trứng,"đau vùng chậu, đau bụng kinh, rong kinh, khối u sờ thấy, tiểu rắt, buồn nôn, đầy bụng",Sản phụ khoa
+U nang buồng trứng,"rong kinh, tiểu rắt, khối u sờ thấy, đau vùng chậu, buồn nôn, đầy bụng",Sản phụ khoa
+U nang buồng trứng,"đầy bụng, buồn nôn, rong kinh",Sản phụ khoa
+U nang buồng trứng,"đầy bụng, tiểu rắt, đau vùng chậu, đau bụng kinh, khối u sờ thấy, buồn nôn, rong kinh",Sản phụ khoa
+U nang buồng trứng,"rong kinh, đầy bụng, khối u sờ thấy, tiểu rắt, đau vùng chậu, đau bụng kinh, buồn nôn",Sản phụ khoa
+U nang buồng trứng,"tiểu rắt, buồn nôn, đầy bụng, đau vùng chậu",Sản phụ khoa
+U nang buồng trứng,"khối u sờ thấy, đau vùng chậu, đầy bụng, rong kinh, tiểu rắt, đau bụng kinh",Sản phụ khoa
+U nang buồng trứng,"tiểu rắt, đau vùng chậu, buồn nôn, đau bụng kinh",Sản phụ khoa
+U nang buồng trứng,"tiểu rắt, buồn nôn, đau bụng kinh, đầy bụng",Sản phụ khoa
+U nang buồng trứng,"đau bụng kinh, đau vùng chậu, đầy bụng, tiểu rắt, rong kinh, buồn nôn, khối u sờ thấy",Sản phụ khoa
+Buồng trứng đa nang,"mất kinh, rong kinh, lông tóc rậm, tăng cân, vô sinh, nổi mụn, rụng tóc",Sản phụ khoa
+Buồng trứng đa nang,"tăng cân, nổi mụn, rong kinh, lông tóc rậm, vô sinh",Sản phụ khoa
+Buồng trứng đa nang,"lông tóc rậm, rụng tóc, vô sinh, nổi mụn, mất kinh, tăng cân",Sản phụ khoa
+Buồng trứng đa nang,"mất kinh, rụng tóc, vô sinh, rong kinh",Sản phụ khoa
+Buồng trứng đa nang,"nổi mụn, mất kinh, rong kinh, vô sinh",Sản phụ khoa
+Buồng trứng đa nang,"rụng tóc, rong kinh, vô sinh, lông tóc rậm, mất kinh",Sản phụ khoa
+Buồng trứng đa nang,"lông tóc rậm, vô sinh, tăng cân, rụng tóc, rong kinh",Sản phụ khoa
+Buồng trứng đa nang,"nổi mụn, lông tóc rậm, tăng cân, rụng tóc, vô sinh, mất kinh",Sản phụ khoa
+Buồng trứng đa nang,"rụng tóc, rong kinh, nổi mụn, tăng cân",Sản phụ khoa
+Buồng trứng đa nang,"tăng cân, lông tóc rậm, mất kinh",Sản phụ khoa
+Ung thư cổ tử cung,"xuất huyết âm đạo, khí hư bất thường, đau khi quan hệ, đau vùng chậu, sụt cân, mệt mỏi, đau lưng",Sản phụ khoa
+Ung thư cổ tử cung,"đau lưng, xuất huyết âm đạo, đau vùng chậu",Sản phụ khoa
+Ung thư cổ tử cung,"khí hư bất thường, đau vùng chậu, xuất huyết âm đạo, đau khi quan hệ",Sản phụ khoa
+Ung thư cổ tử cung,"đau khi quan hệ, đau lưng, mệt mỏi, xuất huyết âm đạo, khí hư bất thường, đau vùng chậu",Sản phụ khoa
+Ung thư cổ tử cung,"mệt mỏi, đau lưng, xuất huyết âm đạo, đau vùng chậu, đau khi quan hệ",Sản phụ khoa
+Ung thư cổ tử cung,"đau vùng chậu, đau lưng, khí hư bất thường",Sản phụ khoa
+Ung thư cổ tử cung,"đau vùng chậu, mệt mỏi, xuất huyết âm đạo, đau lưng, khí hư bất thường, sụt cân, đau khi quan hệ",Sản phụ khoa
+Ung thư cổ tử cung,"đau lưng, sụt cân, xuất huyết âm đạo",Sản phụ khoa
+Ung thư cổ tử cung,"khí hư bất thường, sụt cân, đau khi quan hệ, đau lưng, mệt mỏi",Sản phụ khoa
+Ung thư cổ tử cung,"đau khi quan hệ, đau vùng chậu, mệt mỏi, đau lưng, sụt cân",Sản phụ khoa
+Rong kinh,"rong kinh, đau bụng kinh, mệt mỏi, da xanh tái, chóng mặt, đau lưng dưới",Sản phụ khoa
+Rong kinh,"mệt mỏi, rong kinh, đau bụng kinh, da xanh tái",Sản phụ khoa
+Rong kinh,"mệt mỏi, đau lưng dưới, rong kinh, da xanh tái, chóng mặt, đau bụng kinh",Sản phụ khoa
+Rong kinh,"đau bụng kinh, mệt mỏi, chóng mặt, da xanh tái, đau lưng dưới",Sản phụ khoa
+Rong kinh,"đau bụng kinh, chóng mặt, rong kinh",Sản phụ khoa
+Rong kinh,"da xanh tái, đau bụng kinh, chóng mặt",Sản phụ khoa
+Rong kinh,"chóng mặt, đau lưng dưới, da xanh tái",Sản phụ khoa
+Rong kinh,"chóng mặt, đau bụng kinh, da xanh tái, đau lưng dưới",Sản phụ khoa
+Rong kinh,"chóng mặt, rong kinh, da xanh tái",Sản phụ khoa
+Rong kinh,"đau bụng kinh, mệt mỏi, chóng mặt, rong kinh",Sản phụ khoa
+Vô sinh nữ,"mất kinh, rong kinh, đau bụng kinh, đau khi quan hệ, khí hư bất thường, lông tóc rậm",Sản phụ khoa
+Vô sinh nữ,"khí hư bất thường, mất kinh, đau bụng kinh, đau khi quan hệ",Sản phụ khoa
+Vô sinh nữ,"mất kinh, lông tóc rậm, đau khi quan hệ, rong kinh, đau bụng kinh, khí hư bất thường",Sản phụ khoa
+Vô sinh nữ,"mất kinh, khí hư bất thường, rong kinh, đau khi quan hệ, đau bụng kinh",Sản phụ khoa
+Vô sinh nữ,"lông tóc rậm, đau bụng kinh, khí hư bất thường, rong kinh",Sản phụ khoa
+Vô sinh nữ,"khí hư bất thường, lông tóc rậm, rong kinh, đau khi quan hệ",Sản phụ khoa
+Vô sinh nữ,"khí hư bất thường, mất kinh, đau khi quan hệ, rong kinh",Sản phụ khoa
+Vô sinh nữ,"khí hư bất thường, đau khi quan hệ, đau bụng kinh, rong kinh, lông tóc rậm, mất kinh",Sản phụ khoa
+Vô sinh nữ,"lông tóc rậm, rong kinh, đau bụng kinh, đau khi quan hệ, mất kinh, khí hư bất thường",Sản phụ khoa
+Vô sinh nữ,"lông tóc rậm, đau bụng kinh, rong kinh, khí hư bất thường, mất kinh",Sản phụ khoa
+Tiền sản giật,"đau đầu, phù mặt, phù chân, đau đầu dữ dội, mờ mắt, đau hạ sườn phải, buồn nôn, phù toàn thân",Sản phụ khoa
+Tiền sản giật,"phù mặt, buồn nôn, đau hạ sườn phải, phù chân, phù toàn thân",Sản phụ khoa
+Tiền sản giật,"buồn nôn, đau đầu, mờ mắt, phù toàn thân, phù mặt, phù chân, đau hạ sườn phải",Sản phụ khoa
+Tiền sản giật,"đau đầu, mờ mắt, phù mặt, phù toàn thân, buồn nôn, đau hạ sườn phải, phù chân",Sản phụ khoa
+Tiền sản giật,"phù chân, buồn nôn, đau đầu, phù toàn thân, đau hạ sườn phải, phù mặt",Sản phụ khoa
+Tiền sản giật,"mờ mắt, đau đầu dữ dội, phù toàn thân, buồn nôn, phù mặt",Sản phụ khoa
+Tiền sản giật,"phù mặt, phù chân, đau hạ sườn phải, mờ mắt, đau đầu, phù toàn thân",Sản phụ khoa
+Tiền sản giật,"phù chân, phù toàn thân, mờ mắt, phù mặt",Sản phụ khoa
+Tiền sản giật,"phù chân, phù mặt, buồn nôn, đau đầu, mờ mắt, đau đầu dữ dội, đau hạ sườn phải",Sản phụ khoa
+Tiền sản giật,"phù chân, phù toàn thân, đau đầu, buồn nôn, mờ mắt, đau đầu dữ dội, đau hạ sườn phải, phù mặt",Sản phụ khoa
+Doạ sảy thai,"xuất huyết âm đạo, đau hạ vị, đau lưng dưới, đau quặn bụng",Sản phụ khoa
+Doạ sảy thai,"đau quặn bụng, đau hạ vị, đau lưng dưới",Sản phụ khoa
+Doạ sảy thai,"đau hạ vị, đau quặn bụng, xuất huyết âm đạo, đau lưng dưới",Sản phụ khoa
+Doạ sảy thai,"đau lưng dưới, đau hạ vị, đau quặn bụng, xuất huyết âm đạo",Sản phụ khoa
+Doạ sảy thai,"xuất huyết âm đạo, đau hạ vị, đau quặn bụng",Sản phụ khoa
+Doạ sảy thai,"đau hạ vị, đau quặn bụng, đau lưng dưới, xuất huyết âm đạo",Sản phụ khoa
+Doạ sảy thai,"đau hạ vị, đau lưng dưới, xuất huyết âm đạo",Sản phụ khoa
+Doạ sảy thai,"đau hạ vị, đau quặn bụng, đau lưng dưới",Sản phụ khoa
+Doạ sảy thai,"đau lưng dưới, xuất huyết âm đạo, đau hạ vị",Sản phụ khoa
+Doạ sảy thai,"đau hạ vị, xuất huyết âm đạo, đau lưng dưới",Sản phụ khoa
+Mãn kinh,"mất kinh, nóng bừng, vã mồ hôi, nóng rát vùng kín, mất ngủ, thay đổi tâm trạng, đau khi quan hệ",Sản phụ khoa
+Mãn kinh,"đau khi quan hệ, mất ngủ, mất kinh, thay đổi tâm trạng, nóng bừng, vã mồ hôi, nóng rát vùng kín",Sản phụ khoa
+Mãn kinh,"mất ngủ, đau khi quan hệ, mất kinh, thay đổi tâm trạng, vã mồ hôi, nóng bừng",Sản phụ khoa
+Mãn kinh,"mất kinh, nóng bừng, mất ngủ, nóng rát vùng kín, đau khi quan hệ, vã mồ hôi, thay đổi tâm trạng",Sản phụ khoa
+Mãn kinh,"thay đổi tâm trạng, vã mồ hôi, mất kinh, đau khi quan hệ",Sản phụ khoa
+Mãn kinh,"mất ngủ, nóng rát vùng kín, vã mồ hôi, thay đổi tâm trạng, nóng bừng",Sản phụ khoa
+Mãn kinh,"vã mồ hôi, thay đổi tâm trạng, mất ngủ, đau khi quan hệ",Sản phụ khoa
+Mãn kinh,"thay đổi tâm trạng, nóng rát vùng kín, mất kinh",Sản phụ khoa
+Mãn kinh,"đau khi quan hệ, mất ngủ, mất kinh, nóng rát vùng kín, vã mồ hôi, thay đổi tâm trạng",Sản phụ khoa
+Mãn kinh,"mất kinh, vã mồ hôi, mất ngủ, nóng rát vùng kín",Sản phụ khoa
+Ung thư vú,"khối u sờ thấy, sưng hạch cổ, đau ngực, sụt cân, mệt mỏi",Ung bướu
+Ung thư vú,"đau ngực, mệt mỏi, sưng hạch cổ, khối u sờ thấy",Ung bướu
+Ung thư vú,"sưng hạch cổ, khối u sờ thấy, sụt cân, mệt mỏi, đau ngực",Ung bướu
+Ung thư vú,"sưng hạch cổ, mệt mỏi, đau ngực, sụt cân, khối u sờ thấy",Ung bướu
+Ung thư vú,"sụt cân, đau ngực, sưng hạch cổ, mệt mỏi",Ung bướu
+Ung thư vú,"khối u sờ thấy, mệt mỏi, đau ngực",Ung bướu
+Ung thư vú,"khối u sờ thấy, sưng hạch cổ, đau ngực, sụt cân",Ung bướu
+Ung thư vú,"đau ngực, mệt mỏi, khối u sờ thấy",Ung bướu
+Ung thư vú,"khối u sờ thấy, mệt mỏi, đau ngực, sưng hạch cổ",Ung bướu
+Ung thư vú,"đau ngực, mệt mỏi, sưng hạch cổ, sụt cân",Ung bướu
+Ung thư đại tràng,"phân có máu, tiêu chảy, táo bón, đau bụng, sụt cân, mệt mỏi, da xanh tái, khối u sờ thấy",Ung bướu
+Ung thư đại tràng,"khối u sờ thấy, sụt cân, đau bụng, táo bón",Ung bướu
+Ung thư đại tràng,"mệt mỏi, khối u sờ thấy, sụt cân, phân có máu",Ung bướu
+Ung thư đại tràng,"sụt cân, táo bón, da xanh tái, khối u sờ thấy, đau bụng",Ung bướu
+Ung thư đại tràng,"da xanh tái, sụt cân, mệt mỏi, tiêu chảy, táo bón",Ung bướu
+Ung thư đại tràng,"mệt mỏi, khối u sờ thấy, táo bón, đau bụng, phân có máu, sụt cân",Ung bướu
+Ung thư đại tràng,"mệt mỏi, phân có máu, táo bón, khối u sờ thấy",Ung bướu
+Ung thư đại tràng,"táo bón, mệt mỏi, sụt cân, khối u sờ thấy, đau bụng, da xanh tái, phân có máu",Ung bướu
+Ung thư đại tràng,"sụt cân, mệt mỏi, tiêu chảy, da xanh tái, phân có máu, đau bụng",Ung bướu
+Ung thư đại tràng,"khối u sờ thấy, táo bón, da xanh tái, tiêu chảy",Ung bướu
+Ung thư dạ dày,"đau thượng vị, buồn nôn, nôn, sụt cân, chán ăn, nôn ra máu, phân đen, mệt mỏi",Ung bướu
+Ung thư dạ dày,"nôn, buồn nôn, chán ăn, mệt mỏi, sụt cân, phân đen, đau thượng vị",Ung bướu
+Ung thư dạ dày,"chán ăn, đau thượng vị, phân đen, buồn nôn, mệt mỏi, nôn",Ung bướu
+Ung thư dạ dày,"đau thượng vị, sụt cân, buồn nôn, phân đen, nôn, mệt mỏi, chán ăn",Ung bướu
+Ung thư dạ dày,"nôn, phân đen, đau thượng vị, chán ăn, sụt cân, mệt mỏi, nôn ra máu",Ung bướu
+Ung thư dạ dày,"nôn, sụt cân, mệt mỏi, chán ăn, nôn ra máu, phân đen",Ung bướu
+Ung thư dạ dày,"buồn nôn, chán ăn, mệt mỏi, nôn",Ung bướu
+Ung thư dạ dày,"chán ăn, nôn ra máu, nôn, đau thượng vị, mệt mỏi",Ung bướu
+Ung thư dạ dày,"buồn nôn, sụt cân, nôn, nôn ra máu, đau thượng vị",Ung bướu
+Ung thư dạ dày,"chán ăn, sụt cân, nôn ra máu, nôn, đau thượng vị, mệt mỏi, buồn nôn",Ung bướu
+Ung thư tuyến giáp,"bướu cổ, khối u sờ thấy, khàn giọng, khó nuốt, sưng hạch cổ, khó thở",Ung bướu
+Ung thư tuyến giáp,"khó nuốt, sưng hạch cổ, khó thở, khàn giọng, khối u sờ thấy",Ung bướu
+Ung thư tuyến giáp,"khó nuốt, bướu cổ, khó thở, sưng hạch cổ, khàn giọng",Ung bướu
+Ung thư tuyến giáp,"khó nuốt, khàn giọng, khó thở, sưng hạch cổ",Ung bướu
+Ung thư tuyến giáp,"sưng hạch cổ, khó thở, khó nuốt",Ung bướu
+Ung thư tuyến giáp,"khó nuốt, khối u sờ thấy, bướu cổ",Ung bướu
+Ung thư tuyến giáp,"khó nuốt, sưng hạch cổ, khối u sờ thấy, khàn giọng",Ung bướu
+Ung thư tuyến giáp,"khàn giọng, khó nuốt, bướu cổ, khối u sờ thấy",Ung bướu
+Ung thư tuyến giáp,"khối u sờ thấy, khó nuốt, bướu cổ",Ung bướu
+Ung thư tuyến giáp,"khó thở, sưng hạch cổ, khó nuốt",Ung bướu
+Ung thư phổi,"ho có đờm, ho ra máu, khó thở, đau ngực, sụt cân, mệt mỏi, khàn giọng, sốt nhẹ",Ung bướu
+Ung thư phổi,"khó thở, đau ngực, ho ra máu, khàn giọng, sốt nhẹ, ho có đờm, mệt mỏi",Ung bướu
+Ung thư phổi,"sốt nhẹ, sụt cân, khàn giọng, ho có đờm",Ung bướu
+Ung thư phổi,"khàn giọng, ho ra máu, mệt mỏi, sốt nhẹ, đau ngực, ho có đờm, sụt cân, khó thở",Ung bướu
+Ung thư phổi,"khó thở, ho ra máu, mệt mỏi, sốt nhẹ",Ung bướu
+Ung thư phổi,"khàn giọng, sốt nhẹ, khó thở, ho ra máu, đau ngực, ho có đờm, sụt cân",Ung bướu
+Ung thư phổi,"ho có đờm, sụt cân, khàn giọng, đau ngực, mệt mỏi, sốt nhẹ, khó thở, ho ra máu",Ung bướu
+Ung thư phổi,"đau ngực, khàn giọng, mệt mỏi, sốt nhẹ, ho ra máu, ho có đờm, sụt cân",Ung bướu
+Ung thư phổi,"đau ngực, ho có đờm, sốt nhẹ, mệt mỏi, khàn giọng",Ung bướu
+Ung thư phổi,"sụt cân, sốt nhẹ, ho ra máu, ho có đờm",Ung bướu
+Trầm cảm,"trầm cảm, buồn rầu, mất ngủ, chán ăn, mệt mỏi, mất tập trung, ý nghĩ tự sát, thay đổi tâm trạng",Tâm thần
+Trầm cảm,"ý nghĩ tự sát, thay đổi tâm trạng, chán ăn, mất ngủ, mệt mỏi, mất tập trung, buồn rầu",Tâm thần
+Trầm cảm,"trầm cảm, thay đổi tâm trạng, mệt mỏi, mất ngủ, mất tập trung",Tâm thần
+Trầm cảm,"buồn rầu, trầm cảm, chán ăn, mất tập trung, mất ngủ",Tâm thần
+Trầm cảm,"mất ngủ, mất tập trung, trầm cảm, chán ăn, mệt mỏi, buồn rầu",Tâm thần
+Trầm cảm,"buồn rầu, chán ăn, mệt mỏi, thay đổi tâm trạng, mất tập trung",Tâm thần
+Trầm cảm,"mất tập trung, mệt mỏi, thay đổi tâm trạng, ý nghĩ tự sát",Tâm thần
+Trầm cảm,"mệt mỏi, buồn rầu, ý nghĩ tự sát, chán ăn, mất ngủ, mất tập trung",Tâm thần
+Trầm cảm,"mệt mỏi, mất ngủ, trầm cảm, chán ăn, buồn rầu",Tâm thần
+Trầm cảm,"trầm cảm, mất tập trung, ý nghĩ tự sát, mệt mỏi, chán ăn, thay đổi tâm trạng, buồn rầu, mất ngủ",Tâm thần
+Rối loạn lo âu,"lo âu, cơn hoảng loạn, hồi hộp, vã mồ hôi, khó thở, mất ngủ, mất tập trung, thay đổi tâm trạng",Tâm thần
+Rối loạn lo âu,"cơn hoảng loạn, hồi hộp, thay đổi tâm trạng, mất ngủ, khó thở, vã mồ hôi, mất tập trung, lo âu",Tâm thần
+Rối loạn lo âu,"hồi hộp, thay đổi tâm trạng, mất ngủ, mất tập trung",Tâm thần
+Rối loạn lo âu,"vã mồ hôi, cơn hoảng loạn, thay đổi tâm trạng, khó thở",Tâm thần
+Rối loạn lo âu,"thay đổi tâm trạng, hồi hộp, khó thở, vã mồ hôi",Tâm thần
+Rối loạn lo âu,"hồi hộp, thay đổi tâm trạng, mất ngủ, cơn hoảng loạn, lo âu, mất tập trung, khó thở, vã mồ hôi",Tâm thần
+Rối loạn lo âu,"vã mồ hôi, lo âu, khó thở, mất ngủ, cơn hoảng loạn, mất tập trung, hồi hộp, thay đổi tâm trạng",Tâm thần
+Rối loạn lo âu,"mất ngủ, mất tập trung, cơn hoảng loạn, khó thở",Tâm thần
+Rối loạn lo âu,"hồi hộp, khó thở, mất tập trung, lo âu, vã mồ hôi, cơn hoảng loạn, mất ngủ",Tâm thần
+Rối loạn lo âu,"mất tập trung, thay đổi tâm trạng, cơn hoảng loạn, khó thở, mất ngủ, vã mồ hôi, hồi hộp",Tâm thần
+Sâu răng,"đau răng, sâu răng, hôi miệng",Răng hàm mặt
+Sâu răng,"đau răng, sâu răng, hôi miệng",Răng hàm mặt
+Sâu răng,"hôi miệng, sâu răng, đau răng",Răng hàm mặt
+Sâu răng,"hôi miệng, sâu răng, đau răng",Răng hàm mặt
+Sâu răng,"sâu răng, hôi miệng, đau răng",Răng hàm mặt
+Sâu răng,"đau răng, hôi miệng, sâu răng",Răng hàm mặt
+Sâu răng,"đau răng, sâu răng, hôi miệng",Răng hàm mặt
+Sâu răng,"đau răng, hôi miệng, sâu răng",Răng hàm mặt
+Sâu răng,"đau răng, hôi miệng, sâu răng",Răng hàm mặt
+Sâu răng,"sâu răng, hôi miệng, đau răng",Răng hàm mặt
+Viêm tủy răng,"đau răng, mất ngủ, chảy máu chân răng, hôi miệng, đau lan hàm",Răng hàm mặt
+Viêm tủy răng,"đau răng, đau lan hàm, chảy máu chân răng, mất ngủ, hôi miệng",Răng hàm mặt
+Viêm tủy răng,"chảy máu chân răng, đau răng, đau lan hàm",Răng hàm mặt
+Viêm tủy răng,"hôi miệng, đau lan hàm, chảy máu chân răng",Răng hàm mặt
+Viêm tủy răng,"mất ngủ, hôi miệng, chảy máu chân răng, đau răng",Răng hàm mặt
+Viêm tủy răng,"đau lan hàm, đau răng, hôi miệng, mất ngủ, chảy máu chân răng",Răng hàm mặt
+Viêm tủy răng,"chảy máu chân răng, mất ngủ, đau răng, đau lan hàm",Răng hàm mặt
+Viêm tủy răng,"đau lan hàm, chảy máu chân răng, mất ngủ",Răng hàm mặt
+Viêm tủy răng,"đau răng, đau lan hàm, hôi miệng, mất ngủ",Răng hàm mặt
+Viêm tủy răng,"đau lan hàm, đau răng, hôi miệng",Răng hàm mặt
