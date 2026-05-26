@@ -1,4 +1,6 @@
 import { Router } from 'express';
+import { pingDb } from './db/pool';
+import { aiHealth } from './modules/ai/ai.stub';
 import authRoutes from './modules/auth/auth.routes';
 import departmentsRoutes from './modules/departments/departments.routes';
 import libraryRoutes from './modules/library/library.routes';
@@ -18,8 +20,24 @@ import managerRoutes from './modules/manager/manager.routes';
 
 const router = Router();
 
+// Liveness — server còn sống không (không gọi DB để LB giữ pod sống ngay cả khi
+// DB tạm down → cho thời gian recover).
 router.get('/health', (_req, res) => {
   res.json({ status: 'ok', ts: new Date().toISOString() });
+});
+
+// Readiness — server có sẵn sàng nhận traffic không (DB up + AI components OK).
+// LB / k8s nên dùng endpoint này.
+router.get('/ready', async (_req, res) => {
+  const db = await pingDb();
+  const ai = aiHealth();
+  const ok = db.ok;
+  res.status(ok ? 200 : 503).json({
+    status: ok ? 'ready' : 'not_ready',
+    db,
+    ai,
+    ts: new Date().toISOString(),
+  });
 });
 
 router.use('/auth', authRoutes);

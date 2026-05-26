@@ -141,18 +141,30 @@ export const VnpIpn = {
   UnknownError: IpnUnknownError,
 };
 
-// Helper: trích IP của caller. VNPay yêu cầu IP người dùng cuối khi build URL,
-// còn IP của VNPay khi nhận IPN (whitelist).
-export function clientIp(req: { headers: Record<string, unknown>; socket: { remoteAddress?: string | null } }): string {
-  const fwd = req.headers['x-forwarded-for'];
-  if (typeof fwd === 'string' && fwd.length > 0) {
-    return fwd.split(',')[0]!.trim();
-  }
-  return req.socket.remoteAddress ?? '127.0.0.1';
+// Helper: trích IP của caller.
+// QUAN TRỌNG: dùng req.ip (Express tự xử lý theo trust proxy setting).
+// Trước đây đọc trực tiếp X-Forwarded-For khi không bật trust proxy → bị spoof
+// → whitelist IP vô tác dụng. Xem env.TRUST_PROXY.
+export function clientIp(req: { ip?: string; socket: { remoteAddress?: string | null } }): string {
+  return req.ip ?? req.socket.remoteAddress ?? '127.0.0.1';
+}
+
+// Chuẩn hóa IPv4-mapped IPv6 (vd ::ffff:1.2.3.4 → 1.2.3.4) để so sánh whitelist.
+function normalizeIp(ip: string): string {
+  return ip.startsWith('::ffff:') ? ip.slice(7) : ip;
+}
+
+function ipInList(ip: string, csv: string | undefined): boolean {
+  if (!csv) return true; // bỏ trống = tắt
+  const list = csv.split(',').map((s) => s.trim()).filter(Boolean);
+  const norm = normalizeIp(ip);
+  return list.includes(norm) || list.includes(ip);
 }
 
 export function isIpAllowed(ip: string): boolean {
-  if (!env.VNP_ALLOWED_IPS) return true; // tắt whitelist
-  const list = env.VNP_ALLOWED_IPS.split(',').map((s) => s.trim()).filter(Boolean);
-  return list.includes(ip);
+  return ipInList(ip, env.VNP_ALLOWED_IPS);
+}
+
+export function isPayosIpAllowed(ip: string): boolean {
+  return ipInList(ip, env.PAYOS_ALLOWED_IPS);
 }

@@ -1,8 +1,9 @@
 import type { Request, Response } from 'express';
 import type { ReturnQueryFromVNPay } from 'vnpay';
 import { AppError } from '../../middleware/error';
-import { clientIp, isIpAllowed, VnpIpn } from '../../integrations/vnpay';
+import { clientIp, isIpAllowed, isPayosIpAllowed, VnpIpn } from '../../integrations/vnpay';
 import type { PayosWebhook } from '../../integrations/payos';
+import { logger } from '../../utils/logger';
 import * as svc from './invoices.service';
 import type {
   GenerateInvoiceInput,
@@ -55,11 +56,17 @@ export async function payPayos(req: Request, res: Response): Promise<void> {
 // Webhook PayOS — public, server-to-server.
 // PayOS expect HTTP 200 với JSON; chữ ký sai vẫn trả 200 để tránh PayOS retry mãi.
 export async function payosWebhook(req: Request, res: Response): Promise<void> {
+  // IP whitelist (chỉ áp dụng nếu PAYOS_ALLOWED_IPS được cấu hình).
+  if (!isPayosIpAllowed(clientIp(req))) {
+    logger.warn({ ip: clientIp(req) }, 'PayOS webhook từ IP ngoài whitelist');
+    res.json({ error: 1, message: 'IP không được phép' });
+    return;
+  }
   try {
     const result = await svc.handlePayosWebhook(req.body as PayosWebhook);
     res.json(result);
   } catch (err) {
-    console.error('❌ PayOS webhook handler crash:', err);
+    logger.error({ err }, 'PayOS webhook handler crash');
     res.json({ error: 1, message: 'Unknown error' });
   }
 }
@@ -77,7 +84,7 @@ export async function vnpayIpn(req: Request, res: Response): Promise<void> {
     );
     res.json(result);
   } catch (err) {
-    console.error('❌ VNPay IPN handler crash:', err);
+    logger.error({ err }, 'VNPay IPN handler crash');
     res.json(VnpIpn.UnknownError);
   }
 }

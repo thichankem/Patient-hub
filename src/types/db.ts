@@ -54,6 +54,8 @@ export interface UserRow {
   role: UserRole;
   is_active: boolean;
   auto_schedule_paused: boolean;
+  failed_login_count: number;
+  locked_until: Date | null;
   created_at: Date;
   updated_at: Date;
 }
@@ -79,6 +81,7 @@ export interface DoctorRow {
   user_id: string;
   full_name: string;
   department_id: string;
+  max_appointments_per_day: number;
   created_at: Date;
   updated_at: Date;
 }
@@ -214,6 +217,8 @@ export interface InvoiceRow {
   total_amount: string;
   insurance_discount: string;
   final_amount: string;
+  consultation_fee: string;
+  received_amount: string | null;
   payment_method: PaymentMethod | null;
   payment_status: PaymentStatus;
   created_at: Date;
@@ -259,6 +264,7 @@ export interface ChatMessageRow {
   receiver_user_id: string;
   content: string;
   sent_at: Date;
+  read_at: Date | null;
 }
 
 export interface ReportRow {

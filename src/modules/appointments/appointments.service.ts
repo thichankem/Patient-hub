@@ -8,6 +8,7 @@ import { AppError } from '../../middleware/error';
 import type { TokenPayload } from '../../utils/jwt';
 import { notifyUser } from '../notifications/notification.helper';
 import { predictDiseaseDepartment } from '../ai/ai.stub';
+import { logger } from '../../utils/logger';
 import type {
   CreateAppointmentInput,
   ListAppointmentQuery,
@@ -42,8 +43,19 @@ async function patientUserId(patientId: string): Promise<string> {
   return row.user_id;
 }
 
+// Variant không throw — dùng trong loop của cron / batch để 1 record lỗi
+// không làm dừng cả vòng lặp.
+async function patientUserIdSafe(patientId: string): Promise<string | null> {
+  const row = await queryOne<{ user_id: string }>(
+    'SELECT user_id FROM patients WHERE id = $1',
+    [patientId],
+  );
+  return row?.user_id ?? null;
+}
+
 // Chọn bác sĩ cân tải trong khoa: bỏ qua bác sĩ bị khóa hoặc tạm dừng auto-schedule,
-// ưu tiên người ít lịch nhất trong ngày, rồi ít lịch tổng.
+// ưu tiên người ít lịch nhất trong ngày (chưa vượt max_appointments_per_day),
+// rồi ít lịch tổng.
 async function autoAssignDoctor(
   departmentId: string,
   date: string,
@@ -70,6 +82,7 @@ async function autoAssignDoctor(
              AND x.status = ANY($3::appointment_status[])
         )
       GROUP BY d.id
+      HAVING COUNT(DISTINCT ad.id) < d.max_appointments_per_day
       ORDER BY day_load ASC, total_load ASC, d.id ASC
       LIMIT 1`,
     [departmentId, date, ACTIVE as unknown as string[], patientId],
@@ -113,8 +126,9 @@ export async function createAppointment(
 
   let doctorId: string;
   if (input.doctor_id) {
-    const doc = await queryOne<{ id: string }>(
-      `SELECT d.id FROM doctors d
+    const doc = await queryOne<{ id: string; max_per_day: number }>(
+      `SELECT d.id, d.max_appointments_per_day AS max_per_day
+         FROM doctors d
          JOIN users u ON u.id = d.user_id AND u.is_active = TRUE
         WHERE d.id = $1`,
       [input.doctor_id],
@@ -133,6 +147,17 @@ export async function createAppointment(
     );
     if (dup)
       throw new AppError(409, 'Bác sĩ này đã có hẹn với bệnh nhân trong ngày');
+
+    // Kiểm tra max_appointments_per_day kể cả khi chỉ định trực tiếp.
+    const load = await queryOne<{ n: string }>(
+      `SELECT COUNT(*) AS n FROM appointments
+        WHERE doctor_id = $1 AND appointment_date = $2
+          AND status = ANY($3::appointment_status[])`,
+      [input.doctor_id, input.appointment_date, ACTIVE as unknown as string[]],
+    );
+    if (load && Number(load.n) >= doc.max_per_day) {
+      throw new AppError(409, 'Bác sĩ đã đạt giới hạn lịch trong ngày');
+    }
     doctorId = input.doctor_id;
   } else {
     let departmentId = input.department_id ?? null;
@@ -241,6 +266,9 @@ export function getAppointment(
 }
 
 // Bác sĩ chuyển 'đã đặt' → 'đang khám'; tự tạo đợt khám nháp.
+// Cho phép start trong khoảng [hôm nay; appointment_date] để bác sĩ chấp nhận
+// bệnh nhân đến sớm cùng ngày, nhưng không start trước nhiều ngày (tạo session
+// nháp lơ lửng) và không start sau (đã quá hạn → expired qua cron).
 export async function startExamination(
   id: string,
   actor: TokenPayload,
@@ -258,6 +286,13 @@ export async function startExamination(
     throw new AppError(403, 'Đây không phải lịch hẹn của bạn');
   if (appt.status !== 'pending')
     throw new AppError(409, 'Chỉ bắt đầu khám khi lịch đang ở trạng thái đã đặt');
+
+  // appointment_date là DATE local — so sánh bằng ngày VN từ DB để tránh lệch TZ.
+  const today = await queryOne<{ today: string }>(
+    `SELECT (NOW() AT TIME ZONE 'Asia/Ho_Chi_Minh')::date::text AS today`,
+  );
+  if (today && appt.appointment_date !== today.today)
+    throw new AppError(409, 'Chỉ bắt đầu khám đúng ngày hẹn');
 
   return withTransaction(async (client) => {
     const a = await client.query<AppointmentRow>(
@@ -328,8 +363,14 @@ export async function reassignDoctor(
   if (appt.status !== 'pending')
     throw new AppError(409, 'Chỉ đổi bác sĩ khi lịch ở trạng thái đã đặt');
 
-  const doc = await queryOne<{ id: string }>(
-    `SELECT d.id FROM doctors d
+  // Bác sĩ mới phải cùng khoa với bác sĩ hiện tại — tránh chuyển bệnh nhân
+  // khám Tim sang bác sĩ Răng-hàm-mặt do nhầm lẫn.
+  const current = await queryOne<{ department_id: string }>(
+    'SELECT department_id FROM doctors WHERE id = $1',
+    [appt.doctor_id],
+  );
+  const doc = await queryOne<{ id: string; department_id: string }>(
+    `SELECT d.id, d.department_id FROM doctors d
        JOIN users u ON u.id = d.user_id AND u.is_active = TRUE
       WHERE d.id = $1`,
     [newDoctorId],
@@ -337,6 +378,8 @@ export async function reassignDoctor(
   if (!doc) throw new AppError(404, 'Bác sĩ thay thế không tồn tại hoặc bị khóa');
   if (newDoctorId === appt.doctor_id)
     throw new AppError(400, 'Bác sĩ mới trùng bác sĩ hiện tại');
+  if (current && doc.department_id !== current.department_id)
+    throw new AppError(400, 'Bác sĩ thay thế phải thuộc cùng khoa');
 
   const dup = await queryOne(
     `SELECT id FROM appointments
@@ -370,23 +413,29 @@ export async function reassignDoctor(
 }
 
 // Cron mỗi 1h: lịch 'đã đặt' quá ngày → expired + báo bệnh nhân đặt mới.
+// Dùng ngày VN từ DB (Asia/Ho_Chi_Minh) thay vì UTC để tránh lệch ±7h.
 export async function expireOverdueAppointments(): Promise<number> {
-  const today = new Date().toISOString().slice(0, 10);
   const rows = await query<{ id: string; patient_id: string }>(
     `UPDATE appointments
         SET status = 'expired'
       WHERE status IN ('pending', 'confirmed')
-        AND appointment_date < $1
+        AND appointment_date < (NOW() AT TIME ZONE 'Asia/Ho_Chi_Minh')::date
       RETURNING id, patient_id`,
-    [today],
   );
   for (const r of rows) {
-    const uid = await patientUserId(r.patient_id);
-    await notifyUser(
-      uid,
-      'Lịch hẹn quá hạn',
-      'Lịch hẹn của bạn đã quá hạn và bị hủy. Vui lòng đặt lịch mới.',
-    );
+    try {
+      const uid = await patientUserIdSafe(r.patient_id);
+      if (uid) {
+        await notifyUser(
+          uid,
+          'Lịch hẹn quá hạn',
+          'Lịch hẹn của bạn đã quá hạn và bị hủy. Vui lòng đặt lịch mới.',
+        );
+      }
+    } catch (err) {
+      // Không để 1 patient lỗi làm dừng cả batch — log và tiếp tục.
+      logger.warn({ err, patientId: r.patient_id }, 'lỗi notify expire');
+    }
   }
   return rows.length;
 }

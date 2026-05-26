@@ -177,36 +177,42 @@ export async function updatePatient(
   if (input.priority_type !== undefined)
     push('priority_type', input.priority_type);
 
-  const newPassword = generatePassword();
-  const newHash = await hashPassword(newPassword);
-  const finalPhone = input.phone ?? decrypt(patient.phone_encrypted);
+  if (sets.length === 0) throw new AppError(400, 'Không có thông tin cần cập nhật');
+
+  // CHỈ reset mật khẩu nếu SĐT (username) thay đổi — không spam SMS mỗi lần
+  // sửa địa chỉ. Khi đổi SĐT thì bắt buộc reset vì username = SĐT cần khớp.
+  const phoneChanged = input.phone !== undefined && input.phone !== user.username;
+  const finalPhone = phoneChanged ? input.phone! : user.username;
+  const newPassword = phoneChanged ? generatePassword() : null;
+  const newHash = newPassword ? await hashPassword(newPassword) : null;
 
   const updated = await withTransaction(async (client) => {
-    let row = patient;
-    if (sets.length > 0) {
-      params.push(id);
-      const r = await client.query<PatientRow>(
-        `UPDATE patients SET ${sets.join(', ')} WHERE id = $${i} RETURNING *`,
-        params,
-      );
-      row = r.rows[0]!;
-    }
-    await client.query(
-      'UPDATE users SET username = $1, password_hash = $2 WHERE id = $3',
-      [finalPhone, newHash, user.id],
+    params.push(id);
+    const r = await client.query<PatientRow>(
+      `UPDATE patients SET ${sets.join(', ')} WHERE id = $${i} RETURNING *`,
+      params,
     );
-    return row;
+    if (phoneChanged) {
+      await client.query(
+        'UPDATE users SET username = $1, password_hash = $2 WHERE id = $3',
+        [finalPhone, newHash, user.id],
+      );
+    }
+    return r.rows[0]!;
   });
 
-  sendSms(
-    finalPhone,
-    `Thông tin tài khoản đã được cập nhật. Tên đăng nhập: ${finalPhone}. Mật khẩu mới: ${newPassword}`,
-  );
+  if (phoneChanged && newPassword) {
+    sendSms(
+      finalPhone,
+      `Số điện thoại tài khoản đã được cập nhật. Tên đăng nhập: ${finalPhone}. Mật khẩu mới: ${newPassword}`,
+    );
+  }
 
   return toDTO(updated);
 }
 
 // Quên mật khẩu — sinh mật khẩu mới gửi về SĐT bệnh nhân.
+// Đồng thời clear lock counter (consistent với auth.forgotPassword).
 export async function resetPassword(id: string): Promise<void> {
   const patient = await queryOne<PatientRow>(
     'SELECT * FROM patients WHERE id = $1',
@@ -216,10 +222,14 @@ export async function resetPassword(id: string): Promise<void> {
 
   const newPassword = generatePassword();
   const newHash = await hashPassword(newPassword);
-  await queryOne('UPDATE users SET password_hash = $1 WHERE id = $2 RETURNING id', [
-    newHash,
-    patient.user_id,
-  ]);
+  await queryOne(
+    `UPDATE users
+        SET password_hash = $1,
+            failed_login_count = 0,
+            locked_until = NULL
+      WHERE id = $2 RETURNING id`,
+    [newHash, patient.user_id],
+  );
 
   const phone = decrypt(patient.phone_encrypted);
   sendSms(phone, `Mật khẩu mới của bạn: ${newPassword}`);

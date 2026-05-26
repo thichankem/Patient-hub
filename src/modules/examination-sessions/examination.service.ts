@@ -208,6 +208,9 @@ export async function updateSession(
     sets.push(`treatment_plan = $${i++}`);
     params.push(input.treatment_plan);
   }
+  if (sets.length === 0)
+    throw new AppError(400, 'Không có thông tin cần cập nhật');
+
   params.push(id);
   const row = await queryOne<ExaminationSessionRow>(
     `UPDATE examination_sessions SET ${sets.join(', ')} WHERE id = $${i} RETURNING *`,

@@ -37,6 +37,25 @@ const schema = z.object({
     .string()
     .url()
     .default('http://localhost:3000/api/invoices/payos-cancel'),
+  // Whitelist IP cho PayOS webhook — bỏ trống = tắt (dev). Production NÊN khai báo.
+  PAYOS_ALLOWED_IPS: z.string().optional(),
+
+  // CORS allowed origins (CSV). Bỏ trống ở dev = '*'; production BẮT BUỘC khai báo.
+  CORS_ORIGINS: z.string().optional(),
+
+  // Trust proxy hop count khi deploy sau nginx / cloudfront / cloudflare.
+  // 0 = tắt (default), 1 = 1 reverse proxy, ... Quan trọng cho clientIp() đọc X-Forwarded-For.
+  TRUST_PROXY: z.coerce.number().int().min(0).max(10).default(0),
+
+  // Phí khám mặc định (VNĐ) — quản lý có thể cấu hình.
+  DEFAULT_CONSULTATION_FEE: z.coerce.number().int().nonnegative().default(150000),
+
+  // DB pool tuning.
+  DB_POOL_MAX: z.coerce.number().int().min(1).max(200).default(20),
+  DB_STATEMENT_TIMEOUT_MS: z.coerce.number().int().min(0).default(30_000),
+
+  // Logging.
+  LOG_LEVEL: z.enum(['trace', 'debug', 'info', 'warn', 'error', 'fatal']).default('info'),
 });
 
 const parsed = schema.safeParse(process.env);

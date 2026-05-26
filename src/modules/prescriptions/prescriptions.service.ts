@@ -102,15 +102,9 @@ export async function createPrescription(
     throw new AppError(403, 'Chỉ bác sĩ được cấp đơn thuốc');
 
   await loadOwnedSession(input.session_id, actor);
-
-  const dup = await queryOne(
-    'SELECT id FROM prescriptions WHERE session_id = $1',
-    [input.session_id],
-  );
-  if (dup) throw new AppError(409, 'Đợt khám đã có đơn thuốc');
-
   await assertTestsReviewed(input.session_id);
 
+  // Validate thuốc tồn tại trước transaction để fail nhanh không cần lock.
   for (const it of input.items) {
     const m = await queryOne('SELECT id FROM lib_medicines WHERE id = $1', [
       it.medicine_id,
@@ -119,23 +113,35 @@ export async function createPrescription(
       throw new AppError(404, `Thuốc ${it.medicine_id} không tồn tại`);
   }
 
-  const created = await withTransaction(async (client) => {
-    const p = await client.query<PrescriptionRow>(
-      `INSERT INTO prescriptions (session_id, general_note)
-       VALUES ($1, $2) RETURNING *`,
-      [input.session_id, input.general_note ?? null],
-    );
-    const presc = p.rows[0]!;
-    for (const it of input.items) {
-      await client.query(
-        `INSERT INTO prescription_items
-           (prescription_id, medicine_id, quantity, usage_instruction)
-         VALUES ($1, $2, $3, $4)`,
-        [presc.id, it.medicine_id, it.quantity, it.usage_instruction ?? null],
+  // Wrap INSERT trong transaction + dựa vào UNIQUE constraint của session_id
+  // để chống race condition (2 request gần đồng thời cùng pass check rồi cùng
+  // INSERT). Bắt unique-violation → throw 409 thay vì 500.
+  let created: PrescriptionRow;
+  try {
+    created = await withTransaction(async (client) => {
+      const p = await client.query<PrescriptionRow>(
+        `INSERT INTO prescriptions (session_id, general_note)
+         VALUES ($1, $2) RETURNING *`,
+        [input.session_id, input.general_note ?? null],
       );
+      const presc = p.rows[0]!;
+      for (const it of input.items) {
+        await client.query(
+          `INSERT INTO prescription_items
+             (prescription_id, medicine_id, quantity, usage_instruction)
+           VALUES ($1, $2, $3, $4)`,
+          [presc.id, it.medicine_id, it.quantity, it.usage_instruction ?? null],
+        );
+      }
+      return presc;
+    });
+  } catch (err: unknown) {
+    // PostgreSQL unique_violation = '23505'.
+    if (err && typeof err === 'object' && 'code' in err && err.code === '23505') {
+      throw new AppError(409, 'Đợt khám đã có đơn thuốc');
     }
-    return presc;
-  });
+    throw err;
+  }
 
   return loadDetail(created.id);
 }

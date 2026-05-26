@@ -39,8 +39,7 @@ export async function sendMessage(
   return row!;
 }
 
-// Danh sách hội thoại: nhóm theo peer, lấy tin cuối + số tin chưa đọc (đơn giản: 0 vì
-// schema không có read_at; có thể bổ sung sau).
+// Danh sách hội thoại: nhóm theo peer, lấy tin cuối + số tin chưa đọc thật.
 export async function listConversations(
   actor: TokenPayload,
 ): Promise<
@@ -50,6 +49,7 @@ export async function listConversations(
     peer_role: UserRole;
     last_message: string;
     last_sent_at: Date;
+    unread_count: number;
   }>
 > {
   ensureChatRole(actor.role);
@@ -64,16 +64,24 @@ export async function listConversations(
          ) AS rn
        FROM chat_messages
        WHERE sender_user_id = $1 OR receiver_user_id = $1
+     ),
+     unread AS (
+       SELECT sender_user_id AS peer_user_id, COUNT(*) AS n
+         FROM chat_messages
+        WHERE receiver_user_id = $1 AND read_at IS NULL
+        GROUP BY sender_user_id
      )
      SELECT p.peer_user_id,
-            COALESCE(d.full_name, t.full_name) AS peer_name,
+            COALESCE(d.full_name, t.full_name, u.username) AS peer_name,
             u.role AS peer_role,
             p.content AS last_message,
-            p.sent_at AS last_sent_at
+            p.sent_at AS last_sent_at,
+            COALESCE(ur.n, 0)::int AS unread_count
        FROM pairs p
        JOIN users u ON u.id = p.peer_user_id
        LEFT JOIN doctors d ON d.user_id = p.peer_user_id
        LEFT JOIN technicians t ON t.user_id = p.peer_user_id
+       LEFT JOIN unread ur ON ur.peer_user_id = p.peer_user_id
       WHERE p.rn = 1
       ORDER BY p.sent_at DESC`,
     [actor.sub],
@@ -89,6 +97,15 @@ export async function getHistory(
   if (peerId === actor.sub)
     throw new AppError(400, 'Không có hội thoại với chính mình');
 
+  // Kiểm tra peer cũng thuộc role được chat (đối xứng với sendMessage).
+  const peer = await queryOne<{ role: UserRole }>(
+    'SELECT role FROM users WHERE id = $1',
+    [peerId],
+  );
+  if (!peer) throw new AppError(404, 'Người nhận không tồn tại');
+  if (!CHAT_ROLES.includes(peer.role))
+    throw new AppError(400, 'Người nhận không thuộc nhóm có chat');
+
   const params: unknown[] = [actor.sub, peerId];
   let sql = `SELECT * FROM chat_messages
               WHERE (sender_user_id = $1 AND receiver_user_id = $2)
@@ -100,5 +117,13 @@ export async function getHistory(
   params.push(q.limit);
   sql += ` ORDER BY sent_at DESC LIMIT $${params.length}`;
   const rows = await query<ChatMessageRow>(sql, params);
+
+  // Mark messages from peer as read khi user mở conversation — UX chuẩn chat app.
+  await query(
+    `UPDATE chat_messages SET read_at = NOW()
+      WHERE sender_user_id = $1 AND receiver_user_id = $2 AND read_at IS NULL`,
+    [peerId, actor.sub],
+  );
+
   return rows.reverse(); // trả về thứ tự tăng dần thời gian để client hiển thị
 }

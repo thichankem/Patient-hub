@@ -34,7 +34,7 @@ export async function forgotPassword(
   req: Request,
   res: Response,
 ): Promise<void> {
-  await authService.forgotPassword(req.body as ForgotPasswordInput);
+  await authService.forgotPassword(req.body as ForgotPasswordInput, req.ip ?? null);
   // Luôn trả message giống nhau, không phân biệt số có tồn tại hay không.
   res.json({
     message: 'Nếu số điện thoại tồn tại trong hệ thống, mật khẩu mới sẽ được gửi qua SMS.',

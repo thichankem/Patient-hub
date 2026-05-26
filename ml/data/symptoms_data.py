@@ -1,0 +1,373 @@
+# -*- coding: utf-8 -*-
+"""
+Từ vựng 300 triệu chứng tiếng Việt + trọng số đặc trưng.
+
+Trọng số (0.10 - 1.00):
+  - 0.85 - 1.00: dấu hiệu rất đặc trưng, gần như chỉ điểm 1 nhóm bệnh
+                 (vd: méo miệng, vảy bạc trên da đỏ, mụn nước theo dải)
+  - 0.60 - 0.84: đặc trưng cao, giá trị phân biệt tốt
+  - 0.40 - 0.59: trung bình, có giá trị nhưng gặp ở nhiều bệnh
+  - 0.20 - 0.39: phổ biến, ít giá trị phân biệt
+  - 0.10 - 0.19: rất phổ biến, gần như không phân biệt được
+"""
+
+# (triệu chứng, trọng số, nhóm giải phẫu)
+SYMPTOM_WEIGHTS = [
+    # ── TOÀN THÂN (30) ──────────────────────────────────────────
+    ("sốt cao",           0.45, "toàn thân"),
+    ("sốt nhẹ",           0.20, "toàn thân"),
+    ("sốt từng cơn",      0.65, "toàn thân"),
+    ("sốt chiều",         0.70, "toàn thân"),
+    ("ớn lạnh",           0.35, "toàn thân"),
+    ("rét run",           0.55, "toàn thân"),
+    ("vã mồ hôi",         0.40, "toàn thân"),
+    ("mồ hôi đêm",        0.75, "toàn thân"),
+    ("mệt mỏi",           0.10, "toàn thân"),
+    ("suy nhược",         0.30, "toàn thân"),
+    ("chóng mặt",         0.20, "toàn thân"),
+    ("hoa mắt",           0.30, "toàn thân"),
+    ("choáng váng",       0.30, "toàn thân"),
+    ("ngất xỉu",          0.70, "toàn thân"),
+    ("sụt cân",           0.50, "toàn thân"),
+    ("tăng cân",          0.45, "toàn thân"),
+    ("chán ăn",           0.20, "toàn thân"),
+    ("ăn không ngon",     0.20, "toàn thân"),
+    ("khát nước nhiều",   0.70, "toàn thân"),
+    ("mất ngủ",           0.25, "toàn thân"),
+    ("ngủ nhiều",         0.45, "toàn thân"),
+    ("buồn ngủ",          0.20, "toàn thân"),
+    ("lờ đờ",             0.55, "toàn thân"),
+    ("uể oải",            0.15, "toàn thân"),
+    ("yếu sức",           0.30, "toàn thân"),
+    ("run rẩy",           0.50, "toàn thân"),
+    ("co giật",           0.85, "toàn thân"),
+    ("mất ý thức",        0.85, "toàn thân"),
+    ("hôn mê",            0.90, "toàn thân"),
+    ("dễ té ngã",         0.55, "toàn thân"),
+
+    # ── ĐẦU (10) ────────────────────────────────────────────────
+    ("đau đầu",           0.20, "đầu"),
+    ("đau đầu dữ dội",    0.55, "đầu"),
+    ("nhức đầu",          0.20, "đầu"),
+    ("đau nửa đầu",       0.80, "đầu"),
+    ("đau đỉnh đầu",      0.55, "đầu"),
+    ("đau gáy",           0.55, "đầu"),
+    ("đau thái dương",    0.60, "đầu"),
+    ("nặng đầu",          0.40, "đầu"),
+    ("choáng đầu",        0.40, "đầu"),
+    ("đau đầu buổi sáng", 0.55, "đầu"),
+
+    # ── MẮT (14) ────────────────────────────────────────────────
+    ("mờ mắt",            0.50, "mắt"),
+    ("nhìn đôi",          0.75, "mắt"),
+    ("nhìn quầng sáng",   0.80, "mắt"),
+    ("đau mắt",           0.55, "mắt"),
+    ("đỏ mắt",            0.65, "mắt"),
+    ("ngứa mắt",          0.55, "mắt"),
+    ("chảy nước mắt",     0.55, "mắt"),
+    ("khô mắt",           0.55, "mắt"),
+    ("cộm mắt",           0.60, "mắt"),
+    ("sưng mi mắt",       0.60, "mắt"),
+    ("ghèn mắt",          0.65, "mắt"),
+    ("sợ ánh sáng",       0.75, "mắt"),
+    ("mất thị lực",       0.85, "mắt"),
+    ("đau sau hốc mắt",   0.85, "mắt"),
+
+    # ── TAI MŨI HỌNG (23) ───────────────────────────────────────
+    ("đau tai",           0.65, "tmh"),
+    ("ù tai",             0.55, "tmh"),
+    ("chảy mủ tai",       0.80, "tmh"),
+    ("nghe kém",          0.65, "tmh"),
+    ("điếc đột ngột",     0.90, "tmh"),
+    ("chóng mặt xoay",    0.80, "tmh"),
+    ("sổ mũi",            0.30, "tmh"),
+    ("nghẹt mũi",         0.40, "tmh"),
+    ("chảy mũi đặc",      0.65, "tmh"),
+    ("hắt hơi",           0.25, "tmh"),
+    ("ngứa mũi",          0.40, "tmh"),
+    ("mất mùi",           0.75, "tmh"),
+    ("chảy máu mũi",      0.70, "tmh"),
+    ("đau họng",          0.40, "tmh"),
+    ("rát họng",          0.40, "tmh"),
+    ("ho khan",           0.35, "tmh"),
+    ("ho có đờm",         0.45, "tmh"),
+    ("ho ra máu",         0.90, "tmh"),
+    ("khàn giọng",        0.65, "tmh"),
+    ("mất tiếng",         0.75, "tmh"),
+    ("khó nuốt",          0.55, "tmh"),
+    ("nuốt đau",          0.55, "tmh"),
+    ("nuốt vướng",        0.60, "tmh"),
+
+    # ── RĂNG MIỆNG (9) ──────────────────────────────────────────
+    ("đau răng",          0.80, "răng miệng"),
+    ("sâu răng",          0.85, "răng miệng"),
+    ("chảy máu chân răng",0.70, "răng miệng"),
+    ("hôi miệng",         0.45, "răng miệng"),
+    ("loét miệng",        0.70, "răng miệng"),
+    ("khô miệng",         0.50, "răng miệng"),
+    ("đau lưỡi",          0.65, "răng miệng"),
+    ("lưỡi bợt",          0.60, "răng miệng"),
+    ("mất vị giác",       0.80, "răng miệng"),
+
+    # ── CỔ (5) ──────────────────────────────────────────────────
+    ("đau cổ",            0.50, "cổ"),
+    ("cứng gáy",          0.85, "cổ"),
+    ("cứng cổ",           0.75, "cổ"),
+    ("sưng hạch cổ",      0.70, "cổ"),
+    ("bướu cổ",           0.85, "cổ"),
+
+    # ── NGỰC & TIM (15) ─────────────────────────────────────────
+    ("đau ngực",          0.55, "ngực"),
+    ("tức ngực",          0.50, "ngực"),
+    ("nặng ngực",         0.50, "ngực"),
+    ("đau ngực bóp nghẹt",0.90, "ngực"),
+    ("đau lan vai trái",  0.85, "ngực"),
+    ("đau lan hàm",       0.85, "ngực"),
+    ("đau lan tay trái",  0.85, "ngực"),
+    ("đau ngực khi gắng sức",0.80,"ngực"),
+    ("hồi hộp",           0.50, "ngực"),
+    ("tim đập nhanh",     0.50, "ngực"),
+    ("tim đập chậm",      0.70, "ngực"),
+    ("nhịp tim loạn",     0.75, "ngực"),
+    ("đánh trống ngực",   0.55, "ngực"),
+    ("cảm giác đè ngực",  0.70, "ngực"),
+    ("tím tái",           0.85, "ngực"),
+
+    # ── HÔ HẤP (10) ─────────────────────────────────────────────
+    ("khó thở",           0.45, "hô hấp"),
+    ("khó thở khi nằm",   0.80, "hô hấp"),
+    ("khó thở gắng sức",  0.65, "hô hấp"),
+    ("khó thở đêm",       0.75, "hô hấp"),
+    ("thở khò khè",       0.80, "hô hấp"),
+    ("thở rít",           0.85, "hô hấp"),
+    ("thở nhanh",         0.55, "hô hấp"),
+    ("thở nông",          0.55, "hô hấp"),
+    ("thở hổn hển",       0.60, "hô hấp"),
+    ("ngưng thở khi ngủ", 0.90, "hô hấp"),
+
+    # ── BỤNG (16) ───────────────────────────────────────────────
+    ("đau bụng",          0.30, "bụng"),
+    ("đau thượng vị",     0.75, "bụng"),
+    ("đau quặn bụng",     0.65, "bụng"),
+    ("đau hạ vị",         0.65, "bụng"),
+    ("đau hố chậu phải",  0.90, "bụng"),
+    ("đau hố chậu trái",  0.80, "bụng"),
+    ("đau hạ sườn phải",  0.80, "bụng"),
+    ("đau hạ sườn trái",  0.75, "bụng"),
+    ("đầy bụng",          0.40, "bụng"),
+    ("chướng bụng",       0.50, "bụng"),
+    ("ợ hơi",             0.55, "bụng"),
+    ("ợ chua",            0.75, "bụng"),
+    ("nóng rát thượng vị",0.75, "bụng"),
+    ("buồn nôn",          0.30, "bụng"),
+    ("nôn",               0.35, "bụng"),
+    ("nôn ra máu",        0.90, "bụng"),
+
+    # ── TIÊU HÓA (12) ───────────────────────────────────────────
+    ("tiêu chảy",         0.55, "tiêu hóa"),
+    ("tiêu chảy nhiều lần",0.65,"tiêu hóa"),
+    ("táo bón",           0.55, "tiêu hóa"),
+    ("đi ngoài phân lỏng",0.55, "tiêu hóa"),
+    ("phân đen",          0.85, "tiêu hóa"),
+    ("phân có máu",       0.85, "tiêu hóa"),
+    ("phân nhầy",         0.75, "tiêu hóa"),
+    ("phân màu đất sét",  0.90, "tiêu hóa"),
+    ("mót rặn",           0.70, "tiêu hóa"),
+    ("ngứa hậu môn",      0.70, "tiêu hóa"),
+    ("đại tiện khó",      0.55, "tiêu hóa"),
+    ("đau hậu môn",       0.65, "tiêu hóa"),
+
+    # ── TIẾT NIỆU (14) ──────────────────────────────────────────
+    ("tiểu nhiều",        0.75, "tiết niệu"),
+    ("tiểu ít",           0.70, "tiết niệu"),
+    ("tiểu buốt",         0.85, "tiết niệu"),
+    ("tiểu rắt",          0.80, "tiết niệu"),
+    ("tiểu đêm",          0.65, "tiết niệu"),
+    ("tiểu khó",          0.70, "tiết niệu"),
+    ("tiểu máu",          0.90, "tiết niệu"),
+    ("tiểu mủ",           0.85, "tiết niệu"),
+    ("tiểu đục",          0.70, "tiết niệu"),
+    ("nước tiểu sẫm",     0.75, "tiết niệu"),
+    ("bí tiểu",           0.85, "tiết niệu"),
+    ("đau lưng",          0.35, "tiết niệu"),
+    ("đau hông",          0.60, "tiết niệu"),
+    ("đau bẹn",           0.65, "tiết niệu"),
+
+    # ── SINH DỤC (10) ───────────────────────────────────────────
+    ("khí hư bất thường", 0.85, "sinh dục"),
+    ("ngứa vùng kín",     0.80, "sinh dục"),
+    ("đau vùng chậu",     0.65, "sinh dục"),
+    ("rong kinh",         0.85, "sinh dục"),
+    ("đau bụng kinh",     0.55, "sinh dục"),
+    ("mất kinh",          0.80, "sinh dục"),
+    ("xuất huyết âm đạo", 0.85, "sinh dục"),
+    ("đau khi quan hệ",   0.80, "sinh dục"),
+    ("nóng rát vùng kín", 0.80, "sinh dục"),
+    ("giảm ham muốn",     0.60, "sinh dục"),
+
+    # ── LƯNG & CỘT SỐNG (5) ─────────────────────────────────────
+    ("đau lưng dưới",     0.45, "lưng"),
+    ("đau lưng trên",     0.55, "lưng"),
+    ("đau dọc cột sống",  0.65, "lưng"),
+    ("cứng lưng",         0.55, "lưng"),
+    ("đau thắt lưng",     0.55, "lưng"),
+
+    # ── TAY CHÂN (15) ───────────────────────────────────────────
+    ("đau tay",           0.40, "chi"),
+    ("tê tay",            0.55, "chi"),
+    ("yếu tay",           0.65, "chi"),
+    ("liệt tay",          0.85, "chi"),
+    ("run tay",           0.70, "chi"),
+    ("đau chân",          0.40, "chi"),
+    ("tê chân",           0.55, "chi"),
+    ("yếu chân",          0.65, "chi"),
+    ("liệt chân",         0.85, "chi"),
+    ("phù chân",          0.75, "chi"),
+    ("chuột rút",         0.55, "chi"),
+    ("đi tập tễnh",       0.70, "chi"),
+    ("tê bàn chân",       0.60, "chi"),
+    ("khó cầm nắm",       0.65, "chi"),
+    ("ngứa ran tay chân", 0.55, "chi"),
+
+    # ── KHỚP (9) ────────────────────────────────────────────────
+    ("đau khớp",          0.50, "khớp"),
+    ("sưng khớp",         0.80, "khớp"),
+    ("nóng khớp",         0.80, "khớp"),
+    ("đỏ khớp",           0.80, "khớp"),
+    ("cứng khớp",         0.65, "khớp"),
+    ("cứng khớp buổi sáng",0.90,"khớp"),
+    ("tiếng khớp kêu",    0.65, "khớp"),
+    ("biến dạng khớp",    0.85, "khớp"),
+    ("hạn chế vận động",  0.60, "khớp"),
+
+    # ── DA (22) ─────────────────────────────────────────────────
+    ("ngứa da",           0.40, "da"),
+    ("phát ban",          0.50, "da"),
+    ("nổi mề đay",        0.85, "da"),
+    ("mẩn đỏ",            0.45, "da"),
+    ("nổi mụn",           0.45, "da"),
+    ("mụn nước",          0.70, "da"),
+    ("mụn nước theo dải", 0.95, "da"),
+    ("mụn mủ",            0.70, "da"),
+    ("đỏ da",             0.45, "da"),
+    ("bong tróc da",      0.60, "da"),
+    ("khô da",            0.40, "da"),
+    ("vảy bạc trên da",   0.95, "da"),
+    ("dày sừng",          0.75, "da"),
+    ("xuất huyết da",     0.80, "da"),
+    ("bầm tím",           0.65, "da"),
+    ("vết loét da",       0.70, "da"),
+    ("vàng da",           0.90, "da"),
+    ("mảng trắng trên da",0.85, "da"),
+    ("nốt ruồi đổi màu",  0.90, "da"),
+    ("nám da",            0.65, "da"),
+    ("sạm da",            0.55, "da"),
+    ("da xanh tái",       0.65, "da"),
+
+    # ── TÓC MÓNG (5) ────────────────────────────────────────────
+    ("rụng tóc",          0.60, "tóc móng"),
+    ("rụng tóc từng vùng",0.85, "tóc móng"),
+    ("tóc bạc sớm",       0.55, "tóc móng"),
+    ("móng giòn",         0.55, "tóc móng"),
+    ("nhiễm nấm móng",    0.85, "tóc móng"),
+
+    # ── THẦN KINH (15) ──────────────────────────────────────────
+    ("tê bì",             0.55, "thần kinh"),
+    ("tê liệt nửa người", 0.95, "thần kinh"),
+    ("méo miệng",         0.95, "thần kinh"),
+    ("nói ngọng",         0.85, "thần kinh"),
+    ("nói khó",           0.75, "thần kinh"),
+    ("mất thăng bằng",    0.75, "thần kinh"),
+    ("dáng đi bất thường",0.75, "thần kinh"),
+    ("mất trí nhớ",       0.80, "thần kinh"),
+    ("lú lẫn",            0.75, "thần kinh"),
+    ("co cứng cơ",        0.70, "thần kinh"),
+    ("teo cơ",            0.80, "thần kinh"),
+    ("đau dây thần kinh", 0.75, "thần kinh"),
+    ("rối loạn nuốt",     0.75, "thần kinh"),
+    ("tê mặt",            0.80, "thần kinh"),
+    ("chậm vận động",     0.70, "thần kinh"),
+
+    # ── TÂM THẦN (11) ───────────────────────────────────────────
+    ("lo âu",             0.50, "tâm thần"),
+    ("trầm cảm",          0.75, "tâm thần"),
+    ("buồn rầu",          0.40, "tâm thần"),
+    ("dễ cáu",            0.45, "tâm thần"),
+    ("dễ kích động",      0.60, "tâm thần"),
+    ("hoang tưởng",       0.90, "tâm thần"),
+    ("ảo giác",           0.90, "tâm thần"),
+    ("mất tập trung",     0.40, "tâm thần"),
+    ("thay đổi tâm trạng",0.55, "tâm thần"),
+    ("ý nghĩ tự sát",     0.95, "tâm thần"),
+    ("cơn hoảng loạn",    0.85, "tâm thần"),
+
+    # ── NỘI TIẾT / CHUYỂN HÓA (10) ─────────────────────────────
+    ("vết thương lâu lành",0.85,"nội tiết"),
+    ("dậy thì sớm",       0.85, "nội tiết"),
+    ("dậy thì muộn",      0.75, "nội tiết"),
+    ("vô sinh",           0.80, "nội tiết"),
+    ("lông tóc rậm",      0.70, "nội tiết"),
+    ("lông tóc thưa",     0.65, "nội tiết"),
+    ("mặt tròn như mặt trăng",0.95,"nội tiết"),
+    ("da mặt đỏ ửng",     0.65, "nội tiết"),
+    ("rạn da",            0.75, "nội tiết"),
+    ("nóng bừng",         0.65, "nội tiết"),
+
+    # ── KHÁC / ĐẶC TRƯNG (35) ──────────────────────────────────
+    ("sưng phù",          0.60, "khác"),
+    ("phù mặt",           0.80, "khác"),
+    ("phù mí mắt",        0.80, "khác"),
+    ("cổ trướng",         0.90, "khác"),
+    ("hạch to",           0.70, "khác"),
+    ("khối u sờ thấy",    0.90, "khác"),
+    ("dễ chảy máu",       0.75, "khác"),
+    ("máu khó đông",      0.85, "khác"),
+    ("nhiễm trùng tái phát",0.75,"khác"),
+    ("đau khi đi",        0.50, "khác"),
+    ("mất mùi đột ngột",  0.90, "khác"),
+    ("nhìn chớp sáng",    0.85, "khác"),
+    ("nhìn vệt đen",      0.85, "khác"),
+    ("tê môi",            0.70, "khác"),
+    ("chảy nước miếng",   0.60, "khác"),
+    ("nói lắp",           0.65, "khác"),
+    ("đỏ mặt từng cơn",   0.60, "khác"),
+    ("vàng mắt",          0.90, "khác"),
+    ("bàn tay run lúc nghỉ",0.95,"khác"),
+    ("dáng đi nhỏ bước",  0.90, "khác"),
+    ("mặt ít biểu cảm",   0.85, "khác"),
+    ("tăng nhãn áp",      0.90, "khác"),
+    ("khó nín tiểu",      0.70, "khác"),
+    ("đau khi đi tiểu",   0.80, "khác"),
+    ("đau bụng sau ăn",   0.65, "khác"),
+    ("đau tăng khi đói",  0.75, "khác"),
+    ("đau giảm khi ăn",   0.75, "khác"),
+    ("quấy khóc",         0.65, "nhi"),
+    ("bỏ bú",             0.85, "nhi"),
+    ("ngủ li bì",         0.80, "nhi"),
+    ("thóp phồng",        0.95, "nhi"),
+    ("vàng da sơ sinh",   0.90, "nhi"),
+    ("biếng ăn",          0.45, "nhi"),
+    ("chậm phát triển",   0.75, "nhi"),
+    ("còi xương",         0.80, "nhi"),
+    ("đau cơ",            0.30, "toàn thân"),
+    ("đau xương",         0.55, "khớp"),
+    ("phù toàn thân",     0.85, "khác"),
+    ("đau gót chân",      0.65, "chi"),
+    ("nóng rát da",       0.60, "da"),
+]
+
+assert len(SYMPTOM_WEIGHTS) == 300, f"Cần đủ 300 triệu chứng, hiện có {len(SYMPTOM_WEIGHTS)}"
+
+# Lookup nhanh
+SYMPTOM_WEIGHT_MAP = {s: w for s, w, _ in SYMPTOM_WEIGHTS}
+SYMPTOM_GROUP_MAP  = {s: g for s, _, g in SYMPTOM_WEIGHTS}
+ALL_SYMPTOMS       = [s for s, _, _ in SYMPTOM_WEIGHTS]
+
+
+if __name__ == '__main__':
+    print(f"Tổng số triệu chứng: {len(SYMPTOM_WEIGHTS)}")
+    groups = {}
+    for s, w, g in SYMPTOM_WEIGHTS:
+        groups.setdefault(g, []).append(s)
+    for g, lst in groups.items():
+        print(f"  {g}: {len(lst)} triệu chứng")

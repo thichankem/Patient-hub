@@ -6,7 +6,7 @@ import type {
   UserRow,
 } from '../../types/db';
 import { AppError } from '../../middleware/error';
-import { hashPassword } from '../../utils/password';
+import { generatePassword, hashPassword } from '../../utils/password';
 import { calcAge } from '../../utils/date';
 import type {
   CreateBasicStaffInput,
@@ -106,11 +106,57 @@ export async function setAccountActive(
   ]);
   if (!user) throw new AppError(404, 'Tài khoản không tồn tại');
 
+  // Bảo vệ: không cho phép khóa manager cuối cùng đang active — sẽ không còn ai
+  // có quyền mở khóa lại, hệ thống lock chính nó.
+  if (!isActive && user.role === 'manager' && user.is_active) {
+    const others = await queryOne<{ n: string }>(
+      `SELECT COUNT(*) AS n FROM users
+        WHERE role = 'manager' AND is_active = TRUE AND id <> $1`,
+      [targetUserId],
+    );
+    if (others && Number(others.n) === 0) {
+      throw new AppError(
+        409,
+        'Không thể khóa manager cuối cùng — hệ thống cần ít nhất 1 manager active',
+      );
+    }
+  }
+
   const updated = await queryOne<UserRow>(
     'UPDATE users SET is_active = $1 WHERE id = $2 RETURNING *',
     [isActive, targetUserId],
   );
   return toPublicUser(updated!);
+}
+
+// Manager reset mật khẩu cho staff (doctor/technician/cashier/receptionist).
+// Sinh mật khẩu mới, trả về cho manager đọc và đưa tận tay staff
+// (không gửi SMS vì staff không lưu SĐT trong bảng users).
+export async function resetStaffPassword(
+  targetUserId: string,
+  requesterUserId: string,
+): Promise<{ username: string; new_password: string }> {
+  if (targetUserId === requesterUserId)
+    throw new AppError(400, 'Không thể reset mật khẩu của chính mình — dùng change-password');
+
+  const user = await queryOne<UserRow>('SELECT * FROM users WHERE id = $1', [
+    targetUserId,
+  ]);
+  if (!user) throw new AppError(404, 'Tài khoản không tồn tại');
+  if (user.role === 'patient')
+    throw new AppError(400, 'Reset mật khẩu bệnh nhân qua /patients/:id/reset-password');
+
+  const newPassword = generatePassword();
+  const newHash = await hashPassword(newPassword);
+  await queryOne(
+    `UPDATE users
+        SET password_hash = $1,
+            failed_login_count = 0,
+            locked_until = NULL
+      WHERE id = $2 RETURNING id`,
+    [newHash, targetUserId],
+  );
+  return { username: user.username, new_password: newPassword };
 }
 
 // ═══════════════════════════════════════════════════════════════════════════

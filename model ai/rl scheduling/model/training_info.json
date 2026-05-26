@@ -1,0 +1,12 @@
+{
+  "episodes": 3000,
+  "lr": 0.02,
+  "gamma": 1.0,
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "eval_mean": {
+    "rl": 116.89,
+    "greedy": 114.94,
+    "random": 144.91
+  }
+}

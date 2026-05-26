@@ -1,0 +1,19 @@
+numpy>=1.24.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+
+
+Cấu trúc:
+data/        sinh kịch bản (rooms + items) + lời giải tối ưu brute-force
+train/       env.py (Gym-style), agent.py (linear Q-learning), train_rl.py, evaluate.py
+serve/       scheduler.py — load Q-agent, sinh lịch (assignment + order) cho 1 bệnh nhân
+model/       q_agent.json, training_info.json
+
+Quy trình:
+1. python "model ai/rl scheduling/data/generate_dataset.py" --samples 500
+2. python "model ai/rl scheduling/train/train_rl.py" --episodes 20000
+3. python "model ai/rl scheduling/train/evaluate.py"
+4. python "model ai/rl scheduling/serve/scheduler.py" --scenario examples/sample.json
+
+Output của scheduler chính là dữ liệu UPDATE vào test_order_items
+(lab_room_id + schedule_order).

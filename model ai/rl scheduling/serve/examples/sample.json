@@ -1,0 +1,15 @@
+{
+  "rooms": [
+    {"room_id": "lab-mau-1",   "test_type": "xet_nghiem_mau",  "queue_minutes": 30, "est_minutes": 15},
+    {"room_id": "lab-mau-2",   "test_type": "xet_nghiem_mau",  "queue_minutes": 5,  "est_minutes": 15},
+    {"room_id": "sieu-am-1",   "test_type": "sieu_am_o_bung",  "queue_minutes": 45, "est_minutes": 20},
+    {"room_id": "xquang-1",    "test_type": "xquang_nguc",     "queue_minutes": 10, "est_minutes": 10},
+    {"room_id": "dientim-1",   "test_type": "dien_tim",        "queue_minutes": 0,  "est_minutes": 10}
+  ],
+  "items": [
+    {"item_id": "ord-item-uuid-1", "test_type": "xet_nghiem_mau",  "est_minutes": 15},
+    {"item_id": "ord-item-uuid-2", "test_type": "sieu_am_o_bung",  "est_minutes": 20},
+    {"item_id": "ord-item-uuid-3", "test_type": "xquang_nguc",     "est_minutes": 10},
+    {"item_id": "ord-item-uuid-4", "test_type": "dien_tim",        "est_minutes": 10}
+  ]
+}

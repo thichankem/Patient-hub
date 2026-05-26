@@ -1,6 +1,7 @@
 import type { NextFunction, Request, Response } from 'express';
 import { ZodError } from 'zod';
 import { isProd } from '../config/env';
+import { logger } from '../utils/logger';
 
 export class AppError extends Error {
   constructor(
@@ -40,7 +41,13 @@ export function errorHandler(
     return;
   }
 
-  console.error('❌ Unhandled error:', err);
+  // CORS rejection — cors package throw plain Error; trả 403 sạch hơn 500.
+  if (err instanceof Error && err.message === 'Origin không được phép') {
+    res.status(403).json({ error: err.message });
+    return;
+  }
+
+  logger.error({ err }, 'Unhandled error');
   res.status(500).json({
     error: 'Lỗi máy chủ nội bộ',
     ...(isProd ? {} : { detail: String(err) }),

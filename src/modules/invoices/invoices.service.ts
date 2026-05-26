@@ -1,6 +1,7 @@
 import type { ReturnQueryFromVNPay } from 'vnpay';
 import { query, queryOne, withTransaction } from '../../db/query';
 import { AppError } from '../../middleware/error';
+import { env } from '../../config/env';
 import type { TokenPayload } from '../../utils/jwt';
 import type {
   ExaminationSessionRow,
@@ -25,6 +26,7 @@ import {
   type PayosWebhook,
 } from '../../integrations/payos';
 import { notifyUser } from '../notifications/notification.helper';
+import { logger } from '../../utils/logger';
 import type {
   GenerateInvoiceInput,
   ListInvoiceQuery,
@@ -67,7 +69,29 @@ function applyInsurance(
   return { discounted: hasValidInsurance ? insurance : unit };
 }
 
+async function logWebhookFailure(
+  provider: 'vnpay' | 'payos',
+  payload: unknown,
+  errorMsg: string,
+): Promise<void> {
+  try {
+    await query(
+      `INSERT INTO webhook_failures (provider, payload, error_msg)
+       VALUES ($1, $2::jsonb, $3)`,
+      [provider, JSON.stringify(payload ?? null), errorMsg],
+    );
+    logger.warn({ provider, errorMsg }, 'webhook failure logged');
+  } catch (err) {
+    logger.error({ err, provider }, 'không ghi được webhook_failures');
+  }
+}
+
 // Sinh hóa đơn nháp (pending). Điều kiện: session finalized + tất cả XN completed.
+// Hóa đơn = phí khám (snapshot) + tổng các xét nghiệm đã hoàn tất.
+// (Thuốc theo prescription_items hiện chưa có giá riêng — dùng lib_medicines.price,
+//  nhưng schema invoice_items chưa có service_type='medicine'. Để giảm rủi ro
+//  thay đổi nghiệp vụ, hiện chỉ thêm consultation_fee. Thuốc bổ sung ở bước sau
+//  khi schema mở rộng.)
 export async function generateInvoice(
   input: GenerateInvoiceInput,
   actor: TokenPayload,
@@ -120,10 +144,9 @@ export async function generateInvoice(
     !!patient.insurance_expiry &&
     patient.insurance_expiry >= today;
 
-  // Lấy danh sách dịch vụ: 1 phí khám + n xét nghiệm.
-  // Phí khám: lib_procedures không có giá → bỏ qua, dùng giá khám cố định mặc định 0
-  //   (spec không bắt buộc; có thể bổ sung sau). Hiện tại không tính consultation.
-  // Xét nghiệm: lấy từ test_order_items + lib_test_types.
+  // Lấy danh sách dịch vụ: phí khám + n xét nghiệm.
+  const consultationFee = env.DEFAULT_CONSULTATION_FEE;
+
   const testRows = await query<{
     item_id: string;
     test_type_id: string;
@@ -140,61 +163,99 @@ export async function generateInvoice(
     [input.session_id],
   );
 
-  let total = 0;
+  // Phí khám luôn tính. BHYT không áp dụng cho phí khám trong v1.
+  let total = consultationFee;
   let discount = 0;
-  const rowsToInsert = testRows.map((r) => {
+  const itemsToInsert: Array<{
+    service_type: 'consultation' | 'test';
+    test_order_item_id: string | null;
+    service_label: string;
+    unit_price: string;
+    discounted_price: string;
+    quantity: number;
+    subtotal: string;
+  }> = [
+    {
+      service_type: 'consultation',
+      test_order_item_id: null,
+      service_label: 'Phí khám bệnh',
+      unit_price: consultationFee.toFixed(2),
+      discounted_price: consultationFee.toFixed(2),
+      quantity: 1,
+      subtotal: consultationFee.toFixed(2),
+    },
+  ];
+
+  for (const r of testRows) {
     const { discounted } = applyInsurance(r.price, r.insurance_price, hasInsurance);
     const unit = Number(r.price);
     const disc = Number(discounted);
     total += unit;
     discount += unit - disc;
-    return {
-      service_label: r.test_name,
-      service_type: 'test' as const,
+    itemsToInsert.push({
+      service_type: 'test',
       test_order_item_id: r.item_id,
+      service_label: r.test_name,
       unit_price: r.price,
       discounted_price: discounted,
       quantity: 1,
       subtotal: discounted,
-    };
-  });
+    });
+  }
 
   const final = total - discount;
 
-  const created = await withTransaction(async (client) => {
-    const inv = await client.query<InvoiceRow>(
-      `INSERT INTO invoices
-         (patient_id, session_id, total_amount, insurance_discount, final_amount, payment_status)
-       VALUES ($1, $2, $3, $4, $5, 'pending') RETURNING *`,
-      [
-        session.patient_id,
-        input.session_id,
-        total.toFixed(2),
-        discount.toFixed(2),
-        final.toFixed(2),
-      ],
-    );
-    const invoiceId = inv.rows[0]!.id;
-    for (const it of rowsToInsert) {
-      await client.query(
-        `INSERT INTO invoice_items
-           (invoice_id, service_type, test_order_item_id, service_label,
-            unit_price, discounted_price, quantity, subtotal)
-         VALUES ($1,$2,$3,$4,$5,$6,$7,$8)`,
+  let created: InvoiceRow;
+  try {
+    created = await withTransaction(async (client) => {
+      const inv = await client.query<InvoiceRow>(
+        `INSERT INTO invoices
+           (patient_id, session_id, total_amount, insurance_discount, final_amount,
+            consultation_fee, payment_status)
+         VALUES ($1, $2, $3, $4, $5, $6, 'pending') RETURNING *`,
         [
-          invoiceId,
-          it.service_type,
-          it.test_order_item_id,
-          it.service_label,
-          it.unit_price,
-          it.discounted_price,
-          it.quantity,
-          it.subtotal,
+          session.patient_id,
+          input.session_id,
+          total.toFixed(2),
+          discount.toFixed(2),
+          final.toFixed(2),
+          consultationFee.toFixed(2),
         ],
       );
+      const invoiceId = inv.rows[0]!.id;
+      for (const it of itemsToInsert) {
+        await client.query(
+          `INSERT INTO invoice_items
+             (invoice_id, service_type, test_order_item_id, service_label,
+              unit_price, discounted_price, quantity, subtotal)
+           VALUES ($1,$2,$3,$4,$5,$6,$7,$8)`,
+          [
+            invoiceId,
+            it.service_type,
+            it.test_order_item_id,
+            it.service_label,
+            it.unit_price,
+            it.discounted_price,
+            it.quantity,
+            it.subtotal,
+          ],
+        );
+      }
+      return inv.rows[0]!;
+    });
+  } catch (err: unknown) {
+    // Race condition: 2 request đồng thời cùng pass check `exist` → cùng INSERT.
+    // invoices.session_id là UNIQUE → 1 ăn, 1 throw 23505. Convert sang trả về
+    // invoice đã tạo (idempotent giống nhánh `if (exist)` ở trên).
+    if (err && typeof err === 'object' && 'code' in err && err.code === '23505') {
+      const existing = await queryOne<InvoiceRow>(
+        'SELECT * FROM invoices WHERE session_id = $1',
+        [input.session_id],
+      );
+      if (existing) return loadDetail(existing.id);
     }
-    return inv.rows[0]!;
-  });
+    throw err;
+  }
 
   return loadDetail(created.id);
 }
@@ -224,15 +285,15 @@ export async function payVnpay(
     throw new AppError(409, 'Hóa đơn đã thanh toán');
 
   // Sinh TxnRef mới mỗi lần bệnh nhân bấm thanh toán (cho phép retry).
-  // VNPay không cho dùng lại TxnRef đã thành công.
   const txnRef = generateTxnRef();
 
-  // Số tiền phải là VND nguyên (không thập phân). Theo nghiệp vụ final_amount đã
-  // được tính sẵn lúc generate; cần làm tròn đề phòng numeric có ".00".
   const amount = Math.round(Number(inv.final_amount));
   if (!Number.isFinite(amount) || amount < 1)
     throw new AppError(400, 'Số tiền hóa đơn không hợp lệ');
 
+  // UPDATE DB TRƯỚC build URL — nếu DB fail, không trả URL cho user.
+  // Ngược lại sẽ có URL hợp lệ trên client mà IPN không tìm thấy txnRef trong DB
+  // → user thanh toán xong nhưng hệ thống không cập nhật được.
   await query(
     `UPDATE invoices
         SET payment_method = 'vnpay',
@@ -244,7 +305,6 @@ export async function payVnpay(
   const vnp_url = buildPaymentUrl({
     amount,
     txnRef,
-    // Mô tả không dấu theo yêu cầu VNPay.
     orderInfo: `Thanh toan hoa don ${id}`,
     ipAddr,
     ...(bankCode ? { bankCode } : {}),
@@ -255,9 +315,6 @@ export async function payVnpay(
 
 // ─── PayOS ────────────────────────────────────────────────────────────────
 
-// Bệnh nhân khởi tạo thanh toán PayOS. Trả checkoutUrl + qrCode để FE hiển thị.
-// Invoice KHÔNG được mark paid ở đây — chỉ ghi orderCode + paymentLinkId.
-// Trạng thái 'paid' chỉ chuyển trong handlePayosWebhook().
 export async function payPayos(
   id: string,
   actor: TokenPayload,
@@ -280,7 +337,6 @@ export async function payPayos(
   if (!Number.isFinite(amount) || amount < 1)
     throw new AppError(400, 'Số tiền hóa đơn không hợp lệ');
 
-  // Nếu trước đó đã sinh orderCode (user mở rồi bỏ) — hủy link cũ trước khi sinh mới.
   if (inv.payos_order_code) {
     try {
       await payosCancel(Number(inv.payos_order_code), 'Người dùng tạo link mới');
@@ -289,12 +345,19 @@ export async function payPayos(
     }
   }
 
-  const orderCode = payosGenerateOrderCode();
-  // Description ≤ 25 ký tự; dùng prefix HD + 6 ký tự cuối của invoice id để
-  // người chuyển khoản nhận diện được.
+  // Sinh orderCode + retry nếu rủi ro trùng (rất hiếm nhưng có thể).
+  let orderCode = payosGenerateOrderCode();
+  for (let i = 0; i < 3; i++) {
+    const dup = await queryOne(
+      'SELECT id FROM invoices WHERE payos_order_code = $1',
+      [orderCode],
+    );
+    if (!dup) break;
+    orderCode = payosGenerateOrderCode();
+  }
+
   const description = `HD ${id.slice(-6).toUpperCase()}`;
 
-  // Lấy tên người mua từ patient để hiển thị trên hóa đơn PayOS.
   const patient = await queryOne<{ full_name: string; phone_encrypted: string }>(
     'SELECT full_name, phone_encrypted FROM patients WHERE id = $1',
     [inv.patient_id],
@@ -307,45 +370,39 @@ export async function payPayos(
     ...(patient?.full_name ? { buyerName: patient.full_name } : {}),
   });
 
-  await query(
-    `UPDATE invoices
-        SET payment_method = 'payos',
-            payos_order_code = $2,
-            payos_payment_link_id = $3,
-            payos_account_number = $4,
-            payos_qr_code = $5
-      WHERE id = $1`,
-    [
-      id,
-      orderCode,
-      result.paymentLinkId,
-      result.accountNumber,
-      result.qrCode,
-    ],
-  );
+  await withTransaction(async (client) => {
+    await client.query(
+      `UPDATE invoices
+          SET payment_method = 'payos',
+              payos_order_code = $2,
+              payos_payment_link_id = $3,
+              payos_account_number = $4,
+              payos_qr_code = $5
+        WHERE id = $1`,
+      [
+        id,
+        orderCode,
+        result.paymentLinkId,
+        result.accountNumber,
+        result.qrCode,
+      ],
+    );
+  });
 
   return { invoice: await loadDetail(id), payos: result };
 }
 
-// Webhook từ PayOS — gọi POST tới URL công khai. Body chứa { code, desc,
-// success, data, signature }. Phải verify chữ ký trước khi tin tưởng.
-//
-// Trả về { error: 0|1, message } theo convention PayOS expect HTTP 200.
 export async function handlePayosWebhook(
   body: PayosWebhook,
 ): Promise<{ error: number; message: string }> {
-  // PayOS gửi 1 request "ping" khi confirm webhook lần đầu với orderCode=123
-  // amount=3000 description="VQRIO123" để test endpoint hoạt động. Ta luôn
-  // ack 200 cho ping — verify sẽ vẫn pass vì signature đúng.
   let data;
   try {
     data = await payosVerifyWebhook(body);
   } catch (err) {
-    console.error('❌ PayOS webhook signature invalid:', err);
+    await logWebhookFailure('payos', body, `signature invalid: ${String(err)}`);
     return { error: 1, message: 'Invalid signature' };
   }
 
-  // Bỏ qua webhook test của PayOS (orderCode 123, không phải đơn thật).
   if (data.orderCode === 123) {
     return { error: 0, message: 'Webhook test acknowledged' };
   }
@@ -358,49 +415,50 @@ export async function handlePayosWebhook(
     return { error: 0, message: 'Order not found (already cleaned up)' };
   }
 
-  // Idempotent — đã paid rồi thì không update lần nữa.
   if (inv.payment_status === 'paid') {
     return { error: 0, message: 'Already paid' };
   }
 
-  // Kiểm tra số tiền — phải khớp final_amount.
   const expected = Math.round(Number(inv.final_amount));
   if (data.amount !== expected) {
-    console.error(
-      `❌ PayOS webhook amount mismatch: got ${data.amount}, expected ${expected}`,
+    await logWebhookFailure(
+      'payos',
+      body,
+      `amount mismatch: got ${data.amount}, expected ${expected}`,
     );
     return { error: 1, message: 'Amount mismatch' };
   }
 
-  // code '00' = thành công (chuẩn PayOS, tương tự VNPay).
   if (body.code === '00' && body.success === true) {
-    await query(
+    // Atomic update: chỉ chuyển sang 'paid' nếu hiện đang 'pending'.
+    // Nếu webhook trùng đến đồng thời, chỉ có 1 row được update → 1 notification.
+    const updated = await queryOne<InvoiceRow>(
       `UPDATE invoices
           SET payment_status = 'paid',
               paid_at = NOW(),
               payos_reference = $2,
               payos_transaction_time = $3
-        WHERE id = $1`,
+        WHERE id = $1 AND payment_status = 'pending' RETURNING *`,
       [inv.id, data.reference, data.transactionDateTime],
     );
 
-    const p = await queryOne<{ user_id: string }>(
-      'SELECT user_id FROM patients WHERE id = $1',
-      [inv.patient_id],
-    );
-    if (p)
-      await notifyUser(
-        p.user_id,
-        'Thanh toán PayOS thành công',
-        `Hóa đơn ${inv.id} đã được thanh toán ${expected.toLocaleString('vi-VN')}đ qua PayOS (REF: ${data.reference}).`,
+    if (updated) {
+      const p = await queryOne<{ user_id: string }>(
+        'SELECT user_id FROM patients WHERE id = $1',
+        [inv.patient_id],
       );
+      if (p)
+        await notifyUser(
+          p.user_id,
+          'Thanh toán PayOS thành công',
+          `Hóa đơn ${inv.id} đã được thanh toán ${expected.toLocaleString('vi-VN')}đ qua PayOS (REF: ${data.reference}).`,
+        );
+    }
   }
 
   return { error: 0, message: 'OK' };
 }
 
-// Browser redirect về sau khi user thanh toán xong — chỉ verify chữ ký
-// và trả thông tin cho FE hiển thị, KHÔNG mark paid (không tin client).
 export async function handleVnpayReturn(
   query: ReturnQueryFromVNPay,
 ): Promise<{ verified: VnpVerified; invoice: InvoiceDetail | null }> {
@@ -416,14 +474,15 @@ export async function handleVnpayReturn(
   return { verified, invoice };
 }
 
-// IPN — server-to-server từ VNPay. Đây là nguồn sự thật để chuyển paid.
-// PHẢI trả về đúng format { RspCode, Message } theo VNPay docs.
 export async function handleVnpayIpn(
   vnpQuery: ReturnQueryFromVNPay,
 ): Promise<{ RspCode: string; Message: string }> {
   const verified = verifyIpnCall(vnpQuery);
 
-  if (!verified.isVerified) return VnpIpn.FailChecksum;
+  if (!verified.isVerified) {
+    await logWebhookFailure('vnpay', vnpQuery, 'signature invalid');
+    return VnpIpn.FailChecksum;
+  }
   if (!verified.txnRef) return VnpIpn.OrderNotFound;
 
   const inv = await queryOne<InvoiceRow>(
@@ -432,19 +491,25 @@ export async function handleVnpayIpn(
   );
   if (!inv) return VnpIpn.OrderNotFound;
 
-  // Kiểm tra số tiền khớp với hóa đơn (đề phòng tampering).
   const expected = Math.round(Number(inv.final_amount));
-  if (verified.amountVnd !== expected) return VnpIpn.InvalidAmount;
+  if (verified.amountVnd !== expected) {
+    await logWebhookFailure(
+      'vnpay',
+      vnpQuery,
+      `amount mismatch: got ${verified.amountVnd}, expected ${expected}`,
+    );
+    return VnpIpn.InvalidAmount;
+  }
 
-  // Idempotent — nếu đã paid rồi và VNPay gửi lại IPN, trả về thành công
-  // nhưng không update lần nữa.
   if (inv.payment_status === 'paid') {
     return VnpIpn.Success;
   }
 
   try {
     if (verified.isSuccess && verified.responseCode === '00') {
-      await query(
+      // Atomic: chỉ row đang 'pending' mới được chuyển sang 'paid' — chống
+      // race condition khi VNPay retry IPN.
+      const updated = await queryOne<InvoiceRow>(
         `UPDATE invoices
             SET payment_status = 'paid',
                 paid_at = NOW(),
@@ -452,7 +517,7 @@ export async function handleVnpayIpn(
                 vnp_response_code = $3,
                 vnp_bank_code = $4,
                 vnp_pay_date = $5
-          WHERE id = $1`,
+          WHERE id = $1 AND payment_status = 'pending' RETURNING *`,
         [
           inv.id,
           verified.transactionNo ?? null,
@@ -462,18 +527,19 @@ export async function handleVnpayIpn(
         ],
       );
 
-      const patient = await queryOne<{ user_id: string }>(
-        'SELECT user_id FROM patients WHERE id = $1',
-        [inv.patient_id],
-      );
-      if (patient)
-        await notifyUser(
-          patient.user_id,
-          'Thanh toán VNPay thành công',
-          `Hóa đơn ${inv.id} đã được thanh toán ${expected.toLocaleString('vi-VN')}đ qua VNPay.`,
+      if (updated) {
+        const patient = await queryOne<{ user_id: string }>(
+          'SELECT user_id FROM patients WHERE id = $1',
+          [inv.patient_id],
         );
+        if (patient)
+          await notifyUser(
+            patient.user_id,
+            'Thanh toán VNPay thành công',
+            `Hóa đơn ${inv.id} đã được thanh toán ${expected.toLocaleString('vi-VN')}đ qua VNPay.`,
+          );
+      }
     } else {
-      // Thanh toán fail/cancel — chỉ ghi response code, vẫn để pending để user retry.
       await query(
         `UPDATE invoices
             SET vnp_response_code = $2
@@ -483,15 +549,16 @@ export async function handleVnpayIpn(
     }
     return VnpIpn.Success;
   } catch (err) {
-    console.error('❌ Lỗi xử lý VNPay IPN:', err);
+    await logWebhookFailure('vnpay', vnpQuery, String(err));
     return VnpIpn.UnknownError;
   }
 }
 
-// Thu ngân xác nhận đã thu tiền mặt.
+// Thu ngân xác nhận đã thu tiền mặt — phải nhập received_amount và lưu lại
+// để chống gian lận (không lưu được = không kiểm tra được).
 export async function payCash(
   id: string,
-  _input: PayCashInput,
+  input: PayCashInput,
   actor: TokenPayload,
 ): Promise<InvoiceDetail> {
   if (actor.role !== 'cashier')
@@ -505,15 +572,28 @@ export async function payCash(
   if (inv.payment_status === 'paid')
     throw new AppError(409, 'Hóa đơn đã thanh toán');
 
-  await query(
+  // Số tiền nhận phải đủ — không cho phép cashier "xác nhận" mà không thu đủ.
+  const finalAmount = Number(inv.final_amount);
+  if (input.received_amount < finalAmount) {
+    throw new AppError(
+      400,
+      `Số tiền nhận (${input.received_amount.toLocaleString('vi-VN')}đ) ` +
+        `không đủ để thanh toán hóa đơn (${finalAmount.toLocaleString('vi-VN')}đ)`,
+    );
+  }
+
+  const updated = await queryOne<InvoiceRow>(
     `UPDATE invoices
         SET payment_method = 'cash',
             payment_status = 'paid',
             cashier_user_id = $2,
+            received_amount = $3,
             paid_at = NOW()
-      WHERE id = $1`,
-    [id, actor.sub],
+      WHERE id = $1 AND payment_status = 'pending' RETURNING *`,
+    [id, actor.sub, input.received_amount.toFixed(2)],
   );
+  if (!updated)
+    throw new AppError(409, 'Hóa đơn đã được thanh toán bởi 1 phiên khác');
 
   const patient = await queryOne<{ user_id: string }>(
     'SELECT user_id FROM patients WHERE id = $1',
@@ -554,7 +634,6 @@ export async function listInvoices(
     params.push(pid);
     where.push(`patient_id = $${params.length}`);
   } else if (actor.role === 'cashier') {
-    // Mặc định thu ngân chỉ thấy các hóa đơn cần xử lý.
     if (!q.payment_status) {
       where.push(`payment_status = 'pending'`);
     }
@@ -583,11 +662,18 @@ export async function listInvoices(
   return query<InvoiceRow>(sql, params);
 }
 
-// Doanh thu cho Manager — chỉ tính VNPay (theo spec).
+// Doanh thu cho Manager — tính TỔNG mọi phương thức (vnpay + payos + cash).
+// Trả thêm breakdown để FE hiển thị tách theo phương thức.
 export async function getRevenue(
   q: RevenueQuery,
   actor: TokenPayload,
-): Promise<{ year: number; month?: number; total: string; count: number }> {
+): Promise<{
+  year: number;
+  month?: number;
+  total: string;
+  count: number;
+  by_method: { vnpay: string; payos: string; cash: string };
+}> {
   if (actor.role !== 'manager')
     throw new AppError(403, 'Chỉ quản lý xem doanh thu');
 
@@ -597,11 +683,20 @@ export async function getRevenue(
     params.push(q.month);
     dateFilter += ` AND EXTRACT(MONTH FROM paid_at) = $2`;
   }
-  const row = await queryOne<{ total: string | null; count: string }>(
-    `SELECT COALESCE(SUM(final_amount), 0)::text AS total, COUNT(*) AS count
+  const row = await queryOne<{
+    total: string | null;
+    count: string;
+    vnpay: string | null;
+    payos: string | null;
+    cash: string | null;
+  }>(
+    `SELECT COALESCE(SUM(final_amount), 0)::text AS total,
+            COUNT(*) AS count,
+            COALESCE(SUM(final_amount) FILTER (WHERE payment_method='vnpay'), 0)::text AS vnpay,
+            COALESCE(SUM(final_amount) FILTER (WHERE payment_method='payos'), 0)::text AS payos,
+            COALESCE(SUM(final_amount) FILTER (WHERE payment_method='cash'),  0)::text AS cash
        FROM invoices
-      WHERE payment_method = 'vnpay'
-        AND payment_status = 'paid'
+      WHERE payment_status = 'paid'
         AND ${dateFilter}`,
     params,
   );
@@ -610,5 +705,10 @@ export async function getRevenue(
     ...(q.month ? { month: q.month } : {}),
     total: row?.total ?? '0',
     count: Number(row?.count ?? 0),
+    by_method: {
+      vnpay: row?.vnpay ?? '0',
+      payos: row?.payos ?? '0',
+      cash:  row?.cash  ?? '0',
+    },
   };
 }

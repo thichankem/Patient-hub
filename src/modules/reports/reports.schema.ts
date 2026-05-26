@@ -5,7 +5,10 @@ export const idParamSchema = z.object({
 });
 
 export const createReportSchema = z.object({
-  content: z.string().min(5, 'Nội dung báo cáo tối thiểu 5 ký tự'),
+  content: z
+    .string()
+    .min(5, 'Nội dung báo cáo tối thiểu 5 ký tự')
+    .max(5000, 'Nội dung báo cáo tối đa 5000 ký tự'),
 });
 
 export const listQuerySchema = z.object({

@@ -8,8 +8,10 @@ export const generateInvoiceSchema = z.object({
   session_id: z.string().uuid('session_id không hợp lệ'),
 });
 
+// Bắt buộc nhập số tiền cashier nhận thực tế — kiểm tra >= final_amount
+// trong service để chống gian lận nội bộ.
 export const payCashSchema = z.object({
-  received_amount: z.number().nonnegative('Số tiền nhận không hợp lệ').optional(),
+  received_amount: z.number().nonnegative('Số tiền nhận không hợp lệ'),
 });
 
 // VNPay cho phép truyền vnp_BankCode để pre-select cổng (NCB, VNBANK, INTCARD...).

@@ -99,3 +99,15 @@ export async function createReceptionist(
   );
   res.status(201).json({ data });
 }
+
+export async function resetStaffPassword(
+  req: Request,
+  res: Response,
+): Promise<void> {
+  if (!req.user) throw new AppError(401, 'Chưa xác thực');
+  const data = await staffService.resetStaffPassword(
+    req.params['userId'] as string,
+    req.user.sub,
+  );
+  res.json({ data });
+}

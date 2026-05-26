@@ -52,11 +52,25 @@ async function patientUserId(patientId: string): Promise<string | null> {
   return row?.user_id ?? null;
 }
 
+// Trả về list phòng phục vụ test_type kèm queueMinutes
+// (= SUM estimated_minutes của các item chưa hoàn tất tại phòng đó).
+// RL scheduler cần queue tính theo PHÚT để estimate wait time.
 async function candidateRooms(
   testTypeId: string,
-): Promise<Array<{ labRoomId: string; currentQueue: number }>> {
-  const rows = await query<{ lab_room_id: string; current_queue: string }>(
+): Promise<Array<{ labRoomId: string; queueMinutes: number; currentQueue: number }>> {
+  const rows = await query<{
+    lab_room_id: string;
+    queue_minutes: string;
+    current_queue: string;
+  }>(
     `SELECT lr.id AS lab_room_id,
+            COALESCE((
+              SELECT SUM(lt2.estimated_minutes)
+                FROM test_order_items x
+                JOIN lib_test_types lt2 ON lt2.id = x.test_type_id
+               WHERE x.lab_room_id = lr.id
+                 AND x.status IN ('not_started','waiting','processing')
+            ), 0) AS queue_minutes,
             (SELECT COUNT(*) FROM test_order_items x
               WHERE x.lab_room_id = lr.id
                 AND x.status IN ('not_started','waiting','processing')
@@ -67,6 +81,7 @@ async function candidateRooms(
   );
   return rows.map((r) => ({
     labRoomId: r.lab_room_id,
+    queueMinutes: Number(r.queue_minutes),
     currentQueue: Number(r.current_queue),
   }));
 }
@@ -91,21 +106,48 @@ export async function createTestOrder(
   if (session.is_finalized)
     throw new AppError(409, 'Đợt khám đã chốt, không thể thêm xét nghiệm');
 
-  // Lấy estimated_minutes + phòng ứng viên cho từng loại xét nghiệm.
-  const scheduleInput: TestRoomScheduleInput[] = [];
+  // Lấy estimated_minutes + phòng ứng viên cho TẤT CẢ loại xét nghiệm
+  // trong 2 query gộp (tránh N+1).
+  const ttRows = await query<{ id: string; estimated_minutes: number }>(
+    'SELECT id, estimated_minutes FROM lib_test_types WHERE id = ANY($1::uuid[])',
+    [input.test_type_ids],
+  );
+  const ttMap = new Map(ttRows.map((r) => [r.id, r.estimated_minutes]));
   for (const ttId of input.test_type_ids) {
-    const tt = await queryOne<{ id: string; estimated_minutes: number }>(
-      'SELECT id, estimated_minutes FROM lib_test_types WHERE id = $1',
-      [ttId],
-    );
-    if (!tt) throw new AppError(404, `Loại xét nghiệm ${ttId} không tồn tại`);
-    scheduleInput.push({
-      itemId: ttId, // tạm dùng test_type_id làm khóa, map lại sau
-      testTypeId: ttId,
-      estimatedMinutes: tt.estimated_minutes,
-      candidateRooms: await candidateRooms(ttId),
-    });
+    if (!ttMap.has(ttId))
+      throw new AppError(404, `Loại xét nghiệm ${ttId} không tồn tại`);
   }
+
+  const roomRows = await query<{
+    test_type_id: string;
+    lab_room_id: string;
+    queue_minutes: string;
+  }>(
+    `SELECT lr.test_type_id, lr.id AS lab_room_id,
+            COALESCE((
+              SELECT SUM(lt2.estimated_minutes)
+                FROM test_order_items x
+                JOIN lib_test_types lt2 ON lt2.id = x.test_type_id
+               WHERE x.lab_room_id = lr.id
+                 AND x.status IN ('not_started','waiting','processing')
+            ), 0) AS queue_minutes
+       FROM lab_rooms lr
+      WHERE lr.test_type_id = ANY($1::uuid[])`,
+    [input.test_type_ids],
+  );
+  const roomsByType = new Map<string, Array<{ labRoomId: string; queueMinutes: number }>>();
+  for (const r of roomRows) {
+    const arr = roomsByType.get(r.test_type_id) ?? [];
+    arr.push({ labRoomId: r.lab_room_id, queueMinutes: Number(r.queue_minutes) });
+    roomsByType.set(r.test_type_id, arr);
+  }
+
+  const scheduleInput: TestRoomScheduleInput[] = input.test_type_ids.map((ttId) => ({
+    itemId: ttId,
+    testTypeId: ttId,
+    estimatedMinutes: ttMap.get(ttId)!,
+    candidateRooms: roomsByType.get(ttId) ?? [],
+  }));
 
   const plan = scheduleTestRooms(scheduleInput);
   const planByType = new Map(plan.map((p) => [p.itemId, p]));
@@ -248,6 +290,8 @@ export async function listMySchedule(
 }
 
 // KTV chỉ thấy xét nghiệm của phòng mình phụ trách, chưa hoàn tất.
+// Sort theo created_at (FIFO toàn cục) — schedule_order chỉ unique trong 1
+// bệnh nhân nên không dùng được làm thứ tự queue giữa nhiều bệnh nhân.
 export async function technicianQueue(
   actor: TokenPayload,
 ): Promise<ItemDetail[]> {
@@ -255,13 +299,15 @@ export async function technicianQueue(
     throw new AppError(403, 'Chỉ kỹ thuật viên xem được hàng chờ');
   const roomId = await technicianRoomOfUser(actor.sub);
   return query<ItemDetail>(
-    `SELECT toi.*, tt.name AS test_type_name, lr.name AS lab_room_name
+    `SELECT toi.*, tt.name AS test_type_name, lr.name AS lab_room_name,
+            t.created_at AS order_created_at
        FROM test_order_items toi
+       JOIN test_orders t ON t.id = toi.test_order_id
        JOIN lib_test_types tt ON tt.id = toi.test_type_id
        LEFT JOIN lab_rooms lr ON lr.id = toi.lab_room_id
       WHERE toi.lab_room_id = $1
         AND toi.status IN ('not_started','waiting','processing')
-      ORDER BY toi.schedule_order ASC NULLS LAST`,
+      ORDER BY t.created_at ASC, toi.schedule_order ASC NULLS LAST`,
     [roomId],
   );
 }
@@ -333,6 +379,8 @@ export async function updateItemStatus(
 }
 
 // KTV hủy → phân phòng khác cùng loại; không còn phòng → unavailable + báo bệnh nhân.
+// Cũng reset schedule_order khi đổi phòng (queue mới khác → thứ tự cũ không còn nghĩa).
+// Schedule_order mới = item lớn nhất hiện tại + 1 (đặt cuối lịch trình bệnh nhân).
 export async function cancelItem(
   itemId: string,
   actor: TokenPayload,
@@ -354,19 +402,34 @@ export async function cancelItem(
   const rooms = (await candidateRooms(item.test_type_id)).filter(
     (r) => r.labRoomId !== item.lab_room_id,
   );
-  rooms.sort((a, b) => a.currentQueue - b.currentQueue);
+  // Chọn phòng có queue (phút) ít nhất — fairer hơn dùng count vì 1 ca CT 30'
+  // nặng hơn 3 ca lấy máu 5'.
+  rooms.sort((a, b) => a.queueMinutes - b.queueMinutes);
   const next = rooms[0];
 
-  const row = await queryOne<TestOrderItemRow>(
-    next
-      ? `UPDATE test_order_items
-            SET lab_room_id = $1, status = 'not_started'
-          WHERE id = $2 RETURNING *`
-      : `UPDATE test_order_items
-            SET lab_room_id = NULL, status = 'unavailable', schedule_order = NULL
-          WHERE id = $2 RETURNING *`,
-    next ? [next.labRoomId, itemId] : [itemId],
-  );
+  let row: TestOrderItemRow | null;
+  if (next) {
+    // Đặt cuối lịch của bệnh nhân (cùng test_order): max(schedule_order) + 1.
+    const maxRow = await queryOne<{ m: number | null }>(
+      `SELECT COALESCE(MAX(schedule_order), 0) AS m
+         FROM test_order_items WHERE test_order_id = $1`,
+      [item.test_order_id],
+    );
+    const newOrder = (Number(maxRow?.m ?? 0)) + 1;
+    row = await queryOne<TestOrderItemRow>(
+      `UPDATE test_order_items
+          SET lab_room_id = $1, status = 'not_started', schedule_order = $3
+        WHERE id = $2 RETURNING *`,
+      [next.labRoomId, itemId, newOrder],
+    );
+  } else {
+    row = await queryOne<TestOrderItemRow>(
+      `UPDATE test_order_items
+          SET lab_room_id = NULL, status = 'unavailable', schedule_order = NULL
+        WHERE id = $1 RETURNING *`,
+      [itemId],
+    );
+  }
 
   if (!next) {
     const o = await queryOne<{ patient_id: string }>(
@@ -396,9 +459,9 @@ export async function reviewItem(
   const did = await doctorIdOfUser(actor.sub);
 
   const item = await queryOne<
-    TestOrderItemRow & { session_doctor: string }
+    TestOrderItemRow & { session_doctor: string; session_finalized: boolean }
   >(
-    `SELECT toi.*, es.doctor_id AS session_doctor
+    `SELECT toi.*, es.doctor_id AS session_doctor, es.is_finalized AS session_finalized
        FROM test_order_items toi
        JOIN test_orders t ON t.id = toi.test_order_id
        JOIN examination_sessions es ON es.id = t.session_id
@@ -408,6 +471,8 @@ export async function reviewItem(
   if (!item) throw new AppError(404, 'Mục xét nghiệm không tồn tại');
   if (item.session_doctor !== did)
     throw new AppError(403, 'Đây không phải đợt khám của bạn');
+  if (item.session_finalized)
+    throw new AppError(409, 'Đợt khám đã chốt, không thể review thêm');
   if (item.status !== 'completed')
     throw new AppError(409, 'Chỉ xác nhận khi mục đã có kết quả');
 

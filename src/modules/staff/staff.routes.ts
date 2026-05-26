@@ -32,6 +32,14 @@ router.patch(
   staffController.setAccountActive,
 );
 
+// Manager reset mật khẩu cho staff (doctor/technician/cashier/receptionist).
+// Trả về mật khẩu mới — manager đọc và đưa tận tay nhân viên.
+router.post(
+  '/accounts/:userId/reset-password',
+  validate({ params: userIdParamSchema }),
+  staffController.resetStaffPassword,
+);
+
 // ─── Doctors ─────────────────────────────────────────────────────────────────
 
 router.get('/doctors', staffController.listDoctors);

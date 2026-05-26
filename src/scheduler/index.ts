@@ -1,4 +1,5 @@
 import { expireOverdueAppointments } from '../modules/appointments/appointments.service';
+import { logger } from '../utils/logger';
 
 const ONE_HOUR_MS = 60 * 60 * 1000;
 
@@ -7,9 +8,9 @@ let timer: NodeJS.Timeout | null = null;
 async function runExpiryCheck(): Promise<void> {
   try {
     const n = await expireOverdueAppointments();
-    if (n > 0) console.log(`⏰ Đã đánh dấu ${n} lịch hẹn quá hạn`);
+    if (n > 0) logger.info({ expired: n }, 'cron: đánh dấu lịch hẹn quá hạn');
   } catch (err) {
-    console.error('❌ Lỗi cron kiểm tra lịch hẹn quá hạn:', err);
+    logger.error({ err }, 'cron: lỗi kiểm tra lịch hẹn quá hạn');
   }
 }
 

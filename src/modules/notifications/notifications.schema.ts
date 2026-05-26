@@ -14,8 +14,8 @@ export const listQuerySchema = z.object({
 
 export const broadcastSchema = z
   .object({
-    title: z.string().min(1, 'Tiêu đề bắt buộc'),
-    body: z.string().min(1, 'Nội dung bắt buộc'),
+    title: z.string().min(1, 'Tiêu đề bắt buộc').max(255),
+    body: z.string().min(1, 'Nội dung bắt buộc').max(2000),
     target_scope: z.enum([
       'single',
       'all_doctors',

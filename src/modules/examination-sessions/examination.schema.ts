@@ -11,8 +11,8 @@ export const patientIdParamSchema = z.object({
 // Bác sĩ chỉ được sửa chẩn đoán + kế hoạch điều trị (dạng text), khi còn nháp.
 export const updateSessionSchema = z
   .object({
-    diagnosis: z.string().nullable().optional(),
-    treatment_plan: z.string().nullable().optional(),
+    diagnosis: z.string().max(5000).nullable().optional(),
+    treatment_plan: z.string().max(5000).nullable().optional(),
   })
   .refine((d) => d.diagnosis !== undefined || d.treatment_plan !== undefined, {
     message: 'Không có thông tin cần cập nhật',

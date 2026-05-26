@@ -1,0 +1,1671 @@
+==============================================================================
+GIẢI THÍCH 200 BỆNH PHỔ BIẾN
+==============================================================================
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: CƠ XƯƠNG KHỚP
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[079] Viêm khớp dạng thấp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn viêm nhiều khớp đối xứng, đặc biệt bàn tay. RF, anti-CCP dương tính.
+Triệu chứng chính: đau khớp, sưng khớp, cứng khớp buổi sáng, biến dạng khớp, mệt mỏi, sốt nhẹ, sụt cân, chán ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[080] Thoái hóa khớp gối
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hư sụn khớp gối do tuổi, béo phì, chấn thương cũ. Đau tăng khi vận động, giảm khi nghỉ.
+Triệu chứng chính: đau khớp, cứng khớp, tiếng khớp kêu, sưng khớp, hạn chế vận động, đi tập tễnh, đau khi đi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[081] Thoái hóa cột sống cổ
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hư đĩa đệm và đốt sống cổ do tuổi. Có thể chèn ép rễ thần kinh hoặc tủy.
+Triệu chứng chính: đau cổ, cứng cổ, đau gáy, đau lan vai trái, tê tay, yếu tay, đau đầu, chóng mặt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[082] Thoái hóa cột sống thắt lưng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hư đĩa đệm, gai cột sống thắt lưng. Đau khi đứng lâu, mang vác nặng.
+Triệu chứng chính: đau thắt lưng, đau lưng dưới, cứng lưng, đau chân, tê chân, đau dọc cột sống, hạn chế vận động
+
+
+──────────────────────────────────────────────────────────────────────────────
+[083] Gout
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh lắng đọng tinh thể urate ở khớp, hay ngón chân cái. Acid uric máu tăng.
+Triệu chứng chính: đau khớp, sưng khớp, đỏ khớp, nóng khớp, mất ngủ, sốt nhẹ, biến dạng khớp
+
+
+──────────────────────────────────────────────────────────────────────────────
+[084] Thoát vị đĩa đệm cột sống cổ
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhân nhầy đĩa đệm cột sống cổ thoát ra chèn ép rễ thần kinh.
+Triệu chứng chính: đau cổ, đau gáy, đau lan vai trái, tê tay, yếu tay, khó cầm nắm, đau đầu, cứng cổ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[085] Thoát vị đĩa đệm cột sống thắt lưng
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhân nhầy đĩa đệm thắt lưng thoát ra, chèn rễ thần kinh, gây đau lan chân (đau dây thần kinh tọa).
+Triệu chứng chính: đau thắt lưng, đau chân, tê chân, yếu chân, ngứa ran tay chân, đau dọc cột sống, đi tập tễnh
+
+
+──────────────────────────────────────────────────────────────────────────────
+[086] Loãng xương
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Giảm mật độ xương, dễ gãy xương khi ngã nhẹ. Hay gặp phụ nữ sau mãn kinh.
+Triệu chứng chính: đau lưng, đau xương, đau khi đi, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[087] Viêm khớp nhiễm khuẩn
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn trong khoang khớp (Staph, Strep, Gonococcus). Cần dẫn lưu sớm tránh hư khớp.
+Triệu chứng chính: đau khớp, sưng khớp, đỏ khớp, nóng khớp, sốt cao, ớn lạnh, hạn chế vận động
+
+
+──────────────────────────────────────────────────────────────────────────────
+[088] Bong gân cổ chân
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tổn thương dây chằng cổ chân khi lật chân, mức độ I-III.
+Triệu chứng chính: đau khớp, sưng khớp, bầm tím, hạn chế vận động, đi tập tễnh, đau khi đi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[089] Gãy xương đùi
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Gãy xương đùi do chấn thương hoặc loãng xương. Người già nguy cơ tử vong cao.
+Triệu chứng chính: đau xương, biến dạng khớp, đau khớp, đi tập tễnh, sưng phù, bầm tím, đau khi đi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[090] Viêm bao hoạt dịch
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm bao hoạt dịch quanh khớp (vai, khuỷu, gối). Hay do vận động lặp lại, chấn thương.
+Triệu chứng chính: đau khớp, sưng khớp, nóng khớp, đỏ khớp, hạn chế vận động, tiếng khớp kêu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[091] Hội chứng ống cổ tay
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Chèn ép dây thần kinh giữa ở cổ tay. Tê các ngón I-IV, hay xảy ra ban đêm.
+Triệu chứng chính: tê tay, đau tay, yếu tay, khó cầm nắm, ngứa ran tay chân, mất ngủ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[092] Viêm cột sống dính khớp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm khớp tự miễn liên quan HLA-B27, dính khớp cùng chậu và cột sống. Nam trẻ tuổi.
+Triệu chứng chính: đau lưng, cứng lưng, đau lưng dưới, cứng khớp buổi sáng, đau dọc cột sống, đau khớp, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[093] Lupus ban đỏ hệ thống
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn đa cơ quan, ban cánh bướm má, viêm khớp, viêm thận, huyết học. ANA dương tính.
+Triệu chứng chính: đau khớp, sưng khớp, phát ban, mệt mỏi, sốt nhẹ, rụng tóc, sợ ánh sáng, đau cơ
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: DA LIỄU
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[094] Viêm da dị ứng
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh da viêm mạn tính, ngứa nhiều, hay tái phát. Liên quan cơ địa dị ứng (hen, viêm mũi).
+Triệu chứng chính: ngứa da, phát ban, đỏ da, khô da, bong tróc da, mụn nước, nóng rát da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[095] Mề đay
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Phản ứng dị ứng nổi sẩn phù ngứa, có thể tự lặn trong 24h. Cấp <6 tuần, mạn >6 tuần.
+Triệu chứng chính: nổi mề đay, ngứa da, mẩn đỏ, phù mí mắt, phù mặt, phát ban
+
+
+──────────────────────────────────────────────────────────────────────────────
+[096] Vảy nến
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn mạn tính, mảng đỏ phủ vảy trắng bạc, hay khuỷu, gối, da đầu.
+Triệu chứng chính: vảy bạc trên da, đỏ da, ngứa da, bong tróc da, dày sừng, đau khớp, nhiễm nấm móng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[097] Eczema
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm da tiếp xúc hoặc cơ địa, đỏ ngứa rỉ dịch. Hay ở tay (eczema bàn tay).
+Triệu chứng chính: ngứa da, đỏ da, mụn nước, bong tróc da, khô da, nóng rát da, phát ban
+
+
+──────────────────────────────────────────────────────────────────────────────
+[098] Zona thần kinh
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tái hoạt động virus Varicella-Zoster dọc một dây thần kinh, mụn nước theo dermatome.
+Triệu chứng chính: mụn nước theo dải, đau dây thần kinh, nóng rát da, ngứa da, phát ban, sốt nhẹ, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[099] Nấm da
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm nấm Dermatophyte ở da, dạng vòng tròn đỏ có vảy. Hay ở vùng kẽ, da ẩm.
+Triệu chứng chính: ngứa da, phát ban, đỏ da, bong tróc da, vảy bạc trên da, vết loét da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[100] Hắc lào
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nấm da do Trichophyton, vòng tròn đỏ có viền hồng, ngứa nhiều. Lây qua tiếp xúc.
+Triệu chứng chính: ngứa da, phát ban, vảy bạc trên da, đỏ da, bong tróc da, nóng rát da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[101] Ghẻ
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm ký sinh trùng Sarcoptes scabiei, ngứa dữ dội về đêm. Đường hầm ở kẽ ngón.
+Triệu chứng chính: ngứa da, phát ban, mụn nước, mẩn đỏ, vết loét da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[102] Nấm móng
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm nấm Dermatophyte ở móng, móng dày vàng giòn. Khó điều trị, hay tái phát.
+Triệu chứng chính: nhiễm nấm móng, móng giòn, đau khớp
+
+
+──────────────────────────────────────────────────────────────────────────────
+[103] Mụn trứng cá
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tuyến bã do Cutibacterium acnes, hay tuổi dậy thì. Mụn đầu đen, mụn mủ.
+Triệu chứng chính: nổi mụn, mụn mủ, đỏ da, mẩn đỏ, sạm da, vết loét da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[104] Viêm nang lông
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm chân nang lông do vi khuẩn/nấm. Mụn mủ quanh nang lông.
+Triệu chứng chính: nổi mụn, mụn mủ, ngứa da, đỏ da, đau khớp, mẩn đỏ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[105] Nám da
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tăng sắc tố da do nội tiết, ánh nắng, thuốc tránh thai. Hay ở phụ nữ, vùng mặt.
+Triệu chứng chính: nám da, sạm da, phát ban
+
+
+──────────────────────────────────────────────────────────────────────────────
+[106] Bạch biến
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mất sắc tố melanin từng vùng da, do tự miễn. Mảng trắng đối xứng, không ngứa.
+Triệu chứng chính: mảng trắng trên da, phát ban, bong tróc da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[107] Rụng tóc từng vùng
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn rụng tóc thành đốm tròn nhẵn, có thể lan toàn da đầu (alopecia totalis).
+Triệu chứng chính: rụng tóc từng vùng, rụng tóc, ngứa da, nhiễm nấm móng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[108] U hắc tố ác tính
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư da nguy hiểm nhất từ tế bào melanocyte. Quy tắc ABCDE đánh giá nốt ruồi.
+Triệu chứng chính: nốt ruồi đổi màu, vết loét da, ngứa da, xuất huyết da, hạch to, sụt cân, mệt mỏi
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: HUYẾT HỌC
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[143] Thiếu máu thiếu sắt
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thiếu sắt do mất máu (kinh nguyệt, tiêu hóa), ăn ít sắt, kém hấp thu. Hb thấp, MCV thấp.
+Triệu chứng chính: mệt mỏi, da xanh tái, chóng mặt, khó thở gắng sức, tim đập nhanh, đau đầu, rụng tóc, móng giòn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[144] Thiếu máu tan máu
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hồng cầu bị phá hủy nhanh hơn sản xuất, hay do tự miễn (AIHA), G6PD, thalassemia.
+Triệu chứng chính: mệt mỏi, da xanh tái, vàng da, nước tiểu sẫm, khó thở, tim đập nhanh, đau bụng, sốt nhẹ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[145] Thiếu máu hồng cầu to
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thiếu B12 hoặc Folate, MCV cao. B12 thiếu kèm triệu chứng thần kinh.
+Triệu chứng chính: mệt mỏi, da xanh tái, lưỡi bợt, tê tay, tê chân, mất trí nhớ, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[146] Xuất huyết giảm tiểu cầu
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Giảm tiểu cầu do tự miễn (ITP), thuốc, nhiễm trùng. Tiểu cầu <100,000/µL.
+Triệu chứng chính: xuất huyết da, bầm tím, chảy máu mũi, chảy máu chân răng, rong kinh, phân có máu, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[147] Bạch cầu cấp dòng tủy
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư máu cấp tính, tăng sinh tế bào non dòng tủy. Tiến triển nhanh, cần điều trị ngay.
+Triệu chứng chính: sốt cao, mệt mỏi, da xanh tái, xuất huyết da, bầm tím, hạch to, sụt cân, đau xương
+
+
+──────────────────────────────────────────────────────────────────────────────
+[148] Bạch cầu mạn dòng tủy
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh ác tính dòng tủy, gen BCR-ABL dương. Tiến triển 3 giai đoạn: mạn-tăng tốc-blast.
+Triệu chứng chính: mệt mỏi, sụt cân, hạch to, đau hạ sườn trái, mồ hôi đêm, sốt nhẹ, ngứa da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[149] U lympho Hodgkin
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư hệ bạch huyết, tế bào Reed-Sternberg đặc trưng. Tỷ lệ chữa khỏi cao.
+Triệu chứng chính: hạch to, sốt chiều, mồ hôi đêm, sụt cân, ngứa da, mệt mỏi, đau ngực, ho khan
+
+
+──────────────────────────────────────────────────────────────────────────────
+[150] U lympho không Hodgkin
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhóm bệnh ác tính đa dạng từ tế bào B, T. Có loại tiến triển chậm, có loại rất nhanh.
+Triệu chứng chính: hạch to, sốt chiều, mồ hôi đêm, sụt cân, mệt mỏi, đau bụng, ho khan, khó thở
+
+
+──────────────────────────────────────────────────────────────────────────────
+[151] Hemophilia A
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thiếu yếu tố VIII di truyền liên kết X. Chảy máu khớp, cơ tự nhiên.
+Triệu chứng chính: dễ chảy máu, máu khó đông, bầm tím, đau khớp, sưng khớp, chảy máu mũi, tiểu máu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[152] Bệnh Thalassemia
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh di truyền tổn thương chuỗi globin. Thalassemia thể nặng (Cooley) cần truyền máu suốt đời.
+Triệu chứng chính: da xanh tái, vàng da, mệt mỏi, chậm phát triển, hạch to, khó thở gắng sức, biến dạng khớp
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: HÔ HẤP
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[049] Viêm phổi cộng đồng
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn nhu mô phổi mắc tại cộng đồng. Hay do Streptococcus pneumoniae, Mycoplasma.
+Triệu chứng chính: sốt cao, ho có đờm, khó thở, đau ngực, mệt mỏi, ớn lạnh, vã mồ hôi, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[050] Viêm phổi do vi khuẩn
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm phổi do vi khuẩn, đờm vàng/xanh đặc. Streptococcus, Klebsiella, Pseudomonas...
+Triệu chứng chính: sốt cao, ho có đờm, đau ngực, khó thở, ớn lạnh, vã mồ hôi, thở nhanh, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[051] Viêm phổi do virus
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm phổi do virus (Influenza, RSV, SARS-CoV-2). Đờm ít, ho khan.
+Triệu chứng chính: sốt cao, ho khan, khó thở, đau cơ, mệt mỏi, đau đầu, thở nhanh, mất mùi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[052] Hen phế quản
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm mạn tính đường hô hấp, co thắt phế quản, có cơ địa dị ứng. Cơn khó thở có hồi phục.
+Triệu chứng chính: khó thở, thở khò khè, ho khan, tức ngực, khó thở đêm, khó thở gắng sức, thở rít, ngứa mũi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[053] COPD
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh phổi tắc nghẽn mạn tính, không hồi phục hoàn toàn. Nguyên nhân chính hút thuốc lá lâu năm.
+Triệu chứng chính: khó thở gắng sức, ho có đờm, thở khò khè, tức ngực, mệt mỏi, tím tái, sụt cân, thở nhanh
+
+
+──────────────────────────────────────────────────────────────────────────────
+[054] Viêm phế quản cấp
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cấp niêm mạc phế quản, đa số do virus, tự khỏi 7-10 ngày.
+Triệu chứng chính: ho có đờm, ho khan, đau họng, sốt nhẹ, mệt mỏi, đau ngực, thở khò khè, nghẹt mũi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[055] Viêm phế quản mạn
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ho có đờm >3 tháng/năm trong 2 năm liên tiếp. Hay đi kèm COPD ở người hút thuốc.
+Triệu chứng chính: ho có đờm, khó thở gắng sức, thở khò khè, đau ngực, mệt mỏi, khó thở đêm, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[056] Lao phổi
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm Mycobacterium tuberculosis, lây qua không khí. Ho kéo dài >3 tuần là dấu hiệu cảnh báo.
+Triệu chứng chính: ho có đờm, ho ra máu, sốt chiều, mồ hôi đêm, sụt cân, mệt mỏi, đau ngực, chán ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[057] Tràn dịch màng phổi
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Dịch tích tụ khoang màng phổi. Nguyên nhân: lao, ung thư, suy tim, viêm phổi.
+Triệu chứng chính: khó thở, đau ngực, ho khan, sốt nhẹ, mệt mỏi, khó thở khi nằm, thở nhanh, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[058] Tràn khí màng phổi
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Không khí lọt vào khoang màng phổi làm phổi xẹp. Cấp cứu nếu căng (tension pneumothorax).
+Triệu chứng chính: khó thở, đau ngực, thở nhanh, tím tái, tim đập nhanh, hồi hộp, vã mồ hôi, ho khan
+
+
+──────────────────────────────────────────────────────────────────────────────
+[059] Áp xe phổi
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mủ tích tụ trong nhu mô phổi do nhiễm khuẩn. Đờm có mùi hôi đặc trưng.
+Triệu chứng chính: sốt cao, ho có đờm, ho ra máu, đau ngực, mệt mỏi, sụt cân, mồ hôi đêm, khó thở
+
+
+──────────────────────────────────────────────────────────────────────────────
+[060] Giãn phế quản
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Phế quản giãn không hồi phục, ứ đọng đờm mủ. Hay do nhiễm trùng tái phát từ nhỏ.
+Triệu chứng chính: ho có đờm, ho ra máu, khó thở gắng sức, mệt mỏi, đau ngực, sốt nhẹ, sụt cân
+
+
+──────────────────────────────────────────────────────────────────────────────
+[061] Viêm tiểu phế quản
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tiểu phế quản ở trẻ <2 tuổi, hay do RSV. Khò khè, khó thở mùa lạnh.
+Triệu chứng chính: khó thở, thở khò khè, ho khan, sốt nhẹ, thở nhanh, biếng ăn, mệt mỏi, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[062] Bệnh bụi phổi silic
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Xơ phổi do hít silic lâu dài (thợ mỏ, đá, gốm). Tiến triển không hồi phục.
+Triệu chứng chính: khó thở gắng sức, ho khan, ho có đờm, đau ngực, mệt mỏi, sụt cân, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[063] Ngưng thở khi ngủ
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Cơn ngưng thở >10s khi ngủ do tắc đường hô hấp trên. Liên quan béo phì, THA.
+Triệu chứng chính: ngưng thở khi ngủ, buồn ngủ, đau đầu buổi sáng, mất tập trung, tim đập nhanh, mệt mỏi
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: MẮT
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[109] Đục thủy tinh thể
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thủy tinh thể đục dần, gây giảm thị lực tiến triển. Hay gặp >60 tuổi, ĐTĐ, sau chấn thương.
+Triệu chứng chính: mờ mắt, nhìn đôi, sợ ánh sáng, nhìn quầng sáng, đỏ mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[110] Glaucoma góc đóng
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Cơn tăng nhãn áp cấp do tắc lưu thông thủy dịch. Cấp cứu, có thể mù vĩnh viễn trong 24h.
+Triệu chứng chính: đau mắt, đau đầu dữ dội, nhìn quầng sáng, mờ mắt, đỏ mắt, buồn nôn, nôn, mất thị lực
+
+
+──────────────────────────────────────────────────────────────────────────────
+[111] Viêm kết mạc
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm màng kết mạc do virus, vi khuẩn, dị ứng. 'Đau mắt đỏ' lây qua tiếp xúc.
+Triệu chứng chính: đỏ mắt, ngứa mắt, chảy nước mắt, ghèn mắt, cộm mắt, sưng mi mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[112] Viêm giác mạc
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm giác mạc do virus (HSV), vi khuẩn, nấm. Để lại sẹo giác mạc, mất thị lực.
+Triệu chứng chính: đau mắt, đỏ mắt, chảy nước mắt, sợ ánh sáng, mờ mắt, cộm mắt, mất thị lực
+
+
+──────────────────────────────────────────────────────────────────────────────
+[113] Cận thị
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mắt nhìn gần rõ, nhìn xa mờ. Trục nhãn cầu dài hơn bình thường. Tiến triển ở trẻ tuổi.
+Triệu chứng chính: mờ mắt, đau đầu, khô mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[114] Viễn thị
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mắt nhìn xa rõ hơn, nhìn gần mờ. Trục nhãn cầu ngắn. Người già càng nặng.
+Triệu chứng chính: mờ mắt, đau đầu, khô mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[115] Loạn thị
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Giác mạc không tròn đều, ảnh bị méo. Có thể kèm cận hoặc viễn thị.
+Triệu chứng chính: mờ mắt, nhìn đôi, đau đầu, khô mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[116] Lác mắt
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hai mắt không thẳng trục, có thể lác trong/ngoài. Trẻ em cần điều trị sớm tránh nhược thị.
+Triệu chứng chính: nhìn đôi, khô mắt, đau đầu, mờ mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[117] Viêm bờ mi
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm bờ mi do vi khuẩn, mạch lương, demodex. Mắt cộm, đỏ bờ mi.
+Triệu chứng chính: sưng mi mắt, đỏ mắt, ngứa mắt, cộm mắt, khô mắt, ghèn mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[118] Bong võng mạc
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Võng mạc bong khỏi lớp sắc tố, cấp cứu để cứu thị lực. Cận thị nặng, sau mổ mắt có nguy cơ.
+Triệu chứng chính: nhìn chớp sáng, nhìn vệt đen, mờ mắt, mất thị lực, nhìn quầng sáng
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: NHI KHOA
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[165] Sốt xuất huyết trẻ em
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Trẻ nhiễm Dengue dễ vào sốc ngày 4-7. Quấy khóc, nôn liên tục là dấu hiệu cảnh báo.
+Triệu chứng chính: sốt cao, phát ban, đau đầu, đau bụng, nôn, chảy máu mũi, bầm tím, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[166] Tay chân miệng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus EV71, Coxsackie A. Bóng nước lòng bàn tay/chân/miệng. Biến chứng viêm não nguy hiểm.
+Triệu chứng chính: loét miệng, phát ban, mụn nước, sốt cao, biếng ăn, quấy khóc, chảy nước miếng, đau họng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[167] Tiêu chảy cấp trẻ em
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tiêu chảy <14 ngày ở trẻ <5t. Hay do Rotavirus, vi khuẩn. Nguy cơ mất nước.
+Triệu chứng chính: tiêu chảy nhiều lần, nôn, sốt nhẹ, biếng ăn, quấy khóc, khô miệng, tiểu ít, ngủ li bì
+
+
+──────────────────────────────────────────────────────────────────────────────
+[168] Viêm phổi trẻ em
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm phổi cộng đồng ở trẻ, hay do phế cầu, Mycoplasma, RSV. Thở nhanh là dấu hiệu sớm.
+Triệu chứng chính: sốt cao, ho có đờm, khó thở, thở nhanh, tím tái, quấy khóc, bỏ bú
+
+
+──────────────────────────────────────────────────────────────────────────────
+[169] Hen ở trẻ em
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm mạn đường thở, có yếu tố dị ứng (chàm, viêm mũi). Khò khè tái diễn.
+Triệu chứng chính: thở khò khè, khó thở, ho khan, tức ngực, khó thở đêm, ngứa mũi, phát ban
+
+
+──────────────────────────────────────────────────────────────────────────────
+[170] Sốt phát ban trẻ em
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Roseola infantum (HHV-6) ở trẻ <2t. Sốt cao 3 ngày, hết sốt là phát ban hồng.
+Triệu chứng chính: sốt cao, phát ban, biếng ăn, quấy khóc, mệt mỏi, hạch to
+
+
+──────────────────────────────────────────────────────────────────────────────
+[171] Viêm tai giữa trẻ em
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Trẻ <2t hay bị, sau cảm. Đau tai, sốt, quấy khóc đêm.
+Triệu chứng chính: đau tai, sốt cao, quấy khóc, bỏ bú, chảy mủ tai, mất ngủ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[172] Còi xương
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thiếu vitamin D, calcium ở trẻ, làm xương mềm. Hay gặp do thiếu ánh nắng.
+Triệu chứng chính: còi xương, chậm phát triển, biến dạng khớp, vã mồ hôi, mất ngủ, rụng tóc
+
+
+──────────────────────────────────────────────────────────────────────────────
+[173] Suy dinh dưỡng trẻ em
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Trẻ thấp/nhẹ cân theo tuổi. Suy dinh dưỡng thể teo, phù, hỗn hợp.
+Triệu chứng chính: chậm phát triển, sụt cân, biếng ăn, mệt mỏi, rụng tóc, phù toàn thân, da xanh tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[174] Vàng da sơ sinh
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sinh lý (3-7 ngày) hoặc bệnh lý (sớm <24h, kéo dài >2 tuần). Bilirubin gián tiếp cao.
+Triệu chứng chính: vàng da sơ sinh, vàng da, ngủ li bì, bỏ bú, vàng mắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[175] Nhiễm trùng sơ sinh
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn huyết sơ sinh <28 ngày, tử vong cao. GBS, E.coli hay gặp.
+Triệu chứng chính: sốt cao, sốt nhẹ, ngủ li bì, bỏ bú, thóp phồng, vàng da, co giật, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[176] Co giật do sốt cao
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Co giật do sốt ở trẻ 6th-5t. Đa số lành tính (đơn giản <15 phút, không khu trú).
+Triệu chứng chính: sốt cao, co giật, mất ý thức, mệt mỏi, ngủ li bì, lú lẫn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[177] Viêm thanh quản cấp ở trẻ
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Croup do virus, hay <3t. Ho khàn 'như chó sủa', tiếng thở rít đặc trưng.
+Triệu chứng chính: ho khan, khó thở, thở rít, khàn giọng, sốt nhẹ, quấy khóc, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[178] Tiêu chảy do Rota virus
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Rotavirus là nguyên nhân tiêu chảy nặng số 1 ở trẻ <5t. Phân tóe nước, mùi chua.
+Triệu chứng chính: tiêu chảy nhiều lần, nôn, sốt nhẹ, khô miệng, ngủ li bì, biếng ăn, quấy khóc
+
+
+──────────────────────────────────────────────────────────────────────────────
+[179] Viêm họng do Adenovirus
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sốt + viêm họng + viêm kết mạc (PCF: pharyngoconjunctival fever) hay gặp ở trẻ.
+Triệu chứng chính: sốt cao, đau họng, đỏ mắt, ho khan, hạch to, mệt mỏi, biếng ăn
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: NỘI KHOA
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[001] Cảm cúm
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus cúm Influenza cấp tính đường hô hấp trên, lây qua giọt bắn, thường gặp mùa lạnh.
+Triệu chứng chính: sốt cao, đau đầu, mệt mỏi, sổ mũi, đau họng, ho khan, đau cơ, ớn lạnh, hắt hơi, nghẹt mũi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[002] Cảm lạnh thường
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm Rhinovirus đường hô hấp trên, tự khỏi sau 7-10 ngày, ít biến chứng.
+Triệu chứng chính: sổ mũi, hắt hơi, đau họng, ho khan, nghẹt mũi, đau đầu, mệt mỏi, rát họng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[003] Sốt phát ban
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh nhiễm virus (Roseola, Rubella, Coxsackie...) gây sốt rồi nổi ban toàn thân.
+Triệu chứng chính: sốt cao, phát ban, mệt mỏi, đau đầu, hạch to, đau cơ, đau họng, biếng ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[004] Quai bị
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus Mumps gây viêm tuyến nước bọt mang tai, biến chứng viêm tinh hoàn, viêm tụy.
+Triệu chứng chính: sốt cao, sưng hạch cổ, đau lan hàm, khó nuốt, đau đầu, đau cơ, mệt mỏi, chán ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[005] Sởi
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus Sởi (Measles), rất lây, ban đỏ lan từ mặt xuống thân. Có thể biến chứng viêm phổi, viêm não.
+Triệu chứng chính: sốt cao, phát ban, ho khan, đỏ mắt, chảy nước mắt, sổ mũi, mệt mỏi, đau họng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[006] Thủy đậu
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus Varicella-Zoster, mụn nước rải rác toàn thân nhiều giai đoạn cùng lúc.
+Triệu chứng chính: sốt nhẹ, phát ban, mụn nước, ngứa da, mệt mỏi, đau đầu, biếng ăn, đau cơ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[007] Rubella
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus Rubella, ban hồng kéo dài 3 ngày. Nguy hiểm cho phụ nữ mang thai (gây dị tật thai).
+Triệu chứng chính: sốt nhẹ, phát ban, hạch to, sưng hạch cổ, đau khớp, đau đầu, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[008] Sốt rét
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm ký sinh trùng Plasmodium qua muỗi Anopheles. Sốt chu kỳ 24-72h tùy loại.
+Triệu chứng chính: sốt từng cơn, rét run, vã mồ hôi, đau đầu, mệt mỏi, buồn nôn, đau cơ, da xanh tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[009] Sốt xuất huyết Dengue
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus Dengue qua muỗi Aedes. Biến chứng sốc, xuất huyết ngày 4-7 của bệnh.
+Triệu chứng chính: sốt cao, đau đầu dữ dội, đau sau hốc mắt, đau cơ, đau khớp, phát ban, xuất huyết da, chảy máu mũi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[010] Thương hàn
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn Salmonella Typhi qua đường ăn uống. Sốt tăng dần hình bậc thang.
+Triệu chứng chính: sốt cao, đau đầu, đau bụng, tiêu chảy, táo bón, mệt mỏi, chán ăn, phát ban
+
+
+──────────────────────────────────────────────────────────────────────────────
+[011] COVID-19
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus SARS-CoV-2, lây qua giọt bắn. Biến chứng viêm phổi, đông máu, hậu COVID.
+Triệu chứng chính: sốt cao, ho khan, khó thở, mệt mỏi, đau cơ, mất mùi, mất vị giác, đau họng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[012] Cúm A H1N1
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Cúm gia cầm/lợn biến đổi gen, có thể gây dịch lớn. Biến chứng viêm phổi nặng.
+Triệu chứng chính: sốt cao, ho khan, đau cơ, đau đầu, mệt mỏi, sổ mũi, đau họng, ớn lạnh
+
+
+──────────────────────────────────────────────────────────────────────────────
+[013] Viêm gan A cấp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus HAV qua đường ăn uống, tự khỏi không mạn tính. Vệ sinh thực phẩm kém là yếu tố nguy cơ.
+Triệu chứng chính: vàng da, vàng mắt, mệt mỏi, chán ăn, buồn nôn, đau hạ sườn phải, sốt nhẹ, nước tiểu sẫm
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: NỘI TIẾT
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[131] Đái tháo đường type 1
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Phá hủy tế bào beta tụy do tự miễn, thiếu insulin tuyệt đối. Khởi phát trẻ tuổi.
+Triệu chứng chính: khát nước nhiều, tiểu nhiều, sụt cân, mệt mỏi, mờ mắt, vết thương lâu lành, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[132] Đái tháo đường type 2
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Kháng insulin, hay đi kèm béo phì, tuổi >40, di truyền. Tiến triển từ từ.
+Triệu chứng chính: khát nước nhiều, tiểu nhiều, mệt mỏi, mờ mắt, vết thương lâu lành, tê tay, tê chân, ngứa da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[133] Đái tháo đường thai kỳ
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đường huyết tăng trong thai kỳ. Tăng nguy cơ tiền sản giật, thai to.
+Triệu chứng chính: khát nước nhiều, tiểu nhiều, mệt mỏi, mờ mắt, tăng cân, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[134] Cường giáp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tuyến giáp tăng sản xuất hormone (Basedow, nhân độc). FT4 cao, TSH thấp.
+Triệu chứng chính: sụt cân, tim đập nhanh, hồi hộp, run tay, vã mồ hôi, mất ngủ, tiêu chảy nhiều lần, lo âu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[135] Suy giáp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tuyến giáp thiếu hormone (Hashimoto, sau xạ trị). TSH cao, FT4 thấp.
+Triệu chứng chính: mệt mỏi, tăng cân, ớn lạnh, táo bón, rụng tóc, phù mặt, trầm cảm, chậm vận động
+
+
+──────────────────────────────────────────────────────────────────────────────
+[136] Bướu cổ đơn thuần
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tuyến giáp to không kèm rối loạn chức năng. Nguyên nhân thiếu i-ốt, di truyền.
+Triệu chứng chính: bướu cổ, sưng hạch cổ, khó nuốt, khó thở, khàn giọng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[137] Viêm tuyến giáp Hashimoto
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn phá hủy tuyến giáp dần, dẫn đến suy giáp. Anti-TPO, anti-Tg dương.
+Triệu chứng chính: mệt mỏi, tăng cân, bướu cổ, ớn lạnh, rụng tóc, trầm cảm, phù mặt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[138] Hội chứng Cushing
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thừa cortisol nội sinh (u tuyến yên, u thượng thận) hoặc ngoại sinh (corticoid).
+Triệu chứng chính: mặt tròn như mặt trăng, tăng cân, rạn da, lông tóc rậm, da mặt đỏ ửng, đau xương, mất ngủ, trầm cảm
+
+
+──────────────────────────────────────────────────────────────────────────────
+[139] Bệnh Addison
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Suy thượng thận nguyên phát, thiếu cortisol và aldosterone. Có thể gây cơn suy cấp.
+Triệu chứng chính: mệt mỏi, sạm da, sụt cân, buồn nôn, đau bụng, chóng mặt, khát nước nhiều
+
+
+──────────────────────────────────────────────────────────────────────────────
+[140] Béo phì
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: BMI ≥30 (Asian ≥27.5). Yếu tố nguy cơ ĐTĐ, THA, bệnh tim mạch, ung thư.
+Triệu chứng chính: tăng cân, khó thở gắng sức, đau khớp, ngưng thở khi ngủ, mệt mỏi, đau lưng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[141] Hạ đường huyết
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đường huyết <70 mg/dL. Nguy hiểm: hôn mê, tổn thương não. Hay ở bệnh nhân ĐTĐ.
+Triệu chứng chính: vã mồ hôi, run tay, hồi hộp, khát nước nhiều, chóng mặt, lú lẫn, co giật, mất ý thức
+
+
+──────────────────────────────────────────────────────────────────────────────
+[142] Đái tháo nhạt
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thiếu ADH (trung ương) hoặc thận không đáp ứng ADH. Tiểu rất nhiều, nước tiểu loãng.
+Triệu chứng chính: tiểu nhiều, khát nước nhiều, mệt mỏi, mất ngủ, sụt cân
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: RĂNG HÀM MẶT
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[199] Sâu răng
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mất khoáng men răng do acid vi khuẩn. Lỗ sâu phát triển vào ngà, tủy gây đau.
+Triệu chứng chính: đau răng, sâu răng, hôi miệng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[200] Viêm tủy răng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tủy răng do sâu sâu, chấn thương. Đau tự phát, đau khi gặp nóng/lạnh, kéo dài.
+Triệu chứng chính: đau răng, mất ngủ, chảy máu chân răng, hôi miệng, đau lan hàm
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: SẢN PHỤ KHOA
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[180] Viêm âm đạo nấm
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm Candida albicans, khí hư đặc trắng như sữa chua. Hay sau kháng sinh, ĐTĐ.
+Triệu chứng chính: ngứa vùng kín, khí hư bất thường, nóng rát vùng kín, đau khi quan hệ, tiểu buốt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[181] Viêm cổ tử cung
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cổ tử cung do Chlamydia, lậu, Trichomonas. Có thể không triệu chứng.
+Triệu chứng chính: khí hư bất thường, xuất huyết âm đạo, đau vùng chậu, đau khi quan hệ, tiểu buốt, ngứa vùng kín
+
+
+──────────────────────────────────────────────────────────────────────────────
+[182] Lạc nội mạc tử cung
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mô nội mạc tử cung mọc ngoài tử cung (buồng trứng, phúc mạc). Gây đau, vô sinh.
+Triệu chứng chính: đau bụng kinh, rong kinh, đau khi quan hệ, vô sinh, đau vùng chậu, đau lưng dưới
+
+
+──────────────────────────────────────────────────────────────────────────────
+[183] U xơ tử cung
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: U cơ trơn lành tính ở tử cung, phụ nữ 30-50t. Có thể không triệu chứng.
+Triệu chứng chính: rong kinh, đau bụng kinh, đau vùng chậu, khối u sờ thấy, tiểu rắt, táo bón, vô sinh
+
+
+──────────────────────────────────────────────────────────────────────────────
+[184] U nang buồng trứng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nang chứa dịch ở buồng trứng. Phần lớn lành tính (cơ năng, dermoid). Có thể xoắn cấp.
+Triệu chứng chính: đau vùng chậu, đau bụng kinh, rong kinh, khối u sờ thấy, tiểu rắt, buồn nôn, đầy bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[185] Buồng trứng đa nang
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hội chứng rối loạn nội tiết - chuyển hóa: mất kinh, cường androgen, đa nang. Liên quan kháng insulin.
+Triệu chứng chính: mất kinh, rong kinh, lông tóc rậm, tăng cân, vô sinh, nổi mụn, rụng tóc
+
+
+──────────────────────────────────────────────────────────────────────────────
+[186] Ung thư cổ tử cung
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư cổ tử cung do HPV 16, 18 chủ yếu. Tầm soát Pap smear + HPV giảm tử vong.
+Triệu chứng chính: xuất huyết âm đạo, khí hư bất thường, đau khi quan hệ, đau vùng chậu, sụt cân, mệt mỏi, đau lưng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[187] Rong kinh
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Kinh nguyệt >7 ngày hoặc lượng nhiều >80ml. Nguyên nhân: u xơ, polyp, rối loạn nội tiết.
+Triệu chứng chính: rong kinh, đau bụng kinh, mệt mỏi, da xanh tái, chóng mặt, đau lưng dưới
+
+
+──────────────────────────────────────────────────────────────────────────────
+[188] Vô sinh nữ
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Không có thai sau 12 tháng quan hệ không tránh thai. Nguyên nhân: rụng trứng, tắc vòi, lạc nội mạc.
+Triệu chứng chính: mất kinh, rong kinh, đau bụng kinh, đau khi quan hệ, khí hư bất thường, lông tóc rậm
+
+
+──────────────────────────────────────────────────────────────────────────────
+[189] Tiền sản giật
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: HA cao + protein niệu sau tuần 20 thai kỳ. Có thể chuyển sản giật (co giật) đe dọa tính mạng.
+Triệu chứng chính: đau đầu, phù mặt, phù chân, đau đầu dữ dội, mờ mắt, đau hạ sườn phải, buồn nôn, phù toàn thân
+
+
+──────────────────────────────────────────────────────────────────────────────
+[190] Doạ sảy thai
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Chảy máu/đau bụng <20 tuần thai, cổ tử cung đóng. Có thể tiến triển sảy hoặc tự khỏi.
+Triệu chứng chính: xuất huyết âm đạo, đau hạ vị, đau lưng dưới, đau quặn bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[191] Mãn kinh
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Hết kinh nguyệt 12 tháng liên tiếp, tuổi trung bình 50. Suy giảm estrogen.
+Triệu chứng chính: mất kinh, nóng bừng, vã mồ hôi, nóng rát vùng kín, mất ngủ, thay đổi tâm trạng, đau khi quan hệ
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: TAI MŨI HỌNG
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[119] Viêm họng cấp
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cấp niêm mạc họng, đa số do virus, vài % do liên cầu nhóm A.
+Triệu chứng chính: đau họng, rát họng, khó nuốt, sốt nhẹ, ho khan, khàn giọng, mệt mỏi, sưng hạch cổ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[120] Viêm amidan cấp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm amidan do virus hoặc liên cầu. Amidan đỏ to, có thể có mủ.
+Triệu chứng chính: đau họng, khó nuốt, sốt cao, sưng hạch cổ, khàn giọng, hôi miệng, đau tai
+
+
+──────────────────────────────────────────────────────────────────────────────
+[121] Viêm thanh quản
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm dây thanh do nhiễm trùng, la hét, trào ngược, hút thuốc.
+Triệu chứng chính: khàn giọng, mất tiếng, đau họng, ho khan, sốt nhẹ, khó nuốt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[122] Viêm xoang cấp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm xoang <4 tuần, hay sau cảm cúm. Đau vùng xoang khi cúi.
+Triệu chứng chính: đau đầu, chảy mũi đặc, nghẹt mũi, đau lan hàm, sốt nhẹ, mất mùi, ho khan, đau tai
+
+
+──────────────────────────────────────────────────────────────────────────────
+[123] Viêm xoang mạn
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm xoang >12 tuần, có thể có polyp mũi. Triệu chứng kéo dài, hay tái phát.
+Triệu chứng chính: đau đầu, chảy mũi đặc, nghẹt mũi, mất mùi, ho khan, đau lan hàm, mệt mỏi, mất tập trung
+
+
+──────────────────────────────────────────────────────────────────────────────
+[124] Viêm tai giữa cấp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tai giữa cấp, hay gặp ở trẻ em sau nhiễm trùng đường hô hấp.
+Triệu chứng chính: đau tai, ù tai, sốt cao, nghe kém, chảy mủ tai, đau đầu, mệt mỏi, quấy khóc
+
+
+──────────────────────────────────────────────────────────────────────────────
+[125] Viêm tai ngoài
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm ống tai ngoài do vi khuẩn, nấm. Hay gặp 'tai bơi'.
+Triệu chứng chính: đau tai, chảy mủ tai, nghe kém, ù tai
+
+
+──────────────────────────────────────────────────────────────────────────────
+[126] Polyp mũi
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Khối thịt thừa trong khoang mũi, gây tắc, kèm viêm xoang mạn. Liên quan dị ứng, hen.
+Triệu chứng chính: nghẹt mũi, chảy mũi đặc, mất mùi, khó thở, đau đầu, ngưng thở khi ngủ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[127] Lệch vách ngăn mũi
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Vách ngăn mũi lệch một bên, gây nghẹt mũi một bên. Có thể do chấn thương, bẩm sinh.
+Triệu chứng chính: nghẹt mũi, chảy máu mũi, đau đầu, ngưng thở khi ngủ, mất mùi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[128] Ung thư vòm họng
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư biểu mô vòm họng, liên quan EBV, di truyền. Hạch cổ là triệu chứng đầu tiên.
+Triệu chứng chính: sưng hạch cổ, chảy máu mũi, nghẹt mũi, ù tai, khàn giọng, đau đầu, sụt cân, đau tai
+
+
+──────────────────────────────────────────────────────────────────────────────
+[129] Chóng mặt Meniere
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Cơn chóng mặt do rối loạn dịch tai trong. Bộ ba: chóng mặt, ù tai, nghe kém.
+Triệu chứng chính: chóng mặt xoay, ù tai, nghe kém, buồn nôn, nôn, mất thăng bằng, đau tai
+
+
+──────────────────────────────────────────────────────────────────────────────
+[130] Điếc đột ngột
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mất thính lực thần kinh đột ngột trong <72h. Cấp cứu, điều trị sớm trong 2 tuần.
+Triệu chứng chính: điếc đột ngột, ù tai, chóng mặt, nghe kém, đau tai
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: THẦN KINH
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[064] Đột quỵ não
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tổn thương não cấp do nhồi máu hoặc xuất huyết. Cấp cứu trong 'cửa sổ vàng' 4.5h.
+Triệu chứng chính: méo miệng, nói ngọng, tê liệt nửa người, yếu tay, yếu chân, đau đầu dữ dội, mất thị lực, lú lẫn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[065] Cơn thiếu máu não thoáng qua
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đột quỵ hồi phục hoàn toàn <24h. Cảnh báo nguy cơ đột quỵ thật trong vòng 90 ngày tới.
+Triệu chứng chính: méo miệng, nói khó, yếu tay, tê tay, mờ mắt, chóng mặt, đau đầu, mất trí nhớ
+
+
+──────────────────────────────────────────────────────────────────────────────
+[066] Động kinh
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Phóng điện bất thường vỏ não, gây cơn co giật/mất ý thức tái phát.
+Triệu chứng chính: co giật, mất ý thức, co cứng cơ, chảy nước miếng, khó nín tiểu, lú lẫn, đau đầu, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[067] Viêm màng não
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm màng não do vi khuẩn (Neisseria, phế cầu) hoặc virus. Tử vong nhanh nếu không điều trị.
+Triệu chứng chính: đau đầu dữ dội, sốt cao, cứng gáy, sợ ánh sáng, buồn nôn, nôn, lú lẫn, co giật
+
+
+──────────────────────────────────────────────────────────────────────────────
+[068] Viêm não Nhật Bản
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm virus JEV qua muỗi Culex. Tỷ lệ tử vong/di chứng cao, hay gặp trẻ em.
+Triệu chứng chính: sốt cao, đau đầu dữ dội, co giật, lú lẫn, hôn mê, cứng gáy, nôn, tê liệt nửa người
+
+
+──────────────────────────────────────────────────────────────────────────────
+[069] Migraine
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Cơn đau đầu một bên, đau theo nhịp mạch, kèm buồn nôn. Có thể có triệu chứng tiền triệu (aura).
+Triệu chứng chính: đau nửa đầu, đau đầu dữ dội, buồn nôn, nôn, sợ ánh sáng, nhìn chớp sáng, mất thị lực, chóng mặt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[070] Bệnh Parkinson
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Thoái hóa neuron dopamine ở chất đen, gây run, cứng, chậm vận động. Hay gặp >60 tuổi.
+Triệu chứng chính: bàn tay run lúc nghỉ, co cứng cơ, chậm vận động, dáng đi nhỏ bước, mặt ít biểu cảm, mất thăng bằng, trầm cảm, nói lắp
+
+
+──────────────────────────────────────────────────────────────────────────────
+[071] Bệnh Alzheimer
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sa sút trí tuệ tiến triển do thoái hóa não. Hay gặp >65t, bắt đầu bằng giảm trí nhớ gần.
+Triệu chứng chính: mất trí nhớ, lú lẫn, thay đổi tâm trạng, mất tập trung, nói lắp, dễ kích động, trầm cảm, dễ té ngã
+
+
+──────────────────────────────────────────────────────────────────────────────
+[072] Sa sút trí tuệ mạch máu
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sa sút trí tuệ do nhiều ổ nhồi máu não nhỏ. Liên quan THA, ĐTĐ, xơ vữa mạch.
+Triệu chứng chính: mất trí nhớ, lú lẫn, chậm vận động, yếu tay, yếu chân, tê liệt nửa người, dễ té ngã, mất tập trung
+
+
+──────────────────────────────────────────────────────────────────────────────
+[073] Đau dây thần kinh tọa
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đau dọc đường đi dây thần kinh tọa từ mông xuống chân, thường do thoát vị đĩa đệm L4-L5, L5-S1.
+Triệu chứng chính: đau thắt lưng, đau chân, tê chân, yếu chân, ngứa ran tay chân, đi tập tễnh, đau dọc cột sống
+
+
+──────────────────────────────────────────────────────────────────────────────
+[074] Liệt mặt Bell
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Liệt dây thần kinh số VII ngoại biên, một bên mặt, hay tự khỏi sau 3-6 tháng.
+Triệu chứng chính: méo miệng, khô mắt, chảy nước miếng, đau tai, mất vị giác, tê mặt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[075] Đau dây thần kinh sinh ba
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đau như điện giật một bên mặt theo nhánh dây V, đau khi rửa mặt, ăn, nói.
+Triệu chứng chính: đau dây thần kinh, đau nửa đầu, tê mặt, đau lan hàm, đau răng, khó nuốt, mất tập trung
+
+
+──────────────────────────────────────────────────────────────────────────────
+[076] Hội chứng Guillain-Barré
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Bệnh tự miễn phá hủy myelin dây thần kinh, gây liệt cấp tiến triển. Có thể liệt cơ hô hấp.
+Triệu chứng chính: yếu chân, tê chân, yếu tay, liệt tay, liệt chân, khó thở, khó nuốt, tê liệt nửa người
+
+
+──────────────────────────────────────────────────────────────────────────────
+[077] U não
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Khối u nội sọ lành/ác. Triệu chứng tăng áp lực nội sọ (đau đầu, nôn, phù gai thị) và khu trú.
+Triệu chứng chính: đau đầu, đau đầu buổi sáng, buồn nôn, nôn, co giật, yếu tay, mờ mắt, lú lẫn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[078] Rối loạn tiền đình
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Rối loạn cảm giác thăng bằng. Có thể do BPPV, viêm tiền đình, Meniere.
+Triệu chứng chính: chóng mặt xoay, buồn nôn, nôn, ù tai, mất thăng bằng, đau đầu, hoa mắt, vã mồ hôi
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: THẬN TIẾT NIỆU
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[153] Viêm cầu thận cấp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cầu thận sau nhiễm liên cầu, IgA, lupus. Tam chứng: phù, tiểu máu, tăng HA.
+Triệu chứng chính: phù mặt, phù mí mắt, phù chân, tiểu máu, tiểu ít, đau đầu, mệt mỏi, đau lưng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[154] Viêm cầu thận mạn
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cầu thận tiến triển sang xơ hóa, suy thận mạn. Nhiều bệnh nguyên gây ra.
+Triệu chứng chính: phù chân, phù mặt, tiểu ít, tiểu máu, mệt mỏi, đau đầu, chán ăn, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[155] Suy thận cấp
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Chức năng thận giảm đột ngột. Nguyên nhân: sốc, tắc nghẽn, thuốc độc thận.
+Triệu chứng chính: tiểu ít, bí tiểu, phù chân, buồn nôn, nôn, mệt mỏi, lú lẫn, khó thở
+
+
+──────────────────────────────────────────────────────────────────────────────
+[156] Suy thận mạn
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: GFR <60 mL/phút >3 tháng. Tiến triển không hồi phục. Yếu tố: ĐTĐ, THA, viêm cầu thận.
+Triệu chứng chính: mệt mỏi, phù chân, tiểu đêm, ngứa da, buồn nôn, chán ăn, khó thở, đau đầu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[157] Sỏi thận
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sỏi calci oxalate, urate, struvite. Cơn đau quặn thận khi sỏi di chuyển.
+Triệu chứng chính: đau lưng, đau hông, tiểu máu, buồn nôn, nôn, đau bẹn, tiểu buốt, tiểu rắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[158] Sỏi niệu quản
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sỏi mắc kẹt trong niệu quản, gây cơn đau quặn dữ dội, tiểu máu.
+Triệu chứng chính: đau lưng, đau hông, đau bẹn, tiểu máu, buồn nôn, nôn, tiểu rắt, đau quặn bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[159] Sỏi bàng quang
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sỏi hình thành trong bàng quang, hay ở nam giới phì đại tiền liệt.
+Triệu chứng chính: tiểu rắt, tiểu buốt, tiểu máu, đau hạ vị, bí tiểu, tiểu khó
+
+
+──────────────────────────────────────────────────────────────────────────────
+[160] Nhiễm trùng đường tiểu
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn niệu dưới (viêm bàng quang). E.coli chiếm 80%. Phụ nữ hay gặp.
+Triệu chứng chính: tiểu buốt, tiểu rắt, tiểu nhiều, đau hạ vị, tiểu mủ, tiểu đục, sốt nhẹ, đau lưng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[161] Viêm bể thận cấp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn lan lên bể thận, có thể nhiễm khuẩn huyết. Đau lưng + sốt cao.
+Triệu chứng chính: sốt cao, ớn lạnh, đau lưng, đau hông, buồn nôn, nôn, tiểu buốt, tiểu rắt
+
+
+──────────────────────────────────────────────────────────────────────────────
+[162] Phì đại tuyến tiền liệt
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tuyến tiền liệt to lành tính ở nam >50t, gây bí tiểu, tiểu khó.
+Triệu chứng chính: tiểu khó, tiểu đêm, tiểu rắt, bí tiểu, khó nín tiểu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[163] Ung thư thận
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư tế bào thận, thường phát hiện tình cờ qua siêu âm. Bộ ba: tiểu máu + đau lưng + khối u (hiếm).
+Triệu chứng chính: tiểu máu, đau lưng, khối u sờ thấy, sụt cân, sốt nhẹ, mệt mỏi, da xanh tái, đau đầu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[164] Hội chứng thận hư
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Protein niệu >3.5g/24h, phù toàn thân, giảm albumin máu. Nhiều bệnh nguyên.
+Triệu chứng chính: phù mặt, phù chân, phù toàn thân, tiểu ít, mệt mỏi, chán ăn, tăng cân, tiểu đục
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: TIM MẠCH
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[014] Tăng huyết áp
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Huyết áp ≥140/90 mmHg kéo dài. Nguyên nhân di truyền, lối sống, bệnh thận. Biến chứng đột quỵ, tim mạch.
+Triệu chứng chính: đau đầu, đau gáy, chóng mặt, hồi hộp, mờ mắt, ù tai, đỏ mặt từng cơn, đau ngực
+
+
+──────────────────────────────────────────────────────────────────────────────
+[015] Hạ huyết áp
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: HA <90/60 mmHg, có thể do thiếu nước, thiếu máu, rối loạn nội tiết, thuốc.
+Triệu chứng chính: chóng mặt, hoa mắt, mệt mỏi, da xanh tái, ngất xỉu, buồn nôn, tim đập nhanh, đau đầu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[016] Nhồi máu cơ tim
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tắc động mạch vành cấp do huyết khối trên mảng xơ vữa, hoại tử cơ tim. Cấp cứu trong 'giờ vàng' 90 phút.
+Triệu chứng chính: đau ngực bóp nghẹt, đau lan vai trái, đau lan hàm, đau lan tay trái, khó thở, vã mồ hôi, buồn nôn, tím tái
+
+
+──────────────────────────────────────────────────────────────────────────────
+[017] Suy tim
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tim không bơm đủ máu cung cấp cho cơ thể. Nguyên nhân THA, bệnh van tim, sau nhồi máu.
+Triệu chứng chính: khó thở khi nằm, khó thở gắng sức, phù chân, mệt mỏi, ho khan, tim đập nhanh, khó thở đêm, tăng cân
+
+
+──────────────────────────────────────────────────────────────────────────────
+[018] Rối loạn nhịp tim
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Rối loạn dẫn truyền điện tim: rung nhĩ, ngoại tâm thu, nhịp nhanh trên thất, block AV.
+Triệu chứng chính: hồi hộp, tim đập nhanh, nhịp tim loạn, chóng mặt, khó thở, đánh trống ngực, ngất xỉu, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[019] Hẹp van hai lá
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Van hai lá hẹp, máu khó từ nhĩ trái xuống thất trái, ứ máu phổi. Hay gặp sau thấp tim.
+Triệu chứng chính: khó thở gắng sức, ho ra máu, hồi hộp, phù chân, mệt mỏi, đau ngực, ho khan, tim đập nhanh
+
+
+──────────────────────────────────────────────────────────────────────────────
+[020] Hở van hai lá
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Van hai lá đóng không kín, máu trào ngược về nhĩ trái khi tâm thu.
+Triệu chứng chính: khó thở, mệt mỏi, hồi hộp, phù chân, tim đập nhanh, đau ngực, ho khan, khó thở khi nằm
+
+
+──────────────────────────────────────────────────────────────────────────────
+[021] Bệnh mạch vành
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Xơ vữa động mạch vành làm hẹp lòng mạch, thiếu máu cơ tim. Yếu tố: hút thuốc, mỡ máu, đái tháo đường.
+Triệu chứng chính: đau ngực khi gắng sức, đau lan vai trái, khó thở, mệt mỏi, hồi hộp, tức ngực, vã mồ hôi, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[022] Đau thắt ngực ổn định
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đau ngực có thể tiên đoán được, xuất hiện khi gắng sức, giảm khi nghỉ. Do hẹp mạch vành.
+Triệu chứng chính: đau ngực khi gắng sức, đau lan vai trái, khó thở, tức ngực, đau lan hàm, vã mồ hôi, hồi hộp
+
+
+──────────────────────────────────────────────────────────────────────────────
+[023] Viêm cơ tim
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cơ tim do virus (Coxsackie, COVID), thuốc, tự miễn. Có thể tiến triển suy tim cấp.
+Triệu chứng chính: đau ngực, khó thở, mệt mỏi, sốt nhẹ, hồi hộp, nhịp tim loạn, phù chân, ngất xỉu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[024] Viêm màng ngoài tim
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm màng bao quanh tim, đau ngực tăng khi hít sâu, giảm khi cúi người về phía trước.
+Triệu chứng chính: đau ngực, khó thở, sốt nhẹ, ho khan, đau ngực khi gắng sức, đánh trống ngực, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[025] Phình động mạch chủ bụng
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Phình giãn động mạch chủ bụng, vỡ phình là cấp cứu tử vong cao. Hay gặp nam giới >65t hút thuốc.
+Triệu chứng chính: đau bụng, đau lưng dưới, khối u sờ thấy, đau lan vai trái, chóng mặt, vã mồ hôi, ngất xỉu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[026] Suy tĩnh mạch chi dưới
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Van tĩnh mạch sâu/nông suy yếu, máu ứ chi dưới. Gặp ở người đứng lâu, phụ nữ, mang thai.
+Triệu chứng chính: đau chân, phù chân, chuột rút, tê chân, tiếng khớp kêu, ngứa da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[027] Huyết khối tĩnh mạch sâu
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Huyết khối trong tĩnh mạch sâu chi dưới, nguy cơ thuyên tắc phổi gây tử vong.
+Triệu chứng chính: đau chân, phù chân, đỏ da, nóng khớp, đau bẹn, tê chân, khó thở
+
+
+──────────────────────────────────────────────────────────────────────────────
+[028] Bệnh Buerger
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tắc động mạch chi nhỏ ở người hút thuốc trẻ tuổi (nam <45t). Có thể hoại tử ngón.
+Triệu chứng chính: đau chân, đau khi đi, tê chân, đi tập tễnh, vết loét da, đau tay, tê tay, đau khớp
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: TIÊU HÓA
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[029] Viêm dạ dày
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm niêm mạc dạ dày do H.pylori, NSAID, rượu, stress. Có thể cấp hoặc mạn tính.
+Triệu chứng chính: đau thượng vị, buồn nôn, ợ chua, ợ hơi, đầy bụng, nóng rát thượng vị, chán ăn, đau bụng sau ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[030] Loét dạ dày tá tràng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tổn thương niêm mạc dạ dày/tá tràng, hay do H.pylori, NSAID. Biến chứng xuất huyết, thủng.
+Triệu chứng chính: đau thượng vị, đau tăng khi đói, đau giảm khi ăn, ợ chua, buồn nôn, nôn ra máu, phân đen, đầy bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[031] Trào ngược dạ dày thực quản
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Acid dạ dày trào ngược lên thực quản. Yếu tố: béo phì, ăn no, nằm sau ăn, thoát vị hoành.
+Triệu chứng chính: ợ chua, ợ hơi, nóng rát thượng vị, đau thượng vị, ho khan, khàn giọng, khó nuốt, buồn nôn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[032] Viêm ruột thừa cấp
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm cấp ruột thừa, cần phẫu thuật cấp cứu. Vỡ ruột thừa gây viêm phúc mạc nguy hiểm.
+Triệu chứng chính: đau hố chậu phải, đau bụng, sốt nhẹ, buồn nôn, nôn, chán ăn, đau khi đi, đau quặn bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[033] Tiêu chảy cấp
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đi ngoài lỏng ≥3 lần/ngày <14 ngày. Nguyên nhân: virus, vi khuẩn, ngộ độc thực phẩm.
+Triệu chứng chính: tiêu chảy nhiều lần, đau quặn bụng, buồn nôn, nôn, sốt nhẹ, khát nước nhiều, mệt mỏi, chán ăn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[034] Lỵ amip
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm Entamoeba histolytica. Có thể gây áp xe gan amip. Thường do nước uống nhiễm bẩn.
+Triệu chứng chính: tiêu chảy nhiều lần, phân nhầy, phân có máu, đau quặn bụng, mót rặn, sốt nhẹ, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[035] Lỵ trực khuẩn
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm khuẩn Shigella. Tiêu chảy ra máu mủ, mót rặn nhiều. Lây qua đường ăn uống.
+Triệu chứng chính: tiêu chảy nhiều lần, phân có máu, phân nhầy, đau quặn bụng, sốt cao, mót rặn, buồn nôn, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[036] Viêm đại tràng mạn
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm mạn tính niêm mạc đại tràng, có thể do nhiễm trùng kéo dài, IBD, lao ruột.
+Triệu chứng chính: đau bụng, tiêu chảy, táo bón, phân nhầy, đầy bụng, chướng bụng, mót rặn, đau quặn bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[037] Hội chứng ruột kích thích
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Rối loạn chức năng ruột không có tổn thương thực thể. Đau bụng + thay đổi đại tiện.
+Triệu chứng chính: đau bụng, đau quặn bụng, tiêu chảy, táo bón, đầy bụng, chướng bụng, phân nhầy, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[038] Táo bón mạn tính
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Đi ngoài <3 lần/tuần, phân cứng. Nguyên nhân: ăn ít chất xơ, ít vận động, thuốc, bệnh thần kinh.
+Triệu chứng chính: táo bón, đại tiện khó, đau bụng, đầy bụng, chướng bụng, đau hậu môn, mệt mỏi, ngứa hậu môn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[039] Bệnh trĩ
+     Mức độ: Nhẹ — có thể tự chăm sóc tại nhà
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Giãn tĩnh mạch hậu môn, có trĩ nội (chảy máu khi đi) và trĩ ngoại (đau, sa búi).
+Triệu chứng chính: phân có máu, đau hậu môn, ngứa hậu môn, đại tiện khó, đau khi đi, mót rặn
+
+
+──────────────────────────────────────────────────────────────────────────────
+[040] Polyp đại tràng
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Khối u lành tính niêm mạc đại tràng, có thể tiến triển ung thư đại tràng nếu không cắt.
+Triệu chứng chính: phân có máu, tiêu chảy, táo bón, đau bụng, mệt mỏi, chán ăn, sụt cân, đầy bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[041] Xơ gan
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Mô gan xơ hóa do viêm gan B/C, rượu, gan nhiễm mỡ kéo dài. Biến chứng vỡ giãn TM thực quản, suy gan.
+Triệu chứng chính: vàng da, vàng mắt, cổ trướng, mệt mỏi, chán ăn, sụt cân, phù chân, dễ chảy máu, nôn ra máu
+
+
+──────────────────────────────────────────────────────────────────────────────
+[042] Viêm gan B mạn
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm HBV mạn >6 tháng. Có thể tiến triển xơ gan, ung thư gan. Lây qua máu, tình dục, mẹ-con.
+Triệu chứng chính: mệt mỏi, vàng da, đau hạ sườn phải, chán ăn, buồn nôn, đầy bụng, ngứa da, sụt cân
+
+
+──────────────────────────────────────────────────────────────────────────────
+[043] Viêm gan C mạn
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Nhiễm HCV, 80% chuyển mạn. Có thuốc DAA chữa khỏi trên 95%. Lây chủ yếu qua máu.
+Triệu chứng chính: mệt mỏi, đau hạ sườn phải, vàng da, chán ăn, buồn nôn, đau khớp, ngứa da
+
+
+──────────────────────────────────────────────────────────────────────────────
+[044] Viêm tụy cấp
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm tụy đột ngột, hay do sỏi mật hoặc rượu. Đau dữ dội xuyên ra sau lưng.
+Triệu chứng chính: đau thượng vị, đau lan vai trái, buồn nôn, nôn, sốt nhẹ, đầy bụng, tim đập nhanh, vã mồ hôi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[045] Viêm túi mật cấp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Viêm túi mật, 90% do sỏi kẹt cổ túi mật. Dấu Murphy dương tính. Cần phẫu thuật.
+Triệu chứng chính: đau hạ sườn phải, sốt cao, buồn nôn, nôn, vàng da, ớn lạnh, đầy bụng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[046] Sỏi mật
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Sỏi trong túi mật, đa số không triệu chứng. Cơn đau quặn mật khi sỏi kẹt cổ túi mật.
+Triệu chứng chính: đau hạ sườn phải, buồn nôn, nôn, đầy bụng, đau bụng sau ăn, vàng da, ợ hơi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[047] Tắc ruột
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tắc nghẽn lưu thông ruột do dính sau mổ, u, thoát vị, lồng ruột. Cấp cứu ngoại khoa.
+Triệu chứng chính: đau quặn bụng, nôn, chướng bụng, táo bón, đầy bụng, tim đập nhanh, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[048] Thoát vị bẹn
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Tạng trong ổ bụng (ruột) thoát qua ống bẹn. Có khối u lồi vùng bẹn khi rặn, đứng lâu.
+Triệu chứng chính: khối u sờ thấy, đau bẹn, đau khi đi, đau bụng, buồn nôn, đau quặn bụng
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: TÂM THẦN
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[197] Trầm cảm
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Rối loạn khí sắc buồn kéo dài >2 tuần, mất hứng thú, ảnh hưởng chức năng. Nguy cơ tự sát.
+Triệu chứng chính: trầm cảm, buồn rầu, mất ngủ, chán ăn, mệt mỏi, mất tập trung, ý nghĩ tự sát, thay đổi tâm trạng
+
+
+──────────────────────────────────────────────────────────────────────────────
+[198] Rối loạn lo âu
+     Mức độ: Trung bình — nên đến khám bác sĩ
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Lo âu lan tỏa hoặc rối loạn hoảng sợ kéo dài. Triệu chứng cơ thể đi kèm.
+Triệu chứng chính: lo âu, cơn hoảng loạn, hồi hộp, vã mồ hôi, khó thở, mất ngủ, mất tập trung, thay đổi tâm trạng
+
+
+██████████████████████████████████████████████████████████████████████████████
+  KHOA: UNG BƯỚU
+██████████████████████████████████████████████████████████████████████████████
+
+──────────────────────────────────────────────────────────────────────────────
+[192] Ung thư vú
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư vú phổ biến nhất ở phụ nữ. Tầm soát chụp nhũ ảnh hàng năm sau 40t.
+Triệu chứng chính: khối u sờ thấy, sưng hạch cổ, đau ngực, sụt cân, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[193] Ung thư đại tràng
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư đại trực tràng. Tầm soát nội soi đại tràng 10 năm/lần sau 50t, sớm hơn nếu tiền sử gia đình.
+Triệu chứng chính: phân có máu, tiêu chảy, táo bón, đau bụng, sụt cân, mệt mỏi, da xanh tái, khối u sờ thấy
+
+
+──────────────────────────────────────────────────────────────────────────────
+[194] Ung thư dạ dày
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư dạ dày, liên quan H.pylori, ăn mặn, hun khói. Tỷ lệ tử vong cao.
+Triệu chứng chính: đau thượng vị, buồn nôn, nôn, sụt cân, chán ăn, nôn ra máu, phân đen, mệt mỏi
+
+
+──────────────────────────────────────────────────────────────────────────────
+[195] Ung thư tuyến giáp
+     Mức độ: Nặng — cần đi bệnh viện
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư tuyến giáp, đa số biệt hóa tốt (papillary, follicular), tiên lượng tốt.
+Triệu chứng chính: bướu cổ, khối u sờ thấy, khàn giọng, khó nuốt, sưng hạch cổ, khó thở
+
+
+──────────────────────────────────────────────────────────────────────────────
+[196] Ung thư phổi
+     Mức độ: Nguy hiểm — cấp cứu ngay lập tức
+──────────────────────────────────────────────────────────────────────────────
+Mô tả: Ung thư phổi không tế bào nhỏ (NSCLC 85%) hoặc tế bào nhỏ (SCLC 15%). Hút thuốc là yếu tố chính.
+Triệu chứng chính: ho có đờm, ho ra máu, khó thở, đau ngực, sụt cân, mệt mỏi, khàn giọng, sốt nhẹ
