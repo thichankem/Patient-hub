@@ -68,6 +68,14 @@ export function PublicHeader() {
             <a href="#" className="flex items-center gap-1.5 hover:text-brand-300">
               <Icon.Mail size={12} /> dophuhung.hn@gmail.com
             </a>
+            {(!user || !STAFF_ROLES.includes(user.role)) && (
+              <Link
+                to="/login"
+                className="flex items-center gap-1.5 text-slate-300 hover:text-brand-300"
+              >
+                <Icon.Settings size={12} /> Đăng nhập nhân viên
+              </Link>
+            )}
           </div>
         </div>
       </div>

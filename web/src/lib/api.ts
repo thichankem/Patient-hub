@@ -1,7 +1,12 @@
 import axios, { AxiosError } from 'axios';
 
+// Base URL được inject lúc build qua VITE_API_BASE_URL.
+// Dev: bỏ trống → fallback '/api' để vite proxy localhost:3000.
+// Prod (production build với subdomain riêng): set VITE_API_BASE_URL=https://api.dophuhung.fun/api
+const baseURL = import.meta.env.VITE_API_BASE_URL ?? '/api';
+
 export const api = axios.create({
-  baseURL: '/api',
+  baseURL,
   headers: { 'Content-Type': 'application/json' },
 });
 

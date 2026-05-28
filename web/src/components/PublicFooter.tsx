@@ -92,13 +92,3 @@ function FooterLink({ to, children }: { to: string; children: React.ReactNode })
   );
 }
 
-function SocialIcon({ children }: { children: React.ReactNode }) {
-  return (
-    <a
-      href="#"
-      className="w-8 h-8 rounded bg-slate-800 hover:bg-brand-600 text-slate-300 hover:text-white flex items-center justify-center transition"
-    >
-      {children}
-    </a>
-  );
-}

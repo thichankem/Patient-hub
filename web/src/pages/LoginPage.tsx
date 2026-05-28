@@ -5,11 +5,11 @@ import { apiErrorMessage } from '../lib/api';
 
 const roleHome: Record<string, string> = {
   patient: '/patient',
-  doctor: '/doctor',
-  technician: '/technician',
-  manager: '/manager',
-  receptionist: '/receptionist',
-  cashier: '/cashier',
+  doctor: '/staff/doctor/appointments',
+  technician: '/staff/technician/queue',
+  manager: '/staff/manager/dashboard',
+  receptionist: '/staff/receptionist/patients',
+  cashier: '/staff/cashier/invoices',
 };
 
 export default function LoginPage() {
@@ -34,12 +34,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-50 via-white to-brand-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 px-4">
       <div className="w-full max-w-md">
         <div className="flex flex-col items-center mb-8">
-          <div className="w-14 h-14 rounded-2xl bg-brand-600 text-white flex items-center justify-center text-2xl font-bold shadow-lg">
-            +
-          </div>
+          <img src="/logo.png" alt="PatientHub" className="h-16 w-auto" />
           <h1 className="mt-4 text-2xl font-bold text-slate-900">PatientHub</h1>
           <p className="mt-1 text-sm text-slate-500">
             Hệ thống quản lý bệnh viện

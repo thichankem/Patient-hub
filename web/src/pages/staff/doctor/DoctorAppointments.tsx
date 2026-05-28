@@ -1,26 +1,26 @@
 import { useEffect, useState } from 'react';
 import { api, apiErrorMessage } from '../../../lib/api';
-import { formatDate, formatDateTime } from '../../../lib/format';
+import { formatDate } from '../../../lib/format';
 
 interface Appointment {
   id: string;
-  patient_name?: string;
   patient_id: string;
-  department_name?: string;
-  scheduled_date: string;
-  scheduled_time?: string;
-  status: string;
-  reason?: string;
+  patient_name?: string;
+  doctor_id: string;
+  doctor_name?: string;
+  appointment_date: string;
+  status: 'pending' | 'confirmed' | 'in_progress' | 'done' | 'cancelled' | 'expired';
+  created_by_role: 'patient' | 'receptionist' | 'manager';
+  created_at: string;
 }
 
 const STATUS_MAP: Record<string, { label: string; cls: string }> = {
   pending: { label: 'Chờ xác nhận', cls: 'bg-yellow-100 text-yellow-800' },
   confirmed: { label: 'Đã xác nhận', cls: 'bg-blue-100 text-blue-800' },
-  booked: { label: 'Đã đặt', cls: 'bg-blue-100 text-blue-800' },
   in_progress: { label: 'Đang khám', cls: 'bg-emerald-100 text-emerald-800' },
-  examining: { label: 'Đang khám', cls: 'bg-emerald-100 text-emerald-800' },
   done: { label: 'Hoàn thành', cls: 'bg-gray-100 text-gray-600' },
   cancelled: { label: 'Đã hủy', cls: 'bg-red-100 text-red-700' },
+  expired: { label: 'Quá hẹn', cls: 'bg-gray-100 text-gray-500' },
 };
 
 export default function DoctorAppointments() {
@@ -31,8 +31,8 @@ export default function DoctorAppointments() {
 
   async function load() {
     try {
-      const res = await api.get('/appointments');
-      setItems(res.data.appointments ?? res.data.data ?? []);
+      const res = await api.get<{ data: Appointment[] }>('/appointments');
+      setItems(res.data.data ?? []);
     } catch (err) {
       setError(apiErrorMessage(err));
     } finally {
@@ -65,7 +65,7 @@ export default function DoctorAppointments() {
             <tr>
               <th className="px-4 py-3 text-left">Bệnh nhân</th>
               <th className="px-4 py-3 text-left">Ngày khám</th>
-              <th className="px-4 py-3 text-left">Lý do</th>
+              <th className="px-4 py-3 text-left">Nguồn đặt</th>
               <th className="px-4 py-3 text-left">Trạng thái</th>
               <th className="px-4 py-3 text-right">Thao tác</th>
             </tr>
@@ -80,16 +80,13 @@ export default function DoctorAppointments() {
               return (
                 <tr key={a.id} className="hover:bg-gray-50">
                   <td className="px-4 py-3 font-medium text-gray-900">{a.patient_name ?? a.patient_id}</td>
-                  <td className="px-4 py-3 text-gray-600">
-                    {formatDate(a.scheduled_date)}
-                    {a.scheduled_time && ` · ${a.scheduled_time}`}
-                  </td>
-                  <td className="px-4 py-3 text-gray-600 max-w-xs truncate">{a.reason ?? '—'}</td>
+                  <td className="px-4 py-3 text-gray-600">{formatDate(a.appointment_date)}</td>
+                  <td className="px-4 py-3 text-gray-600 capitalize">{a.created_by_role}</td>
                   <td className="px-4 py-3">
                     <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${st.cls}`}>{st.label}</span>
                   </td>
                   <td className="px-4 py-3 text-right">
-                    {(a.status === 'confirmed' || a.status === 'booked' || a.status === 'pending') && (
+                    {(a.status === 'confirmed' || a.status === 'pending') && (
                       <button
                         onClick={() => startExam(a.id)}
                         disabled={starting === a.id}

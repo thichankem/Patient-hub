@@ -13,12 +13,6 @@ interface TestItem {
   created_at: string;
 }
 
-const STATUS_OPTIONS = [
-  { value: 'waiting', label: 'Chờ lấy mẫu' },
-  { value: 'processing', label: 'Đang xét nghiệm' },
-  { value: 'completed', label: 'Hoàn thành' },
-];
-
 const STATUS_STYLE: Record<string, string> = {
   pending: 'bg-yellow-100 text-yellow-800',
   waiting: 'bg-blue-100 text-blue-800',

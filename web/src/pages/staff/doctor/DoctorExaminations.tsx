@@ -6,11 +6,13 @@ interface Session {
   id: string;
   patient_id: string;
   patient_name?: string;
+  doctor_id: string;
   appointment_id: string;
-  diagnosis?: string;
-  treatment_plan?: string;
-  notes?: string;
-  status: string;
+  appointment_date?: string;
+  diagnosis: string | null;
+  treatment_plan: string | null;
+  is_finalized: boolean;
+  finalized_at: string | null;
   created_at: string;
 }
 
@@ -18,14 +20,18 @@ export default function DoctorExaminations() {
   const [items, setItems] = useState<Session[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [includeFinalized, setIncludeFinalized] = useState(false);
   const [selected, setSelected] = useState<Session | null>(null);
-  const [form, setForm] = useState({ diagnosis: '', treatment_plan: '', notes: '' });
+  const [form, setForm] = useState({ diagnosis: '', treatment_plan: '' });
   const [saving, setSaving] = useState(false);
 
   async function load() {
+    setLoading(true);
     try {
-      const res = await api.get('/examination-sessions', { params: { role: 'doctor' } });
-      setItems(res.data.sessions ?? res.data.data ?? []);
+      const res = await api.get<{ data: Session[] }>('/examination-sessions/doctor/mine', {
+        params: { includeFinalized: includeFinalized ? 'true' : 'false' },
+      });
+      setItems(res.data.data ?? []);
     } catch (err) {
       setError(apiErrorMessage(err));
     } finally {
@@ -33,11 +39,11 @@ export default function DoctorExaminations() {
     }
   }
 
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); }, [includeFinalized]);
 
   function openEdit(s: Session) {
     setSelected(s);
-    setForm({ diagnosis: s.diagnosis ?? '', treatment_plan: s.treatment_plan ?? '', notes: s.notes ?? '' });
+    setForm({ diagnosis: s.diagnosis ?? '', treatment_plan: s.treatment_plan ?? '' });
   }
 
   async function save() {
@@ -64,14 +70,19 @@ export default function DoctorExaminations() {
     }
   }
 
-  const STATUS_LABEL: Record<string, string> = {
-    active: 'Đang khám',
-    finalized: 'Đã kết thúc',
-  };
-
   return (
     <div>
-      <h1 className="text-lg font-semibold text-gray-900 mb-4">Đợt khám</h1>
+      <div className="flex items-center justify-between mb-4">
+        <h1 className="text-lg font-semibold text-gray-900">Đợt khám</h1>
+        <label className="flex items-center gap-2 text-sm text-gray-600">
+          <input
+            type="checkbox"
+            checked={includeFinalized}
+            onChange={(e) => setIncludeFinalized(e.target.checked)}
+          />
+          Hiển thị cả đợt đã chốt
+        </label>
+      </div>
       {error && <div className="bg-red-50 text-red-700 text-sm px-3 py-2 rounded mb-3">{error}</div>}
 
       <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
@@ -96,14 +107,14 @@ export default function DoctorExaminations() {
                 <td className="px-4 py-3 text-gray-600 max-w-xs truncate">{s.diagnosis || '—'}</td>
                 <td className="px-4 py-3">
                   <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${
-                    s.status === 'active' ? 'bg-emerald-100 text-emerald-800' : 'bg-gray-100 text-gray-600'
+                    s.is_finalized ? 'bg-gray-100 text-gray-600' : 'bg-emerald-100 text-emerald-800'
                   }`}>
-                    {STATUS_LABEL[s.status] ?? s.status}
+                    {s.is_finalized ? 'Đã chốt' : 'Đang khám'}
                   </span>
                 </td>
                 <td className="px-4 py-3 text-gray-500 text-xs">{formatDateTime(s.created_at)}</td>
                 <td className="px-4 py-3 text-right space-x-2">
-                  {s.status === 'active' && (
+                  {!s.is_finalized && (
                     <>
                       <button onClick={() => openEdit(s)} className="px-2 py-1 text-xs bg-blue-600 text-white rounded hover:bg-blue-700">Sửa</button>
                       <button onClick={() => finalize(s.id)} className="px-2 py-1 text-xs bg-gray-600 text-white rounded hover:bg-gray-700">Kết thúc</button>
@@ -116,7 +127,6 @@ export default function DoctorExaminations() {
         </table>
       </div>
 
-      {/* Edit modal */}
       {selected && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={() => setSelected(null)}>
           <div className="bg-white rounded-lg shadow-xl w-full max-w-lg mx-4 p-6" onClick={(e) => e.stopPropagation()}>
@@ -138,15 +148,6 @@ export default function DoctorExaminations() {
                   onChange={(e) => setForm({ ...form, treatment_plan: e.target.value })}
                   className="mt-1 block w-full border border-gray-300 rounded px-3 py-2 text-sm focus:ring-1 focus:ring-brand-500 focus:border-brand-500"
                   rows={3}
-                />
-              </label>
-              <label className="block">
-                <span className="text-sm font-medium text-gray-700">Ghi chú</span>
-                <textarea
-                  value={form.notes}
-                  onChange={(e) => setForm({ ...form, notes: e.target.value })}
-                  className="mt-1 block w-full border border-gray-300 rounded px-3 py-2 text-sm focus:ring-1 focus:ring-brand-500 focus:border-brand-500"
-                  rows={2}
                 />
               </label>
             </div>

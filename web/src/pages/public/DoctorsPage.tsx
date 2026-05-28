@@ -46,10 +46,10 @@ export default function DoctorsPage() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {visible.map((d) => (
-            <div key={d.name} className="card overflow-hidden hover:shadow-lg transition group">
-              <div className={`h-48 bg-gradient-to-br ${d.color} relative flex items-center justify-center`}>
-                <Icon.User size={64} className="text-white/80" />
-                <span className="absolute top-3 left-3 badge bg-white/95 text-slate-700 text-[10px]">
+            <div key={d.name} className="card overflow-hidden hover:border-brand-500 transition group">
+              <div className="h-48 bg-brand-50 border-b border-slate-200 relative flex items-center justify-center">
+                <Icon.User size={64} className="text-brand-300" />
+                <span className="absolute top-3 left-3 badge bg-white border border-slate-200 text-slate-700 text-[10px]">
                   {d.position}
                 </span>
               </div>

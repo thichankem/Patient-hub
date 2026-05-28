@@ -37,10 +37,10 @@ export default function AboutPage() {
           </div>
 
           <div className="relative">
-            <div className="aspect-video rounded-2xl bg-gradient-to-br from-brand-50 to-brand-100 shadow-xl overflow-hidden flex items-center justify-center p-8">
+            <div className="aspect-video rounded-md bg-brand-50 border border-brand-100 overflow-hidden flex items-center justify-center p-8">
               <img src="/logo.png" alt="PatientHub" className="max-h-full max-w-full object-contain" />
             </div>
-            <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-2xl bg-emerald-500 text-white flex flex-col items-center justify-center shadow-lg">
+            <div className="absolute -bottom-4 -right-4 w-28 h-28 rounded-md bg-emerald-600 text-white flex flex-col items-center justify-center">
               <div className="text-2xl font-bold">60+</div>
               <div className="text-xs">Năm hoạt động</div>
             </div>
@@ -143,25 +143,21 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <FacilityCard
               icon={<Icon.Stethoscope size={28} />}
-              gradient="from-blue-400 to-blue-600"
               title="Phòng khám chuyên khoa"
               desc="30+ phòng khám đạt chuẩn quốc tế"
             />
             <FacilityCard
               icon={<Icon.Microscope size={28} />}
-              gradient="from-emerald-400 to-teal-600"
               title="Trung tâm xét nghiệm"
               desc="Thiết bị tự động, kết quả nhanh chóng"
             />
             <FacilityCard
               icon={<Icon.Eye size={28} />}
-              gradient="from-violet-400 to-purple-600"
               title="Chẩn đoán hình ảnh"
               desc="MRI, CT scan, X-quang kỹ thuật số"
             />
             <FacilityCard
               icon={<Icon.Activity size={28} />}
-              gradient="from-rose-400 to-red-600"
               title="Phòng mổ hiện đại"
               desc="10 phòng mổ vô khuẩn một chiều"
             />
@@ -169,29 +165,29 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <div className="card overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-cyan-100 to-blue-200 flex items-center justify-center">
+              <div className="h-48 bg-brand-50 flex items-center justify-center">
                 <div className="text-center">
-                  <Icon.Heart size={40} className="mx-auto text-blue-500" />
-                  <div className="mt-2 text-sm font-medium text-blue-700">Khu điều trị nội trú</div>
-                  <div className="text-xs text-blue-600 mt-1">500 giường bệnh tiêu chuẩn</div>
+                  <Icon.Heart size={40} className="mx-auto text-brand-600" />
+                  <div className="mt-2 text-sm font-medium text-slate-900">Khu điều trị nội trú</div>
+                  <div className="text-xs text-slate-600 mt-1">500 giường bệnh tiêu chuẩn</div>
                 </div>
               </div>
             </div>
             <div className="card overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-emerald-100 to-teal-200 flex items-center justify-center">
+              <div className="h-48 bg-brand-50 flex items-center justify-center">
                 <div className="text-center">
-                  <Icon.Baby size={40} className="mx-auto text-teal-500" />
-                  <div className="mt-2 text-sm font-medium text-teal-700">Khoa Sản & Nhi</div>
-                  <div className="text-xs text-teal-600 mt-1">Phòng sinh hiện đại 24/7</div>
+                  <Icon.Baby size={40} className="mx-auto text-brand-600" />
+                  <div className="mt-2 text-sm font-medium text-slate-900">Khoa Sản & Nhi</div>
+                  <div className="text-xs text-slate-600 mt-1">Phòng sinh hiện đại 24/7</div>
                 </div>
               </div>
             </div>
             <div className="card overflow-hidden">
-              <div className="h-48 bg-gradient-to-br from-amber-100 to-orange-200 flex items-center justify-center">
+              <div className="h-48 bg-brand-50 flex items-center justify-center">
                 <div className="text-center">
-                  <Icon.AlertCircle size={40} className="mx-auto text-orange-500" />
-                  <div className="mt-2 text-sm font-medium text-orange-700">Trung tâm Cấp cứu</div>
-                  <div className="text-xs text-orange-600 mt-1">Tiếp nhận 24/7, xe cứu thương</div>
+                  <Icon.AlertCircle size={40} className="mx-auto text-brand-600" />
+                  <div className="mt-2 text-sm font-medium text-slate-900">Trung tâm Cấp cứu</div>
+                  <div className="text-xs text-slate-600 mt-1">Tiếp nhận 24/7, xe cứu thương</div>
                 </div>
               </div>
             </div>
@@ -204,19 +200,17 @@ export default function AboutPage() {
 
 function FacilityCard({
   icon,
-  gradient,
   title,
   desc,
 }: {
   icon: React.ReactNode;
-  gradient: string;
   title: string;
   desc: string;
 }) {
   return (
-    <div className="card overflow-hidden hover:shadow-md transition group">
-      <div className={`h-32 bg-gradient-to-br ${gradient} flex items-center justify-center`}>
-        <span className="text-white/90 group-hover:scale-110 transition-transform">{icon}</span>
+    <div className="card overflow-hidden hover:border-brand-500 transition">
+      <div className="h-32 bg-brand-50 border-b border-slate-200 flex items-center justify-center">
+        <span className="text-brand-700">{icon}</span>
       </div>
       <div className="p-4">
         <h3 className="font-semibold text-slate-900 text-sm">{title}</h3>
@@ -236,7 +230,7 @@ function PageHero({
   breadcrumbs: Array<{ label: string; href?: string }>;
 }) {
   return (
-    <section className="bg-gradient-to-r from-brand-700 to-brand-800 text-white py-12">
+    <section className="bg-brand-700 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 lg:px-6">
         <nav className="text-xs text-brand-100 mb-3">
           {breadcrumbs.map((b, i) => (
@@ -281,7 +275,7 @@ function ValueCard({
 }) {
   return (
     <div className="card p-6">
-      <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${color}`}>{icon}</div>
+      <div className={`w-12 h-12 rounded-md flex items-center justify-center ${color}`}>{icon}</div>
       <h3 className="font-semibold text-lg text-slate-900 mt-3">{title}</h3>
       <p className="text-sm text-slate-600 mt-2 leading-relaxed">{desc}</p>
     </div>

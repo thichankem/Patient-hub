@@ -45,12 +45,13 @@ export default function NewsPage() {
         </div>
 
         {featured && (
-          <article className="card overflow-hidden mb-8 grid md:grid-cols-2 hover:shadow-md transition cursor-pointer">
-            <div className={`h-64 md:h-auto bg-gradient-to-br ${featured.img} relative`}>
-              <span className="absolute top-4 left-4 badge bg-white/95 text-brand-700">
+          <article className="card overflow-hidden mb-8 grid md:grid-cols-2 hover:border-brand-500 transition cursor-pointer">
+            <div className="h-64 md:h-auto bg-brand-50 border-b md:border-b-0 md:border-r border-slate-200 relative flex items-center justify-center">
+              <Icon.FileText size={48} className="text-brand-300" />
+              <span className="absolute top-4 left-4 badge bg-white border border-slate-200 text-brand-700">
                 {featured.cat}
               </span>
-              <span className="absolute bottom-4 left-4 badge bg-amber-400 text-slate-900">
+              <span className="absolute bottom-4 left-4 badge bg-amber-500 text-white">
                 Tin nổi bật
               </span>
             </div>
@@ -71,10 +72,11 @@ export default function NewsPage() {
           {rest.map((n) => (
             <article
               key={n.title}
-              className="card overflow-hidden hover:shadow-md transition cursor-pointer group"
+              className="card overflow-hidden hover:border-brand-500 transition cursor-pointer group"
             >
-              <div className={`h-44 bg-gradient-to-br ${n.img} relative`}>
-                <span className="absolute top-3 left-3 badge bg-white/95 text-brand-700">{n.cat}</span>
+              <div className="h-44 bg-brand-50 border-b border-slate-200 relative flex items-center justify-center">
+                <Icon.FileText size={36} className="text-brand-300" />
+                <span className="absolute top-3 left-3 badge bg-white border border-slate-200 text-brand-700">{n.cat}</span>
               </div>
               <div className="p-5">
                 <h3 className="font-semibold text-slate-900 leading-snug group-hover:text-brand-700 line-clamp-2">
