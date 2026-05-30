@@ -19,6 +19,13 @@ router.get(
   ctrl.myMedicalHistory,
 );
 
+// Bác sĩ: danh sách đợt khám mình đang phụ trách.
+router.get(
+  '/doctor/mine',
+  requireRole('doctor'),
+  ctrl.listDoctorSessions,
+);
+
 // Bác sĩ tra cứu hồ sơ bệnh nhân.
 router.get(
   '/patient/:patientId',

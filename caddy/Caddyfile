@@ -1,0 +1,58 @@
+# Caddyfile — chạy native trên Windows host, KHÔNG chạy trong Docker.
+# Lý do: Docker Desktop Windows expose IPv6 port rất kém. Caddy native bind [::]:443 mượt mà.
+#
+# Caddy mặc định:
+#   - Lắng nghe cả IPv4 và IPv6 trên :80, :443.
+#   - Tự động xin Let's Encrypt cert (HTTP-01 challenge qua port 80).
+#   - Tự gia hạn cert trước khi hết hạn.
+#
+# Yêu cầu:
+#   - Router FPT đã mở firewall IPv6 inbound 80, 443 về máy host.
+#   - Windows Firewall đã allow inbound 80, 443.
+#   - AAAA records ở zonedns đã trỏ về IPv6 của máy này.
+#   - Docker Compose đang chạy backend (port 3000) và web (port 8080) trên localhost.
+
+# Email để Let's Encrypt gửi thông báo hết hạn cert.
+{
+	email admin@dophuhung.fun
+
+	# Ghi log ra file để debug khi ACME fail.
+	log default {
+		output file C:/Caddy/caddy.log
+		level INFO
+	}
+}
+
+# FE — React SPA build sẵn, serve bởi nginx container.
+dophuhung.fun, www.dophuhung.fun {
+	# Nén response để giảm bandwidth IPv6.
+	encode zstd gzip
+
+	# Proxy về nginx container ở localhost:8080.
+	reverse_proxy localhost:8080
+
+	# Security headers cơ bản.
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		# Xóa Server banner mặc định.
+		-Server
+	}
+}
+
+# API — Express backend.
+api.dophuhung.fun {
+	encode zstd gzip
+
+	# Proxy về backend container ở localhost:3000.
+	# Caddy tự set X-Forwarded-For/Proto/Host mặc định → Express thấy IP thật qua trust proxy=1.
+	reverse_proxy localhost:3000
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		-Server
+	}
+}

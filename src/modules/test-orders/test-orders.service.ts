@@ -239,6 +239,45 @@ export async function getTestOrderDetail(
   return { ...order, items };
 }
 
+// Bác sĩ: tất cả test orders thuộc các đợt khám của mình.
+export async function listMineForDoctor(
+  actor: TokenPayload,
+): Promise<
+  Array<
+    TestOrderRow & {
+      patient_name: string;
+      items: ItemDetail[];
+    }
+  >
+> {
+  if (actor.role !== 'doctor')
+    throw new AppError(403, 'Chỉ bác sĩ được xem danh sách này');
+  const did = await doctorIdOfUser(actor.sub);
+  const orders = await query<TestOrderRow & { patient_name: string }>(
+    `SELECT t.*, p.full_name AS patient_name
+       FROM test_orders t
+       JOIN examination_sessions es ON es.id = t.session_id
+       JOIN patients p ON p.id = t.patient_id
+      WHERE es.doctor_id = $1
+      ORDER BY t.created_at DESC`,
+    [did],
+  );
+  const out = [];
+  for (const o of orders) {
+    const items = await query<ItemDetail>(
+      `SELECT toi.*, tt.name AS test_type_name, lr.name AS lab_room_name
+         FROM test_order_items toi
+         JOIN lib_test_types tt ON tt.id = toi.test_type_id
+         LEFT JOIN lab_rooms lr ON lr.id = toi.lab_room_id
+        WHERE toi.test_order_id = $1
+        ORDER BY toi.schedule_order ASC NULLS LAST`,
+      [o.id],
+    );
+    out.push({ ...o, items });
+  }
+  return out;
+}
+
 export async function listBySession(
   sessionId: string,
   actor: TokenPayload,

@@ -19,6 +19,13 @@ router.post(
   ctrl.createPrescription,
 );
 
+// Bác sĩ: tất cả đơn thuốc thuộc đợt khám của mình — đặt trước route có '/:id'.
+router.get(
+  '/doctor/mine',
+  requireRole('doctor'),
+  ctrl.listMineForDoctor,
+);
+
 // Xem đơn thuốc theo đợt khám (?session_id=) — bác sĩ hoặc bệnh nhân.
 router.get(
   '/',

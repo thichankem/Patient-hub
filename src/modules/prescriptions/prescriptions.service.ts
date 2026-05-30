@@ -181,6 +181,33 @@ export async function listBySession(
   return getPrescription(p.id, actor);
 }
 
+// Bác sĩ: tất cả đơn thuốc thuộc các đợt khám của mình.
+export async function listMineForDoctor(
+  actor: TokenPayload,
+): Promise<
+  Array<
+    PrescriptionRow & {
+      patient_id: string;
+      patient_name: string;
+      item_count: number;
+    }
+  >
+> {
+  if (actor.role !== 'doctor')
+    throw new AppError(403, 'Chỉ bác sĩ được xem danh sách này');
+  const did = await doctorIdOfUser(actor.sub);
+  return query(
+    `SELECT pr.*, es.patient_id, p.full_name AS patient_name,
+            (SELECT COUNT(*) FROM prescription_items pi WHERE pi.prescription_id = pr.id)::int AS item_count
+       FROM prescriptions pr
+       JOIN examination_sessions es ON es.id = pr.session_id
+       JOIN patients p ON p.id = es.patient_id
+      WHERE es.doctor_id = $1
+      ORDER BY pr.created_at DESC`,
+    [did],
+  );
+}
+
 export async function updatePrescription(
   id: string,
   input: UpdatePrescriptionInput,

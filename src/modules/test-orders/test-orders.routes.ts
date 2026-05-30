@@ -20,6 +20,13 @@ router.post(
   ctrl.createTestOrder,
 );
 
+// Bác sĩ: tất cả yêu cầu xét nghiệm thuộc các đợt khám của mình.
+router.get(
+  '/doctor/mine',
+  requireRole('doctor'),
+  ctrl.listMineForDoctor,
+);
+
 // Bác sĩ xem yêu cầu xét nghiệm theo đợt khám (?session_id=).
 router.get(
   '/',

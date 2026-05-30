@@ -139,6 +139,27 @@ export async function listMySessions(
   );
 }
 
+// Bác sĩ: các đợt khám đang phụ trách (mặc định đang khám/chưa chốt).
+export async function listDoctorSessions(
+  actor: TokenPayload,
+  opts: { includeFinalized?: boolean } = {},
+): Promise<
+  Array<ExaminationSessionRow & { appointment_date: string; patient_name: string }>
+> {
+  const did = await doctorIdOfUser(actor.sub);
+  const where = ['es.doctor_id = $1'];
+  if (!opts.includeFinalized) where.push('es.is_finalized = FALSE');
+  return query(
+    `SELECT es.*, a.appointment_date, p.full_name AS patient_name
+       FROM examination_sessions es
+       JOIN appointments a ON a.id = es.appointment_id
+       JOIN patients p     ON p.id = es.patient_id
+      WHERE ${where.join(' AND ')}
+      ORDER BY es.created_at DESC`,
+    [did],
+  );
+}
+
 // Bác sĩ tra cứu hồ sơ bệnh nhân để khám.
 export async function listSessionsByPatient(
   patientId: string,

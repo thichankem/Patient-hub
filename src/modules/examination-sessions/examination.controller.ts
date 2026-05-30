@@ -18,6 +18,12 @@ export async function listMySessions(req: Request, res: Response): Promise<void>
   res.json({ data });
 }
 
+export async function listDoctorSessions(req: Request, res: Response): Promise<void> {
+  const includeFinalized = req.query['includeFinalized'] === 'true';
+  const data = await svc.listDoctorSessions(actor(req), { includeFinalized });
+  res.json({ data });
+}
+
 export async function listByPatient(req: Request, res: Response): Promise<void> {
   const data = await svc.listSessionsByPatient(
     req.params['patientId'] as string,

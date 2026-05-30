@@ -27,6 +27,11 @@ export async function listBySession(req: Request, res: Response): Promise<void> 
   res.json({ data });
 }
 
+export async function listMineForDoctor(req: Request, res: Response): Promise<void> {
+  const data = await svc.listMineForDoctor(actor(req));
+  res.json({ data });
+}
+
 export async function getPrescription(req: Request, res: Response): Promise<void> {
   const data = await svc.getPrescription(
     req.params['id'] as string,

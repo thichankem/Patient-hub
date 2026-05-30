@@ -1,0 +1,98 @@
+# PatientHub — Docker Compose
+#
+# Khởi động:
+#   docker compose up -d --build
+#
+# Kiểm tra:
+#   docker compose ps
+#   docker compose logs -f backend
+#
+# Truy cập:
+#   Web (FE + proxy API): http://localhost:8080
+#   API trực tiếp:        http://localhost:3000/api/health
+#   Postgres:             localhost:5432  (user/pass theo .env)
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: patienthub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB:       ${POSTGRES_DB:-patient_hub_2}
+      POSTGRES_USER:     ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-admin}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-patient_hub_2}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - patienthub
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: patienthub-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-admin}@postgres:5432/${POSTGRES_DB:-patient_hub_2}
+      JWT_SECRET:     ${JWT_SECRET:?JWT_SECRET phải set trong .env}
+      JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-1d}
+      AES_KEY:        ${AES_KEY:?AES_KEY phải là 64 ký tự hex trong .env}
+      # CORS — FE serve từ container nginx, request /api được proxy qua nội bộ
+      # nên thường không cần CORS. Set nếu FE chạy ở domain khác.
+      CORS_ORIGINS:   ${CORS_ORIGINS:-}
+      TRUST_PROXY:    ${TRUST_PROXY:-1}
+      LOG_LEVEL:      ${LOG_LEVEL:-info}
+      DEFAULT_CONSULTATION_FEE: ${DEFAULT_CONSULTATION_FEE:-150000}
+      # VNPay / PayOS — để trống nếu chưa tích hợp.
+      VNP_TMN_CODE:     ${VNP_TMN_CODE:-}
+      VNP_HASH_SECRET:  ${VNP_HASH_SECRET:-}
+      VNP_HOST:         ${VNP_HOST:-https://sandbox.vnpayment.vn}
+      VNP_RETURN_URL:   ${VNP_RETURN_URL:-http://localhost:3000/api/invoices/vnpay-return}
+      VNP_ALLOWED_IPS:  ${VNP_ALLOWED_IPS:-}
+      PAYOS_CLIENT_ID:    ${PAYOS_CLIENT_ID:-}
+      PAYOS_API_KEY:      ${PAYOS_API_KEY:-}
+      PAYOS_CHECKSUM_KEY: ${PAYOS_CHECKSUM_KEY:-}
+      PAYOS_RETURN_URL:   ${PAYOS_RETURN_URL:-http://localhost:3000/api/invoices/payos-return}
+      PAYOS_CANCEL_URL:   ${PAYOS_CANCEL_URL:-http://localhost:3000/api/invoices/payos-cancel}
+      PAYOS_ALLOWED_IPS:  ${PAYOS_ALLOWED_IPS:-}
+      RUN_MIGRATIONS:     ${RUN_MIGRATIONS:-true}
+    ports:
+      - "${BACKEND_PORT:-3000}:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - patienthub
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+      args:
+        # Production: trỏ FE sang API subdomain. Để trống ở dev để fallback '/api'.
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-}
+    container_name: patienthub-web
+    restart: unless-stopped
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      - backend
+    networks:
+      - patienthub
+
+volumes:
+  postgres-data:
+
+networks:
+  patienthub:
+    driver: bridge
