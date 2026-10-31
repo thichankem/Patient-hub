@@ -1,115 +1,229 @@
-# Patient Hub 2 — Hệ thống Quản lý Bệnh viện lấy Bệnh nhân làm Trung tâm
+# PatientHub 2 — Patient-Centric Hospital Management System
 
-Patient Hub 2 là hệ thống quản lý bệnh viện toàn diện bao gồm Backend API (Express 5 + TypeScript + PostgreSQL), Frontend Client (React + Vite + Tailwind CSS), các mô hình Trí tuệ Nhân tạo (Machine Learning/Reinforcement Learning) cho chẩn đoán bệnh và tối ưu hóa lịch trình khám chữa bệnh, cùng với hạ tầng triển khai qua Docker/Docker Compose.
+PatientHub 2 is a comprehensive, full-stack hospital management platform designed to streamline clinical workflows, patient engagement, and administrative operations. The system combines an **Express 5 + TypeScript** RESTful backend, a **PostgreSQL** relational database with field-level encryption for sensitive health data, a **React 18 + Vite** frontend web portal, and **Python-based AI/ML engines** for symptom-based disease triage and reinforcement-learning-driven laboratory test scheduling.
 
 ---
 
-## 🛠️ Các công nghệ được sử dụng
+## Architecture & Technology Stack
 
-Hệ thống được thiết kế và triển khai với các công nghệ hiện đại, đảm bảo hiệu năng cao và khả năng mở rộng:
+The platform is architected with modern, scalable technologies across all layers:
 
-### 1. Backend (API Server)
+### 1. Backend (RESTful API Server)
 - **Runtime**: Node.js (>= 22)
 - **Framework**: Express.js 5
-- **Ngôn ngữ**: TypeScript
-- **Database**: PostgreSQL (>= 14, khuyên dùng 17)
-- **Database Driver**: `pg`
-- **Security**: JWT (JSON Web Token), bcryptjs (băm mật khẩu), Express Rate Limit (giới hạn tần suất gọi API)
-- **Thanh toán**: Tích hợp thanh toán thật qua cổng **PayOS
+- **Language**: TypeScript
+- **Database**: PostgreSQL (>= 14, recommended 17)
+- **Driver**: `pg` (node-postgres connection pooling)
+- **Security & Cryptography**:
+  - JSON Web Tokens (JWT) for role-based authentication (RBAC)
+  - `bcryptjs` for secure password hashing
+  - AES-256 field-level encryption for personal health information (phone numbers, insurance IDs)
+  - `express-rate-limit` for API abuse and brute-force mitigation
+- **Payment Gateways**:
+  - Integrated with **PayOS** (checksum verification and webhook handling)
+  - Integrated with **VNPay** (IPN signature validation)
+
 ### 2. Frontend (Web Portal)
-- **Framework/Bundler**: React 18 & Vite
-- **Ngôn ngữ**: TypeScript
+- **Framework & Bundler**: React 18 with Vite
+- **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Navigation**: React Router DOM (v6)
+- **Routing**: React Router DOM (v6)
+- **HTTP Client**: Axios with automatic 401 token interceptor
 
-### 3. AI / Machine Learning (Mô hình Trí tuệ Nhân tạo)
-- **Ngôn ngữ**: Python
-- **Mô hình Random Forest (Chẩn đoán bệnh)**: `scikit-learn`, `pandas`, `numpy`, `joblib` để phân tích triệu chứng và chẩn đoán bệnh. Triển khai API phục vụ qua `FastAPI` & `Uvicorn`.
-- **Mô hình Reinforcement Learning (Tối ưu hóa lịch trình)**: Sử dụng Q-Learning (Gym-style environment) để tối ưu thứ tự và phòng khám thực hiện các chỉ định cận lâm sàng (xét nghiệm, siêu âm, chụp X-quang) cho bệnh nhân.
+### 3. AI / Machine Learning Engines
+- **Language**: Python (>= 3.10)
+- **Disease Prediction Model (Random Forest)**:
+  - Built with `scikit-learn`, `pandas`, `numpy`, and `joblib` to analyze patient symptom vectors and recommend potential diagnoses and departments.
+  - Deployed as a microservice via **FastAPI** & **Uvicorn** (`model ai/ml random forest/`).
+- **Clinical Scheduling Optimization (Reinforcement Learning)**:
+  - Uses Q-Learning with linear function approximation (Gym-style environment) to optimize room assignments and sequence laboratory orders (blood tests, ultrasounds, X-rays, ECG) to minimize patient waiting times (`model ai/rl scheduling/`).
 
-### 4. DevOps & Deployment
-- **Containerization**: Docker & Docker Compose
+### 4. DevOps & Infrastructure
+- **Containerization**: Docker & Docker Compose (multi-container orchestration for PostgreSQL, backend API, and web frontend with Nginx).
 
-## 🚀 Cách chạy dự án
+---
 
-Bạn có thể chạy dự án thông qua Docker Compose (đầy đủ dịch vụ) hoặc chạy thủ công từng phần để phát triển (Local Development).
+## Core System Modules
 
-### 1. Chuẩn bị biến môi trường
-Sao chép tệp cấu hình mẫu và điền các thông tin cần thiết:
+| Workspace / Module | Target Users | Key Capabilities |
+|---|---|---|
+| **Patient Portal** | Patients & Relatives | Self-service appointment booking, clinical consultation history, test order tracking, digital prescriptions, online payment settlement via PayOS / VNPay, and system support reports. |
+| **Doctor Suite** | Physicians | Daily appointment roster, clinical examination management, diagnostic notes, electronic medical history lookup, laboratory test ordering, and prescription dispensing. |
+| **Technician Workstation** | Lab Technicians | Department-specific test queue, sample processing status (`waiting` &rarr; `processing` &rarr; `completed`), and laboratory result entry. |
+| **Reception Desk** | Front-Desk Staff | Patient intake and demographic registration, health insurance records, triage priority assignment, and appointment scheduling. |
+| **Cashier & Billing Desk** | Cashiers | Invoice generation from completed consultations, co-pay and insurance discount calculations, cash payment receipts, and billing history. |
+| **Operations Management** | Hospital Managers | Operational overview dashboard, staff account provisioning, clinical department management, laboratory facility configuration, and medical catalog reference library. |
+
+---
+
+## Getting Started
+
+You can run the system using **Docker Compose** (recommended for quick evaluation) or set up services individually for **local development**.
+
+### 1. Environment Configuration
+
+Copy the template environment file and configure the required credentials:
+
 ```bash
-# Tại thư mục gốc của dự án
+# In the root repository directory
 cp .env.example .env
 ```
 
-Các biến cấu hình quan trọng trong `.env`:
-| Biến | Ý nghĩa | Ví dụ / Ghi chú |
+Key environment variables in `.env`:
+
+| Variable | Description | Example / Notes |
 |---|---|---|
-| `DATABASE_URL` | Chuỗi kết nối PostgreSQL | `postgresql://postgres:admin@localhost:5432/patient_hub_2` |
-| `JWT_SECRET` | Khóa bí mật dùng ký JWT | Chuỗi ngẫu nhiên từ 16 ký tự trở lên |
-| `AES_KEY` | Khóa mã hóa hex 64 ký tự | Mã hóa phone/insurance. Sinh nhanh: `openssl rand -hex 32` |
-| `PAYOS_CLIENT_ID` | Client ID của PayOS | Lấy từ tab "Thông tin tích hợp" trên portal PayOS |
-| `PAYOS_API_KEY` | API Key của PayOS | Lấy từ tab "Thông tin tích hợp" trên portal PayOS |
-| `PAYOS_CHECKSUM_KEY` | Checksum Key của PayOS | Lấy từ tab "Thông tin tích hợp" trên portal PayOS |
+| `DATABASE_URL` | PostgreSQL connection string | `postgresql://postgres:admin@localhost:5432/patient_hub_2` |
+| `JWT_SECRET` | Secret key for signing JWT tokens | Random string (minimum 16 characters) |
+| `AES_KEY` | 64-character hex key for AES-256 encryption | Used for encrypting phone and insurance IDs (`openssl rand -hex 32`) |
+| `PAYOS_CLIENT_ID` | PayOS integration Client ID | From PayOS developer portal |
+| `PAYOS_API_KEY` | PayOS integration API Key | From PayOS developer portal |
+| `PAYOS_CHECKSUM_KEY` | PayOS integration Checksum Key | From PayOS developer portal |
+| `VNPAY_TMN_CODE` | VNPay Terminal Code | Optional, for VNPay sandbox/production |
+| `VNPAY_HASH_SECRET` | VNPay Hash Secret | Optional, for VNPay sandbox/production |
 
 ---
 
-### 2. Chạy bằng Docker Compose (Cách nhanh nhất)
-Chỉ cần một câu lệnh duy nhất để khởi động toàn bộ dịch vụ (PostgreSQL, Backend API, Frontend Web):
+### 2. Running with Docker Compose (Recommended)
+
+Start all services (PostgreSQL, Backend API, and Frontend Web via Nginx) with a single command:
 
 ```bash
 docker compose up -d --build
 ```
 
-**Cách kiểm tra và quản lý:**
-* Xem trạng thái các container: `docker compose ps`
-* Xem logs của Backend: `docker compose logs -f backend`
-* Truy cập Web UI: [http://localhost:8080](http://localhost:8080) (Nginx sẽ tự động proxy các request `/api/*` sang backend).
-* Truy cập trực tiếp Backend API: [http://localhost:3000/api/health](http://localhost:3000/api/health)
+**Service Endpoints & Management:**
+- **Web Portal**: [http://localhost:8080](http://localhost:8080) (Nginx automatically proxies `/api/*` requests to the backend)
+- **Backend API Health**: [http://localhost:3000/api/health](http://localhost:3000/api/health)
+- **Container Status**: `docker compose ps`
+- **Backend Logs**: `docker compose logs -f backend`
+- **Stop Containers**: `docker compose down`
 
 ---
 
-### 3. Chạy thủ công từng phần (Local Development)
+### 3. Local Development Setup
 
-#### Bước A: Chạy Cơ sở dữ liệu (PostgreSQL)
-1. Đảm bảo máy tính đã cài đặt PostgreSQL >= 14 (đang dùng 17) và dịch vụ đang chạy.
-2. Tạo cơ sở dữ liệu có tên là `patient_hub_2`.
-3. Khởi tạo cấu trúc bảng bằng cách import file migrations/0001_init.sql vào cơ sở dữ liệu `patient_hub_2`.
+#### Step A: Database Setup (PostgreSQL)
+1. Ensure PostgreSQL (>= 14, recommended 17) is installed and running locally.
+2. Create the target database:
+   ```sql
+   CREATE DATABASE patient_hub_2;
+   ```
+3. Initialize the schema:
+   ```bash
+   npm run migrate
+   ```
 
-#### Bước B: Khởi động Backend
-1. Tại thư mục gốc của dự án, cài đặt thư viện:
+#### Step B: Backend API Server
+1. In the project root, install Node dependencies:
    ```bash
    npm install
    ```
-2. Thực hiện chạy database migration và seed dữ liệu ban đầu:
+2. Run migrations and populate sample seed data:
    ```bash
-   npm run migrate         # Áp dụng migration chưa chạy (sử dụng baseline cho 0001_init.sql)
-   npm run migrate:status  # Kiểm tra trạng thái migrations
-   npm run seed            # Seed dữ liệu mẫu (tài khoản, phòng khám, v.v.)
+   npm run migrate         # Apply database migrations
+   npm run migrate:status  # Check migration status
+   npm run seed            # Populate sample departments, staff, patients, and catalogs
    ```
-3. Chạy server ở chế độ phát triển (hot reload):
+3. Start the backend in development mode (hot-reload enabled):
    ```bash
    npm run dev
    ```
-   * Server sẽ chạy tại: [http://localhost:3000](http://localhost:3000)
+   * The API server runs at: [http://localhost:3000](http://localhost:3000)
 
-**Các lệnh hỗ trợ phát triển Backend:**
+**Useful Backend Scripts:**
 ```bash
-npm run build           # Biên dịch dự án sang JavaScript tại thư mục dist/
-npm start               # Khởi chạy bản build production từ dist/
-npm run typecheck       # Kiểm tra kiểu TypeScript mà không build (tsc --noEmit)
+npm run build           # Compile TypeScript to JavaScript in dist/
+npm start               # Start production build from dist/
+npm run typecheck       # Perform TypeScript type validation without emitting files
 ```
 
-#### Bước C: Khởi động Frontend
-1. Di chuyển vào thư mục `web` và cài đặt thư viện:
+#### Step C: Frontend Web Portal
+1. Navigate to the `web` directory and install dependencies:
    ```bash
    cd web
    npm install
    ```
-2. Khởi chạy ở chế độ phát triển (Vite Dev Server):
+2. Start the Vite development server:
    ```bash
    npm run dev
    ```
-   * Giao diện Web sẽ chạy tại: [http://localhost:5173](http://localhost:5173)
-   * Vite đã cấu hình proxy ngầm chuyển tiếp các request `/api` sang backend ở `http://localhost:3000`.
+   * The Web portal runs at: [http://localhost:5173](http://localhost:5173)
+   * Vite is configured to proxy `/api` requests directly to `http://localhost:3000`.
+
+#### Step D: AI Microservices (Optional)
+To run or train the AI models:
+```bash
+# Random Forest Disease Prediction
+cd "model ai/ml random forest"
+pip install -r requirements.txt
+python train/train_model.py
+
+# Reinforcement Learning Scheduler
+cd "../rl scheduling"
+pip install -r requirements.txt
+python train/train_rl.py
+python serve/scheduler.py --interactive
+```
 
 ---
+
+## Demo Accounts
+
+When seeded via `npm run seed`, the database is populated with sample accounts across all roles. 
+
+> **Default password for ALL demo accounts**: **`admin`**
+
+| Role | Sample Username(s) | Typical Use Case |
+|---|---|---|
+| **Manager / Admin** | `admin` | Full operational oversight, dashboard, staff management, departments. |
+| **Receptionist** | `letan1`, `letan2` | Patient registration, intake, and appointment booking. |
+| **Doctor** | `bs.nguyenvana`, `bs.tranthib`, `bs.lequangc`, ... | Consultations, electronic medical records, prescriptions, test orders. |
+| **Technician** | `ktv1` through `ktv8` | Laboratory testing queue and sample result entry. |
+| **Cashier** | `thungan1`, `thungan2` | Invoice generation, cash receipts, and settlement. |
+| **Patient** | `bn.phamthid`, `bn.nguyenvane`, ... (25 accounts with `bn.` prefix) | Appointment booking, test results, invoices, and AI health chatbot. |
+
+---
+
+## Directory Structure
+
+```
+Patienthub2/
+├── caddy/                       # Caddy reverse proxy configurations
+├── docker/                      # Container entrypoint and startup scripts
+├── migrations/                  # PostgreSQL SQL migration files
+├── ml/                          # Legacy ML dataset generation scripts
+├── model ai/
+│   ├── ml random forest/        # Disease prediction (Scikit-Learn, FastAPI)
+│   └── rl scheduling/           # Lab scheduling optimizer (Q-Learning environment)
+├── src/                         # Backend TypeScript application
+│   ├── config/                  # Environment variable configuration
+│   ├── db/                      # Database connection pool and query helpers
+│   ├── integrations/            # Payment gateway clients (PayOS, VNPay)
+│   ├── middleware/              # Auth (JWT), validation (Zod), rate limit, errors
+│   ├── modules/                 # Feature modules (auth, appointments, exams, invoices, etc.)
+│   ├── scheduler/               # Scheduled recurring cron tasks
+│   ├── scripts/                 # Migration and seed scripts
+│   ├── types/                   # TypeScript interfaces and database row types
+│   ├── utils/                   # Crypto, JWT, password hashing, and logger utilities
+│   ├── app.ts                   # Express application setup
+│   └── server.ts                # HTTP server listener
+├── web/                         # Frontend React + Vite application
+│   ├── src/
+│   │   ├── auth/                # AuthContext and ProtectedRoute
+│   │   ├── components/          # Reusable UI components and icons
+│   │   ├── layouts/             # Public, Patient, and Staff layouts
+│   │   ├── lib/                 # API client and formatters
+│   │   └── pages/               # Public, patient, and staff role pages
+│   └── package.json
+├── docker-compose.yml           # Multi-service Docker configuration
+├── Dockerfile                   # Backend Dockerfile
+├── package.json                 # Backend dependencies and npm scripts
+└── tsconfig.json                # Backend TypeScript configuration
+```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
